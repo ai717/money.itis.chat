@@ -1,0 +1,2253 @@
+window.FALLBACK_DATA_EN = {
+  "site": "Money Project Library",
+  "subject": "Real money-making projects, deconstructed: how they make money, income evidence, costs and first steps",
+  "exportedAt": "2026-11-16T20:45:00+08:00",
+  "source": "Structured getState export from the Muse space gao-qian-xiang-mu",
+  "categories": [
+    {
+      "id": 1,
+      "name": "AI Services & Gigs",
+      "group": "AI & Digital Products"
+    },
+    {
+      "id": 2,
+      "name": "AI Tools & Apps",
+      "group": "AI & Digital Products"
+    },
+    {
+      "id": 3,
+      "name": "Digital Products",
+      "group": "AI & Digital Products"
+    },
+    {
+      "id": 4,
+      "name": "Indie Development",
+      "group": "AI & Digital Products"
+    },
+    {
+      "id": 5,
+      "name": "Mini Games",
+      "group": "AI & Digital Products"
+    },
+    {
+      "id": 6,
+      "name": "Tool Sites / SEO Traffic Sites",
+      "group": "Traffic & Websites"
+    },
+    {
+      "id": 7,
+      "name": "Content Sites / News Sites",
+      "group": "Traffic & Websites"
+    },
+    {
+      "id": 8,
+      "name": "Domains & Website Flipping",
+      "group": "Traffic & Websites"
+    },
+    {
+      "id": 9,
+      "name": "Overseas Products",
+      "group": "Traffic & Websites"
+    },
+    {
+      "id": 10,
+      "name": "Short Video",
+      "group": "Content & Self-Media"
+    },
+    {
+      "id": 11,
+      "name": "Live Streaming",
+      "group": "Content & Self-Media"
+    },
+    {
+      "id": 12,
+      "name": "Image-and-Text Self-Media",
+      "group": "Content & Self-Media"
+    },
+    {
+      "id": 13,
+      "name": "Long Video",
+      "group": "Content & Self-Media"
+    },
+    {
+      "id": 14,
+      "name": "Podcasts & Audio",
+      "group": "Content & Self-Media"
+    },
+    {
+      "id": 15,
+      "name": "Paid Knowledge",
+      "group": "Content & Self-Media"
+    },
+    {
+      "id": 16,
+      "name": "Paid Communities & Consulting",
+      "group": "Content & Self-Media"
+    },
+    {
+      "id": 34,
+      "name": "UGC Seeding Gigs",
+      "group": "Content & Self-Media"
+    },
+    {
+      "id": 17,
+      "name": "Domestic E-Commerce",
+      "group": "E-Commerce & Trading"
+    },
+    {
+      "id": 18,
+      "name": "Cross-Border E-Commerce",
+      "group": "E-Commerce & Trading"
+    },
+    {
+      "id": 19,
+      "name": "Second-Hand Trading",
+      "group": "E-Commerce & Trading"
+    },
+    {
+      "id": 20,
+      "name": "CPS Affiliate Promotion",
+      "group": "E-Commerce & Trading"
+    },
+    {
+      "id": 21,
+      "name": "Dropshipping / One-Piece Fulfillment",
+      "group": "E-Commerce & Trading"
+    },
+    {
+      "id": 22,
+      "name": "Creative Services & Gigs",
+      "group": "Services & Gigs"
+    },
+    {
+      "id": 23,
+      "name": "Tech Outsourcing",
+      "group": "Services & Gigs"
+    },
+    {
+      "id": 24,
+      "name": "Agency & Marketing Services",
+      "group": "Services & Gigs"
+    },
+    {
+      "id": 25,
+      "name": "Business Services",
+      "group": "Services & Gigs"
+    },
+    {
+      "id": 26,
+      "name": "Local Life Services",
+      "group": "Services & Gigs"
+    },
+    {
+      "id": 29,
+      "name": "Retail & Unmanned Equipment",
+      "group": "Offline & Physical"
+    },
+    {
+      "id": 30,
+      "name": "Rental Businesses",
+      "group": "Offline & Physical"
+    },
+    {
+      "id": 35,
+      "name": "Compliant Information Arbitrage",
+      "group": "Information Gaps & Trends"
+    },
+    {
+      "id": 36,
+      "name": "Trend-Niche Services",
+      "group": "Information Gaps & Trends"
+    }
+  ],
+  "issues": [
+    {
+      "id": 1,
+      "date": "2026-11-07",
+      "projectCount": 17,
+      "warningCount": 4,
+      "status": "done"
+    },
+    {
+      "id": 2,
+      "date": "2026-11-09",
+      "projectCount": 18,
+      "warningCount": 4,
+      "status": "done"
+    },
+    {
+      "id": 3,
+      "date": "2026-11-11",
+      "projectCount": 1,
+      "warningCount": 0,
+      "status": "done"
+    },
+    {
+      "id": 4,
+      "date": "2026-11-13",
+      "projectCount": 16,
+      "warningCount": 3,
+      "status": "done"
+    },
+    {
+      "id": 5,
+      "date": "2026-11-15",
+      "projectCount": 14,
+      "warningCount": 3,
+      "status": "done"
+    },
+    {
+      "id": 6,
+      "date": "2026-11-16",
+      "projectCount": 17,
+      "warningCount": 4,
+      "status": "done"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "boardId": 5,
+      "title": "Mini-game hybrid monetization: rewarded video first, IAP and subscriptions second",
+      "what": "A systematic teardown of WeChat/Douyin mini-game monetization: light games lean on rewarded video (placed at out-of-energy, level-failed and double-reward moments), mid-core games add IAP plus monthly cards / Battle Pass, with each platform's revenue share and benchmark data",
+      "moneyLogic": "Advertisers pay for rewarded-video impressions (revenue shared between platform and developer); players pay for revives, items, first-purchase bundles and subscription perks. WeChat has a huge MAU base; on Douyin Android, developers can take 90% of consumer spending",
+      "incomeEvidence": "Industry benchmarks cited in the article: rewarded-video eCPM about ¥50-120, banners only ¥8-20; casual-game ARPU about ¥3.7/month, SLG about ¥82/month; the article's example: a match game with about 5,000 DAU placing rewarded video at out-of-energy and level-failed nodes earns about ¥200-300/day from rewarded video",
+      "cost": "About ¥0 to a few thousand (solo self-development + free platform access; user acquisition or outsourced art costs extra)",
+      "timeCost": "Prototype validation about 1-2 weeks per game; after launch, daily data checks to tune ad placements and payment points",
+      "risks": "Banners alone earn very little (single-digit eCPM); too many ads hurt retention; platform shares and incentive policies change; UA costs can eat profits — validate retention cheaply before monetization",
+      "firstStep": "Today: add the first rewarded-video point to a mini-game you have (revive after failing a level) and record completion rate and next-day retention",
+      "matchScore": 95,
+      "matchReason": "The user runs the DOIN mini-game portal and has mini-game development experience — this is the direct monetization path for existing assets",
+      "categoryId": 5,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "EastonDev · Mini-Game Monetization Analysis",
+        "grade": "B",
+        "url": "https://eastondev.com/blog/zh/posts/media/20260524-mini-game-monetization/"
+      }
+    },
+    {
+      "id": 2,
+      "boardId": 17,
+      "title": "Selling vibe-coding mini software on Xiaohongshu: the desktop pet case",
+      "what": "Teardown of a Xiaohongshu note with 5,102 likes: the author vibe-coded a desktop-pet app in 50 minutes, recorded a 1-hour demo, spent 10 minutes listing it on Xiaohongshu personal selling at ¥19.59 with only a 0.6% platform tech fee, and let the note itself close the seeding-to-sale loop",
+      "moneyLogic": "Users who see the note impulse-buy a small emotional-value app; the content is the product page, payment and delivery happen in-platform, and the seller pays almost no channel cost",
+      "incomeEvidence": "The teardown back-calculates from the note's public backend numbers: price ¥19.59, ¥1,773.82 received, implying about 91 orders; the article notes revenue and order counts are inferred from public page figures, not official disclosures",
+      "cost": "About ¥0 (free to list on Xiaohongshu personal selling; 0.6% is deducted only when a sale happens)",
+      "timeCost": "About 2 hours to make one product + record + list; then ongoing notes for traffic",
+      "risks": "Xiaohongshu personal selling is positioned as second-hand idle goods and category rules are tightening (digital resources are moving toward whitelist access); wrong categories get delisted; unencrypted digital goods are easily resold; a brand-new account lacks the author's account weight and may not get the same distribution",
+      "firstStep": "Today: pick a desktop toy that a 30-second screen recording can explain, and vibe-code a double-click-to-run version",
+      "matchScore": 92,
+      "matchReason": "The user has mini-game development and Chinese content skills; demonstrable low-price mini software + note-driven sales is directly reusable",
+      "categoryId": 3,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "AINOMAM · Xiaohongshu Note Teardown",
+        "grade": "C",
+        "url": "https://www.ainomam.com/zh/post/vibe-coding-digital-product-xiaohongshu"
+      }
+    },
+    {
+      "id": 3,
+      "boardId": 6,
+      "title": "14 mini tool sites in 30 days: first-month traffic and revenue test",
+      "what": "Built 14 pure-front-end mini tools with AI-assisted coding (website valuation calculator, keyword generator, word counter, etc.), each tool page targeting one transactional search term, monetized by SEO organic traffic, with a full 30-day data review",
+      "moneyLogic": "Revenue comes from display ads (Ezoic/AdSense), affiliate links beside the tools, and lead generation by collecting emails with free tools; paid premium tiers can come later",
+      "incomeEvidence": "Author's report: 9,340 sessions and $318 in revenue in the first month; all 14 tools survived",
+      "cost": "About $11 (domain registration only; Cloudflare Pages free hosting)",
+      "timeCost": "14 tools in 30 days, about 90 minutes per tool with AI assistance; then a few hours of maintenance per week",
+      "risks": "New sites need 14-30 days to rank, 45-90 days for competitive terms; single-channel Google dependence is fragile (contrast this issue's post-mortem of 623 tools zeroed by an algorithm update); finance/legal tools need accuracy disclaimers",
+      "firstStep": "Today: use a free keyword tool to find 1 low-competition transactional long-tail term, launch 1 tool page and submit it to Search Console",
+      "matchScore": 88,
+      "matchReason": "The user has content-site operations and AI automation pipelines; tool-site keyword research, batch building and SEO are directly reusable",
+      "categoryId": 6,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Website Worth · 30-Day Tool Site Case Study",
+        "grade": "C",
+        "url": "https://website-worth.org/tool-based-website-30-day-case-study/"
+      }
+    },
+    {
+      "id": 4,
+      "boardId": 7,
+      "title": "Cautionary tale: 623 AI-mass-produced tool sites zeroed by Google",
+      "what": "The author mass-produced 623 browser mini tools × 5 languages with an AI pipeline, monetized only by AdSense; after the March 2026 spam update and the May core update, traffic fell off a cliff twice. The post-mortem proves generic tool mass-production unit economics never worked; the only survivor was a creative tool with repeat visits (the ita-bag simulator)",
+      "moneyLogic": "The original idea was massive tool pages eating search traffic for ad money, but search demand per tool is near zero — 498 monthly clicks was the ceiling",
+      "incomeEvidence": "Author's own Search Console data: a peak of 498 clicks in 28 days, post-crash ad revenue about $0.07/day; the surviving ita-bag simulator got 48 clicks in 90 days at an average rank of 1.4",
+      "cost": "About $10 in domains + about $100/month in AI subscriptions (which the author already used for other projects)",
+      "timeCost": "Near-fully automated pipeline; one person running 600+ tools × 5 languages",
+      "risks": "This is the risk itself: templated AI mass production is the bullseye of Google's spam updates; all tools share one Google traffic river and one update wipes them all out; verify what a single tool can earn before scaling",
+      "firstStep": "Today: take your own mass-production tool list and compute the monthly clicks and revenue ceiling of just the first tool before deciding to scale",
+      "matchScore": 85,
+      "matchReason": "Highly relevant to the user's batch content-production pipelines with free/paid models — a must-read stop-loss checklist before building tool sites",
+      "categoryId": 6,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "DEV Community · mxhlix Post-Mortem",
+        "grade": "C",
+        "url": "http://dev.to/mxhlix/i-built-623-web-tools-with-ai-ad-revenue-about-007-a-day-a-post-mortem-with-real-search-275a"
+      }
+    },
+    {
+      "id": 5,
+      "boardId": 1,
+      "title": "Build AI lead-gen systems for local merchants + custom script gigs",
+      "what": "Author Ruoyu's review: building AI lead-generation systems for high-ticket merchants such as dental and beauty businesses (lead monitoring, intent filtering, ice-breaker script generation), plus ¥500-800 custom automation scripts and workflow gigs, with clients from referrals and community word of mouth",
+      "moneyLogic": "Merchants pay to save sales labor and get a stable flow of qualified leads; enterprise systems sign at ¥22,000 per contract, scripts are charged per job, and maintenance fees follow",
+      "incomeEvidence": "The author reports net profit over ¥100,000 in half a year, itemized: enterprise lead-gen systems and outsourcing about ¥35,000 (including one ¥22,000 contract paid in full), team environment setup about ¥30,000, YouTube revenue share and coaching about ¥18,000, custom scripts about ¥12,000, material packs about ¥15,000",
+      "cost": "A few thousand yuan over half a year (LLM APIs and tool memberships like Jimeng and GPT), no premises or equipment",
+      "timeCost": "Near full-time during delivery periods; a single script takes about 1-3 days, an enterprise system about 1 week on-site for process mapping + development",
+      "risks": "Heavily dependent on referrals and personal trust, so client flow is unstable; enterprise jobs need on-site process mapping, 20+-page manuals and staff training — heavy delivery; early account-channel work had heavy after-sales and vanished when channels changed, and the author has dropped it",
+      "firstStep": "Today: pick 1 local merchant you know, turn one repetitive workflow (e.g. DM replies) into a free script demo, then pitch paid customization",
+      "matchScore": 85,
+      "matchReason": "The user knows AI tools and automation pipelines; building content/lead-gen workflows for merchants reuses existing skills directly",
+      "categoryId": 1,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Juexing AI Knowledge Base (jxxy.net) · by Ruoyu",
+        "grade": "C",
+        "url": "https://www.jxxy.net/ai/articles/eloweny-ai-earning-100k-journey/"
+      }
+    },
+    {
+      "id": 6,
+      "boardId": 15,
+      "title": "Monetize open-source AI projects: list on Apify and charge per run",
+      "what": "A Substack deep-dive audited 7 open-source monetization models; the lowest-barrier one is listing scrapers/automation tools on the Apify Store (called Actors): the platform handles hosting, proxies, billing and revenue share, and developers earn per run. All figures in the article are publicly checkable page data as of November 3, 2026",
+      "moneyLogic": "Users pay per run for data scraping and automation tasks; the platform takes a cut and settles the rest to developers. The platform pays out about $1.7 million per month to 5,600 community developers (about $300 per person on average, concentrated at the top)",
+      "incomeEvidence": "Citing Apify's public data: about $1.7 million paid out monthly across 5,600 developers and 108,099 tools; Simon Willison's GitHub Sponsors shows 479 sponsors (amounts not public)",
+      "cost": "About ¥0 (platform hosting and billing; the developer only writes code)",
+      "timeCost": "A few days to build one tool; ongoing maintenance from reviews and bug reports after launch",
+      "risks": "Market income is extremely top-heavy and most tools earn near zero; you build on someone else's platform, which sets the rules and rates; scraping tools must mind target-site terms and compliance boundaries",
+      "firstStep": "Today: browse one niche category on the Apify Store, find a scraper with many reviews but a low rating, and note its complaints",
+      "matchScore": 84,
+      "matchReason": "The user's automation scripts and AI pipeline experience can be packaged directly into per-run paid tools",
+      "categoryId": 4,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Tech Ninjaah · Substack",
+        "grade": "B",
+        "url": "https://techninjaah.substack.com/p/stars-dont-pay-rent-heres-how-open"
+      }
+    },
+    {
+      "id": 7,
+      "boardId": 8,
+      "title": "Grow content sites as assets: sell at a multiple once profits are stable",
+      "what": "A solo studio playbook: build or cheaply buy content/affiliate sites, fix SEO, monetization and conversion, grow verifiable monthly profit, then sell the whole site on Flippa, Empire Flippers, Acquire.com and similar markets at a multiple of monthly profit",
+      "moneyLogic": "Buyers pay for verifiable cash-flow assets: in 2026 content/affiliate sites go for about 24-40× monthly net profit, e-commerce 25-35×, SaaS 40-50×; the article's example: a content site netting €1,000/month can sell for about €30,000-40,000",
+      "incomeEvidence": "",
+      "cost": "Self-building costs a few hundred to a few thousand yuan (domains, hosting, content); buying to fix up needs tens of thousands and up (small sites on Motion Invest are mostly in the $1,000-10,000 range)",
+      "timeCost": "A few hours a week operating; before selling, prepare 6-12 months of clean books and data proof",
+      "risks": "AI search is compressing content-site multiples, and thin Google-only sites are hard to sell; platforms verify traffic and revenue, and messy books get rejected or lowballed; selling involves capital-gains tax",
+      "firstStep": "Today: pull a 6-month revenue/cost table for your own site and list 2 traffic sources that diversify away from Google",
+      "matchScore": 82,
+      "matchReason": "The user already holds content assets like MoyuNews and the Chigua site; the grow-and-exit playbook applies directly to them",
+      "categoryId": 8,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Solopreneurship.eu · Konstantin Filatov",
+        "grade": "C",
+        "url": "https://solopreneurship.eu/articles/how-to-build-and-sell-a-website-flipping/"
+      }
+    },
+    {
+      "id": 8,
+      "boardId": 3,
+      "title": "Selling AI prompt packs and templates on Gumroad: first-month test review",
+      "what": "Made vertical digital products with ChatGPT + Canva: a real-estate investing prompt pack ($17), a freelancer client-outreach template pack ($27) and an AI social-media PDF guide ($12), listed on Gumroad, with traffic from Reddit, Facebook groups and podcast mentions",
+      "moneyLogic": "Buyers pay for ready-to-use prompts, contract templates and guides to save their own trial-and-error time; Gumroad takes about 10%, with no inventory and no shipping",
+      "incomeEvidence": "The author reports first-month revenue of $2,147 and net profit of about $1,900: 43 prompt packs, 31 template packs and 47 guides sold; in month two with no promotion it dropped to $890",
+      "cost": "About $33-54 (ChatGPT Plus $20 + Canva Pro $13 + an asset pack $21)",
+      "timeCost": "About 80-90 hours in the first month (research, production, promotion and iteration, a week each)",
+      "risks": "Gumroad brings almost no traffic of its own — you need your own channels; mainland-China sellers have no local bank payout, PayPal only, and payouts require $100+ (per the Xiaohongshu teardown); sloppy AI content gets spotted by buyers, so every item must be tested and rewritten",
+      "firstStep": "Today: browse best-sellers in your niche on Gumroad Discover, then search Reddit for 3 recurring pain-point questions and pick the first product topic",
+      "matchScore": 80,
+      "matchReason": "The user has a mature content-production pipeline; packaging MoyuNews topic and template know-how into digital products is directly reusable",
+      "categoryId": 3,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Private Labs",
+        "grade": "C",
+        "url": "https://private-labs.com/how-i-made-2000-in-30-days-selling-ai-generated-digital-products-on-gumroad/"
+      }
+    },
+    {
+      "id": 9,
+      "boardId": 14,
+      "title": "Package industry research into data reports: the HN nine-year side-project dataset",
+      "what": "The author cleaned up nearly 700 Hacker News side-project posts from 2017-2025 that reached $500+/month (with tech stack, pricing, and time from launch to first sale), made an HTML report + CSV dataset, and sells it on Gumroad for $49",
+      "moneyLogic": "Developers who want a side project pay for a ready dataset instead of scraping and cleaning posts themselves; typical findings — 73% of profitable projects are B2B, 87% price at $20-49 — are themselves the selling point",
+      "incomeEvidence": "",
+      "cost": "About ¥0 (public data + script cleaning; the main cost is time)",
+      "timeCost": "One-off data cleaning and classification takes days to weeks; then low-frequency updates keep it selling",
+      "risks": "The original post discloses no sales, so revenue is unverified — only pricing and demand signals are validated; reselling public data must mind platform terms and data freshness, and stale data depreciates fast",
+      "firstStep": "Today: pick one field you track long-term, list 50 sample fields you could collect publicly, and make a free sample chapter",
+      "matchScore": 78,
+      "matchReason": "The user already does topic collection and structured curation daily; packaging existing industry observation into paid reports has near-zero marginal cost",
+      "categoryId": 35,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Hacker News · Show HN Post",
+        "grade": "C",
+        "url": "https://news.ycombinator.com/item?id=46932483"
+      }
+    },
+    {
+      "id": 10,
+      "boardId": 2,
+      "title": "Chrome screen-recording extension Lumiko: monetizing a Product Hunt launch",
+      "what": "A 20-year-old student indie-built a browser screen-recording extension featuring automatic cinematic zoom and sensitive-info blurring; free tier for acquisition, paid licenses for revenue, payments via Polar.sh",
+      "moneyLogic": "Creators and developers pay for licenses to skip manual zoom editing; Product Hunt, Reddit and X brought the first users",
+      "incomeEvidence": "Author's report: #3 Product of the Day on Product Hunt; 10 paying customers and over $90 in total revenue within 20 days of launch (about $45 in the first few days)",
+      "cost": "About $5 (Chrome developer listing fee) + domain and website costs; development done in spare time",
+      "timeCost": "Built over one summer; after launch, ongoing SEO and user communication — the author says distribution is 80% of the work",
+      "risks": "Product Hunt traffic decays within 48 hours and is not a sustained channel; the recording niche is crowded (Loom, Screen Studio); revenue is still small — it validates willingness to pay, not scale",
+      "firstStep": "Today: list 3 editing actions you hate most when recording tutorials, and pick one to build as a single-feature extension MVP",
+      "matchScore": 75,
+      "matchReason": "The user has mini-game and tool development experience; the browser-tool + content distribution path is reusable",
+      "categoryId": 2,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Medium · Ashish Patnaik",
+        "grade": "C",
+        "url": "https://medium.com/@ashishpatnaik2806/i-built-a-chrome-extension-launched-on-product-hunt-and-made-90-in-20-days-61750b347a1b"
+      }
+    },
+    {
+      "id": 11,
+      "boardId": 11,
+      "title": "Faceless YouTube long videos: pick niches by RPM, not views",
+      "what": "Operator Devon Canup shares the backends of his faceless channels: 30+-minute geography/geopolitics long videos produced with a script-voice-editing division of labor; the revenue formula is long-video views × RPM, with cost structures for each revenue tier",
+      "moneyLogic": "YouTube ad revenue settles by RPM per thousand views (his 30+-minute videos reach $12.88-15 RPM; 10-20-minute videos about $5-8), and brand integrations add $15-30 per thousand views",
+      "incomeEvidence": "Author's channel data: one 5.6M-view video made about $8,000 (RPM 1.43), one 23.8M-view video about $111,000, the geography channel about $30,000/month sustained for over a year, and the best single month across all channels was $70,000",
+      "cost": "Start solo with AI scripting and voiceover (low cost); a channel at the $30,000/month level spends about $470 per video (script $200 + voice $50 + editing $200 + thumbnail $20)",
+      "timeCost": "Early stage: 2-4 videos a month, full process solo; at scale, a team works in parallel roles",
+      "risks": "The same views can differ 10× in RPM by niche — the wrong topic wastes the work; you must first pass 1,000 subscribers + 4,000 watch hours to monetize, and the author says it took about a year to earn meaningful income; since 2025 the platform reviews low-quality AI mass content more strictly",
+      "firstStep": "Today: use his formula (long-video views over the last 3 months ÷ 1,000 × $5) to estimate the revenue of 3 benchmark channels, then pick a niche",
+      "matchScore": 72,
+      "matchReason": "The user's AI content pipeline transfers to scripting and voiceover, but English long-video topics and editing rhythm need new practice",
+      "categoryId": 13,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "BecomeViral · Devon Canup",
+        "grade": "C",
+        "url": "https://becomeviral.com/blog/how-much-do-faceless-youtube-channels-make"
+      }
+    },
+    {
+      "id": 12,
+      "boardId": 4,
+      "title": "One-person company Zigpoll: a survey SaaS distributed via the Shopify App Store",
+      "what": "Jason Zigelbaum solo-runs Zigpoll, an e-commerce post-purchase survey tool charging tiered subscriptions by survey responses collected; he first built it as a Shopify app to borrow the app store's distribution, then expanded to SaaS teams",
+      "moneyLogic": "E-commerce brands pay subscriptions to learn why users abandon purchases; about one-third of new signups come from the Shopify App Store, about a quarter from agency referrals, and about 14% from AI recommendations like ChatGPT",
+      "incomeEvidence": "Founder's account (Indie Hackers interview): about $1.03 million ARR at the start of 2026, about $125,000 MRR in June (about $1.5 million annualized)",
+      "cost": "Mainly the founder's own time and savings (he says build cost was far less than time cost); no funding, no team salaries",
+      "timeCost": "Part-time nights and weekends for the first two years; full-time solo operation after traction",
+      "risks": "Slow ramp — clear traction only after two years; small e-commerce clients churn and pause seasonally; pricing once hurt agencies, his best segment, and needs continuous correction from user data",
+      "firstStep": "Today: browse the negative reviews of one niche category in the Shopify App Store and note one repeatedly complained-about small need",
+      "matchScore": 70,
+      "matchReason": "The user's indie development skills transfer, but English-market support and Shopify ecosystem experience are gaps",
+      "categoryId": 4,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Indie Hackers · Zigpoll Founder Interview",
+        "grade": "B",
+        "url": "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO"
+      }
+    },
+    {
+      "id": 13,
+      "boardId": 9,
+      "title": "Overseas Shopify micro-SaaS: a two-person WhatsApp support app",
+      "what": "SuperLemon provides WhatsApp chat and abandoned-cart recovery automation for Shopify merchants worldwide, charging monthly subscriptions plus message volume; users come from 50+ countries, acquired via app-store ranking and 500+ five-star reviews",
+      "moneyLogic": "Overseas SMBs pay subscriptions to lift conversion and save support labor (pricing later moved to $10/month for volume plus per-message charges for large clients); trial-to-paid conversion is about 50%",
+      "incomeEvidence": "Founder's account: in 14 months they reached 20,000 active merchants, 1,500+ paying merchants and over $25,000 in monthly recurring revenue",
+      "cost": "About 12 months of living expenses from two people's savings as runway; the product is self-built with no funding",
+      "timeCost": "Full-time two-person operation; after optimization, support takes only 15-30 minutes a day, the rest goes to product and growth",
+      "risks": "A price hike once pushed 90% of potential small merchants to competitors — pricing must be tiered by customer value; competitors copy UI text word for word, so brand and reviews must form the moat; betting on Shopify alone is a channel risk",
+      "firstStep": "Today: pick one small category in the Shopify App Store, read the first 20 negative reviews, and note 3 unmet needs",
+      "matchScore": 68,
+      "matchReason": "Development and automation skills transfer, but English support, overseas payments and the Shopify ecosystem need new groundwork",
+      "categoryId": 9,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Preetam Nath Blog",
+        "grade": "C",
+        "url": "https://www.preetamnath.com/blog/grow-shopify-micro-saas-to-25k-mrr-in-14-months"
+      }
+    },
+    {
+      "id": 14,
+      "boardId": 13,
+      "title": "Selling digital planners on Etsy: a $1,000-in-six-weeks cold start",
+      "what": "Opened an Etsy shop with zero followers selling Canva-made digital planners (meal plans, budget trackers and other PDFs), using long-tail keyword SEO and bundling singles into a $14.99 set to lift order value, with weekly public sales and fee breakdowns",
+      "moneyLogic": "Overseas buyers pay for downloadable planners: singles $4.99-7.99, bundles $12.99-19.99; Etsy charges a $0.20 listing fee per item + transaction and payment-processing fees; digital files deliver automatically with no shipping",
+      "incomeEvidence": "Author's account: 73 orders in six weeks, $1,143.67 in total revenue and about $890 profit after fees; by month four, 23 products and 340 orders, with monthly revenue stable at $800-1,000 and about a 75% profit margin",
+      "cost": "Starts at about $0.20 per listing; after first sales, Canva Pro at about $12.99/month",
+      "timeCost": "3-5 hours to design each product; by month four, about 5-6 hours of maintenance per week",
+      "risks": "Etsy is search commerce — titles and the 13 tags decide life or death; pricing too low looks cheap; overseas payouts and English support are required; the planner niche is crowded, and finding gaps in negative reviews is key",
+      "firstStep": "Today: search 'digital planner' on Etsy, read the negative reviews of the top 10 sellers, and note 3 unmet details",
+      "matchScore": 62,
+      "matchReason": "Template design and AI image skills transfer, but an Etsy account, overseas payouts and English SEO are new gaps",
+      "categoryId": 18,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Show Me Ideas · Ethan Cole",
+        "grade": "C",
+        "url": "https://showmeideas.com/business-side-hustles/the-etsy-shop-experiment-how-i-made-my-first-1000-selling-digital-products/"
+      }
+    },
+    {
+      "id": 15,
+      "boardId": 12,
+      "title": "Top IP sells a low-price AI course: the ¥49 volume play",
+      "what": "Per 36Kr: Yingshi Jufeng (70M+ followers across platforms) launched a 16-lesson AI practical course at ¥49 after coupons, sold on Douyin, Bilibili and WeChat Channels; its Jianying course is also ¥49 and sells even more. The core is IP trust + low-price impulse buying, not course scarcity",
+      "moneyLogic": "Fans pay for a top IP's beginner course; the ¥49 price trades for 100k-level sales volume; platform shops close the sales directly, plus promotional income from tool partners (the article notes its partnership with TapNow)",
+      "incomeEvidence": "36Kr citing platform shop data: the AI course sold over 100,000 orders on launch day for nearly ¥5 million in a day; across platforms it has sold 130,000+ orders for over ¥6.37 million; its Jianying course has sold 300,000+ for about ¥14.7 million",
+      "cost": "Course production cost is modest relative to the team's scale; the real cost is a 70-million-follower IP built over years, which ordinary people cannot copy directly",
+      "timeCost": "16 lessons of 5-17 minutes each to record; IP heat is maintained by daily video updates",
+      "risks": "Without a big IP you cannot copy this scale; the course is criticized as basic, like a tool manual, with heavy reputation controversy; low-price courses are pirated on Xianyu for ¥0.3; industry trust is falling overall and paid-traffic conversion costs are rising",
+      "firstStep": "Today: break your most familiar AI pipeline into an outline of 5 ten-minute mini lessons and put a pre-sale page on your existing site to test demand",
+      "matchScore": 60,
+      "matchReason": "The user has AI practice and content-site assets to make a course, but lacks top-IP traffic — start with a small, solid paid column",
+      "categoryId": 15,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "36Kr · Tech Planet",
+        "grade": "B",
+        "url": "https://www.36kr.com/p/3916776347790729"
+      }
+    },
+    {
+      "id": 16,
+      "boardId": 10,
+      "title": "Paid Substack newsletter: the real ledger of 174 paying subscribers",
+      "what": "Author Lori Ballen runs a personal-growth paid newsletter: free content + Notes posts for traffic, a paywall converting subscribers, with public month-by-month backend data from paid launch to month 9",
+      "moneyLogic": "Readers pay about $10/month; Substack takes 10% and payment processing about 3.6%, leaving the author about 83-86%; free-to-paid conversion is about 2.3%",
+      "incomeEvidence": "Author's backend data: in September 2026, 7,577 readers and 174 paying subscribers, $23,182 in annualized gross revenue, and about $19,200-20,000 kept after fees",
+      "cost": "About ¥0 (Substack is free to start; fees are taken only when someone pays)",
+      "timeCost": "A weekly main post + daily Notes; the author says Notes brought 100+ paying subscribers, and a single Note brought 44",
+      "risks": "Conversion ceilings are low (industry norm 2-5%), so without thousands of free readers there is no meaningful income; English writing and overseas payouts are barriers; platform fees and policies are out of your control",
+      "firstStep": "Today: pick the niche you know best, publish the first free post on Substack or a similar platform, and turn on the paywall",
+      "matchScore": 55,
+      "matchReason": "The user's content production transfers, but there is no English audience base and Chinese-site experience migrates at a cost",
+      "categoryId": 12,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Lori Ballen · Personal Site",
+        "grade": "C",
+        "url": "https://loriballen.com/how-much-substack-really-pays-writers/"
+      }
+    },
+    {
+      "id": 17,
+      "boardId": 16,
+      "title": "AI old-photo restoration gigs: the slow-and-steady Xianyu/Xiaohongshu type",
+      "what": "Uses free tools like Xingtu, Meitu AI restoration and Tongyi Wanxiang to colorize old photos, repair damage and animate still photos; services listed on Xianyu, before/after comparisons on Xiaohongshu for traffic, charged per photo",
+      "moneyLogic": "Clients pay for the emotional need of restoring family photos: B&W colorization ¥9.9-19.9 per photo, detailed damage repair ¥59-99 per photo, animated smile/blink videos ¥150-300 per order",
+      "incomeEvidence": "The article's normal-case figures: 20-30 orders a month and ¥500-1,500 in revenue are common, with an explicit warning that viral high-income cases are full-time veteran top performers, not an entry-level expectation",
+      "cost": "About ¥0 (all tools are free; a phone is enough)",
+      "timeCost": "1-2 hours a day; once skilled, a single photo takes minutes",
+      "risks": "Low unit prices and manual volume cap the income ceiling; clients' old photos are private — never keep copies and watermark samples; AI face restoration breaks easily and needs manual detail fixes, or refunds and bad reviews follow",
+      "firstStep": "Today: restore one of your own family photos with free tools, time a single photo, then decide whether to list on Xianyu",
+      "matchScore": 40,
+      "matchReason": "Barely uses the user's content-site and development assets — pure manual gig work that does not compound with existing skills",
+      "categoryId": 22,
+      "issueDate": "2026-11-07",
+      "featured": false,
+      "source": {
+        "name": "Ukezhitan",
+        "grade": "C",
+        "url": "https://www.ukezhitan.com/article-u8D5Au94B1u8D44u8BAF/19394"
+      }
+    },
+    {
+      "id": 18,
+      "boardId": 23,
+      "title": "15 WeChat mini-programs with AI coding: validate demand on Xiaohongshu first",
+      "what": "Xi'ang, who cannot code, used AI coding tools like Trae to build 15 WeChat mini-programs (flashlight, noise detector, expiry-date calculator and other long-tail tools): post notes on Xiaohongshu first, read comment requests to validate demand, then build and launch, earning from traffic-owner ads and paid products",
+      "moneyLogic": "Users see ads while using the mini-programs and Tencent settles the revenue share; power users pay for premium features — free users watch ads and paying users buy features, and the two stack",
+      "incomeEvidence": "The author reports over ¥100,000 cumulative in 10 months, itemized as two enterprise settlements of ¥68,000 + ¥46,000 (the original text states a total of ¥113,000, while the items sum to ¥114,000 — a ¥1,000 discrepancy in the original); monthly revenue about ¥20,000",
+      "cost": "About ¥0 to a few hundred (AI coding tool subscriptions; WeChat cloud development has a free tier)",
+      "timeCost": "1-2 days to build each mini-program; matrix operation needs continuous Xiaohongshu notes for traffic",
+      "risks": "Only 7 of the 15 produce steadily — trial-and-error cost is in volume; avoid bookkeeping/weather niches already taken by big players; the traffic-owner program needs 500 unique visitors to activate, so there is no early revenue",
+      "firstStep": "Today: search 'useful mini tools' on Xiaohongshu and find 3 comment threads where people ask 'is there a tool for XX'",
+      "matchScore": 92,
+      "matchReason": "The user holds three assets — mini-game development, Chinese content sites and AI pipelines; demand validation + AI development + ad monetization is directly reusable",
+      "categoryId": 4,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Bytenote (compiled from a Shengcai You Shu sharing)",
+        "grade": "C",
+        "url": "https://www.bytenote.net/article/xiong-ai-coding-monetization"
+      }
+    },
+    {
+      "id": 19,
+      "boardId": 34,
+      "title": "AI custom resume optimization service: from ¥99 per job, 23 orders in one week",
+      "what": "Uses Claude to parse target-job keywords, a local Llama 3 to generate 3 differentiated resume drafts, then a collaborator with an HR background polishes and compliance-checks them, delivered within 72 hours",
+      "moneyLogic": "Job seekers pay to raise their interview chances; ¥99+ per job, with repeat purchases from follow-up application-feedback optimization",
+      "incomeEvidence": "Tested figures in the article: from ¥99 per job, 23 orders in a single week during testing, 38% repeat-purchase rate",
+      "cost": "About AI tool subscriptions, a few hundred yuan per month; the HR collaborator takes a share",
+      "timeCost": "72-hour delivery loop per resume; 23 orders in the test week",
+      "risks": "Pure AI output gets spotted — what people pay for is the 'chance of being seen', not the text itself; resumes contain personal data with high leakage risk; hiring seasons swing and off-season orders drop",
+      "firstStep": "Today: take a public job posting, parse its keywords with Claude, generate one optimized resume sample, and time a single job",
+      "matchScore": 88,
+      "matchReason": "The user knows AI tools and automation pipelines; the parse-generate-polish resume flow can be built with existing models",
+      "categoryId": 1,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Qitan App · '50 AI Money Moves' Tested",
+        "grade": "C",
+        "url": "https://www.yqitan.com/article/14669"
+      }
+    },
+    {
+      "id": 20,
+      "boardId": 20,
+      "title": "AI design tool AI Designer: UI design for coding agents",
+      "what": "Solo developer Wiz built an AI UI design tool with Cursor and Claude Code: describe in text to generate website and app interfaces, with an MCP so coding agents like Claude Code can call the design capability directly",
+      "moneyLogic": "Developers and teams pay subscriptions to skip UI design time; 283 paid subscriptions support the MRR",
+      "incomeEvidence": "TrustMRR (Stripe-verified, November 2, 2026) shows $8,338 MRR, 283 paid subscriptions and $9,605 in revenue over the last 30 days",
+      "cost": "About AI coding tool subscriptions (Cursor/Claude Code monthly fees, a few hundred yuan per month); no team salaries",
+      "timeCost": "Full-time solo operation, posting daily MRR updates and running an SEO pipeline",
+      "risks": "General AI tools churn fast (similar reports cite about 6% monthly churn); it depends on platform ecosystems like Claude Code, so API and policy changes hit directly; main SEO keywords are fiercely competitive",
+      "firstStep": "Today: search X and Reddit for 3 posts where AI-coding users complain about ugly interfaces, and note the most-mentioned UI pain point",
+      "matchScore": 86,
+      "matchReason": "The user's AI content and automation pipelines transfer directly to building in public and SEO acquisition; the product direction overlaps heavily with existing skills",
+      "categoryId": 2,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Shipped & Paid · Case Library",
+        "grade": "A",
+        "url": "https://shippedandpaid.com/cases/ai-designer-ui-design-tool-8-3k-mrr-vibe-coded-cursor-claude-code/"
+      }
+    },
+    {
+      "id": 21,
+      "boardId": 22,
+      "title": "A liberal-arts grad builds an AI coding collaboration tool: the 6-hour daily livestream flywheel",
+      "what": "A translator with a linguistics master's degree taught herself to code and built an AI coding collaboration tool for people who cannot code: a task board where AI claims tasks to write, test and deploy code, shared memory so AI tools remember project rules, plus voice input; she livestreams 6 hours daily with a public payment dashboard, runs a free community of nearly 10,000, and pays 30% recurring commissions for distribution",
+      "moneyLogic": "Non-coders pay subscriptions to build software by talking; livestreams and the free community acquire users, and 30% recurring commissions turn users into salespeople",
+      "incomeEvidence": "The author's public payment dashboard shows August 2026 MRR of $17,000 (about ¥114,000, MRR not net profit), versus $4,500/month in March; annualized about $199,000",
+      "cost": "About ¥0 in ad spend (the author says zero ads throughout); the main costs are livestream time and AI tool subscriptions",
+      "timeCost": "About 6 hours of livestreaming daily, plus community operations",
+      "risks": "Revenue is self-reported from a public dashboard and the product is unnamed, so it is hard to verify independently; 6 hours of daily livestreaming is exhausting and stopping cuts the flow; 30% recurring commissions permanently share the revenue",
+      "firstStep": "Today: run one 30-minute livestream or screen recording publicly demoing a small tool built with AI, and test audience feedback",
+      "matchScore": 84,
+      "matchReason": "The user knows AI tools and content production; the livestream + community + distribution flywheel is reusable, but 6 hours of daily streaming is a new commitment",
+      "categoryId": 2,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Juejin · AI Universe Dreamer (OPC Case 045)",
+        "grade": "C",
+        "url": "https://juejin.cn/post/7700407749293621283"
+      }
+    },
+    {
+      "id": 22,
+      "boardId": 18,
+      "title": "Open-source social scheduling tool Postiz: free open source + hosted subscriptions",
+      "what": "Nevo David's open-source social media management tool: users can self-host for free, while the official hosted version charges subscriptions, supporting multi-platform scheduled posting",
+      "moneyLogic": "Teams and creators who want hassle-free hosting pay subscriptions; the free open-source version acquires users and the paid version charges for hosting and convenience",
+      "incomeEvidence": "TrustMRR shows monthly revenue of $375,142 as of November 2, 2026 and cumulative revenue of $1,688,428; the original text's subscription count appears garbled, so only the monthly revenue figure is used",
+      "cost": "Starts at about ¥0 (self-hosting is free; domains and servers as needed, a few hundred yuan per year)",
+      "timeCost": "Part-time development and maintenance, a few hours a week to start; support and updates grow with traction",
+      "risks": "The article notes its growth mixes noise like fake leaks and paid influencer promotion, so real acquisition costs are hard to copy; open-source rivals are many and hosted pricing is easily undercut; solo maintenance pressure is high",
+      "firstStep": "Today: check TrustMRR and the Postiz site for pricing tiers, and list 3 scheduling pain points Chinese creators hit most",
+      "matchScore": 82,
+      "matchReason": "The user knows AI tools and automation pipelines, and content-site experience transfers to building in public, but English SaaS support and social ecosystems need groundwork",
+      "categoryId": 4,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Medium · Dan Raine",
+        "grade": "B",
+        "url": "https://danraine.medium.com/he-gives-his-software-away-free-it-makes-375k-a-month-b60cca709bcb"
+      }
+    },
+    {
+      "id": 23,
+      "boardId": 31,
+      "title": "CPS promotion: promote one SaaS you actually use and earn recurring commissions",
+      "what": "On your own blog and email list, promote only SaaS products you have used long-term (such as Skool), write articles answering readers' real questions with affiliate links, and keep earning commissions while referred customers renew",
+      "moneyLogic": "Vendors pay commissions per sale; SaaS is typically 20%-40% and recurs monthly — one referral, long-term share",
+      "incomeEvidence": "The author reports $11,768 cumulative from a single Skool affiliate program and $292 in the last 30 days; a survey shows beginner affiliates average $636/month and 57.55% earn under $10,000 a year",
+      "cost": "About domain, hosting and email tool fees, a few hundred yuan per year",
+      "timeCost": "In the first 90 days, write 2-3 answer-style articles a week and reply to reader emails; the first meaningful monthly income usually takes close to a year",
+      "risks": "Beginner average income is low and over 57% earn under $10,000 a year; Amazon-style one-off commissions are only 1%-10% with 24-hour cookies, capping the ceiling; FTC rules require clear affiliate disclosure, with heavy fines for violations",
+      "firstStep": "Today: pick one article already published on MoyuNews, swap in a link to a SaaS product you genuinely use, and add a disclosure statement",
+      "matchScore": 80,
+      "matchReason": "The user already has content sites and SEO traffic; answer-style articles + affiliate links stack directly onto existing sites",
+      "categoryId": 20,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "With Himanshu (citing the Authority Hacker 2,270-person survey)",
+        "grade": "C",
+        "url": "https://withhimanshu.com/affiliate-marketing/"
+      }
+    },
+    {
+      "id": 24,
+      "boardId": 19,
+      "title": "A 17-year-old's two Mac apps: about $1,000 sold in 33 days",
+      "what": "High-schooler Otabek used AI coding to build Halo (turns the Mac notch into a Dynamic Island, $9.99 one-time) and Shedi (developer disk cleanup, $19.99), driving traffic via Threads joke posts and free tools, with payments through Lemon Squeezy",
+      "moneyLogic": "Mac users pay one-time for small pain points — notch utilization and disk cleanup; low prices + frequent short content drive impulse purchases",
+      "incomeEvidence": "The author reports $1,007.90 in total Lemon Squeezy revenue (as of November 5, 2026, before taxes and fees), with the first order 33 days earlier and 109 paid orders",
+      "cost": "About ¥0 to a few hundred (AI coding subscriptions and a domain; the author says the first app carried base costs like licensing, website and payments)",
+      "timeCost": "Built alongside a full-time job, up to about 15 hours a day when busy; normally daily posting and support emails",
+      "risks": "Traffic depends heavily on single Threads joke posts with diminishing returns; a #31 Product Hunt finish brought almost no follow-on sales; free-tier traffic overages once took the website down",
+      "firstStep": "Today: list 3 small annoyances you hit using a Mac, pick one, and write the minimum spec for a single-feature app",
+      "matchScore": 80,
+      "matchReason": "The user has mini-game and tool development experience; the AI-coding + content traffic path transfers directly, with gaps in the Mac ecosystem and overseas payments",
+      "categoryId": 4,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Medium · Otabek Abdiraimov",
+        "grade": "C",
+        "url": "https://medium.com/@otabekabdiraimovv/im-17-i-have-a-full-time-job-and-my-mac-apps-just-made-1-000-in-33-days-ca3658b9d84b"
+      }
+    },
+    {
+      "id": 25,
+      "boardId": 33,
+      "title": "Selling courses via WeChat Channels livestreams: a ¥9.9 trial converting to a ¥399 full course",
+      "what": "A workplace blogger livestreams AI office skills on WeChat Channels for 2 hours per session, warms up with short videos 3 days before, sells a ¥9.9 trial course in the stream, then promotes the ¥399 full course in the community",
+      "moneyLogic": "Students pay to solve concrete workplace problems; the low-price trial filters intent, then converts to the high-price full course and bootcamps",
+      "incomeEvidence": "Case in the article: 58 orders closed within 7 days, ¥23,000 in sales, about 12% conversion",
+      "cost": "Within about ¥5,000 (recording gear about ¥1,000 + small ad spend about ¥2,000 + tool memberships)",
+      "timeCost": "From zero to first order usually takes 15-20 days, or 7 days with an existing follower base; then continuous livestreams and community maintenance",
+      "risks": "The case in the article is an anonymous scenario and hard to verify independently; pricing the trial too low hurts completion and repeat purchase; posting only ads without interaction gets complaints and group exits",
+      "firstStep": "Today: break your most familiar AI pipeline into an outline of 5 ten-minute mini lessons and put up a pre-sale page to test demand",
+      "matchScore": 78,
+      "matchReason": "The user has AI practice and content-site assets; splitting the most familiar pipeline into a mini course for pre-sale testing is a direct fit",
+      "categoryId": 15,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "SEOLP · WeChat Course Marketing Test (case is the article's own scenario)",
+        "grade": "C",
+        "url": "http://www.seolp.cn/show-29308.html"
+      }
+    },
+    {
+      "id": 26,
+      "boardId": 30,
+      "title": "Xiaohongshu KOC seeding gigs: ¥100-500 per post for amateurs",
+      "what": "Take brand seeding orders as an amateur or niche KOC: post in-depth single-product seeding notes or videos on Xiaohongshu, filed through Pugongying, charged per post; bulk distribution tasks are also available",
+      "moneyLogic": "Brands pay for search placement and trust endorsement; pricing is per post by followers and engagement; the platform takes about a 10% service fee",
+      "incomeEvidence": "Pricing reference: amateur KOCs with under 5,000 Xiaohongshu followers charge ¥100-500 per post or take product swaps; accounts with 5,000-20,000 followers charge ¥500-3,000 per post; the article notes these are reference ranges, not tested averages",
+      "cost": "About ¥0 (an existing account works; Pugongying activation is easier with 1,000+ followers and 3+ posts in the last 30 days)",
+      "timeCost": "Half a day to several days per post including communication; settlement cycles of 3-15 days",
+      "risks": "Rate-card prices rise while actual net prices fall, leaving wide bargaining room; unfiled sponsored posts get throttled or hidden; fake engagement is rampant and brands check real interaction, so fake-data gigs are risky",
+      "firstStep": "Today: pick a product you genuinely use and draft a seeding note structured as pain point + comparison + keywords",
+      "matchScore": 75,
+      "matchReason": "The user's content production and topic skills transfer directly; MoyuNews seeding style needs only slight adjustment to take orders",
+      "categoryId": 34,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "TheRedScroll · 2026 China KOL Pricing",
+        "grade": "B",
+        "url": "https://www.theredscroll.com/zh/guandian/china-kol-pricing/"
+      }
+    },
+    {
+      "id": 27,
+      "boardId": 21,
+      "title": "Japanese X operations tool XBoost: over ¥3 million in first-month sales",
+      "what": "A Japanese solo developer built an X operations SaaS with AI coding tools like Cursor: it learns the user's writing style, then suggests topics, drafts and rewrites posts, schedules publishing and automates follow-ups, plus 70+ free X diagnostic tools for traffic",
+      "moneyLogic": "X users who want growth and monetization pay subscriptions to save posting and operations time; free diagnostic tools acquire users and convert them to paid",
+      "incomeEvidence": "The founder reports first-month sales over ¥3 million after a closed launch in January 2026; no backend screenshots and not independently verified, and not current data",
+      "cost": "About AI coding subscriptions plus domain and server fees, a few hundred to a few thousand yuan",
+      "timeCost": "Solo development and operation; full-time at the start, then continuous content and feature iteration",
+      "risks": "Figures are the founder's own account without screenshots; tightening X platform rules and API policies hit such tools directly; the Japanese market needs localization ability",
+      "firstStep": "Today: write 10 X post templates you use most for MoyuNews in Chinese, and test whether an AI tool can rewrite them in your style",
+      "matchScore": 72,
+      "matchReason": "AI tool development and content automation transfer, but the Japanese market and X operations ecosystem are new gaps",
+      "categoryId": 2,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "MissumAI (relaying the founder's video)",
+        "grade": "C",
+        "url": "https://missumai.com/p/xboost"
+      }
+    },
+    {
+      "id": 28,
+      "boardId": 24,
+      "title": "AI short-drama side hustle: original doomsday sci-fi dramas earning platform revenue share",
+      "what": "Zhang Zhengqian, 35, entered AI short dramas this March: after teaching himself AI tools he single-handedly handles scripts, storyboards, character modeling, voiceover and editing, making original doomsday sci-fi short dramas with nearly 100 million cumulative views across platforms",
+      "moneyLogic": "Short-drama platforms pay by traffic revenue share; brand deals charge extra, and he can also run classes teaching AI short-drama production",
+      "incomeEvidence": "The author reports average monthly income over ¥10,000, from platform traffic share, brand deals and teaching",
+      "cost": "About AI video-generation subscriptions, a few hundred yuan per month; no premises or equipment",
+      "timeCost": "The author says he works almost from waking to sleeping; a single shot often needs dozens of regenerations",
+      "risks": "AI visuals are unstable — deformed faces and unnatural motion are routine; short dramas live on storytelling, and tool skill is not a good story; platform share rules and teaching reputation fluctuate",
+      "firstStep": "Today: generate a 30-second short-drama storyboard script with AI, focus on the ending cliffhanger, then judge visual stability",
+      "matchScore": 70,
+      "matchReason": "The user's AI content pipeline transfers to scripting and generation, but short-drama writing and storyboarding are new skills",
+      "categoryId": 10,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Rojaklah (relaying an ETtoday report)",
+        "grade": "B",
+        "url": "https://rojaklah.com/2026/11/05/man-create-ai-short-film-earn-money-tkh-051126/"
+      }
+    },
+    {
+      "id": 29,
+      "boardId": 25,
+      "title": "Writing-and-careers Substack: the paid subscription business behind 58,000 subscribers",
+      "what": "Amy Suto and her husband run 'Make Writing Your Job': free writing content + a writing job board for traffic, paid membership at $19/month and founding membership at $550/year, reaching 58,000+ subscribers in three years",
+      "moneyLogic": "Writers pay subscriptions for job listings and career advice; Substack takes 10%, Stripe takes processing fees, and the author keeps about 85%",
+      "incomeEvidence": "The author reports annualized gross revenue over $263,000 (gross, not take-home), more than doubling after crossing six figures annualized in mid-2025",
+      "cost": "About ¥0 (Substack is free to start; fees come out only when someone pays)",
+      "timeCost": "The author has published weekly without missing since June 2023, alongside a ghostwriting main business",
+      "risks": "It took three years of weekly publishing to ramp, with slow growth in the first year and a half; without thousands of free readers, conversion is hard; English writing and overseas payouts are barriers",
+      "firstStep": "Today: pick the niche you know best, write the first free newsletter outline, and define one exclusive content point behind the paywall",
+      "matchScore": 68,
+      "matchReason": "The user's Chinese content sites and topic curation transfer, but there is no English audience base and migration costs are real",
+      "categoryId": 12,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Amy Suto's site (relaying the Business Insider report of October 1, 2026)",
+        "grade": "B",
+        "url": "https://www.amysuto.com/desk-of-amy-suto/business-insider-substack-side-hustle-profile"
+      }
+    },
+    {
+      "id": 30,
+      "boardId": 35,
+      "title": "Publish a personal art-style model on Tess: 50/50 generation revenue share",
+      "what": "Artists train their own art-style models on the AI image platform Tess, for private use or public release; when others generate images in that style, the artist earns on a 50/50 split",
+      "moneyLogic": "Users pay to generate images in a specific art style; the platform and the artist split revenue 50/50",
+      "incomeEvidence": "The founder says the platform has paid real artists over $15,000 in total; individual artist income is not disclosed",
+      "cost": "About ¥0 (registration and model building are free; you need your own artwork as training material)",
+      "timeCost": "A few hours to build a model; then passive share by usage, with ongoing promotion of the style",
+      "risks": "Artists are divided on AI using their styles and copyright/licensing disputes are unresolved; the share depends on platform traffic and a single style's income is uncertain; if platform rules change, the split changes",
+      "firstStep": "Today: talk to an artist you know about partnering — they provide the style, you write the Tess listing page and promotion copy",
+      "matchScore": 65,
+      "matchReason": "The user knows AI image generation and content distribution and can promote styles, but is not an artist and needs a partner artist",
+      "categoryId": 2,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Hacker News · Show HN (post by the Tess founder)",
+        "grade": "C",
+        "url": "https://news.ycombinator.com/item?id=40233973"
+      }
+    },
+    {
+      "id": 31,
+      "boardId": 28,
+      "title": "Small podcast, local sponsors: $250/month even with 420 downloads",
+      "what": "Make a small podcast for a precise professional audience such as teachers, sell fixed-monthly local brand host-read sponsorships, track results with a dedicated discount code, and renew four times; memberships and affiliate income can stack on top",
+      "moneyLogic": "Local merchants pay a fixed sponsorship fee to reach a specific profession precisely, not priced by downloads; a small audience with a clear profile is actually easier to sell",
+      "incomeEvidence": "Case in the article: a podcast with 420 downloads per episode charges a fixed $250/month sponsorship, renewed four times, with a sponsor return of about 14×",
+      "cost": "Starts at a few hundred yuan (a USB microphone, free editing software and hosting fees)",
+      "timeCost": "A few hours a week recording and editing one episode, plus time writing sponsor proposals and review reports",
+      "risks": "Small podcasts have weak bargaining power and CPM-based income is tiny; sponsors renew on conversion data and drop you without it; audio production and audience building take long cycles",
+      "firstStep": "Today: write a one-page media kit — who the listeners are, downloads per episode, and what trackable results a sponsor gets",
+      "matchScore": 60,
+      "matchReason": "The user's topic and writing skills transfer, but audio production and podcast distribution are a new skill tree",
+      "categoryId": 14,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "MillionPodcasts · 9 Sponsorship Cases",
+        "grade": "B",
+        "url": "https://www.millionpodcasts.com/blog/podcast-sponsorship-case-studies/"
+      }
+    },
+    {
+      "id": 32,
+      "boardId": 29,
+      "title": "Domain flipping: a $1 expired domain sold for $4,777 nine months later",
+      "what": "Pick up short, brandable domains matching trends like new energy from GoDaddy expired auctions at low prices, list them on Afternic and similar platforms, and wait for end buyers, selling per domain",
+      "moneyLogic": "End companies pay for memorable brand domains; cheap pickups + trend premium, and the single-deal spread is the profit",
+      "incomeEvidence": "NameBio records show UppEnergy.com was bought for $1 on August 13, 2025 and sold for $4,777 on Afternic on June 2, 2026",
+      "cost": "About $1-150 per domain (registration and renewals); holding in bulk means continuous renewal fees",
+      "timeCost": "A few hours a week scanning expired lists and listing; deals are uncertain and waiting periods run in months",
+      "risks": "The same day's records also show a domain falling from $2,138 to $154 (down 93%), and long multi-word domains have poor liquidity; hits rely on luck and trend judgment, and most domains never sell while renewals keep charging; trademark risks must be avoided",
+      "firstStep": "Today: check the top 20 domains sold in the last week on NameBio, summarize 3 shared traits, then decide whether to pick one up",
+      "matchScore": 55,
+      "matchReason": "The user has domain and content-site experience and a feel for brand words, but flipping relies on taste and waiting, with weaker compounding than building sites",
+      "categoryId": 8,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "CashProofDomains (citing NameBio records)",
+        "grade": "B",
+        "url": "https://www.cashproofdomains.com/2026/06/the-1-jackpot-inside-uppenergycoms.html"
+      }
+    },
+    {
+      "id": 33,
+      "boardId": 26,
+      "title": "Selling second-hand electronics on Xianyu: buy low, sell high in categories you know",
+      "what": "Sell your own idle items or familiar-category second-hand electronics on Xianyu: one digital enthusiast bought 230+ items and sold 700+ over 6 years, using AI to draft descriptions, compile same-item market prices and draft buyer replies, while personally verifying goods, pricing and shipping",
+      "moneyLogic": "Buyers pay for reliable second-hand electronics at low prices and sellers earn the buy-sell spread; clearing idle items is cash recovery, while knowing a category and trading the spread is the business",
+      "incomeEvidence": "The enthusiast's page shows 770 items sold over 6 years for a total of ¥1,173,442.57 (gross transaction value, not profit — profit is not disclosed); a college student sold 80 items for ¥36,030.90 total",
+      "cost": "Starts at about ¥0 (your own idle items suffice; inventory capital only if you source stock)",
+      "timeCost": "1-2 hours a day replying and shipping; once skilled, a single item takes minutes",
+      "risks": "The page's '¥1.17 million earned' is gross sales, not profit, and is easily misread; inspection scams, swap returns and bad-review extortion are common traps; Xianyu's Yuxiaopu takes 1.6% per transaction with no cap, and business sellers must offer 7-day no-reason returns",
+      "firstStep": "Today: inventory 3 idle electronics at home, check sold prices for the same models, and list one for practice",
+      "matchScore": 45,
+      "matchReason": "Barely uses the user's content-site and development assets — it runs on physical goods and category experience, against the compounding direction of existing skills",
+      "categoryId": 19,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Liezhe Chuhai",
+        "grade": "B",
+        "url": "https://www.liezhe.com/xianyu-maiershou/"
+      }
+    },
+    {
+      "id": 34,
+      "boardId": 32,
+      "title": "Rent out your camera gear: $32,000+ from 1,100+ rentals",
+      "what": "London receptionist Antonio lists his camera gear on peer-to-peer rental platforms like Fat Llama, with weekend handovers and Thursday batch scheduling; 70% are repeat customers, and the platform takes 15% from each side including insurance",
+      "moneyLogic": "Creators shooting weddings and short films pay per day to rent gear, skipping purchases and large deposits; owners earn rent on idle equipment",
+      "incomeEvidence": "The author reports 1,100+ rentals and $32,400 in cumulative revenue",
+      "cost": "Starts at about ¥0 (existing gear suffices; the author later spent £4,000 more on lenses)",
+      "timeCost": "2-3 orders a week at first, later 5-10 a day, with weekend handovers and Thursday batch communication",
+      "risks": "Renting a $6,000 camera to a stranger the first time is high-risk and relies on platform insurance; when orders surge you need dedicated handover help or service collapses; gear depreciates fast and old models' rent drops when new ones launch",
+      "firstStep": "Today: inventory your idle gear and check daily rents and deposit requirements for the same models on local rental platforms",
+      "matchScore": 40,
+      "matchReason": "Needs your own gear and offline handovers; the user's online assets are barely usable",
+      "categoryId": 30,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Side Hustle School · Episode 3273",
+        "grade": "B",
+        "url": "https://sidehustleschool.com/episode/3273/"
+      }
+    },
+    {
+      "id": 35,
+      "boardId": 27,
+      "title": "Smart vending machines: location decides life or death, a few hundred dollars net per machine per month",
+      "what": "Place snack-and-drink combo machines or high-margin specialty machines (cotton candy, phone cases) in high-traffic spots like offices, dorms and malls, earning from 24-hour unmanned sales with remote monitoring and restocking",
+      "moneyLogic": "Passersby pay for thirst, snacks and instant customization; venue owners take a 5%-25% share of sales and the operator keeps the margin",
+      "incomeEvidence": "The article's model figures: a combo machine in a 150-person office does about $1,200/month in gross sales and about $445 net; traditional machines average $300-600 net per month",
+      "cost": "About $1,500-8,000 per machine (used ones are cheaper), plus first stock and venue deposits",
+      "timeCost": "A few hours a week restocking, cleaning and fixing faults — not fully passive",
+      "risks": "A bad location means zero revenue, and good spots can charge up to 25% commission; breakdowns and stockouts lose orders directly; the article's high specialty-machine returns are vendor model figures with promotional content",
+      "firstStep": "Today: visit 3 existing vending machines in offices or universities you frequent and note categories, prices and stockouts",
+      "matchScore": 35,
+      "matchReason": "Purely offline location-picking and heavy assets, barely overlapping with the user's content and development assets",
+      "categoryId": 29,
+      "issueDate": "2026-11-09",
+      "featured": false,
+      "source": {
+        "name": "Wider Matrix · 2026 Profit & Cost Analysis",
+        "grade": "C",
+        "url": "https://widermatrix.com/how-much-do-vending-machines-make/"
+      }
+    },
+    {
+      "id": 36,
+      "boardId": 36,
+      "title": "Custom animated stickers on Xianyu: one link sold ¥250,000+",
+      "what": "Uses Jimeng/Doubao (Seedream 5.5) + a prompt pipeline + Python scripts to mass-produce WeChat animated stickers, taking custom orders on Xianyu: ¥85 per set after coupons, with advanced pricing of ¥200-500 (corporate custom / complex motions); the other route is listing finished packs on the WeChat sticker open platform for tip revenue share. Main customers are pet owners, couples, young moms and small shop owners",
+      "moneyLogic": "A standardized pipeline turns customization into mass production: character sheet → topic table → motion breakdown → four-grid generation → script-assembled GIFs → AI quality check → single-frame refinement. Customers pay for 'exclusive animated stickers made from their own photos / original characters'; the marginal cost is mostly Jimeng credits (about 6-9 credits per image), so low unit prices still profit on volume",
+      "incomeEvidence": "Author's account: ¥85 per set after coupons, 3,000+ orders at a single shop, and over ¥250,000 in sales from a single link (85 × 3,000 ≈ ¥255,000 — internally consistent); but sales and revenue are the author's own account, not independently verified by Xianyu backend data. The original post was published on X on 2026-11-10, and a live read on 2026-11-11 showed 294,000 views, 1,965 likes and 2,173 saves",
+      "cost": "Extremely low: one Jimeng/Doubao account + one computer to start; some Python helps, but online tools like ezgif can replace the GIF-assembly step",
+      "timeCost": "The original post gives no per-set time; once the pipeline runs, the work is generation, GIF assembly and refinement, and multiple orders can be batched",
+      "risks": "Copyright is the original post's own red line: use only customers' own photos and original characters — no celebrities, anime characters or brand imagery, or delisting and complaints follow; sales figures are the author's own account and unverified, so don't budget your income on ¥250,000; Xianyu has many similar custom sellers and a new shop's cold-start order flow and reviews are uncertain",
+      "firstStep": "Today: take a photo of your own pet or an original character and run the full Jimeng pipeline — character sheet → four-grid motion images → script-assembled GIF — make one sample set, then list it on Xianyu to test inquiry volume",
+      "matchScore": 85,
+      "matchReason": "Jimeng/Doubao generation + Python script assembly is exactly your existing AI tooling and automation pipeline experience and transfers directly to mass production; the only gap is the new channel of Xianyu shop operations",
+      "categoryId": 1,
+      "issueDate": "2026-11-11",
+      "featured": false,
+      "source": {
+        "name": "X · AYi (@AYi_AInotes) (user submission)",
+        "grade": "C",
+        "url": "https://x.com/AYi_AInotes/status/2120089714749263956"
+      }
+    },
+    {
+      "id": 37,
+      "boardId": 45,
+      "title": "AI gig work on Xianyu: moving from the 45.1% per-piece pool to the 6.6% workflow business",
+      "what": "Xianyu's AI service orders surged in H1 2026, with most sellers crowded into per-piece drawing, copywriting and voiceover pools; the work with repeat purchases is the 6.6% slice of AI templates and workflow customization — auto-reply customer service, spreadsheet merging, ticket scraping into weekly reports",
+      "moneyLogic": "Clients pay for labor hours saved: per-piece work starts at ¥9.9, enterprise deployments can reach tens of thousands of yuan; workflows charge in three parts — build fee + deployment documentation fee + monthly maintenance — and repeat purchases come from continuously adding workflows",
+      "incomeEvidence": "Xianyu's official H1 2026 data: 9.816 million AI service orders, up 157% year over year, with nearly 5 million paying users, up 98%; average seller monthly transaction value was ¥897 (a mean, not a median, and not take-home income); AI skill gigs account for 45.1%, tutorials 8.1%, templates and workflows 6.6%",
+      "cost": "About AI tool memberships from tens to a few hundred yuan a month, no inventory; model usage fees should be paid by the client",
+      "timeCost": "Cold start takes about 2-4 weeks to build demos and land the first order; once skilled, several orders can be delivered per day",
+      "risks": "The ¥897 monthly average shows most people run a pocket-money business; the low-price pool is cutthroat; platform fees and rules change; AI-generated content brings after-sales disputes and copyright risk",
+      "firstStep": "Today: pick one high-frequency scenario (e.g. automatic spreadsheet merge and dedup), record a 30-second to 1-minute demo, and list it on Xianyu to test inquiry volume",
+      "matchScore": 88,
+      "matchReason": "The user knows AI tools and automation pipelines; building workflows and demos for merchants reuses existing skills and content-site traffic",
+      "categoryId": 1,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "Smzdm (compiling Xianyu official data)",
+        "grade": "B",
+        "url": "https://post.smzdm.com/p/awwoxppk/"
+      }
+    },
+    {
+      "id": 38,
+      "boardId": 38,
+      "title": "An AI self-media account at 10k+ followers: the 'content factory' behind about 60 ads in 8 months",
+      "what": "Zhuzi's Xiaohongshu account has 15,000 followers focused on AI self-media; she built a content factory with Codex + Obsidian + Agents, cutting creation from 2-3 hours to 20-30 minutes, monetizing via ads, courses and corporate training",
+      "moneyLogic": "AI tool brands pay sponsored-post fees for exposure; C-end users pay for AI courses; enterprises pay for AI training — the more specific the positioning and the clearer the product, the steadier the conversion",
+      "incomeEvidence": "The author reports about 60 AI tool ads in the first 8 months of 2026, with monthly ad income stably over ¥10,000; her C-end AI course sold 1,000+ copies",
+      "cost": "About AI tools and knowledge-base subscriptions, a few hundred yuan per month; no premises or inventory",
+      "timeCost": "With the workflow built, one post takes about 20-30 minutes, plus 1-2 hours daily on topics and review",
+      "risks": "Underwater AI tool ads were ruled violations at scale after July 2026; agency kickbacks run as high as 45%; domestic-tool content is easily throttled and batch account farming has drawn bans",
+      "firstStep": "Today: write one specific positioning line with the formula, e.g. 'helping professionals with 3-10 years of experience use AI to work faster', then compile 10 real questions users ask repeatedly as a topic bank",
+      "matchScore": 85,
+      "matchReason": "The user already has content sites and AI automated production; the knowledge-base + Agent workflow is directly reusable",
+      "categoryId": 15,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "Xiangqian · Selected Side Hustles (desensitized Shengcai review)",
+        "grade": "C",
+        "url": "https://www.xiangqian.online/fuye/insight/2026-10-26-121884"
+      }
+    },
+    {
+      "id": 39,
+      "boardId": 37,
+      "title": "A Xiaohongshu workplace-efficiency account: ¥102,000 in half a year as a side hustle",
+      "what": "An anonymous office worker runs a Xiaohongshu account 'teaching workers to use Notion/Feishu/AI for efficiency', publishing 2-3 posts a week hammering long-tail keywords; post #13 hit the 'AI office' topic with 280,000 reads on a single post, then monetized via Pugongying sponsored posts, digital products and a ¥99 bootcamp",
+      "moneyLogic": "Brands pay ad fees to reach workplace audiences; workers pay for time-saving templates and bootcamps; a ¥1 trial camp filters people and private-domain repeat purchases upgrade to the ¥99 course",
+      "incomeEvidence": "The author reports ¥102,000 in half a year: ¥18,000 from Pugongying orders, ¥43,000 from digital products, ¥41,000 from the ¥99 bootcamp (12% conversion), averaging about ¥17,000/month",
+      "cost": "About tens to one or two hundred yuan a month (AI tool memberships); free tiers can start it, no inventory",
+      "timeCost": "About 2 hours a day (30 minutes topics, 60 minutes creation, 30 minutes operations), plus 2 extra hours on Sundays batching drafts",
+      "risks": "Anonymous self-report with no third-party verification; the first 20 posts are an investment period with slow payoff; Xiaohongshu keyword and sponsored-post rules change; the workplace-efficiency niche is heavily homogenized",
+      "firstStep": "Today: list the 3 things coworkers ask you most, pick a niche you can talk about for 3 months, write the first 'pain point + instant value + zero learning cost' note with AI, and publish it",
+      "matchScore": 85,
+      "matchReason": "The user already has content sites and an AI content pipeline; topics, AI drafts, covers and distribution are directly reusable",
+      "categoryId": 12,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "Juexing AI Knowledge Base · xoyif",
+        "grade": "C",
+        "url": "https://www.jxxy.net/ai/articles/xoyif63862452-2115723432650252629/"
+      }
+    },
+    {
+      "id": 40,
+      "boardId": 39,
+      "title": "AI-original PPT virtual products: ¥50,000 in a single month at one shop after store bans",
+      "what": "Pei's team had 5 Xiaohongshu shops banned for reposting infringement, losing ¥80,000/month, then pivoted to AI-original: picked the AI PPT niche, ran 30-50 tasks concurrently with the full chain from outline to listing AI-driven, and caught the school-opening season to recover",
+      "moneyLogic": "Teachers and students pay for editable, original courseware templates; low prices of a few to a dozen yuan drive volume while high-price customization earns, with membership groups by subject for repeat purchases",
+      "incomeEvidence": "The author reports over ¥10,000 in sales in one week at a single shop during the school-opening season and ¥50,000 in a single month; before that, the 5 shops were losing ¥80,000/month",
+      "cost": "About AI subscriptions and token costs of a few hundred to a few thousand yuan a month (the team burns 2 billion tokens a day), no inventory",
+      "timeCost": "Once running, humans only pick niches and handle support daily, with spot quality checks; building the pipeline takes about 1-2 weeks upfront",
+      "risks": "AI courseware occasionally has knowledge errors drawing bad reviews; platform duplicate checks and homogenization rulings are tightening; multiple shops on the same theme collide with each other; seasonality swings hard",
+      "firstStep": "Today: pick one vertical theme (e.g. homeroom-teacher school-opening courseware), run the minimum 'outline → generate → QA → list' loop with AI, and list 3 sets",
+      "matchScore": 82,
+      "matchReason": "The user knows AI tools and automation pipelines; the generate-QA-list chain is directly reusable",
+      "categoryId": 3,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "Juexing AI Knowledge Base · Pei",
+        "grade": "C",
+        "url": "https://www.jxxy.net/ai/articles/lucaspei-xhs-ai-original-pivot/"
+      }
+    },
+    {
+      "id": 41,
+      "boardId": 49,
+      "title": "Selling digital products on Etsy: a budget bundle's self-reported 2,300 first-year sales",
+      "what": "Sells downloadable digital products on Etsy — budget printable bundles, Instagram templates, kids' alphabet art, student planners — made once and sold repeatedly, with acquisition from Etsy's internal search",
+      "moneyLogic": "Buyers pay for ready-to-use printables and templates at $3-30 each; Etsy charges a $0.20 listing fee + 6.5% transaction fee + about 3% payment fee, leaving gross margins above 85%",
+      "incomeEvidence": "EarnifyHub blog cases: Sarah's $9 budget bundle sold 2,300 copies in its first year for $20,700 total revenue and about $18,500 net, and her 15 products now make $4,000/month; Alex's $15 student planner sold 3,000 copies in 3 months for $45,000",
+      "cost": "About Canva and similar tools at tens of yuan a month; Etsy listing fee $0.20 per product; no inventory or shipping",
+      "timeCost": "1-2 weeks to make the first product, then a few days per product reusing templates; daily maintenance 2-5 hours a week",
+      "risks": "Cases are unnamed and blog data is unaudited; homogenization is severe; Etsy search and policies change; fonts and assets carry copyright risk; mainland-China sellers must confirm payout paths in advance",
+      "firstStep": "Today: pick one niche need (e.g. a postgraduate-exam planner), make the first 10-20-page MVP with AI + Canva within 2 days, and list it to test",
+      "matchScore": 80,
+      "matchReason": "The user has an AI content pipeline; batch template generation, listing and content-site traffic are directly reusable",
+      "categoryId": 3,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "EarnifyHub",
+        "grade": "C",
+        "url": "https://earnifyhub.com/blog/most-profitable-digital-products-etsy"
+      }
+    },
+    {
+      "id": 42,
+      "boardId": 50,
+      "title": "Micro-SaaS PortalKit: free distribution to $5,200 MRR in 58 days",
+      "what": "Marcus built a client-portal and invoice-automation micro-SaaS for freelance designers, priced at $29/month personal and $79/month studio; in 58 days with zero ad budget he reached $5,200 MRR via free distribution on Product Hunt, Reddit, Hacker News, X, newsletters and LinkedIn",
+      "moneyLogic": "Freelance designers pay subscriptions to save time chasing invoices and answering clients; trial-to-paid conversion is 31%, with the personal tier driving volume and the studio tier lifting order value",
+      "incomeEvidence": "The author reports $5,200 MRR in 58 days, of which channel items sum to $4,634 plus 4 annual plans contributing $566 MRR — the two add up consistently to $5,200; #4 on Product Hunt with 312 votes; 31% trial-to-paid conversion",
+      "cost": "About development and hosting costs; marketing budget $0",
+      "timeCost": "58 days from zero to launch with distribution working; then ongoing personal onboarding emails and conversion work",
+      "risks": "The case is unverified beyond the name Marcus; free-channel traffic is unsustainable; solo maintenance; the annual-plan share affects cash-flow accounting; competitor barriers are low",
+      "firstStep": "Today: interview 3 freelance designers, confirm the single most painful step in chasing invoices, then decide the one feature the MVP does",
+      "matchScore": 78,
+      "matchReason": "The user has mini-game and tool development experience; free distribution and content marketing transfer, and the micro-SaaS bar is moderate",
+      "categoryId": 4,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "WeLaunch",
+        "grade": "C",
+        "url": "https://www.welaunch.sh/blog/saas-launch-teardown-how-one-solo-founder-hit-5k-mrr-in-60-days-using-free-distr"
+      }
+    },
+    {
+      "id": 43,
+      "boardId": 43,
+      "title": "Paid newsletter Garbage Day: layered revenue from subscriptions + ads + consulting",
+      "what": "Ryan Broderick's Garbage Day newsletter grew from personal writing into a small media company: paid subscriptions as the base, with ads, a podcast Patreon and consulting layered on, targeting $1 million in annual revenue in 2026",
+      "moneyLogic": "Readers pay $5/month for opinion and judgment; brands pay $1,000-2,000 per ad for precise readers; podcast fans pay on Patreon; companies pay for consulting",
+      "incomeEvidence": "The Washington Post reported: revenue of nearly $500,000 last year; 5,100 paying subscribers at $5/month; ads at about $1,000-2,000 each; nearly 2,500 podcast Patreon supporters; $100,000 in consulting income",
+      "cost": "About domain and email service costs; Substack takes about 10%; the main cost is writing time",
+      "timeCost": "Near full-time: daily writing plus a weekly podcast and business outreach",
+      "risks": "Top cases carry survivorship bias and beginners start hard; the personal brand is tightly bound to the founder; platform fees and recommendation rules change; sustained high output burns out",
+      "firstStep": "Today: pick the most popular column on your existing content site, draft a paid-member column outline, and ask 20 long-time readers whether they would pay ¥9.9/month",
+      "matchScore": 78,
+      "matchReason": "The user already has Chinese content sites and AI production; the subscription + ads + derivative services model transfers, though Chinese willingness to pay for subscriptions differs from the US",
+      "categoryId": 7,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "Zetik relaying the Washington Post",
+        "grade": "B",
+        "url": "https://www.zetik.com/news/article/story_id-p008-139298"
+      }
+    },
+    {
+      "id": 44,
+      "boardId": 42,
+      "title": "Headroom: a desktop app that saves AI-coding users tokens",
+      "what": "Packages an open-source compression engine into a one-click-install, auto-updating desktop app with a dashboard showing savings, helping Claude Code/Codex users compress context and save tokens, priced against users' existing AI plans",
+      "moneyLogic": "Developers pay subscriptions for the tokens and quota saved; the price is a small fraction of their AI plan, and visible savings make renewal easy",
+      "incomeEvidence": "TrustMRR verified via Polar: on October 25, 2026, MRR was $2,025 with 222 subscriptions; June $2,540, August $1,542, September $2,284, and $2,620 in the first 25 days of October, $12,111 cumulative",
+      "cost": "About development and distribution costs, payments via Polar; no model inference costs, since the engine itself is open-source and free",
+      "timeCost": "Launched April 1, 2026, solo-maintained, continuously adapting to Claude/Codex version changes",
+      "risks": "Fully dependent on the Anthropic/OpenAI ecosystems — a built-in official compression feature kills it; the open-source engine can be self-deployed, limiting paid conversion; four similar predecessors mostly failed on platform dependence",
+      "firstStep": "Today: find a popular open-source AI tool with a high install barrier, list the one-click install, updating and dashboard features it lacks, and assess whether you can package it",
+      "matchScore": 78,
+      "matchReason": "The user knows AI tools and automation and can reuse the 'hard-to-install open-source tool → packaged paid product' play; content sites can drive acquisition",
+      "categoryId": 4,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "Aiolum (TrustMRR-verified)",
+        "grade": "A",
+        "url": "https://aiolum.com/story/headroom/"
+      }
+    },
+    {
+      "id": 45,
+      "boardId": 46,
+      "title": "Small podcast sponsorships: $500,000+ cumulative even at 1,200 downloads",
+      "what": "Danielle Bezalel's Sex Ed with DB podcast gets about 1,200 downloads per episode and sells sponsorships as packages — podcast ads + social media + logo + exclusive perks in quarterly bundles; the first deal, at about 50 downloads per episode, was $5,000",
+      "moneyLogic": "Brands pay for a precise audience, not downloads; a small vertical audience (sex-health education) is worth more than generic traffic, and bundles lift order value and renewals",
+      "incomeEvidence": "The author reports cumulative sponsorship revenue over $500,000 and six-figure annual income after going full-time; the first deal was $5,000 (at about 50 downloads per episode and under 1,000 Instagram followers)",
+      "cost": "About recording and hosting costs of a few hundred yuan a month; the main cost is 3 hours a week of sales outreach",
+      "timeCost": "About 3 hours a week on sales outreach plus fixed podcast production time; sending 100 pitches is recommended before results show",
+      "risks": "Revenue depends heavily on a few long-term sponsors; outreach is intense with high rejection; the niche audience ceiling is low; sex-health topics face platform and ad compliance limits",
+      "firstStep": "Today: inventory your existing content assets, write a quarterly sponsorship package template, list 50 high-fit brands, and draft the first outreach emails with AI",
+      "matchScore": 75,
+      "matchReason": "The user has content sites and AI production; package bundling and batch pitching transfer, though a podcast itself is not an existing asset",
+      "categoryId": 14,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "Podcast Bestie",
+        "grade": "C",
+        "url": "https://www.podcastbestie.com/p/think-your-podcast-is-too-small-for"
+      }
+    },
+    {
+      "id": 46,
+      "boardId": 52,
+      "title": "Course distribution side hustle: ¥8,600 net commissions in half a year, self-reported",
+      "what": "The author distributes knowledge-payment courses via WeChat private domain and soft seeding: strictly selects compliant courses, applies for distribution rights, posts value content on a public account and Moments to build trust before soft-seeding, and reconciles monthly to drop institutions that delay settlement",
+      "moneyLogic": "Institutions pay 30%-50% commissions for customer acquisition and the distributor earns the margin; repeat purchases from old customers are the second growth point — over ¥1,000 in month six came from repeats",
+      "incomeEvidence": "The author reports ¥8,600 in cumulative net commissions over half a year: ¥600 in month one, ¥2,800 in month six, of which over ¥1,000 came from repeat purchases by old customers",
+      "cost": "About ¥0 — no inventory, shipping or after-sales; the main cost is time and private-domain trust",
+      "timeCost": "Daily monitoring of clicks, orders and refund rates; two value posts plus one soft-seeding post per week; the ramp only showed after half a year",
+      "risks": "Non-compliant institutions can leave commissions unsettled; blasting five links in a day once got the author blocked by friends and zeroed that week's conversion; fewer than 20% of people in the industry stay active for a full half year; high refund rates backfire on trust",
+      "firstStep": "Today: pick 3 compliant, high-repeat courses from your existing readers and apply for distribution rights; write one value post that never names a course to test inquiry volume",
+      "matchScore": 70,
+      "matchReason": "The user has content sites and AI production; product selection, soft articles and private-domain accumulation transfer, but distribution depends heavily on personal social trust and overlaps only moderately with existing traffic assets",
+      "categoryId": 20,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "Dashu Cross-Border · Hongye",
+        "grade": "C",
+        "url": "https://www.10100.com/article/157691395"
+      }
+    },
+    {
+      "id": 47,
+      "boardId": 41,
+      "title": "Church real-time translation tool Glossa: Stripe-verified MRR of about $14,400",
+      "what": "Anton K. built a real-time translation tool for church services with Claude Code, billed at $5 per language per hour, plus monthly plans at $99/$299/$499, serving multilingual church services",
+      "moneyLogic": "Churches pay so congregations in different languages can follow the service, by the hour or by monthly subscription; 100 active subscriptions make up the MRR",
+      "incomeEvidence": "TrustMRR Stripe-verified MRR of $14,404, 100 active subscriptions and $196,539 cumulative, last synced October 19, 2026 (the key expired afterward); the same period's 30-day snapshot of $31,173 is inconsistent with the $12,903 sum of daily figures, so the MRR figure governs",
+      "cost": "About AI inference APIs and Stripe fees, scaling with usage; development relied mainly on AI coding, so cash input is low",
+      "timeCost": "An MVP in a few weeks solo; then 1-2 hours a day of maintenance and support",
+      "risks": "The expired Stripe key cut off data updates; the church niche has a narrow ceiling; falling translation costs compress pricing; generic translation tools compete",
+      "firstStep": "Today: list 3 Chinese vertical real-time translation scenarios (e.g. cross-border livestreams, offline events) and interview 1 potential user to confirm hourly-payment willingness",
+      "matchScore": 70,
+      "matchReason": "The user knows AI coding and automation and can quickly replicate vertical AI tools, but the church scenario barely overlaps with Chinese content assets",
+      "categoryId": 2,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "State of Indie Hacking",
+        "grade": "B",
+        "url": "https://www.stateofindiehacking.com/stories/ai-built-apps-revenue-verified-median-shipped-and-paid/"
+      }
+    },
+    {
+      "id": 48,
+      "boardId": 40,
+      "title": "Game-addiction recovery community: selling lived experience to parents who can pay",
+      "what": "Cam Adair wrote his game-addiction recovery story into a viral blog and built the Game Quitters community (50,000 members, 92 countries); a $27 student handbook sold poorly, so he pivoted to a $97 parent guide and summer-camp course licensing",
+      "moneyLogic": "Parents pay to help their kids quit; the $97 guide is a low-friction product; summer camps and institutions pay licensing fees for ready courses; SEO long-tail terms bring precise parent traffic",
+      "incomeEvidence": "The author reports $6,000/month; the Reclaim parent guide brings $1,500/month in passive income; a single summer-camp licensing deal paid $12,000",
+      "cost": "About a few hundred yuan a year for domain and site building; content and outreach mainly cost time",
+      "timeCost": "2-3 hours a day on content and outreach early on; later mostly maintenance and licensing negotiations",
+      "risks": "Selling to students without money brings payment shame and bad reviews; addiction topics touch health-advice boundaries; SEO and licensing cycles are long; income depends on a personal story and is hard to copy",
+      "firstStep": "Today: list 5 'parents pay for their kids' pain-point topics on your content site and write one real-experience long post to test parent traffic and comments",
+      "matchScore": 70,
+      "matchReason": "The user has content-site SEO and digital product experience; the long-tail content → low-price product → high-price guide → B2B licensing chain transfers, though the niche overlaps little with existing assets",
+      "categoryId": 16,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "MicroLanded Substack (relaying an Indie Hackers interview)",
+        "grade": "B",
+        "url": "https://microlanded.substack.com/p/how-a-high-school-dropout-built-a"
+      }
+    },
+    {
+      "id": 49,
+      "boardId": 51,
+      "title": "Douyin short-drama promotion CPS: beginners mostly earn tens to ¥200/month",
+      "what": "Cut short dramas into 30-second to 1-minute clips with mini-program links on Douyin; users top up to keep watching and promoters earn commissions on top-ups, typically 50%-70%, with the video platform taking another cut",
+      "moneyLogic": "Users pay to follow the plot and promoters share commissions; drama selection and editing decide conversion — sweet-pet, comeback and war-god genres convert high but compete fiercely",
+      "incomeEvidence": "The author compiled backends from a dozen-plus small promoters: beginners earn tens to ¥200/month, growers ¥500-2,000, veteran matrices over ¥3,000/month; 'Editing Bro' posted 40+ videos for under ¥300/month; a mom using Jianying templates stabilized at ¥1,000+/month after two months",
+      "cost": "Official platform licenses are free with commissions settled afterward — no license fee should be paid; the main cost is editing time",
+      "timeCost": "About 2 hours a day editing and posting; it takes a month of persistence to learn the platform's temperament; matrix operation is near full-time",
+      "risks": "Paying license fees upfront, deposits locking high commissions, and referral tiers unlocking higher commissions are all traps; top-up conversion is low and refunds high; pure reposting gets throttled or banned; commission and review policies can change anytime",
+      "firstStep": "Today: get a free license for 1 hit short drama on the official promotion platform, cut 3 clips with Jianying templates to test traffic and conversion — pay nothing first",
+      "matchScore": 65,
+      "matchReason": "The user's AI editing and content production can mass-produce clips, but it depends on Douyin's algorithm and mini-program review, with large uncontrollable factors",
+      "categoryId": 20,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "91 Short Drama",
+        "grade": "C",
+        "url": "https://www.0wan0.com/news/559584.html"
+      }
+    },
+    {
+      "id": 50,
+      "boardId": 48,
+      "title": "Kids' English writing classes online: 8 teachers, self-reported $12,000-15,000/month",
+      "what": "Teacher Jade teaches English writing to US homeschool families aged 8-18: a four-week course at $79 and a trial class at $25, growing from part-time tutoring into an 8-teacher online school; Outschool takes 30% and teachers keep 70%",
+      "moneyLogic": "Parents pay for 'someone who grades their child's essays one by one' — writing courses retain students through grading, not lectures; word of mouth spreads in parent communities and a co-op can bring a whole batch of students",
+      "incomeEvidence": "A 2023 updated interview reports 8 teachers and $12,000-15,000/month; a 2022 interview said she reached six figures within a year of joining Outschool; month one was only $32, and by month three two courses made nearly $5,000; as of October 24, 2026, her Outschool page rates 4.9 with 1,639 reviews",
+      "cost": "About a few thousand yuan a year for a self-built site and tools; incorporating and hiring teachers cost under $1,000; the main cost is lesson prep and grading time",
+      "timeCost": "The founder teaches about 10-15 hours a week personally, later shifting to about 10 hours a week of management",
+      "risks": "Outschool's eligible-region list excludes mainland China, so you need a self-built site or Udemy; platform search once suddenly hid courses and enrollment crashed; children's education has high compliance and safety requirements; it depends on word of mouth and cold starts are hard",
+      "firstStep": "Today: use AI to make a 45-minute trial-class outline and a before/after essay-grading sample, and first verify whether the grading showcase moves parents",
+      "matchScore": 65,
+      "matchReason": "The user's content production and AI-assisted prep transfer, but English teaching, overseas parent trust and platform access are new gaps",
+      "categoryId": 15,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "Liezhe Chuhai",
+        "grade": "B",
+        "url": "https://www.liezhe.com/ertong-xiezuo-wangke/"
+      }
+    },
+    {
+      "id": 51,
+      "boardId": 47,
+      "title": "Domain flipping: bought for $8, sold for $2,088 — a NameBio record",
+      "what": "Per NameBio's June 3, 2026 transaction records: register or auction short, brandable domains cheaply, list them on Afternic and wait for buyers; Omuru.com went from $8 to $2,088 within half a year",
+      "moneyLogic": "Buyers pay premiums for memorable, brandable domains and sellers earn the buy-low-sell-high spread; buying cheap is the only risk buffer",
+      "incomeEvidence": "NameBio verified: Omuru.com rose from $8 (December 31, 2025, Dynadot) to $2,088 (June 2026, Afternic); in the same batch DFElectrical.com rose from $33 to $2,495; RomaHealth.com fell from $4,999 to $363, down 93%",
+      "cost": "About $8-100 per domain; bulk holdings need about $10-15 per domain per year in renewals",
+      "timeCost": "Holding periods run from months to years; 1-2 hours a day filtering and managing, with highly uncertain deals",
+      "risks": "6 of the 13 sample deals lost money, and most domains never trade while renewals keep burning cash; high-priced hype domains halve easily; trademark infringement risk; extremely poor liquidity",
+      "firstStep": "Today: review the last 3 months of NameBio records and note only the shared traits of 'bought under $20, sold within half a year' — spend nothing on registrations yet",
+      "matchScore": 60,
+      "matchReason": "The user has content-site SEO experience and can reuse domain hunting and landing-page traffic, but this is essentially speculation with limited reuse of existing content assets",
+      "categoryId": 8,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "CashProofDomains (citing NameBio)",
+        "grade": "B",
+        "url": "https://www.cashproofdomains.com/2026/06/26000-gains-vs-93-losses-brutal-truth.html"
+      }
+    },
+    {
+      "id": 52,
+      "boardId": 44,
+      "title": "Repairing second-hand electronics on Xianyu: a graduate covers rent with refurbished devices",
+      "what": "A graduate buys faulty digital devices cheaply (Bluetooth earbuds, thin laptops, DSLRs), replaces batteries and screens, dusts and reinstalls them himself, and resells them refurbished — only taking models with clear faults that he can fix, selling one before buying the next",
+      "moneyLogic": "Faulty devices are bought at a discount and sold at second-hand prices after repair, earning the repair and information spread; repeat customers and student word of mouth bring repeat purchases",
+      "incomeEvidence": "The author reports stable net profit of ¥3,000+/month; net profit per unit is close to ¥600, but the itemized figures (¥600+ purchase price, ¥800+ parts cost, ¥1,400+ selling price) do not add up to that profit — the original figures are internally inconsistent",
+      "cost": "About ¥2,000-3,000 for the first inventory batch; parts and tools run tens to a few hundred yuan per order, with shipping and packaging extra",
+      "timeCost": "2-3 hours a day sourcing, testing, repairing and shipping; once skilled, weekly turnover is the core rhythm",
+      "risks": "Hidden motherboard faults, inspection scams and screens cracked in shipping can all lose money; you must genuinely know teardown repair; high phone-category volume triggers higher service fees; unsold inventory is a direct loss",
+      "firstStep": "Today: search Xianyu for 'faulty' and 'won't power on', and practice only on 1 low-price earbud pair with same-city pickup and a clear fault description — don't chase big orders",
+      "matchScore": 55,
+      "matchReason": "Few reuse points with AI content production or DOIN mini-games; mainly reusable as content-site topics, and it needs an entirely new hardware-repair skill tree",
+      "categoryId": 19,
+      "issueDate": "2026-11-13",
+      "featured": false,
+      "source": {
+        "name": "Tiantian Kandian · Pizi Gao Xianyu",
+        "grade": "C",
+        "url": "https://www.laitimes.com/zh/article/7bg6o_7rsf0.html"
+      }
+    },
+    {
+      "id": 53,
+      "boardId": 65,
+      "title": "Build lightweight mini-games monetized by IAP and ads",
+      "what": "Build WeChat and Douyin mini-games, monetized by IAP plus rewarded ads, with combinatorial innovative gameplay",
+      "moneyLogic": "Players pay via IAP and ads; platforms and publishers take a share",
+      "incomeEvidence": "The Game Industry Committee reports H1 2026 mini-game revenue of about ¥31.657 billion; 'Eat Pills to Cultivate Immortality' reports monthly revenue over ¥20 million",
+      "cost": "About ¥5,000-50,000 for art, development, testing and user acquisition",
+      "timeCost": "4-6 hours a day, months of development plus continuous iteration",
+      "risks": "UA costs can surge over 400%; creative materials die in 5 days; top profit margins rarely exceed 8%",
+      "firstStep": "Today: pick one direction from DOIN's planned list and make a minimum playable prototype checklist",
+      "matchScore": 95,
+      "matchReason": "Directly reuses the DOIN mini-game portal and development experience",
+      "categoryId": 5,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "36Kr",
+        "grade": "B",
+        "url": "https://www.36kr.com/p/4059179453666179"
+      }
+    },
+    {
+      "id": 54,
+      "boardId": 55,
+      "title": "Build AI chatbots and automation for small businesses",
+      "what": "Use tools like n8n to build customer-service chatbots and automation workflows for small businesses",
+      "moneyLogic": "Businesses pay project fees and monthly maintenance, saving labor and customer-service costs",
+      "incomeEvidence": "A Reddit compilation reports recorded revenue of $800-7,000/month, with projects starting at $500",
+      "cost": "About ¥0-1,000 for n8n servers and model APIs",
+      "timeCost": "3-4 hours a day during delivery periods; a few hours of maintenance per week afterward",
+      "risks": "Client acquisition is hard; unclear requirements cause rework; model and platform rules change",
+      "firstStep": "Today: list 3 local small businesses and a repetitive customer-service process each could automate",
+      "matchScore": 90,
+      "matchReason": "Directly reuses AI tooling and automation pipeline experience",
+      "categoryId": 1,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "Quvir",
+        "grade": "C",
+        "url": "https://www.quvir.com/2026/05/i-read-200-reddit-threads-about-ai-side.html"
+      }
+    },
+    {
+      "id": 55,
+      "boardId": 61,
+      "title": "Run a paid newsletter",
+      "what": "Run a niche paid email newsletter: free content for traffic, a paid tier with exclusive data and deep content",
+      "moneyLogic": "Readers pay monthly subscriptions, plus sponsorships; high-value niches price higher",
+      "incomeEvidence": "A beehiiv report cites a median conversion of 0.62%, so 1,000 subscribers yield about $62/month",
+      "cost": "About ¥0-1,000; email platforms are free to start",
+      "timeCost": "5-8 hours a week, 1-2 issues a week",
+      "risks": "Median income is very low; AI niches churn 13.33% monthly; a list takes 18 months to grow",
+      "firstStep": "Today: write the checklist of how your newsletter's paid tier differs from the free tier",
+      "matchScore": 88,
+      "matchReason": "Directly reuses Chinese content-site and information-curation skills",
+      "categoryId": 7,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "Grey Journal",
+        "grade": "B",
+        "url": "https://greyjournal.net/hustle/grow/how-much-do-newsletters-make/"
+      }
+    },
+    {
+      "id": 56,
+      "boardId": 57,
+      "title": "Get clients on Xiaohongshu for AI workbench customization",
+      "what": "Post AI workbench content on Xiaohongshu to acquire clients, customizing order/finance workbenches for small merchants",
+      "moneyLogic": "Small merchants pay per-project customization fees to solve repetitive data-entry and management problems",
+      "incomeEvidence": "The author reports about ¥25,000 collected in about 1.5 months from 5 paying clients, with a top single project of ¥8,900",
+      "cost": "About ¥0-2,000 for content production and model APIs",
+      "timeCost": "2-3 hours a day on content and client communication",
+      "risks": "Requirements creep easily; delivery depends on technical partners; after-sales and permission deployment are complex",
+      "firstStep": "Today: write one note about how an AI workbench saves time in a concrete work scenario",
+      "matchScore": 88,
+      "matchReason": "Directly reuses AI automation and content acquisition experience",
+      "categoryId": 23,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "Xiangqian Selected Side Hustles",
+        "grade": "C",
+        "url": "https://www.xiangqian.online/fuye/insight/2026-10-26-128558"
+      }
+    },
+    {
+      "id": 57,
+      "boardId": 59,
+      "title": "Buy small websites, improve them, and resell",
+      "what": "Buy small content sites with stable monthly profit on Flippa, fix SEO and monetization, hold 6-12 months, then resell",
+      "moneyLogic": "Buyers pay a multiple of monthly profit; as profit rises, the selling price rises with it",
+      "incomeEvidence": "The example's good outcome is about $4,080 in profit — an author's modeled example, not a real transaction",
+      "cost": "About ¥7,000-70,000; start small on the first deal",
+      "timeCost": "5-15 hours a week improving and maintaining",
+      "risks": "Google updates can halve traffic; seller revenue screenshots can be faked; use escrow to prevent fraud",
+      "firstStep": "Today: look at 10 small sites listed on Flippa and record their profit and traffic definitions",
+      "matchScore": 82,
+      "matchReason": "Directly reuses content-site SEO and operations experience",
+      "categoryId": 8,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "AgentHustles",
+        "grade": "B",
+        "url": "https://www.agenthustles.com/h/website-flipping/"
+      }
+    },
+    {
+      "id": 58,
+      "boardId": 64,
+      "title": "Build a paid extension that solves a browser pain point",
+      "what": "Build a Chrome extension that solves repetitive browser tasks, free plus paid premium features",
+      "moneyLogic": "Users pay subscriptions or one-time fees to save time; B2B scenarios pay more readily",
+      "incomeEvidence": "Inbox When Ready reports $3,000-4,000/month; Notion Boost made $9,440 in a single month",
+      "cost": "About ¥35-1,000, including a $5 registration fee plus payments and servers",
+      "timeCost": "2-4 weeks to develop, then a few hours of maintenance per week",
+      "risks": "Most extensions earn zero; store review can reject; Manifest policy changes can delist",
+      "firstStep": "Today: write down a browser action you repeat 3+ times a day",
+      "matchScore": 80,
+      "matchReason": "Reuses AI development and tool-site experience; acquisition is the weak point",
+      "categoryId": 2,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "kzk.kr",
+        "grade": "B",
+        "url": "https://kzk.kr/chrome-extension-development/"
+      }
+    },
+    {
+      "id": 59,
+      "boardId": 58,
+      "title": "Sell digital planners and templates on Etsy",
+      "what": "Make digital planners, templates and printables with Canva and sell them as instant downloads on Etsy",
+      "moneyLogic": "Buyers pay for reusable files; make once, sell many times",
+      "incomeEvidence": "The article cites a beginner reaching $4,000/month within 90 days and another seller at $93,000/year — both relayed cases",
+      "cost": "About ¥0-500, plus a $0.20 listing fee per item and tool subscriptions",
+      "timeCost": "2-3 hours a day early on to make 10-15 products, then a few hours a week",
+      "risks": "1.6 million planner listings compete fiercely; generic AI images are hard to sell; copyright and delisting risks",
+      "firstStep": "Today: search one niche planner term on Etsy and record the pricing of the top 10 best-sellers",
+      "matchScore": 78,
+      "matchReason": "Reuses AI content production and template making, but needs English listings and overseas buyer insight",
+      "categoryId": 3,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "DigiNewbie",
+        "grade": "C",
+        "url": "https://www.diginewbie.com/blog/how-to-sell-digital-downloads-on-etsy"
+      }
+    },
+    {
+      "id": 60,
+      "boardId": 66,
+      "title": "Monetize open-source projects with sponsorships and hosted services",
+      "what": "Open-source your existing tools and monetize with GitHub Sponsors plus hosted versions and consulting services",
+      "moneyLogic": "Companies that depend on the project pay for ongoing maintenance, priority support and hosting convenience",
+      "incomeEvidence": "The article cites maintainers in ecosystems like Vue earning $800-4,000/month from Sponsors, and Cal.com's hosted version passing $10,000 MRR in its first year",
+      "cost": "About ¥0-2,000 for hosting and domains",
+      "timeCost": "5-10 hours a week maintaining and replying",
+      "risks": "Fewer than 12% of developers earn anything; you need a real user base first; enterprise payment decisions are slow",
+      "firstStep": "Today: write a README for your most-used small tool and add Sponsors tiers",
+      "matchScore": 75,
+      "matchReason": "Reuses AI tool development experience, but open-source users must be accumulated first",
+      "categoryId": 4,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "Markaicode",
+        "grade": "C",
+        "url": "https://markaicode.com/monetize-open-source-github-income/"
+      }
+    },
+    {
+      "id": 61,
+      "boardId": 53,
+      "title": "Build a micro-SaaS that helps creators collect and showcase testimonials",
+      "what": "A subscription tool helping creators and small merchants collect text/video testimonials and generate embeddable showcase widgets",
+      "moneyLogic": "Users pay monthly subscriptions; creators pay to lift conversion rates",
+      "incomeEvidence": "The original text reports Senja at about $83,300 MRR in November 2025 with over 3,000 customers, passing $1 million ARR — the founder's account relayed by the article",
+      "cost": "About ¥0-5,000 for domains, servers and payment tools",
+      "timeCost": "3-4 hours a day at the start; about 1 hour a day of maintenance once stable",
+      "risks": "Many similar tools; slow acquisition; long-term SEO and content marketing required",
+      "firstStep": "Today: list 10 testimonial-collection pain points from creators around you and verify willingness to pay",
+      "matchScore": 75,
+      "matchReason": "Reuses AI content production and content-site traffic, but needs development investment and long-term operation",
+      "categoryId": 2,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "The Successful Projects",
+        "grade": "B",
+        "url": "https://www.thesuccessfulprojects.com/how-two-indie-hackers-built-a-successful-micro-saas-senja-io-1m-arr/"
+      }
+    },
+    {
+      "id": 62,
+      "boardId": 60,
+      "title": "Run an AI faceless long-video channel",
+      "what": "Use AI scripting and voiceover to make long faceless videos on high-CPM topics like history, monetized by ads and multiple channels",
+      "moneyLogic": "55% of ad revenue goes to the creator, plus affiliate commissions, sponsorships and digital products",
+      "incomeEvidence": "Fortune verified AdSense records showing about $40,000-60,000/month, at about $60 cost per video",
+      "cost": "About ¥500-5,000 for model voiceover and editing tools",
+      "timeCost": "3-4 hours a day; 6-24 months before the monetization threshold is possible",
+      "risks": "Batch templated content can lose monetization; ad rates fall; most channels never monetize",
+      "firstStep": "Today: pick one high-CPM niche topic and write the first long-video outline",
+      "matchScore": 72,
+      "matchReason": "Reuses the AI content production pipeline, but video production and channel operations are new skills",
+      "categoryId": 13,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "Kompozy",
+        "grade": "B",
+        "url": "https://kompozy.io/guides/faceless-ai-youtube-channel-monetization"
+      }
+    },
+    {
+      "id": 63,
+      "boardId": 54,
+      "title": "Run a solo studio as a portfolio of small products",
+      "what": "Continuously ship multiple small subscription products and let the winners that emerge support the portfolio",
+      "moneyLogic": "Multiple small products collect subscription fees, spreading single-product failure risk",
+      "incomeEvidence": "The author reports about $1,234,900 in revenue over 12 months, with TrustMRR at about $35,608/month",
+      "cost": "About ¥0-3,000 for domains, servers and model APIs",
+      "timeCost": "3-5 hours a day, sustained for months to years",
+      "risks": "Most products make no money; attention is scattered; self-reported figures are unaudited",
+      "firstStep": "Today: write down 3 minimum product ideas you could build within a week",
+      "matchScore": 70,
+      "matchReason": "Reuses AI development and content traffic, but needs sustained shipping over the long term",
+      "categoryId": 4,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "GhibliStyled",
+        "grade": "C",
+        "url": "https://www.ghiblistyled.com/blog/marc-lou-solo-studio-1-2m-year-2026/"
+      }
+    },
+    {
+      "id": 64,
+      "boardId": 62,
+      "title": "Run a B2B podcast to funnel consulting clients",
+      "what": "Run a niche podcast for business clients: ads plus memberships, with the focus on converting listeners into consulting clients",
+      "moneyLogic": "Brands pay sponsorship fees by CPM, listeners pay for memberships, and ultimately pay for consulting services",
+      "incomeEvidence": "The article's client case: a podcast earning about £1,100/month in direct income, with related consulting over £60,000/year",
+      "cost": "About ¥1,000-5,000 for a microphone, hosting and editing",
+      "timeCost": "6-10 hours a week recording, editing and inviting guests",
+      "risks": "The median podcast earns almost nothing; sponsorships usually need 5,000+ downloads; monetization takes over a year",
+      "firstStep": "Today: list 10 industry guests you could invite and their topics",
+      "matchScore": 68,
+      "matchReason": "Reuses content and AI editing, but podcast acquisition and hosting are new abilities",
+      "categoryId": 14,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "Lilach Bullock",
+        "grade": "B",
+        "url": "https://www.lilachbullock.com/how-podcasts-make-money-which-earn-most/"
+      }
+    },
+    {
+      "id": 65,
+      "boardId": 56,
+      "title": "Run an agency that gets brands recommended by AI search",
+      "what": "Help brands participate compliantly on Reddit and get cited and recommended by ChatGPT and Google AI answers",
+      "moneyLogic": "Brands pay by results or high-ticket subscriptions for AI search exposure",
+      "incomeEvidence": "TrustMRR verified about $34,750 MRR in October 2026, with about 7 subscriptions",
+      "cost": "About ¥1,000-5,000 for tools and monitoring accounts",
+      "timeCost": "4-6 hours a day, mainly community operations and client communication",
+      "risks": "A Reddit ban can zero everything overnight; promising results brings refund risk",
+      "firstStep": "Today: research 3 real Reddit discussions where brands were cited by AI answers",
+      "matchScore": 65,
+      "matchReason": "Reuses content and AI search experience, but lacks Reddit community operations resources",
+      "categoryId": 24,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "PrintCashWithAI",
+        "grade": "B",
+        "url": "https://www.printcashwithai.com/stacks/reddit-ai-recommendation-agency/"
+      }
+    },
+    {
+      "id": 66,
+      "boardId": 63,
+      "title": "Earn TikTok Shop affiliate commissions",
+      "what": "Shoot short videos with other people's product links and take a percentage commission on sales, holding no inventory",
+      "moneyLogic": "Merchants pay commissions on sales; health and beauty commissions have a 15-20% median",
+      "incomeEvidence": "Random Olive reports $19,069 in first-year commissions, then about $744/month on average",
+      "cost": "About ¥200-1,000 for samples and shooting gear",
+      "timeCost": "1-2 hours a day, shooting 1-3 videos a day",
+      "risks": "Returns deduct commissions; brands can cancel commissions on AI videos; 6 violations can freeze commissions",
+      "firstStep": "Today: pick 3 products you have used and write a 30-second seeding script for each",
+      "matchScore": 60,
+      "matchReason": "Reuses short-video and AI content abilities, but lacks overseas accounts and product-selection resources",
+      "categoryId": 20,
+      "issueDate": "2026-11-15",
+      "featured": false,
+      "source": {
+        "name": "Does It Pay",
+        "grade": "B",
+        "url": "https://doesitpay.org/tiktok-shop/"
+      }
+    },
+    {
+      "id": 67,
+      "boardId": 92,
+      "title": "Content site flipping: buy, optimize, hold, resell",
+      "what": "Acquire content sites with stable cash flow, optimize monetization channels, refresh content and build an email list to lift profit, then resell at a multiple of annual profit after holding 1-2 years",
+      "moneyLogic": "During the hold you collect ad and affiliate cash flow; at resale the buyer pays a premium at a multiple of annual profit",
+      "incomeEvidence": "ExitSpring's 2026 research: 2,855 listings and 110 resold sites, a median hold of 1.5 years, median annual profit of $24,734 and a median asking multiple of 2.75×; the content-site median multiple fell from a 2022 peak of 3.58× to 2.42× in 2025. Composite case: a camping review site bought for $42,000 with $15,000 annual profit; after 22 months annual profit reached $21,200 and it sold for $58,000, with another $31,800 taken out during the hold",
+      "cost": "The case site was acquired for $42,000; the original text gives no general starting range — small sites can start at a few hundred dollars, but sites with real profit usually cost thousands and up",
+      "timeCost": "The original text does not disclose weekly hours; the sample median hold is 1.5 years and the composite case took about 22 months to flip",
+      "risks": "Traffic depends on SEO and swings with algorithms; ad/affiliate yields fall or accounts get banned; content refresh costs overrun; secondary-market illiquidity lengthens exit cycles; multiple compression keeps eroding exit premiums",
+      "firstStep": "Today: set a Flippa alert for 'annual profit $10,000-30,000, content site, 2+ years, diversified traffic sources' and list 5 candidate niches for keyword research",
+      "matchScore": 88,
+      "matchReason": "The user has Chinese content-site operations experience and an AI content pipeline; topics, writing, SEO and monetization transfer across the whole chain at extremely low marginal cost",
+      "categoryId": 8,
+      "issueDate": "2026-11-16",
+      "featured": true,
+      "source": {
+        "name": "ExitSpring",
+        "grade": "B",
+        "url": "https://exitspring.com/blog/website-flipping"
+      }
+    },
+    {
+      "id": 68,
+      "boardId": 82,
+      "title": "VectoSolve: an image-to-vector SVG tool site",
+      "what": "Converts PNG/JPG into clean SVGs and files usable by Cricut, laser and embroidery machines; 12 languages, about 1,000 conversion landing pages and about 200 articles drive SEO acquisition",
+      "moneyLogic": "Craft, laser-cutting and embroidery users pay for converted files; after the free quota runs out they pay per use or by subscription",
+      "incomeEvidence": "TrustMRR via Stripe (updated on the evening of November 15, 2026): $2,702 in the last 30 days, $1,645 MRR, 264 subscriptions, $23,496 cumulative; the page's extra info mentions 226 subscriptions, a slight discrepancy. Paid conversions began after the free quota was cut from 25 uses to 3",
+      "cost": "Domains, servers and AI development tool subscriptions; the original text does not disclose specific costs — about a few hundred dollars to start",
+      "timeCost": "The original text does not disclose specific hours; early work is development and SEO buildout, later maintaining content and conversion pages",
+      "risks": "SEO algorithm changes swing traffic; free-quota adjustments affect conversion; competitors copy easily; multilingual content maintenance costs grow with scale",
+      "firstStep": "Build a minimum image-to-SVG tool page, launch 3 core keyword landing pages, and connect Stripe to test paid conversion",
+      "matchScore": 88,
+      "matchReason": "The multilingual landing-page + content matrix model directly reuses the user's content-site SEO and AI automated production assets",
+      "categoryId": 6,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "TrustMRR",
+        "grade": "A",
+        "url": "https://trustmrr.com/startup/vectosolve"
+      }
+    },
+    {
+      "id": 69,
+      "boardId": 90,
+      "title": "Gumroad micro digital products: monetizing small PDFs",
+      "what": "Write small everyday annoyances into a few-page PDF, price it at $3-19 on Gumroad, and acquire customers by commenting with links under the original problem posts on Reddit and in communities",
+      "moneyLogic": "Buyers pay to solve a specific small problem; low prices mean fast decisions, and money lands after the platform's cut",
+      "incomeEvidence": "Author Gloria's account with Gumroad screenshots: $1,171.92 in 30 days, $421.64 in the first week, 17 products priced at $3-19; not third-party verified",
+      "cost": "Near-zero: a free Gumroad account on a commission model, document tools and production time",
+      "timeCost": "The first PDF took about 12 minutes; 17 products in 30 days, with per-product time not disclosed",
+      "risks": "Depends on Gumroad traffic and policies; low-price products need continuous output to sustain income; manual reply-based acquisition does not scale; income is volatile with no repeat-purchase mechanism",
+      "firstStep": "Today: pick 1 frequent small problem, generate a PDF with AI within 30 minutes, list it on Gumroad at $4.99, and reply with the link under relevant Reddit posts to test conversion",
+      "matchScore": 85,
+      "matchReason": "With content-site operations experience and AI tools that can batch-produce PDFs, the automation pipeline can solve the acquisition and output scaling problems",
+      "categoryId": 3,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "Medium/Gloria",
+        "grade": "C",
+        "url": "https://medium.com/@gloriawrites21/day-30-micro-digital-products-made-me-1-171-e21049dc7b0a"
+      }
+    },
+    {
+      "id": 70,
+      "boardId": 89,
+      "title": "Mass-produce PPT courseware with AI on Xiaohongshu as virtual products",
+      "what": "Use AI to batch-generate textbook-style, themed and class-meeting teaching courseware plus workplace PPT templates, and sell them as virtual courseware through a Xiaohongshu shop driven by organic notes",
+      "moneyLogic": "Teachers and workplace users pay for ready PPT templates; low prices convert through organic-traffic notes",
+      "incomeEvidence": "The course seller's account: shop 1 sold 5,573 orders in 1 month with ¥171,000 in revenue and a single-day peak of ¥19,000; shop 2 with the same method sold 1,953 orders in a month with ¥40,000 in revenue; the gap between the two shops is mainly product selection; figures are not independently verified",
+      "cost": "AI tool subscriptions and shop operations; the original text does not disclose deposits or specific costs",
+      "timeCost": "The original text does not disclose specific hours; the work is batch generation, product selection and note operations",
+      "risks": "The course seller's revenue data has no third-party verification and may be inflated; platforms crack down on virtual products and traffic-diversion risks; wrong product selection means traffic does not convert; unstable AI quality draws refunds and complaints",
+      "firstStep": "Today: use your existing AI tools to batch-generate 10 sample teaching or workplace PPT sets, test output quality and production time, then decide whether to open a shop",
+      "matchScore": 85,
+      "matchReason": "Directly reuses AI batch content production and Xiaohongshu distribution; product-selection logic matches content-site experience",
+      "categoryId": 3,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "Zhuanqian Ba",
+        "grade": "C",
+        "url": "https://www.0478g.com/money/63970.html"
+      }
+    },
+    {
+      "id": 71,
+      "boardId": 88,
+      "title": "AI local-life short-video agency",
+      "what": "Use Sora-class video generation tools (Pika, Runway) plus local POI data and batch scripts to produce 10 differentiated store-visit short videos in 3 hours, with the operator on camera voicing the 15-second core highlight",
+      "moneyLogic": "Restaurants pay for customer acquisition and exposure: ¥298 per video or ¥499/month",
+      "incomeEvidence": "A Qitan article from 2026-11-12 relays a Shenzhen mom's case: from the 2nd month she worked with 7 merchants, with average monthly income over ¥6,000; a single self-reported case, not independently verified",
+      "cost": "AI tool subscriptions and sample production; the original text does not disclose amounts — about a few hundred yuan to start",
+      "timeCost": "The original text does not disclose specific hours; the article says 10 short videos can be produced in 3 hours",
+      "risks": "A single self-reported case, unverified; platform algorithm changes affect traffic; merchant renewal rates are uncertain; homogenized competition is intensifying; local services are hard to standardize and replicate",
+      "firstStep": "Today: use free Pika or Runway quota to run the minimum 'POI data → storyboard script → finished video' loop, produce 3 same-city restaurant samples, and post them on Douyin to test traffic",
+      "matchScore": 85,
+      "matchReason": "Directly reuses AI content production and automation pipeline abilities to enter the local-life niche",
+      "categoryId": 24,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "Qitan App",
+        "grade": "C",
+        "url": "https://www.yqitan.com/article/14767"
+      }
+    },
+    {
+      "id": 72,
+      "boardId": 81,
+      "title": "Underpriced AI: an AI pricing and listing tool for second-hand goods",
+      "what": "Snap a photo of a second-hand item and the AI prices it from real eBay sold prices and generates listing copy in one click; founder Frank Kratzer built it to help his wife resell old goods",
+      "moneyLogic": "Second-hand sellers pay subscriptions to save pricing and copywriting time, price more accurately and sell faster",
+      "incomeEvidence": "Indie Hackers via Stripe: about $4,700/month over the last 30 days and $5,100 in October; monthly revenue was $98 in January 2026, $1,900 in April, $5,900 in July, $5,400 in August, $5,600 in September and $5,100 in October",
+      "cost": "Domain, Vercel hosting and Claude API fees; the original text does not disclose specifics — about a few hundred dollars to start",
+      "timeCost": "The original text does not disclose specifics; initial development took months, later mainly maintenance and iteration",
+      "risks": "Depends on the Claude API with vendor lock-in risk; eBay data structure changes affect pricing accuracy; the second-hand e-commerce niche is easily replaced by big platforms' native features; acquisition depends on SEO and content, so traffic fluctuates",
+      "firstStep": "Today: photograph an idle item on Xianyu, have Claude write a price and listing copy from sold prices of the same model, and compare against manual pricing to validate demand",
+      "matchScore": 85,
+      "matchReason": "Reuses the AI toolchain and content-site SEO abilities; the Xianyu/second-hand scenario complements the user's existing second-hand trading line",
+      "categoryId": 2,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "Indie Hackers",
+        "grade": "A",
+        "url": "https://www.indiehackers.com/product/underpriced-ai"
+      }
+    },
+    {
+      "id": 73,
+      "boardId": 80,
+      "title": "FootballGPT: an AI assistant for grassroots football coaches",
+      "what": "An AI assistant for grassroots and youth football coaches; founder Kevin Middleton is a non-developer Scottish grassroots coach who built 4 products in two months with Claude Code",
+      "moneyLogic": "Coaches pay subscriptions: a free tier plus Pro from $2.99/week; 40+ SEO pages bring organic traffic that converts to paid",
+      "incomeEvidence": "TrustMRR via Stripe (updated on the evening of November 15, 2026): $4,406 in the last 30 days, $4,778 MRR, 505 subscriptions, $34,991 cumulative; a chart on the page separately shows $4,202, a slight discrepancy. The founder reports over 19,000 registered users in October 2026",
+      "cost": "Domains, servers and Claude Code/API fees; the original text does not disclose specifics — about a few hundred dollars to start",
+      "timeCost": "The original text does not disclose ongoing hours; initial development was concentrated into two months",
+      "risks": "The football-coach niche has a low ceiling; SEO depends on algorithm swings; a non-technical founder carries tech debt; Pro is priced at $2.99/week and retention is unverified",
+      "firstStep": "Use Claude Code to map a niche group's frequent need (such as youth coaches' training plans), build a one-page demo and post it to relevant communities to test feedback",
+      "matchScore": 85,
+      "matchReason": "The 'non-developer + Claude Code + SEO acquisition' model matches the user's assets closely and can be reused directly",
+      "categoryId": 2,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "TrustMRR",
+        "grade": "A",
+        "url": "https://trustmrr.com/startup/footballgpt"
+      }
+    },
+    {
+      "id": 74,
+      "boardId": 83,
+      "title": "ColorCraft: a KDP self-publishing AI book tool",
+      "what": "Generates coloring books, storybooks, comics and puzzle books with printable covers for Amazon KDP self-publishers; founder John Kirby says he wrote almost no code and developed it with Cursor",
+      "moneyLogic": "KDP self-publishers pay subscriptions to quickly generate shelf-ready books, saving illustration and layout costs",
+      "incomeEvidence": "TrustMRR via Stripe (updated on the evening of November 15, 2026): $2,550 in the last 30 days, $2,388 MRR, 126 subscriptions, $7,732 cumulative; the key change was, after finding users only pay when generating 10+ pages, replacing the free tier with a 7-day trial that can finish a whole book",
+      "cost": "Cursor and other AI coding tool subscriptions, domains and servers; the original text does not disclose specifics — about a few hundred dollars to start",
+      "timeCost": "The original text does not disclose specifics; the work is product iteration, user feedback and marketing",
+      "risks": "Depends on Amazon KDP policy, and policy changes affect the business; competitors copy easily; retention depends on free-trial conversion; solo-maintenance risk",
+      "firstStep": "Research KDP coloring-book category demand and build a minimum prototype with Cursor that 'generates a 10-page coloring book and exports a PDF'",
+      "matchScore": 82,
+      "matchReason": "Reuses AI tool development and content-production automation experience; KDP publishing synergizes with the user's Chinese content production abilities",
+      "categoryId": 2,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "TrustMRR",
+        "grade": "A",
+        "url": "https://trustmrr.com/startup/colorcraft"
+      }
+    },
+    {
+      "id": 75,
+      "boardId": 87,
+      "title": "Custom AI workbench orders (acquired via Xiaohongshu)",
+      "what": "Acquisition, needs communication and sales happen on Xiaohongshu; development and delivery are done by a technical partner; the work covers AI agent, workflow and workbench customization",
+      "moneyLogic": "SMB owners or individuals pay to automate specific business processes, such as Chinese herbal medicine management, a dental foreign-trade workbench and a personal finance workbench",
+      "incomeEvidence": "Author Along's account: from September to October 22, 2026, 5 paid orders and 1 pending signature; deposits about ¥10,000 and full payments over ¥15,000, totaling about ¥25,000; example prices: a herbal medicine system at ¥2,800, a dental foreign-trade workbench totaling ¥8,900, and a personal finance workbench at ¥1,600",
+      "cost": "Near-zero to start: mainly a Xiaohongshu account and communication time; the original text does not disclose specifics",
+      "timeCost": "The original text does not disclose specifics; the work is Xiaohongshu content, client communication and project coordination",
+      "risks": "Fully dependent on the technical partner's delivery quality and schedule; a single acquisition channel means Xiaohongshu traffic swings hit hard; a non-technical background makes technical solutions hard to control, inviting rework disputes; custom services are hard to standardize with a low per-person efficiency ceiling",
+      "firstStep": "Today: post a Xiaohongshu case note on 'an AI workbench solving an industry pain point' and find 1 reliable full-stack partner in tech communities to discuss a revenue split",
+      "matchScore": 80,
+      "matchReason": "Reuses AI tool and automation pipeline experience plus content acquisition thinking; knowing model APIs helps with needs analysis",
+      "categoryId": 1,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "Jike Gaqian",
+        "grade": "C",
+        "url": "https://www.zhu1a.cn/20106.html"
+      }
+    },
+    {
+      "id": 76,
+      "boardId": 78,
+      "title": "AI Designer: an AI UI and brand design platform",
+      "what": "An AI design SaaS that generates website/App UI, logos and brand assets from a few sentences; developed by solo founder Wiz",
+      "moneyLogic": "Designers, founders and small teams pay subscriptions to quickly produce professional designs, saving outsourcing costs and waiting time",
+      "incomeEvidence": "TrustMRR via Stripe (2026-11-15): $8,056 in the last 30 days, $8,103 MRR, 283 subscriptions, $86,981 cumulative; the founder reports reaching $1,500 MRR in 46 days",
+      "cost": "Domains, servers and model API fees to start; the original text does not disclose specifics — about a few hundred dollars",
+      "timeCost": "The original text does not disclose specifics; after launch the work is SEO and iteration",
+      "risks": "Fierce competition from v0, Bolt, Lovable and similar tools, with a quality ceiling on AI generation; solo development and marketing is a single point of failure; SEO depends on algorithm swings; churn may rise after the novelty fades",
+      "firstStep": "Use Claude Code to build a minimum prototype of 'text description → landing-page UI', launch a landing page, and test search demand for 3 SEO keywords",
+      "matchScore": 78,
+      "matchReason": "Reuses the AI toolchain and content-site SEO experience for SaaS growth, but lacks SaaS product operations experience",
+      "categoryId": 2,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "MissumAI",
+        "grade": "A",
+        "url": "https://missumai.com/stories/ai-built-apps-under-10k-mrr"
+      }
+    },
+    {
+      "id": 77,
+      "boardId": 93,
+      "title": "Monetize a paid Substack newsletter",
+      "what": "Write a paid newsletter on Substack around a topic you are obsessed with, charging readers directly by subscription, with courses and communities as backend monetization",
+      "moneyLogic": "Readers pay subscriptions for deep or exclusive content; creators monetize again through high-ticket products like courses and challenges",
+      "incomeEvidence": "Author Amie Tollefsrud's account: the Lazy Millionaire newsletter grosses $500,000/year (ARR terms), with a courses business of $12 million and challenges totaling over 3,600 students; all single-party self-reports with no third-party verification; the article admits all sources are the author herself and that results are not typical",
+      "cost": "Near-zero: Substack is free to open; the original text does not disclose other costs",
+      "timeCost": "The author says she writes only a few posts a month; building seed readers early on takes more time",
+      "risks": "Author self-report only, authenticity unverifiable; the English market has a strong head effect and Chinese paid-subscription willingness is lower; continuous content pressure is high — stop updating and subscribers churn",
+      "firstStep": "Today: register a Substack account, pick 1 niche topic (such as a weekly AI tool hands-on journal), write and publish issue 1 as a free sample, and syndicate it to your existing content sites to funnel seed readers",
+      "matchScore": 75,
+      "matchReason": "With content-site operations experience and strength in AI content pipelines, topics, writing and distribution transfer, but the language-market difference needs localization validation",
+      "categoryId": 15,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "Lazy Millionaire/Substack",
+        "grade": "C",
+        "url": "https://lazymillionaireofficial.substack.com/p/exclusive-los-angeles-substack-writer"
+      }
+    },
+    {
+      "id": 78,
+      "boardId": 77,
+      "title": "Heyron: hosted AI agents + a paid community",
+      "what": "A hosted AI agent (OpenClaw/Hermes) cloud service plus the paid Solo Software Studio community: $49/month including cloud hosting and AI usage, aimed at non-technical founders",
+      "moneyLogic": "Users pay a $49/month subscription for ready-to-use AI agent hosting and community support, saving self-built infrastructure and debugging costs",
+      "incomeEvidence": "TrustMRR via Stripe: on 2026-11-14 MRR was about $17,200 with 590 subscriptions, $17,100 over the last 30 days and $314,000 cumulative; after an April 2026 peak of $62,900 it declined continuously to $18,200 in October. The founder's claim of $84,000/month does not match the verified data",
+      "cost": "The founder says the starting budget for the agent was only $100; later cloud hosting and AI usage scale with subscriptions, with specifics undisclosed",
+      "timeCost": "The original text does not disclose specifics; the founder had a full-time job and it began as a side experiment",
+      "risks": "Revenue has declined for 6 straight months since the April peak, with retention undisclosed; depends on third-party frameworks OpenClaw/Hermes with lock-in and maintenance risk; $49 bundles cloud hosting and AI usage, so rising model costs or abuse compress margins; no technical moat, easy to copy",
+      "firstStep": "Deploy an OpenClaw agent locally and run the full 'request → task execution → result' flow, calculating per-user marginal cost",
+      "matchScore": 75,
+      "matchReason": "Reuses the AI toolchain and automation pipeline to build a hosted service, but running an English community raises execution difficulty",
+      "categoryId": 2,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "The AI Receipts",
+        "grade": "A",
+        "url": "https://theaireceipts.com/case-studies/heyron/"
+      }
+    },
+    {
+      "id": 79,
+      "boardId": 86,
+      "title": "Glitter AI: automatic SOP generation",
+      "what": "Screen, audio or operation recordings are automatically turned into standard operating procedures, training documents and work guides for onboarding, IT support, customer service and compliance; free viewer seats, AI voiceover and AI avatars are the differentiators",
+      "moneyLogic": "Enterprises pay per-seat subscriptions, saving documentation time and compliance training costs",
+      "incomeEvidence": "Founder Yuval Karmi's account: after 2.5 years of solo operation it reached $18,200 MRR, about $218,000/year, still short of the first-year $1 million ARR goal (relayed by Facilitate Apps, 2026-11-11)",
+      "cost": "About 6 months of solo development labor; infrastructure like servers and domains about a few hundred dollars a year, with no breakdown disclosed",
+      "timeCost": "About 6 months to build (per the original text); later hours undisclosed",
+      "risks": "Early unclear positioning made acquisition hard, surviving on repositioning and repricing; strong competitors like Scribe; long enterprise sales cycles; high solo-developer risk",
+      "firstStep": "Research Scribe and other competitors' pricing and feature matrices, list differentiators, and publish a comparison review to a tech community with a free model to test demand",
+      "matchScore": 72,
+      "matchReason": "Reuses AI automation and content production abilities for product docs and SEO acquisition, but lacks B2B enterprise sales experience",
+      "categoryId": 25,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "Facilitate Apps (Facebook)",
+        "grade": "C",
+        "url": "https://www.facebook.com/facilitatela/posts/pfbid0e2Pwdsts5aTLp8xYibKS15bPRzk8x9PZPKrCatxcZfs8bw3GwMD2xd5Z7HH4exV8l"
+      }
+    },
+    {
+      "id": 80,
+      "boardId": 79,
+      "title": "Visualizee: AI architectural sketches to photorealistic renders",
+      "what": "Upload a hand-drawn sketch, floor plan or 3D screenshot and a conversational AI assistant generates photorealistic architectural renders, for architects and real-estate marketing",
+      "moneyLogic": "Architects, design studios and real-estate firms pay subscriptions, saving rendering outsourcing time and cost",
+      "incomeEvidence": "TrustMRR via Stripe (updated on the evening of November 15, 2026): $7,761 in the last 30 days, $7,674 MRR, 276 subscriptions, $98,083 cumulative; the early node-editor version earned about $100-150/month for two years, and after switching to conversational the founder reports nearly $10,000/month (including one-time payments)",
+      "cost": "The original text does not disclose specifics; it started on Supabase, Vercel and Stripe free tiers",
+      "timeCost": "The original text does not disclose specifics; the founder develops and maintains it in spare time",
+      "risks": "A vertical niche with a low ceiling; Adobe, Autodesk and other majors can replace it with native AI rendering; solo maintenance carries tech-debt risk; paid churn is undisclosed",
+      "firstStep": "Use Claude Code to build a minimum prototype: upload a sketch → call an image model to generate a render → show a before/after comparison, validating quality and cost",
+      "matchScore": 70,
+      "matchReason": "Reuses the Cursor/Claude Code development model, but the architecture vertical synergizes weakly with existing content sites and the game portal",
+      "categoryId": 2,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "TrustMRR",
+        "grade": "A",
+        "url": "https://trustmrr.com/startup/visualizee-ai"
+      }
+    },
+    {
+      "id": 81,
+      "boardId": 85,
+      "title": "Thumbwise: a Mac tool for organizing the iPhone home screen",
+      "what": "A Mac app for drag-and-drop organizing of the iPhone home screen on a big display; idle apps can be tucked into an App Bank with one-click sync, AI auto-organizes by color and usage frequency, and it is exposed to AI assistants via MCP",
+      "moneyLogic": "Users pay a one-time $14.99 buyout licensed for 3 Macs, converting after a free trial download",
+      "incomeEvidence": "Founder @Copypaster3000's account: launched on 2026-11-09, $464 in revenue in 10 days with zero paid ads (cited by the SoloEZ weekly)",
+      "cost": "An Apple Developer account at $99/year and a Mac development environment; other costs undisclosed",
+      "timeCost": "The original text does not disclose specifics",
+      "risks": "Depends on Mac App Store review; features can be replaced by native OS capabilities; a niche need with a low ceiling; a one-time buyout has no repeat purchases, requiring constant new users",
+      "firstStep": "Today: use a free Xcode account to build a home-screen layout reading and drag prototype; pay the $99 annual fee only after feasibility is verified",
+      "matchScore": 60,
+      "matchReason": "Requires Swift/macOS development with limited reuse of existing content and AI assets, though indie development and distribution experience partly transfers",
+      "categoryId": 4,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "SoloEZ",
+        "grade": "C",
+        "url": "https://www.soloez.com/weekly/soloez-165"
+      }
+    },
+    {
+      "id": 82,
+      "boardId": 84,
+      "title": "GainFrame: an AI body-composition iOS app",
+      "what": "An iOS app that estimates body fat and muscle scores from progress photos and gives coaching advice; founder Michael Rode wrote most of the code with Claude Code, with 141 blog posts and 11 free tools for SEO",
+      "moneyLogic": "Fitness users pay subscriptions for body-composition analysis and coaching advice, saving professional measurement fees",
+      "incomeEvidence": "TrustMRR via RevenueCat (updated on the evening of November 15, 2026): $2,406 in the last 30 days, $2,462 MRR, 481 subscriptions, $20,809 cumulative; in July 2026 the founder reported $944 MRR",
+      "cost": "An Apple Developer account at about $99/year; server and model costs undisclosed",
+      "timeCost": "The original text does not disclose specifics; the founder has a full-time job and maintains it in spare time",
+      "risks": "Depends on the iOS platform and review; the founder, a new father with a full-time job, is selling the business, showing the maintenance burden; the fitness niche has a low ceiling; AI estimate accuracy complaints risk removal",
+      "firstStep": "Use Claude Code to build a SwiftUI skeleton, connect the system vision framework for a body-composition estimate prototype, and validate accuracy before committing",
+      "matchScore": 60,
+      "matchReason": "SEO and AI tool experience transfer, but iOS native development and App Store operations experience are lacking",
+      "categoryId": 2,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "TrustMRR",
+        "grade": "A",
+        "url": "https://trustmrr.com/startup/gainframe"
+      }
+    },
+    {
+      "id": 83,
+      "boardId": 91,
+      "title": "Buy faulty electronics on Xianyu, repair, refurbish and resell",
+      "what": "Buy second-hand electronics cheaply with clear faults — won't power on, dead batteries, cracked screens — replace parts, repair and clean them yourself, then resell on Xianyu for the margin",
+      "moneyLogic": "Buyers pay for refurbished second-hand electronics; you earn the spread between purchase price plus repair cost and the selling price",
+      "incomeEvidence": "The author reports a stable monthly net profit of over ¥3,000; the single-case figures in the original text are inconsistent: a thin-and-light laptop bought for over ¥600 with over ¥800 in parts cost sold for over ¥1,400, yet the claimed single-deal net profit is nearly ¥600 — the three numbers do not add up, for reference only",
+      "cost": "About a few hundred yuan to start, beginning with small items under ¥100; parts and tools are extra, with total investment undisclosed",
+      "timeCost": "The original text does not disclose specifics; the work is sourcing and negotiation, repair and testing, photographing and listing, and shipping and after-sales",
+      "risks": "Hidden faults like motherboard issues cause losses; basic repair skills and fault judgment are required; Xianyu traffic swings, return disputes and after-sales costs; inventory buildup ties up cash",
+      "firstStep": "Today: search Xianyu for keywords like 'faulty unit' and 'won't power on', note purchase and sold prices for 3 popular models, and work out the margin before trying",
+      "matchScore": 30,
+      "matchReason": "The user's core assets are content operations and AI automation; electronics repair hard skills and second-hand supply-chain experience are missing, so reuse is low",
+      "categoryId": 19,
+      "issueDate": "2026-11-16",
+      "featured": false,
+      "source": {
+        "name": "Tiantian Kandian",
+        "grade": "C",
+        "url": "https://www.laitimes.com/zh/article/7bg6o_7rsf0.html?__pvhp=1"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "id": 1,
+      "boardId": 4,
+      "title": "Part-time gig groups that recruit downlines: pay a franchise fee to 'level up' for resources",
+      "reason": "A 36Kr investigation: so-called part-time gig groups / platform agents actually make money by recruiting downlines and collecting franchise or advanced membership fees — light pyramid schemes with tiered rebates; Zhang Feng from Shenzhen paid ¥600 to enter a core agent group and was kicked out immediately. If the income comes from recruiting people who pay rather than real client orders, stay away",
+      "categoryId": null,
+      "issueDate": "2026-11-07",
+      "source": {
+        "name": "36Kr · Gaojian Guanchao",
+        "url": "https://www.36kr.com/p/3391260810614920"
+      }
+    },
+    {
+      "id": 2,
+      "boardId": 3,
+      "title": "The ¥399 AI submission camp: just a PPT and free-material scraps",
+      "reason": "A 36Kr investigation: students paid ¥399 to join an AI submission camp and received only a PPT tutorial and a few AI generator links; the same material sells on Taobao for ¥19.9, and Xiaohongshu has more detailed free shares; the group's order screenshots and welcome scripts are all staged. Never trust enrollment pitches with only income screenshots and no real deliverables or original cases",
+      "categoryId": 15,
+      "issueDate": "2026-11-07",
+      "source": {
+        "name": "36Kr · Gaojian Guanchao",
+        "url": "https://www.36kr.com/p/3391260810614920"
+      }
+    },
+    {
+      "id": 3,
+      "boardId": 2,
+      "title": "'AI shop passive income': after a QR-code trial, withdraw cash and hand it to a courier",
+      "reason": "A police-reported case: the victim saw an ad for building an AI shop with passive income, first scanned a code and transferred over ¥4,000, then was induced to withdraw over ¥200,000 in cash from the bank and hand it to a courier in an alley. Any project that asks you to withdraw cash offline and hand it to a stranger is fraud and has nothing to do with AI",
+      "categoryId": 17,
+      "issueDate": "2026-11-07",
+      "source": {
+        "name": "Fuye Cankao (relaying a Tianquan police report)",
+        "url": "https://fu-ye.com/ai-fu-ye-pian-ju/"
+      }
+    },
+    {
+      "id": 4,
+      "boardId": 1,
+      "title": "AI comic-drama courses: pay training fees first and share your screen",
+      "reason": "A police-reported case: Mr. Lu from Suzhou saw an AI comic-drama course ad on Kuaishou and was defrauded of ¥11,406 under course/tool fee pretexts; the routine includes being asked to download screen-sharing software or click strange links, then being blocked after payment. If you are asked to pay tuition or tool fees and share your screen before earning anything, stop immediately",
+      "categoryId": 15,
+      "issueDate": "2026-11-07",
+      "source": {
+        "name": "Fuye Cankao (relaying Wuxi/Wuhan/Tianquan police reports)",
+        "url": "https://fu-ye.com/ai-fu-ye-pian-ju/"
+      }
+    },
+    {
+      "id": 5,
+      "boardId": 8,
+      "title": "Vending machine 'get rich lying down' ads: don't believe zero-maintenance high returns",
+      "reason": "Wider Matrix's profit analysis states clearly that vending machines are a semi-passive business requiring restocking, repairs and cash handling, and a bad location means zero income; 'payback in a few weeks' only applies to high-traffic specialty machine calculations. For any vending franchise promising hands-off monthly income in the tens of thousands, first check site commissions and real single-machine turnover",
+      "categoryId": 29,
+      "issueDate": "2026-11-09",
+      "source": {
+        "name": "Wider Matrix",
+        "url": "https://widermatrix.com/how-much-do-vending-machines-make/"
+      }
+    },
+    {
+      "id": 6,
+      "boardId": 7,
+      "title": "Buying followers and fake engagement for brand deals: fake interaction always gets caught",
+      "reason": "TheRedScroll's check: from March to August 2025 Xiaohongshu banned over 12 million fake accounts and handled 13.76 million fake marketing notes; cyberspace regulators' special campaign against fake traffic handled 2.39 million accounts and shops in total; buying followers has been ruled false advertising by courts. Brand deals won through fake engagement collapse the moment a brand checks real interaction, and your account may be banned too",
+      "categoryId": 34,
+      "issueDate": "2026-11-09",
+      "source": {
+        "name": "TheRedScroll",
+        "url": "https://www.theredscroll.com/zh/guandian/china-kol-pricing/"
+      }
+    },
+    {
+      "id": 7,
+      "boardId": 6,
+      "title": "AI training/annotation gigs: pay a deposit or buy a course to unlock tasks",
+      "reason": "A Medium investigation notes that legitimate AI training work means applying first, passing a skills test, then training — never collecting training fees, deposits or crypto before interview and hiring; scams often recruit via WhatsApp/Telegram DMs, where the in-app balance looks like it grows but you must add your own money before withdrawing, and the FTC says such displayed earnings are fake",
+      "categoryId": null,
+      "issueDate": "2026-11-09",
+      "source": {
+        "name": "Medium · H5W",
+        "url": "https://medium.com/@linmuidea/how-to-tell-if-an-ai-training-job-is-a-scam-5f3c33ac8c2a"
+      }
+    },
+    {
+      "id": 8,
+      "boardId": 5,
+      "title": "'Earn £500 a day' AI money ads: pay first, earn later",
+      "reason": "A Jobbit check notes these ads only show income screenshots and beach laptops, never the actual work or typical income; what they sell is courses, systems or memberships, not real client orders; the UK ASA requires ads to state the work and average income, and the FCA warns that 'pay upfront, limited-time price hikes, stranger DMs' are classic pressure tactics. If you must pay before earning, stop first",
+      "categoryId": 15,
+      "issueDate": "2026-11-09",
+      "source": {
+        "name": "Jobbit",
+        "url": "https://jobbit.uk/en/blog/is-making-money-with-ai-a-scam-2026"
+      }
+    },
+    {
+      "id": 9,
+      "boardId": 11,
+      "title": "'Fully automated AI e-commerce' charging $20,000-40,000 system fees: FTC cases exceed $74 million",
+      "reason": "The FTC's Operation AI Comply four cases total about $74 million in losses: Ascend Ecom charged $20,000-40,000 in AI e-commerce setup fees promising over $10,000/month, which almost nobody reached; one-fifth of Click Profit's clients earned zero; Air AI was banned on March 24, 2026 with an $18 million judgment. The common pattern is high upfront fees + fully-automated promises + ongoing management fees — if all three appear, walk away",
+      "categoryId": 18,
+      "issueDate": "2026-11-13",
+      "source": {
+        "name": "ShareuHack (citing the FTC)",
+        "url": "https://www.shareuhack.com/en/posts/ai-side-hustle-scam-guide-2026"
+      }
+    },
+    {
+      "id": 10,
+      "boardId": 10,
+      "title": "AI training/annotation gigs charging registration, activation fees or selling accounts",
+      "reason": "Legitimate platforms only pay you from the platform; the FTC states plainly that anyone asking you to pay upfront for a job promise is a scammer; platforms like DataAnnotation state on their official sites that they charge no registration fee. Common routines: recruiting via WhatsApp/Telegram DMs, charging registration/training/activation/verification fees, selling 'verified accounts', task dashboards that allow a small withdrawal then require crypto deposits to unlock earnings, and asking for ID and bank card details",
+      "categoryId": null,
+      "issueDate": "2026-11-13",
+      "source": {
+        "name": "ASV",
+        "url": "https://www.asvalley.com/blog/ai-training-job-scams"
+      }
+    },
+    {
+      "id": 11,
+      "boardId": 9,
+      "title": "AI comic-drama 'internal recruitment' charging buy-in study or training fees",
+      "reason": "Using 'AI comic-drama intern, college degree OK, ¥8,500/month after conversion' as bait, the buy-in study fee or training fee is only revealed after you submit a resume; more commonly prices escalate layer by layer — a few hundred yuan for a hands-on course, then thousands for an advanced course, then over ¥10,000 for a high-level course, with the collecting entity changing each time and refunds refused because 'access was opened and the contract signed'. The trend itself is real; a reversed payment order is the trap",
+      "categoryId": 10,
+      "issueDate": "2026-11-13",
+      "source": {
+        "name": "Uke Zhitan",
+        "url": "https://m.ukezhitan.com/article-u8D5Au94B1u8D44u8BAF/19366"
+      }
+    },
+    {
+      "id": 12,
+      "boardId": 14,
+      "title": "Air AI's claim of AI replacing salespeople to earn tens of thousands in days",
+      "reason": "The FTC banned it from selling business opportunities on March 24, 2026, with an $18 million judgment; it claimed AI could fully replace salespeople and earn tens of thousands of dollars in days, with individual losses reaching six figures — a high-upfront-fee plus guaranteed-returns scam",
+      "categoryId": null,
+      "issueDate": "2026-11-15",
+      "source": {
+        "name": "Self Employed",
+        "url": "https://www.selfemployed.com/news/ftc-ai-side-hustle-scam-crackdown-2026/"
+      }
+    },
+    {
+      "id": 13,
+      "boardId": 13,
+      "title": "Click Profit's so-called AI automatic money-making system",
+      "reason": "FTC records show a judgment of over $20 million; one-fifth of its clients earned zero after hosting fees, and another third had lifetime income under $2,500; it sells 'automatic money-making', charges system fees upfront, and its income screenshots have no real verifiable cases",
+      "categoryId": 21,
+      "issueDate": "2026-11-15",
+      "source": {
+        "name": "Shareuhack",
+        "url": "https://www.shareuhack.com/en/posts/ai-side-hustle-scam-guide-2026"
+      }
+    },
+    {
+      "id": 14,
+      "boardId": 12,
+      "title": "Ascend Ecom's so-called AI automatic online store",
+      "reason": "The FTC alleges it promised thousands of dollars a month from AI automatic stores, charged $20,000-40,000 in setup fees plus inventory fees, and allegedly defrauded at least $25 million; high fees before you can start and income promises without evidence — a classic charge-first-then-vanish scam",
+      "categoryId": 18,
+      "issueDate": "2026-11-15",
+      "source": {
+        "name": "Webzeto",
+        "url": "https://webzeto.com/passive-income-in-artificial-intelligence/"
+      }
+    },
+    {
+      "id": 15,
+      "boardId": 21,
+      "title": "@shmidtqq income posts: faceless-content guides funneling to prediction-market signal subscriptions",
+      "reason": "The same author's May 10 X post claimed $15,400/month from faceless content; an independent teardown found one income item used the Instagram Reels Bonus category discontinued in 2023, which cannot hold up; the post is actually a traffic funnel — the bio links a paid Telegram, and the content is entirely unrelated to the monetization product (Polymarket signal subscriptions). The same author's 'AI landlord videos earning $38,000/month' claim is likewise self-report only with no verifiable evidence, and has been removed from the library",
+      "categoryId": 10,
+      "issueDate": "2026-11-16",
+      "source": {
+        "name": "The Deep Feed",
+        "url": "https://www.thedeepfeed.ai/posts/2026-05-09-ai-influencer-wrapper-economy-fanvue-exit/"
+      }
+    },
+    {
+      "id": 16,
+      "boardId": 20,
+      "title": "Reselling hot new phones at a markup: received fraud-linked funds, bank card frozen",
+      "reason": "Mr. Leng from Hangzhou grabbed 3 iPhone 18 Pro Max units and resold them at a ¥750/unit markup; the next day his bank card was frozen by out-of-province police as 'fraud-linked', affecting his social security, car loan and livestream sales payments; even face-to-face deals with instant transfers cannot guarantee clean fund sources — verify the counterparty's identity and whether the payment account is their own before receiving large sums",
+      "categoryId": 19,
+      "issueDate": "2026-11-16",
+      "source": {
+        "name": "China.com / Dajiang News",
+        "url": "https://news.china.com/socialgd/10000169/20261106/49847378.html"
+      }
+    },
+    {
+      "id": 17,
+      "boardId": 19,
+      "title": "Xiaohongshu PPT courseware 'single store ¥171,000/month' practical course",
+      "reason": "The course seller claims its two directly-run stores made ¥171,000 and ¥40,000 in a single month — a gap of over 4× with no independent verification — and the page itself sells this practical course; pay first to learn how to make money, and the revenue figures are very likely enrollment-marketing numbers that cannot serve as project income evidence",
+      "categoryId": 3,
+      "issueDate": "2026-11-16",
+      "source": {
+        "name": "Zhuanqian Ba",
+        "url": "https://www.0478g.com/money/63970.html"
+      }
+    },
+    {
+      "id": 18,
+      "boardId": 18,
+      "title": "'$2,800/month from digital products' advertorial selling a paid blueprint course",
+      "reason": "The article claims $2,800/month selling pre-made templates and $890 in one month from contract templates, with no verifiable income evidence at all, and the whole piece funnels toward buying the 'Digital Profit Blueprint' paid course; so-called 'digital dropshipping' is mostly reselling others' templates, carrying copyright and platform-violation risks",
+      "categoryId": 3,
+      "issueDate": "2026-11-16",
+      "source": {
+        "name": "Medium/Avigheia smith",
+        "url": "https://medium.com/@avigheia_63777/the-digital-product-everyone-needs-made-me-2-800-month-f37bbf7bce7a"
+      }
+    }
+  ]
+};

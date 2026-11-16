@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /scratch/
+
+# Sitemaps
+Sitemap: https://money.itis.chat/sitemap.xml

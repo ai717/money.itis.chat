@@ -1,0 +1,19 @@
+{
+  "name": "money.itis.chat",
+  "version": "1.0.0",
+  "description": "Money-Making Project Library",
+  "private": true,
+  "scripts": {
+    "sync": "node sync-site-seo.js",
+    "add": "node scripts/add-case.js",
+    "pull": "git pull --rebase origin main",
+    "publish": "node scripts/publish.js"
+  },
+  "keywords": [
+    "money-projects",
+    "side-hustle",
+    "project-library"
+  ],
+  "author": "ai717",
+  "license": "MIT"
+}
