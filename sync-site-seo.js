@@ -11,13 +11,33 @@
 const fs = require('fs');
 const path = require('path');
 
-const GA_SNIPPET = ``; // 暂无 GTM 容器，不注入统计代码
+const GA_SNIPPET = `<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-T625G32G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>`;
 const BASE = 'https://money.itis.chat';
 
+// 统计代码（GTM-T625G32G，狗爸爸 2026-11-16 提供）：紧跟 <head> 之后注入每个页面，幂等防重复
 function injectGA(html) {
-  if (!GA_SNIPPET) return html;
-  if (html.includes('GTM-')) return html;
-  return html.replace('</head>', `${GA_SNIPPET}\n</head>`);
+  if (html.includes('GTM-T625G32G')) return html;
+  return html.replace('<head>', `<head>\n${GA_SNIPPET}`);
+}
+
+// 图标体系引用（prefix 为相对路径前缀：'' / '../' / '../../'）
+function iconLinksHtml(prefix) {
+  return `<link rel="icon" type="image/svg+xml" href="${prefix}favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="${prefix}favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="${prefix}favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="${prefix}apple-touch-icon.png">
+  <link rel="manifest" href="${prefix}site.webmanifest">`;
+}
+
+// meta description 截断（避免超长字段撑爆搜索摘要）
+function metaDesc(text, max = 160) {
+  const t = String(text || '').replace(/\s+/g, ' ').trim();
+  return t.length > max ? t.slice(0, max - 1) + '…' : t;
 }
 
 const FOOTER_LINKS_HTML_ZH = `        <div class="footer-links">
@@ -187,22 +207,26 @@ function projectPageHtml(p, catName, totalProjects, dataZh) {
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(p.title)} - 搞钱项目库</title>
-  <meta name="description" content="${escapeHtml(p.what)}">
+  <meta name="description" content="${escapeHtml(metaDesc(p.what))}">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="${BASE}/project/${p.id}/">
-  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
-  <link rel="apple-touch-icon" href="../../money-icon.svg">
+  ${iconLinksHtml('../../')}
   <meta name="theme-color" content="#f5efe6">
   <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:site_name" content="搞钱项目库">
   <meta property="og:title" content="${escapeHtml(p.title)} - 搞钱项目库">
-  <meta property="og:description" content="${escapeHtml(p.what)}">
+  <meta property="og:description" content="${escapeHtml(metaDesc(p.what))}">
   <meta property="og:url" content="${BASE}/project/${p.id}/">
-  <meta property="og:image" content="${BASE}/money-icon.svg">
+  <meta property="og:image" content="${BASE}/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(p.title)}">
-  <meta name="twitter:description" content="${escapeHtml(p.what)}">
-  <meta name="twitter:image" content="${BASE}/money-icon.svg">
+  <meta name="twitter:description" content="${escapeHtml(metaDesc(p.what))}">
+  <meta name="twitter:image" content="${BASE}/og-image.png">
   <link rel="stylesheet" href="../../style.css">
   <script type="application/ld+json">
   ${JSON.stringify(schemaObj, null, 2)}
@@ -331,18 +355,26 @@ function warningPageHtml(w, catName, dataZh) {
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(w.title)} - 避坑提醒 - 搞钱项目库</title>
-  <meta name="description" content="${escapeHtml(w.reason)}">
+  <meta name="description" content="${escapeHtml(metaDesc(w.reason))}">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="${BASE}/warning/${w.id}/">
-  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
-  <link rel="apple-touch-icon" href="../../money-icon.svg">
+  ${iconLinksHtml('../../')}
   <meta name="theme-color" content="#f5efe6">
   <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:site_name" content="搞钱项目库">
   <meta property="og:title" content="${escapeHtml(w.title)} - 避坑提醒">
-  <meta property="og:description" content="${escapeHtml(w.reason)}">
+  <meta property="og:description" content="${escapeHtml(metaDesc(w.reason))}">
   <meta property="og:url" content="${BASE}/warning/${w.id}/">
-  <meta property="og:image" content="${BASE}/money-icon.svg">
+  <meta property="og:image" content="${BASE}/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${escapeHtml(w.title)} - 避坑提醒">
+  <meta name="twitter:description" content="${escapeHtml(metaDesc(w.reason))}">
+  <meta name="twitter:image" content="${BASE}/og-image.png">
   <link rel="stylesheet" href="../../style.css">
   <script type="application/ld+json">
   ${JSON.stringify(schemaObj, null, 2)}
@@ -500,7 +532,7 @@ function runSync() {
   dataZh.projects.forEach(p => {
     const dir = path.join(projBase, String(p.id));
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, 'index.html'), projectPageHtml(p, catMapZh[p.categoryId] || '', totalProjects, dataZh));
+    fs.writeFileSync(path.join(dir, 'index.html'), injectGA(projectPageHtml(p, catMapZh[p.categoryId] || '', totalProjects, dataZh)));
   });
   console.log(`✅ ${totalProjects} 个项目详情页 (/project/<id>/) 生成完毕`);
 
@@ -510,21 +542,25 @@ function runSync() {
     const dir = path.join(warnBase, String(w.id));
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
     const catName = (w.categoryId !== null && w.categoryId !== undefined) ? (catMapZh[w.categoryId] || '') : '';
-    fs.writeFileSync(path.join(dir, 'index.html'), warningPageHtml(w, catName, dataZh));
+    fs.writeFileSync(path.join(dir, 'index.html'), injectGA(warningPageHtml(w, catName, dataZh)));
   });
   console.log(`✅ ${totalWarnings} 个避坑详情页 (/warning/<id>/) 生成完毕`);
 
+  const homeAlternates = `    <xhtml:link rel="alternate" hreflang="zh-CN" href="${BASE}/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE}/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE}/"/>
+`;
   let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>${BASE}/</loc>
-    <lastmod>${today}</lastmod>
+${homeAlternates}    <lastmod>${today}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>${BASE}/en/</loc>
-    <lastmod>${today}</lastmod>
+${homeAlternates}    <lastmod>${today}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

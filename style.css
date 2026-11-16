@@ -735,13 +735,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
   margin-bottom: 8px;
 }
 
 .card-badges {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 6px;
+  min-width: 0;
 }
 
 /* 弱化的顶部小标签 */
@@ -843,6 +847,7 @@ body {
 .card-stats-row {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 12px;
   font-size: 0.72rem;
@@ -871,6 +876,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 10px;
   padding-top: 10px;
   border-top: 1px solid var(--border-subtle);
   font-size: 0.74rem;
@@ -878,10 +885,8 @@ body {
 }
 
 .card-source-info {
-  max-width: 60%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .source-link-btn {
@@ -906,6 +911,8 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 2px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 /* --- 空状态 Empty State --- */
@@ -1371,8 +1378,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 8px 12px;
   margin-bottom: 12px;
   font-size: 0.82rem;
   color: var(--text-muted);
@@ -1387,7 +1394,6 @@ body {
 .footer-links a {
   color: var(--text-secondary);
   text-decoration: none;
-  white-space: nowrap;
   transition: color 0.18s ease;
 }
 
@@ -1565,7 +1571,7 @@ body {
 .section-warnings { margin-top: 44px; }
 .warnings-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
   gap: 16px;
 }
 .warning-card {
@@ -1600,3 +1606,57 @@ body {
 .stat-warn-num { color: #be123c; }
 .detail-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 @media (max-width: 640px) { .detail-meta-grid { grid-template-columns: 1fr; } }
+
+/* ===== 2026-11-16 上线打磨：英文长文本 + 移动端加固（装修基线，勿删） ===== */
+/* 长标题/长字段允许断词换行，杜绝溢出与撑破布局 */
+.card-title, .featured-title, .detail-title, .modal-title,
+.warning-title, .trending-title, .site-title, .section-title {
+  overflow-wrap: break-word;
+}
+.card-valueline, .warning-reason, .featured-valueline,
+.detail-valueline, .modal-valueline, .detail-text, .modal-text,
+.output-callout-text, .pitfalls-callout-text,
+.step-content, .step-clean-text, .source-meta-left, .empty-desc {
+  overflow-wrap: break-word;
+}
+/* 英文页面启用连字符断词，长单词在词内优雅断行 */
+html[lang="en"] .card-title, html[lang="en"] .featured-title,
+html[lang="en"] .detail-title, html[lang="en"] .modal-title,
+html[lang="en"] .warning-title, html[lang="en"] .trending-title,
+html[lang="en"] .card-valueline, html[lang="en"] .detail-text,
+html[lang="en"] .modal-text, html[lang="en"] .warning-reason {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+/* 正文里的长链接可断行 */
+.detail-text a, .modal-text a, .output-callout-text a, .pitfalls-callout-text a {
+  overflow-wrap: anywhere;
+}
+/* 徽标与图片兜底 */
+.badge { max-width: 100%; }
+img, svg { max-width: 100%; }
+/* 顶栏真实溢出修复：flex 子项 min-content 会撑破容器（375px 实测 brand-wrap/stats-panel 右缘 391 > 视口 375） */
+.brand-wrap { max-width: 100%; }
+.brand-wrap > div { min-width: 0; }
+.header-main > div { max-width: 100%; min-width: 0; }
+.stats-panel { flex-wrap: wrap; row-gap: 6px; max-width: 100%; }
+.stat-num { white-space: nowrap; }
+.stat-item { min-width: 0; }
+.stat-label { text-align: center; }
+/* 详情页顶栏按钮在窄屏不挤压品牌区 */
+.detail-flow .btn, .featured-footer .btn { max-width: 100%; }
+
+@media (max-width: 768px) {
+  /* iOS Safari 聚焦输入框时 font-size < 16px 会自动放大页面，统一 16px 防缩放跳动 */
+  .search-box input, .select-wrap select { font-size: 16px; }
+  /* 触控目标加高，分类/收藏按钮更好点 */
+  .cat-tab-btn { min-height: 36px; }
+  .fav-filter-btn { min-height: 38px; }
+  .lang-btn { padding: 5px 11px; }
+  /* 顶栏右侧（语言切换 + 统计）在窄屏占满一行并左对齐 */
+  .header-main > div:last-child { flex-wrap: wrap; }
+  /* 详情页信源栏纵向排布，按钮整行可点 */
+  .source-verify-box { align-items: stretch; }
+  .featured-footer { align-items: stretch; }
+  .featured-footer .btn { flex: 1 1 auto; text-align: center; }
+}

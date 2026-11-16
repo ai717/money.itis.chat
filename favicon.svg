@@ -1,6 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <rect x="6" y="6" width="108" height="108" rx="26" fill="#f7f3ea" stroke="#e0d5c1" stroke-width="3"/>
-  <circle cx="60" cy="60" r="34" fill="#f59e0b" stroke="#b45309" stroke-width="4"/>
-  <circle cx="60" cy="60" r="26" fill="none" stroke="#fde68a" stroke-width="2.5"/>
-  <text x="60" y="74" font-size="36" font-weight="700" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif">¥</text>
+  <defs>
+    <radialGradient id="coin" cx="38%" cy="30%" r="82%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="35%" stop-color="#fcd34d"/>
+      <stop offset="72%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="59" fill="url(#rim)"/>
+  <circle cx="60" cy="60" r="53.5" fill="url(#coin)"/>
+  <circle cx="60" cy="60" r="46" fill="none" stroke="#b45309" stroke-opacity="0.55" stroke-width="2.5"/>
+  <circle cx="60" cy="60" r="53.5" fill="none" stroke="#fff7e6" stroke-opacity="0.35" stroke-width="1.5"/>
+  <text x="61.5" y="82.5" font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif" font-size="58" font-weight="800" text-anchor="middle" fill="#92400e" fill-opacity="0.45">&#165;</text>
+  <text x="60" y="80" font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif" font-size="58" font-weight="800" text-anchor="middle" fill="#ffffff" stroke="#92400e" stroke-width="1.2">&#165;</text>
 </svg>

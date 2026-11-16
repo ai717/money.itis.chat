@@ -56,3 +56,13 @@
 ## 7. DNS（狗爸爸侧）
 
 - 正式域名需在 DNS 添加：`money` 子域名 CNAME → `ai717.github.io`（与 muse/hao/grokbot 同法）。生效后仓库根目录 CNAME 文件（已含 money.itis.chat）即完成绑定。
+
+## 8. 站点装修基线（2026-11-16 上线打磨定版，同步时勿回退）
+
+以下改动全部落在生成源头（`sync-site-seo.js` 模板/逻辑、`style.css`、根目录静态文件），每次数据同步重生成都会自动带上；改模板或样式时不得删改本节内容。
+
+- **统计代码**：GTM 容器 **GTM-T625G32G**（狗爸爸 2026-11-16 提供）。`sync-site-seo.js` 的 `GA_SNIPPET` + `injectGA()` 把代码原样注入每个页面 `<head>` 之后（中英首页、全部详情页；幂等，含容器号即跳过）。`404.html` 为静态文件、已手动注入同一代码，勿删。
+- **图标体系**：金币 ¥ 主题（暖纸底 #f5efe6 + 金/琥珀 #b45309）。`favicon.svg`（全出血金币）+ `favicon-32.png` / `favicon-16.png`（由 favicon.svg 导出）；`money-icon.svg`（暖纸方砖版，详情页顶栏品牌图）+ `apple-touch-icon.png`（180）/ `icon-192.png` / `icon-512.png`（由 money-icon.svg 导出）；`og-image.png`（1200×630 社交卡）。所有页面 head 经 `iconLinksHtml()` 或静态引用统一挂载，含 `site.webmanifest`。og:image / twitter:image 一律用 `https://money.itis.chat/og-image.png`（勿再用 SVG，社交平台不渲染）。
+- **SEO 基线**：每页 unique title/description（详情页 description 经 `metaDesc()` 截断 160 字）、canonical、robots（index,follow,max-*）、OG/Twitter 卡片齐全（避坑页也带 Twitter）；首页中英 hreflang 互指 + x-default，sitemap.xml 内首页条目带 xhtml:link alternates；详情页只有中文一版，不加 hreflang（无英文详情页，加了反而错误）。sitemap 共 134 条（2 首页 + 83 项目 + 18 避坑 + 31 分类），URL 全为正式域名，lastmod 用期次日期/当日。
+- **viewport**：统一 `width=device-width, initial-scale=1.0`，禁止再加 `maximum-scale/user-scalable=no`（伤无障碍与移动体验）。
+- **长文本与移动端 CSS**（`style.css` 末尾「2026-11-16 上线打磨」段）：标题/正文类 `overflow-wrap: break-word`、英文页 `hyphens: auto`、徽标行/统计行/卡片页脚允许 wrap、信源名不再 nowrap 省略号截断、顶栏 flex 子项 `min-width: 0` 防 min-content 撑破（375px 实测修过 brand-wrap/stats-panel 右缘溢出）、避坑网格 `minmax(min(320px,100%),1fr)`、移动端输入框 16px 防 iOS 聚焦缩放、分类按钮 min-height 36px。卡片 valueline/reason 的 3 行 line-clamp 是双语一致的设计截断，保留。
