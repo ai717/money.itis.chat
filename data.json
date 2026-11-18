@@ -1,7 +1,7 @@
 {
  "site": "搞钱项目库",
  "subject": "真实搞钱项目拆解：赚钱逻辑、收入证据、成本、风险与第一步",
- "exportedAt": "2026-11-16T20:45:00+08:00",
+ "exportedAt": "2026-11-18T10:45:37+08:00",
  "source": "Muse 空间 gao-qian-xiang-mu 的 getState 结构化导出",
  "categories": [
   {
@@ -200,6 +200,13 @@
    "id": 6,
    "date": "2026-11-16",
    "projectCount": 17,
+   "warningCount": 4,
+   "status": "done"
+  },
+  {
+   "id": 7,
+   "date": "2026-11-18",
+   "projectCount": 15,
    "warningCount": 4,
    "status": "done"
   }
@@ -1672,7 +1679,7 @@
    "matchReason": "用户有中文内容站运营经验与AI内容生产流水线，可直接复用选题、撰写、SEO与变现全链路，边际成本极低。",
    "categoryId": 8,
    "issueDate": "2026-11-16",
-   "featured": true,
+   "featured": false,
    "source": {
     "name": "ExitSpring",
     "grade": "B",
@@ -2030,6 +2037,336 @@
     "grade": "C",
     "url": "https://www.laitimes.com/zh/article/7bg6o_7rsf0.html?__pvhp=1"
    }
+  },
+  {
+   "id": 84,
+   "boardId": 103,
+   "title": "Etsy数字产品店（可打印件/模板/素材包）",
+   "what": "用AI工具批量制作可打印规划表、Notion模板、简历模板、派对素材包等数字文件，打包成套装上架Etsy，靠自然搜索流量出单。",
+   "moneyLogic": "买家为节省时间、获得专业设计付费下载数字文件；12美元单品扣费1.59美元、到手10.41美元，5美元以上单品毛利率70-85%（原文口径）；复售边际成本趋近零。",
+   "incomeEvidence": "",
+   "cost": "约20-30美元（含Etsy一次性新店设置费15-29美元 + 首批上架费0.20美元/条），原文未披露额外工具订阅费。",
+   "timeCost": "一个周末可建店并上架首批品，指南称2-4周出首批自然流量订单；后续每周投入原文未披露。",
+   "risks": "低价单品约四分之一收入被固定费用吃掉；需持续选品跟上搜索趋势；Etsy算法与费率变动风险；版权与商标侵权可致下架；原文未披露任何卖家实际收入数字。",
+   "firstStep": "今天注册一个Etsy买家号，用搜索框联想词+免费eRank扩展搜索3个细分词（如 'wedding planner printable', 'notion habit tracker', 'resume template canva'），记录前3页热销Listing的价格/标签/评论数。",
+   "matchScore": 78,
+   "matchReason": "现有AI内容生产流水线可直接复用批量生成数字产品；缺口在Etsy平台运营经验、英语关键词研究、跨境收款合规。",
+   "categoryId": 3,
+   "issueDate": "2026-11-18",
+   "featured": true,
+   "source": {
+    "name": "Changenaire",
+    "grade": "B",
+    "url": "https://www.changenaire.com/posts/how-to-013-sell-digital-products-on-etsy.html"
+   }
+  },
+  {
+   "id": 85,
+   "boardId": 102,
+   "title": "本地商家 AI 图文代运营（Claude+Canva 自动化流水线）",
+   "what": "为社区烘焙、宠物诊所等本地中小商家提供 AI 批量生成小红书/朋友圈图文并按 SOP 发布的代运营服务，单店月均 60 条素材。",
+   "moneyLogic": "商家按月付费398元/店，原文成本约80元/店（相减约318元/店/月）；另可延展简历优化、电商主图等按单计费业务。",
+   "incomeEvidence": "企谈文章自述实测：单店报价398元/月、成本约80元/月、月产60条素材；AI简历158元/份、复购率41%；AI主图0.8元/张、日均300张以上；深圳一位设计师首月承接19单。",
+   "cost": "原文未披露启动总成本；单店月度可变成本约 80 元（Claude+Canva API 调用），另需人工 SOP 搭建与质检时间。",
+   "timeCost": "原文未披露",
+   "risks": "1) 依赖企谈等平台获客，平台规则变动风险；2) 本地商家续费率未披露，LTV 不确定；3) SOP 标准化程度决定边际成本，质检若依赖人工难以规模化；4) 模型/API 价格波动影响毛利。",
+   "firstStep": "今天先在企谈 APP 或同类本地服务平台注册服务商账号，上架「AI 图文代运营 398 元/月」标准化 SKU，并用自有 Claude+Canva 流水线跑通 1 家种子店铺的 60 条素材交付 Demo。",
+   "matchScore": 78,
+   "matchReason": "拥有中文内容站运营经验与 AI 自动化流水线能力，可直接复用内容生产与分发 SOP；缺口在于本地商家线下获客渠道与销售话术。",
+   "categoryId": 24,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "企谈APP",
+    "grade": "C",
+    "url": "https://www.yqitan.com/article/14673"
+   }
+  },
+  {
+   "id": 86,
+   "boardId": 101,
+   "title": "30多个小产品组合：Chrome扩展与Workspace插件",
+   "what": "开发并分发 AI 驱动的 Chrome 扩展与 Google Workspace 插件（如 PDF 转 PPT、表格 AI、视频问答等），通过 Google 应用市场获客。",
+   "moneyLogic": "用户按订阅或一次性买断付费使用插件功能；前期在落地页挂购买按钮预售（10-30 天交付），有订单再开发，降低无效开发成本。",
+   "incomeEvidence": "创始人自述（Starter Story访谈）：6年累计收入约100万美元（Stripe约85.6万美元、AppSumo超8.5万美元），每月约1000名付费客户；Sheet AI曾达2000美元MRR；前两年收入为0。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "高度依赖 Google 应用市场分发与 SEO/YouTube 长尾流量，平台政策变动风险大；单人全栈维护 8 款产品精力有限，扩展性受限；预售模式若交付延期易引发退款纠纷；收入来源单一（订阅/买断），抗周期能力弱。",
+   "firstStep": "本周末选一个细分需求（如 PDF 转大纲/思维导图），用 Next.js+Supabase 搭建落地页挂预售按钮，发 3 条短视频/图文测试点击率与下单意向。",
+   "matchScore": 78,
+   "matchReason": "可复用 AI 工具链与自动化流水线快速构建插件原型，内容站经验可迁移至单产品 YouTube 频道运营，但缺乏 Chrome/Workspace 插件开发与 Google 市场上架实战经验。",
+   "categoryId": 4,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "BigGo Finance（转述Starter Story访谈）",
+    "grade": "B",
+    "url": "https://finance.biggo.com/news/97ace21e5b96f04c"
+   }
+  },
+  {
+   "id": 87,
+   "boardId": 95,
+   "title": "SEObot：AI SEO全自动化SaaS，MRR 3.19万美元但呈下滑趋势",
+   "what": "AI智能体全自动执行博客SEO全流程：关键词研究、内容生成、内链构建、外链建设，用户只需接入博客。",
+   "moneyLogic": "B2B SaaS订阅制，基础49美元/月，目标客户为需要规模化SEO流量的网站主、内容团队、独立开发者，靠替代人工SEO操作节省人力成本收费。",
+   "incomeEvidence": "TrustMRR(直连Stripe) 2026-11-13验证：MRR $31,900，订阅数470，累计收入$1.93M，近30天收入$33,200，10月收入$34,680(12个月最低)，MRR自10/21 $34,900持续下滑",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "MRR持续下滑趋势未止；单一创始人依赖个人IP获客，可复制性存疑；SEO算法变动风险；AI内容可能被搜索引擎打压；高客单价流失导致收入波动。",
+   "firstStep": "用现有内容站为测试床，接入现成AI写作API（如Claude/免费模型）跑通：关键词挖掘→大纲生成→正文产出→自动内链→发布，验证流程可行性再考虑自研智能体。",
+   "matchScore": 75,
+   "matchReason": "拥有中文内容站SEO实战经验、熟悉AI内容生产流水线，可复用选题与分发能力，但需从零构建AI SEO智能体技术栈。",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/seobot/"
+   }
+  },
+  {
+   "id": 88,
+   "boardId": 104,
+   "title": "内容站翻新转卖：按年利润倍数低买高卖",
+   "what": "收购已有稳定现金流的内容站或小型SaaS，优化变现渠道、更新内容、提升利润，持有1-2年后按年利润倍数转手获利。",
+   "moneyLogic": "持有期收广告与订阅现金流；转手时买家按年利润倍数支付收购款，内容站平均2.32倍、头部4.68倍，SaaS平均2.47倍、Acquire.com中位3.9倍。",
+   "incomeEvidence": "Flippa内容站均值2.32x年利润/头部4.68x；Empire Flippers均值23.93x月利润(~2.0x年利润)，<30万美元档均价$91,098；AI工具类Flippa均价$535,714/单(14单)",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "内容站成交量下滑39%显示买方市场降温；中文站在英语主流平台流动性极低、倍数打折；对赌/卖方融资比例高意味着回款周期长、违约风险大；站龄<10年难拿头部倍数。",
+   "firstStep": "今天在Flippa与Empire Flippers各筛3个年利润1-3万美元的内容站挂牌，核对流量来源与收入证明，列出估值倍数对照表。",
+   "matchScore": 70,
+   "matchReason": "已有中文内容站资产且懂AI内容生产，可复用流量与变现数据做估值包装，但语言/平台壁垒大、需自建销售渠道或找中文买家。",
+   "categoryId": 8,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "Surges",
+    "grade": "B",
+    "url": "https://www.surges.co/guides/startups-actually-sell/"
+   }
+  },
+  {
+   "id": 89,
+   "boardId": 100,
+   "title": "gettbook.ai：AI电子书生成工具",
+   "what": "输入一个想法，AI 自动完成选题调研、大纲生成、正文写作、排版设计、导出成品电子书的全流程。",
+   "moneyLogic": "订阅制起步 29 美元/月，叠加按量额度包与教程等数字产品做加购，提升客单价；核心增长靠大量测试 Meta 广告创意与漏斗优化获客。",
+   "incomeEvidence": "创始人Bogdan自述（Starter Story 2026年11月访谈，经Yedapo摘要）：4个月收入超13万美元，1700多名付费客户、约5000名注册用户；每月Meta广告投入2-3万美元，利润率40-50%。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "1) Vibe coding 导致代码库混乱，后期被迫重构，技术债风险高；2) 严重依赖 Meta 付费广告，获客成本上涨或账号封禁即断流；3) AI Wrapper 门槛低，极易被复制或被平台原生功能替代；4) 创始人非技术背景，后续迭代与扩展依赖外包或招人，管理成本未知。",
+   "firstStep": "用 Lovable 或 Bolt.new 搭建一个极简 MVP：仅保留『输入想法→生成大纲→生成单章节→导出 PDF』核心链路，部署到 Vercel，挂上 Stripe 测试模式，跑通收费闭环。",
+   "matchScore": 65,
+   "matchReason": "你熟悉 AI 自动化流水线与内容生产可复用于产品逻辑，但缺乏大规模付费广告投放经验与 SaaS 产品运营经验，需补齐广告优化与技术重构能力。",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "Starter Story（经Yedapo摘要）",
+    "grade": "C",
+    "url": "https://www.yedapo.com/episode/fe07e181-d5c2-4241-852b-3a2d9798e324/starter-story-i-made-100k-in-3-months-with-this-ai-wrapper/insights"
+   }
+  },
+  {
+   "id": 90,
+   "boardId": 96,
+   "title": "GoMotion AI：脚本转长视频的 AI SaaS，MRR 7.6 万美元",
+   "what": "提供脚本转成品长视频的全自动流水线，含多语种配音、画面匹配、字幕、动态图形、音乐、1080p 导出，面向无脸频道创作者。",
+   "moneyLogic": "订阅制 SaaS：Creator $27/月（约 12 条 15 分钟视频）、Studio $59/月、Agency $110/月。创作者为节省剪辑/配音/找素材时间付费。",
+   "incomeEvidence": "TrustMRR（Stripe 直连）2026-11-13 验证：MRR $75,900，订阅 1,600，近 30 天收入 $93,591，累计收入 $194,000；2026-08 收入 $18,400，09 月 $47,700，10 月 $87,600。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "1) 素材版权风险：条款承认素材来自公开网络，不核实/不授权/不清理版权，用户自担责任。2) YouTube 政策风险：非真实内容规则禁止批量生产的重复视频获利，可能导致频道限流或封禁。3) 创始人自述 80% 利润率未经第三方验证。4) 单一创始人、早期项目，运营连续性存疑。",
+   "firstStep": "注册 GoMotion AI Creator 套餐（$27/月）实测 1 条 15 分钟视频的生成质量、版权合规性及 YouTube 上传后表现，同步调研开源替代方案（如 MoviePy + Whisper + TTS + 素材库）的自建成本。",
+   "matchScore": 65,
+   "matchReason": "你熟悉 AI 工具与自动化流水线、有内容站运营经验，可复用技能自建类似工具或接入现有流水线为自身频道产内容，但需自行解决版权合规与 YouTube 政策风险，且缺乏视频生成模型微调/基础设施经验。",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/gomotion-ai/"
+   }
+  },
+  {
+   "id": 91,
+   "boardId": 94,
+   "title": "Post Bridge：跨平台内容一键分发SaaS",
+   "what": "写一次内容，一键分发到Instagram、TikTok、YouTube、X等多平台多账号；提供REST API、CLI与MCP服务器供AI调用自动发布。",
+   "moneyLogic": "按连接账号数收订阅费，Marketer套餐39美元/月起（15个账号）；创作者与社媒运营团队为省去多平台重复发布的时间付费。",
+   "incomeEvidence": "TrustMRR（直连Stripe）2026-11中旬：MRR约48500美元、累计收入约582000美元、付费订阅约1600个。",
+   "cost": "原文未披露启动成本；创始人自述基建（Supabase、Vercel、Trigger.dev、Unkey、X API等）每月不到2000美元。",
+   "timeCost": "原文未披露具体投入；创始人一人全职运营。",
+   "risks": "平台API政策收紧/审核门槛提高导致功能失效；单人总线风险（健康、精力、技术债）；硬付费墙获客上限低，依赖单一渠道（X）有机增长；大厂推出原生同类功能降维打击。",
+   "firstStep": "注册Post Bridge试用Marketer套餐，用现有摸鱼杂货店/吃瓜站的内容跑通Instagram+TikTok+X三平台自动分发流程，评估ROI与维护成本。",
+   "matchScore": 65,
+   "matchReason": "拥有内容站群与AI自动化流水线经验，可直接接入MCP/CLI实现内容自动分发；但缺乏多平台OAuth合规、API限额管理、审核对接等社媒基建经验，属半新技能树。",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "IndieFounder",
+    "grade": "A",
+    "url": "https://indiefounder.me/stories/jack-friks-post-bridge/"
+   }
+  },
+  {
+   "id": 92,
+   "boardId": 107,
+   "title": "Perit：向AI实验室供给专家级数据与RL任务",
+   "what": "提交音频/视频/代码/文档/CAD 等自有数据（29个现成数据集），或在平台虚拟机上用模型额度构建强化学习任务与评测基准，平台统一推销给前沿 AI 实验室。",
+   "moneyLogic": "前沿AI实验室为训练与评测付费采购高质量数据与RL任务；通过审核的专家按任务量分成（比例未披露），可扩展到每周数百个任务。",
+   "incomeEvidence": "公司自述 4.5 个月收入超 1100 万美元（公司整体收入，个人分成比例未披露）",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "个人分成比例与结算规则未公开；需通过专家审核才能规模化，门槛未知；依赖单一平台分发；需具备构建RL任务与评测基准的专业能力，与普通数据标注不同。",
+   "firstStep": "今天注册 Perit Marketplace 账号，浏览现有 29 个数据集列表与任务模板，评估自身技能与数据资产的匹配度。",
+   "matchScore": 55,
+   "matchReason": "拥有 AI 工具/自动化流水线与模型调用经验，可复用于数据清洗与任务构建，但缺乏 RL 任务设计、评测基准搭建的深度技能树，且无现成高价值专有数据集。",
+   "categoryId": 35,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "Hunted.space（Product Hunt数据）",
+    "grade": "B",
+    "url": "https://www.hunted.space/dashboard/perit-marketplace"
+   }
+  },
+  {
+   "id": 93,
+   "boardId": 99,
+   "title": "Reddit营销代运营：帮软件公司在意向帖下获客",
+   "what": "为软件公司在 Reddit 搜寻正在找解决方案的帖子，人工或自动回复并植入客户产品；另提供打法手册订阅，或开发自动化工具（如 Bazzly）供机构/商家自用。",
+   "moneyLogic": "企业客户按月付费（5-10k美元/月/客）购买精准获客服务；机构/个人按月订阅工具或手册（299美元/月或SaaS定价）以降低人力成本。",
+   "incomeEvidence": "Sabyr的Reddit Agency：TrustMRR显示MRR 38000美元，每客户每月收费5000-10000美元；同类工具Bazzly创始人2026年11月自述MRR突破25000美元（年初目标仅1000美元）。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "Reddit 社区极度反营销，封号/屏蔽风险高；依赖平台规则变化；英语母语级文案与社区文化理解门槛高；服务模式难标准化扩展，工具模式需持续对抗反爬与内容审核。",
+   "firstStep": "注册 Reddit 账号，深度潜伏 2-3 个目标细分领域的 Subreddit，手工记录高意向提问模式与社区禁忌，评估是否能用现有 AI 工作流复刻回复质量。",
+   "matchScore": 55,
+   "matchReason": "拥有 AI 自动化流水线与内容生产经验，可复用于回复生成与意向挖掘；但缺乏 Reddit 深度运营经验与英语社区文化积累，纯服务模式复用度低，工具化方向更契合技术资产。",
+   "categoryId": 24,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "ebizfacts",
+    "grade": "B",
+    "url": "https://ebizfacts.com/sabyr-nurgaliyev-reddit-agency-5k-month-per-client/"
+   }
+  },
+  {
+   "id": 94,
+   "boardId": 105,
+   "title": "SupaScribe：给Substack作者的增长嵌入工具",
+   "what": "开发并维护一套可嵌入 Substack 的注册表单、弹窗与落地页工具，帮作者提升订阅转化。",
+   "moneyLogic": "Substack 作者按月付费（约 20 美元/月）使用工具，因工具能直接提升其付费订阅转化而愿意付费。",
+   "incomeEvidence": "TrustMRR 2026-11-15 同步：MRR 2412 美元、159 订阅、近 30 天收入 3101 美元；页面估算目标 150 作者×20 美元=3000 美元/月。",
+   "cost": "月度工具成本 30-122 美元（含 X Premium 30 美元、Cloudflare Workers、Cursor、Vercel、Supabase、Canva、Stripe 等），启动需自备域名与开发环境。",
+   "timeCost": "上线后每周3-6小时；搭建期投入原文未披露。",
+   "risks": "1) 高技术门槛：需全栈开发、自托管、Stripe 集成、Substack 平台规则变动风险；2) 单一平台依赖：Substack 若封杀嵌入或推原生功能即失效；3) 获客渠道未验证：Agent Picklist 仅为用例展示，非成熟分发渠道；4) 维护成本随用户量增长而升高。",
+   "firstStep": "今天注册 Substack 开发者账号，研读其嵌入/集成文档，并搭建一个最小可行的 Cloudflare Workers + Supabase 原型验证表单嵌入可行性。",
+   "matchScore": 45,
+   "matchReason": "用户有 AI 自动化与小游戏开发经验，具备一定工程能力，但缺乏 SaaS 全栈开发、Stripe 订阅计费、海外独立开发分发经验，内容站资产难复用到 Substack 作者工具赛道。",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "Agent Picklist",
+    "grade": "A",
+    "url": "https://agentpicklist.com/use-cases/sell-substack-writers-sign-up-embeds-popups-and-landing-pages-that-grow-their-ne/"
+   }
+  },
+  {
+   "id": 95,
+   "boardId": 98,
+   "title": "Mono：AI多模型聚合订阅服务（单人运营，MRR约1.1万美元）",
+   "what": "提供统一订阅接入多个主流AI大模型（OpenAI、Claude、Gemini、Perplexity等），含自动路由、跨模型记忆、研究工具、项目/技能/插件体系。",
+   "moneyLogic": "用户按月订阅三档套餐（20/34/96美元），为一站式调用多模型、避免多平台切换与记忆割裂付费；创始人承担底层模型API成本，赚取订阅溢价。",
+   "incomeEvidence": "TrustMRR直连Stripe验证（2026-11-14）：MRR 10900美元（页面另显10700美元逐日快照），订阅数约390-400，累计收入88700美元；近30天现金12634美元，环比-30.2%；历史：2025-12收入510美元，2026-09峰值15600美元，2026-10收入11300美元。竞品Kolbo.AI MRR约41000美元。",
+   "cost": "原文未披露启动成本。",
+   "timeCost": "原文未披露具体投入；创始人一人运营。",
+   "risks": "单人单点故障风险高；模型API成本随用量波动，毛利不确定；近30天现金流环比下降30.2%显示增长放缓或流失；依赖第三方模型供应商政策/价格变动；竞品Kolbo.AI规模约4倍；无护城河（纯聚合层易被大模型官方原生功能替代）。",
+   "firstStep": "在本地搭建最简原型：用Cloudflare Workers/Vercel + OpenRouter API 跑通“单入口多模型调用+基础记忆”，跑通一条完整请求链路并估算单请求成本。",
+   "matchScore": 45,
+   "matchReason": "用户熟悉AI工具与自动化流水线、有付费/免费模型内容生产经验，可复用模型选型与Prompt工程能力；但缺乏SaaS产品开发、支付订阅体系、多模型路由架构、服务器运维等核心技术栈，且为单人全栈重运营模式，与内容站/小游戏运营差异大。",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/mono/"
+   }
+  },
+  {
+   "id": 96,
+   "boardId": 97,
+   "title": "Vid.AI：AI 脚本转视频 SaaS（MRR 5.1 万美元、在售）",
+   "what": "把用户的想法或脚本自动生成含配音、画面、剪辑的完整视频，面向内容创作者和 YouTuber。",
+   "moneyLogic": "订阅制 SaaS，创作者和 YouTuber 为节省视频制作时间付费，三档定价 39/99/200 美元/月。",
+   "incomeEvidence": "TrustMRR（直连 Stripe）2026-11-13 验证：MRR 51500 美元，750 订阅，累计收入 167 万美元；历史峰值 2026-01 约 9 万美元/月，2026-08 约 5.2 万美元/月。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "收入已从峰值回落超 40%，增长停滞；创始人已挂牌出售，可能停止迭代；获客高度依赖 Meta 广告和网红，单一渠道风险大；团队极小（2-5 人），技术债与维护风险高；无融资且已寻求退出，长期运营意愿存疑。",
+   "firstStep": "注册 Vid.AI 免费/试用账号，实测从脚本到成片的完整流程，评估生成质量与可定制程度，并记录可复用到自己内容站的视频模板思路。",
+   "matchScore": 45,
+   "matchReason": "你熟悉 AI 工具与自动化流水线、有内容站运营经验，可复用于视频模板与分发，但核心是 SaaS 产品开发而非内容生产，缺乏全栈开发与海外支付/合规经验，属半熟悉赛道。",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/vid-ai/"
+   }
+  },
+  {
+   "id": 97,
+   "boardId": 108,
+   "title": "Zero Contact：断联前任情绪工具App",
+   "what": "提供断联打卡、情绪日记、模拟发泄聊天三大功能，帮助用户度过分手戒断期。",
+   "moneyLogic": "用户按周/年订阅付费，核心付费动机是情绪刚需与自我约束工具。",
+   "incomeEvidence": "2026-10营收$12,093、2026-09营收$13,996、2026-04营收$1,965、2026-03首单（来源：GetAppNiche Threads帖，称经TrustMRR/RevenueCat验证，截至2026-11-03）",
+   "cost": "原文未披露启动成本。",
+   "timeCost": "原文未披露",
+   "risks": "单一渠道依赖TikTok/Instagram，算法波动大；收入为单篇帖子转述、未经独立审计；情绪工具留存天然短、LTV有上限；隐私合规与应用商店审核不确定性。",
+   "firstStep": "今天下载Zero Contact与1款同类断联App，记录功能、定价与订阅引导，对比情绪工具的留存设计。",
+   "matchScore": 25,
+   "matchReason": "你的资产是中文内容站、小游戏门户与AI内容流水线，缺乏iOS/Android原生开发、订阅制SaaS运营、海外社媒投流经验，复用度低。",
+   "categoryId": 4,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "GetAppNiche（Threads）",
+    "grade": "C",
+    "url": "https://www.threads.com/@getappniche/post/DfXnxL0mLuh"
+   }
+  },
+  {
+   "id": 98,
+   "boardId": 106,
+   "title": "闲鱼无货源：上游低价拿货挂平台赚信息差",
+   "what": "从上游低价渠道选品拿货，发布到闲鱼商品卡获取流量，单笔成交后由上游一件代发，赚取信息差价格差。",
+   "moneyLogic": "买家在闲鱼下单支付货款，卖家向上游下单发货，差价扣除运费与平台服务费后为净利；需单笔差价×成交率覆盖退货损失才有盈余。",
+   "incomeEvidence": "收入参考1000-2000元/店/月（公开课程与样本推算的参考区间，非收益承诺）",
+   "cost": "500-1500元（原文未给明细）。",
+   "timeCost": "原文未披露",
+   "risks": "退货：描述不实必退，运费与损耗由卖家承担；违规封号：违规词或站外引流可致封号；单笔差价乘成交率覆盖不了退货损失即亏损。",
+   "firstStep": "用闲鱼APP搜索目标品类关键词，记录前20名竞品的标题/图片/价格/描述/成交量，建立选品对标表。",
+   "matchScore": 25,
+   "matchReason": "用户擅长内容站、小游戏开发与AI内容生产，缺乏闲鱼电商运营、上游供应链对接、实物售后处理经验，核心技能树完全不重叠。",
+   "categoryId": 21,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "lpttt项目拆解库",
+    "grade": "C",
+    "url": "https://www.lpttt.com/projects/xianyu-wuhuoyuan-zhang"
+   }
   }
  ],
  "warnings": [
@@ -2247,6 +2584,42 @@
    "source": {
     "name": "Medium/Avigheia smith",
     "url": "https://medium.com/@avigheia_63777/the-digital-product-everyone-needs-made-me-2-800-month-f37bbf7bce7a"
+   }
+  },
+  {
+   "id": 19,
+   "boardId": 25,
+   "title": "AI直播带货“0基础月入过万”连环收费8179元后拉黑",
+   "reason": "舟山陈女士刷到AI带货直播教学广告，宣称不用露脸、不用剪辑、AI机器人自动带货、0基础月入过万，先后转账8179元：499元买一年课程，2680元升级服务承诺涨粉1000，5000元再涨价才兑现；10天过去粉丝一直是15个，找客服时发现账号已被封禁、课程也看不了，已报案。这是典型的先交入门费、再交升级费、最后拉黑的连环收费。",
+   "categoryId": 11,
+   "issueDate": "2026-11-18",
+   "source": {
+    "name": "小白AI一路通（转述舟山网）",
+    "url": "https://ai.shenpal.com/news/zhoushan-ai-business-lie"
+   }
+  },
+  {
+   "id": 20,
+   "boardId": 24,
+   "title": "Bazzly的Boost加赞模式违反Reddit规则",
+   "reason": "Bazzly的Boost Mode会自动给提及客户产品的回复加赞以抬高排名，这违反Reddit Rule 2对内容操纵的禁令。用此类工具做Reddit代运营或获客，账号与帖子面临封号、删帖风险，客户账号也可能连带受罚；收入数字再好看也不能抄这条捷径，合规做法只做真实有用的回复。",
+   "categoryId": 24,
+   "issueDate": "2026-11-18",
+   "source": {
+    "name": "Threads/@bhshekhaliya",
+    "url": "https://www.threads.com/@bhshekhaliya/post/De3vaXYEWhc"
+   }
+  },
+  {
+   "id": 21,
+   "boardId": 23,
+   "title": "妃鱼等奢侈品寄卖：拖欠货款案开庭，回款可拖60天以上",
+   "reason": "妃鱼拖欠货款案2026年开庭，涉及上百名寄卖卖家、千万级包款，核心争议是回款周期与平台资金链。寄卖佣金22%-25%且不含仓储与退货运费，正常回款约45天，遇审核延迟或退货可拖到60天以上；冷门款挂半年无人问津、仓储费照扣。另有买家收货后压价的到手刀现象，2026年3月北京丰台法院已判决相关案件。寄卖前务必把打款周期写进合同、先查拖欠案例。",
+   "categoryId": 19,
+   "issueDate": "2026-11-18",
+   "source": {
+    "name": "新浪新闻",
+    "url": "https://k.sina.com.cn/article_7879996066_1d5af32a206802mzwu.html"
    }
   }
  ]

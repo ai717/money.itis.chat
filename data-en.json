@@ -1,7 +1,7 @@
 {
  "site": "Money Project Library",
  "subject": "Real money-making projects, deconstructed: how they make money, income evidence, costs and first steps",
- "exportedAt": "2026-11-16T20:45:00+08:00",
+ "exportedAt": "2026-11-18T10:45:37+08:00",
  "source": "Structured getState export from the Muse space gao-qian-xiang-mu",
  "categories": [
   {
@@ -200,6 +200,13 @@
    "id": 6,
    "date": "2026-11-16",
    "projectCount": 17,
+   "warningCount": 4,
+   "status": "done"
+  },
+  {
+   "id": 7,
+   "date": "2026-11-18",
+   "projectCount": 15,
    "warningCount": 4,
    "status": "done"
   }
@@ -1672,7 +1679,7 @@
    "matchReason": "The user has Chinese content-site operations experience and an AI content pipeline; topics, writing, SEO and monetization transfer across the whole chain at extremely low marginal cost",
    "categoryId": 8,
    "issueDate": "2026-11-16",
-   "featured": true,
+   "featured": false,
    "source": {
     "name": "ExitSpring",
     "grade": "B",
@@ -2030,6 +2037,336 @@
     "grade": "C",
     "url": "https://www.laitimes.com/zh/article/7bg6o_7rsf0.html?__pvhp=1"
    }
+  },
+  {
+   "id": 84,
+   "boardId": 103,
+   "title": "Etsy Digital Product Shop (Printables / Templates / Asset Packs)",
+   "what": "Use AI tools to mass-produce digital files such as printable planners, Notion templates, resume templates and party supply packs, bundle them into sets and list them on Etsy, earning orders through organic search traffic.",
+   "moneyLogic": "Buyers pay to download digital files to save time and get professional designs; a $12 item incurs $1.59 in fees, netting $10.41, and items above $5 carry 70–85% gross margins (per the source); marginal cost of reselling is near zero.",
+   "incomeEvidence": "",
+   "cost": "About $20–30 (including Etsy's one-time new-shop setup fee of $15–29 + a $0.20 listing fee per item); the source discloses no additional tool subscription fees.",
+   "timeCost": "A shop can be set up and stocked with a first batch of products in one weekend; the guide says the first organic-traffic orders arrive in 2–4 weeks; ongoing weekly time input is not disclosed in the source.",
+   "risks": "Fixed fees eat about a quarter of revenue on low-priced items; listings must keep up with search trends; Etsy algorithm and fee changes pose risks; copyright and trademark infringement can lead to delisting; the source discloses no actual seller income figures.",
+   "firstStep": "Register an Etsy buyer account today, use the search box's autocomplete suggestions plus the free eRank extension to research 3 niche keywords (e.g. 'wedding planner printable', 'notion habit tracker', 'resume template canva'), and record the prices, tags and review counts of the top 3 pages of best-selling listings.",
+   "matchScore": 78,
+   "matchReason": "The existing AI content production pipeline can be reused to generate digital products in bulk; the gaps are Etsy platform operations experience, English keyword research and cross-border payment compliance.",
+   "categoryId": 3,
+   "issueDate": "2026-11-18",
+   "featured": true,
+   "source": {
+    "name": "Changenaire",
+    "grade": "B",
+    "url": "https://www.changenaire.com/posts/how-to-013-sell-digital-products-on-etsy.html"
+   }
+  },
+  {
+   "id": 85,
+   "boardId": 102,
+   "title": "AI Graphic Content Agency for Local Businesses (Claude + Canva Automated Pipeline)",
+   "what": "Provide local small businesses such as community bakeries and pet clinics with AI-generated Xiaohongshu/WeChat Moments graphics, published following a standard operating procedure — about 60 assets per store per month.",
+   "moneyLogic": "Merchants pay ¥398 per store per month; the source's cost is about ¥80 per store (roughly ¥318 per store per month after subtraction); resume optimization, e-commerce hero images and other per-order services can be added.",
+   "incomeEvidence": "The Qitan article's self-reported field test: a single store is quoted ¥398/month, costs about ¥80/month, and produces 60 assets a month; AI resumes cost ¥158 each with a 41% repurchase rate; AI hero images cost ¥0.8 each with 300+ produced per day; one designer in Shenzhen took 19 orders in the first month.",
+   "cost": "The source discloses no total startup cost; variable cost per store is about ¥80 per month (Claude + Canva API calls), plus time to build SOPs and do quality checks.",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) Reliant on platforms such as Qitan for client acquisition — platform rule changes are a risk; 2) local merchants' renewal rates are undisclosed, so LTV is uncertain; 3) the degree of SOP standardization determines marginal cost — if quality checks depend on manual work, scaling is hard; 4) model/API price swings affect margins.",
+   "firstStep": "Register a service-provider account on the Qitan app or a similar local-services platform today, list a standardized SKU — 'AI graphic content agency, ¥398/month' — and use your own Claude + Canva pipeline to deliver a demo of 60 assets for 1 seed store.",
+   "matchScore": 78,
+   "matchReason": "Experience operating Chinese content sites and an AI automation pipeline can be reused directly for content production and distribution SOPs; the gap is offline client acquisition channels for local merchants and sales scripts.",
+   "categoryId": 24,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "Qitan App",
+    "grade": "C",
+    "url": "https://www.yqitan.com/article/14673"
+   }
+  },
+  {
+   "id": 86,
+   "boardId": 101,
+   "title": "Portfolio of 30+ Micro-Products: Chrome Extensions & Workspace Add-ons",
+   "what": "Build and distribute AI-powered Chrome extensions and Google Workspace add-ons (such as PDF-to-PPT, spreadsheet AI and video Q&A), acquiring users through the Google marketplace.",
+   "moneyLogic": "Users pay by subscription or one-time purchase for add-on features; early on, a landing page with a buy button is used for pre-sales (delivery in 10–30 days) — only build after orders come in, reducing wasted development.",
+   "incomeEvidence": "Founder's self-report (Starter Story interview): about $1 million in cumulative revenue over 6 years (about $856,000 via Stripe, over $85,000 via AppSumo), about 1,000 paying customers a month; Sheet AI once reached $2,000 MRR; revenue was $0 for the first two years.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Highly dependent on Google marketplace distribution and SEO/YouTube long-tail traffic — platform policy changes are a major risk; one person maintaining 8 products full-stack has limited energy and scalability; the pre-sale model risks refund disputes if delivery is delayed; single revenue source (subscription/one-time purchase) means weak resilience to cycles.",
+   "firstStep": "This weekend, pick one niche need (e.g. PDF-to-outline/mind-map), build a landing page with Next.js + Supabase with a pre-order button, and post 3 short videos/articles to test click-through and purchase intent.",
+   "matchScore": 78,
+   "matchReason": "AI toolchains and automation pipelines can be reused to quickly prototype add-ons, and content-site experience can transfer to running a single-product YouTube channel — but there is no hands-on experience with Chrome/Workspace add-on development or Google marketplace listing.",
+   "categoryId": 4,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "BigGo Finance (summarizing a Starter Story interview)",
+    "grade": "B",
+    "url": "https://finance.biggo.com/news/97ace21e5b96f04c"
+   }
+  },
+  {
+   "id": 87,
+   "boardId": 95,
+   "title": "SEObot: Fully Automated AI SEO SaaS, $31.9K MRR but Declining",
+   "what": "An AI agent fully automates the blog SEO workflow — keyword research, content generation, internal linking and link building — users just connect their blog.",
+   "moneyLogic": "B2B SaaS subscription, starting at $49/month, targeting website owners, content teams and indie developers who need large-scale SEO traffic, charging for replacing manual SEO work and saving labor costs.",
+   "incomeEvidence": "TrustMRR (direct Stripe connection), verified 2026-11-13: MRR $31,900, 470 subscribers, cumulative revenue $1.93M, revenue of $33,200 in the last 30 days, $34,680 in October (lowest in 12 months), MRR declining steadily from $34,900 on 10/21",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "The MRR decline has not stopped; heavy reliance on the solo founder's personal brand for acquisition, which is hard to replicate; SEO algorithm change risk; AI content may be penalized by search engines; churn among high-paying customers drives revenue volatility.",
+   "firstStep": "Use an existing content site as a test bed: connect an off-the-shelf AI writing API (e.g. Claude or a free model) and run the full chain — keyword mining → outline generation → full-text output → automatic internal links → publishing — to verify the workflow before considering building your own agent.",
+   "matchScore": 75,
+   "matchReason": "Hands-on Chinese content-site SEO experience and familiarity with AI content production pipelines allow reuse of topic selection and distribution skills, but building an AI SEO agent tech stack would start from zero.",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/seobot/"
+   }
+  },
+  {
+   "id": 88,
+   "boardId": 104,
+   "title": "Flipping Content Sites: Buy Low, Sell High at Annual-Profit Multiples",
+   "what": "Acquire content sites or small SaaS products with stable cash flow, improve monetization channels, update content and grow profits, then resell at an annual-profit multiple after holding for 1–2 years.",
+   "moneyLogic": "Collect advertising and subscription cash flow during the holding period; at exit, buyers pay a multiple of annual profit — content sites average 2.32x, top sites 4.68x, SaaS averages 2.47x, and Acquire.com's median is 3.9x.",
+   "incomeEvidence": "Flippa content sites average 2.32x annual profit (top 4.68x); Empire Flippers averages 23.93x monthly profit (~2.0x annual profit), with listings under $300,000 averaging $91,098; AI tools on Flippa average $535,714 per deal (14 deals)",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Content-site deal volume is down 39%, showing a cooling buyer's market; Chinese-language sites have very low liquidity on English-language mainstream platforms and sell at a discount; earn-outs and seller financing are common, meaning long payback periods and default risk; sites under 10 years old struggle to command top multiples.",
+   "firstStep": "Today, screen 3 content-site listings with $10,000–30,000 in annual profit each on Flippa and Empire Flippers, verify their traffic sources and income proof, and build a valuation-multiple comparison table.",
+   "matchScore": 70,
+   "matchReason": "Existing Chinese content-site assets and AI content production know-how can be reused to package traffic and monetization data for valuation, but language/platform barriers are large and a sales channel or Chinese buyers would need to be built from scratch.",
+   "categoryId": 8,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "Surges",
+    "grade": "B",
+    "url": "https://www.surges.co/guides/startups-actually-sell/"
+   }
+  },
+  {
+   "id": 89,
+   "boardId": 100,
+   "title": "gettbook.ai: AI Ebook Generator",
+   "what": "Enter an idea and AI completes the full process — topic research, outline, full-text writing, layout design and exporting the finished ebook.",
+   "moneyLogic": "Subscriptions start at $29/month, with pay-as-you-go credit packs and tutorials and other digital products as upsells to lift average order value; core growth comes from testing large volumes of Meta ad creatives and funnel optimization for acquisition.",
+   "incomeEvidence": "Founder Bogdan's self-report (Starter Story interview, November 2026, summarized by Yedapo): over $130,000 in revenue in 4 months, 1,700+ paying customers and about 5,000 registered users; monthly Meta ad spend of $20,000–30,000, with 40–50% profit margins.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) Vibe coding left a messy codebase that later forced a rebuild — tech debt risk; 2) heavy reliance on Meta paid ads — rising acquisition costs or an account ban would cut off traffic; 3) AI wrappers have a low barrier to entry and are easily copied or replaced by platforms' native features; 4) the non-technical founder depends on outsourcing or hiring for further iteration, with unknown management costs.",
+   "firstStep": "Build a minimal MVP with Lovable or Bolt.new: keep only the core chain — 'enter an idea → generate an outline → generate one chapter → export a PDF' — deploy to Vercel, connect Stripe in test mode, and run the full payment loop.",
+   "matchScore": 65,
+   "matchReason": "Familiarity with AI automation pipelines and content production transfers to product logic, but large-scale paid ad operations and SaaS product operations experience are missing — ad optimization and technical rebuild skills need to be added.",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "Starter Story (summarized by Yedapo)",
+    "grade": "C",
+    "url": "https://www.yedapo.com/episode/fe07e181-d5c2-4241-852b-3a2d9798e324/starter-story-i-made-100k-in-3-months-with-this-ai-wrapper/insights"
+   }
+  },
+  {
+   "id": 90,
+   "boardId": 96,
+   "title": "GoMotion AI: Script-to-Long-Video AI SaaS, $75.9K MRR",
+   "what": "A fully automated script-to-finished-long-video pipeline with multilingual voiceover, visual matching, subtitles, motion graphics, music and 1080p export, aimed at faceless-channel creators.",
+   "moneyLogic": "Subscription SaaS: Creator $27/month (about 12 videos of 15 minutes each), Studio $59/month, Agency $110/month. Creators pay to save time on editing, voiceover and sourcing footage.",
+   "incomeEvidence": "TrustMRR (direct Stripe connection), verified 2026-11-13: MRR $75,900, 1,600 subscribers, $93,591 revenue in the last 30 days, $194,000 cumulative revenue; revenue of $18,400 in 2026-08, $47,700 in 09 and $87,600 in 10.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) Copyright risk on footage: the terms admit footage comes from the public web, with no verification, licensing or clearance — users bear the responsibility. 2) YouTube policy risk: rules on non-authentic content prohibit monetizing mass-produced repetitive videos, which can lead to throttling or bans. 3) The founder's self-reported 80% profit margin is unverified by third parties. 4) Solo founder and an early-stage project — operational continuity is uncertain.",
+   "firstStep": "Sign up for the GoMotion AI Creator plan ($27/month) and test 1 15-minute video end to end for generation quality, copyright compliance and performance after uploading to YouTube, while researching open-source alternatives (e.g. MoviePy + Whisper + TTS + stock libraries) and the cost of building your own.",
+   "matchScore": 65,
+   "matchReason": "Familiarity with AI tools and automation pipelines plus content-site operations experience can be reused to build a similar tool or plug the existing pipeline into producing video for your own channels, but copyright compliance and YouTube policy risks must be handled yourself, and experience with video-generation model fine-tuning and infrastructure is lacking.",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/gomotion-ai/"
+   }
+  },
+  {
+   "id": 91,
+   "boardId": 94,
+   "title": "Post Bridge: One-Click Cross-Platform Content Distribution SaaS",
+   "what": "Write content once and distribute it in one click to multiple accounts across Instagram, TikTok, YouTube, X and other platforms; provides a REST API, CLI and MCP server for AI-driven automatic publishing.",
+   "moneyLogic": "Subscription fees charged by the number of connected accounts, with the Marketer plan starting at $39/month (15 accounts); creators and social media operations teams pay to avoid repeating the same post across platforms.",
+   "incomeEvidence": "TrustMRR (direct Stripe connection), mid-November 2026: MRR of about $48,500, cumulative revenue of about $582,000, and about 1,600 paying subscribers.",
+   "cost": "Startup costs not disclosed in the source; the founder says infrastructure (Supabase, Vercel, Trigger.dev, Unkey, X API, etc.) costs under $2,000 a month.",
+   "timeCost": "Specific time input not disclosed in the source; the founder operates it full-time alone.",
+   "risks": "Platform API policies tightening or higher review thresholds could break features; single-person bus-factor risk (health, energy, tech debt); a hard paywall caps acquisition, relying on organic growth from a single channel (X); larger platforms launching native equivalents could undercut it.",
+   "firstStep": "Sign up for a Post Bridge trial on the Marketer plan and run your existing Moyu News / Chigua site content through the Instagram + TikTok + X auto-distribution flow to evaluate ROI and maintenance costs.",
+   "matchScore": 65,
+   "matchReason": "Experience with content-site clusters and AI automation pipelines allows direct integration via MCP/CLI for automated content distribution; but multi-platform OAuth compliance, API quota management and review integration are missing social infrastructure skills — a half-new skill tree.",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "IndieFounder",
+    "grade": "A",
+    "url": "https://indiefounder.me/stories/jack-friks-post-bridge/"
+   }
+  },
+  {
+   "id": 92,
+   "boardId": 107,
+   "title": "Perit: Supplying Expert Data & RL Tasks to AI Labs",
+   "what": "Submit your own audio, video, code, document or CAD data (29 ready-made datasets), or build reinforcement-learning tasks and evaluation benchmarks on the platform's VMs using model credits, which the platform then markets to frontier AI labs.",
+   "moneyLogic": "Frontier AI labs pay for high-quality data and RL tasks for training and evaluation; approved experts share revenue by task volume (split undisclosed) and can scale to hundreds of tasks per week.",
+   "incomeEvidence": "Company self-report: over $11 million in revenue in 4.5 months (total company revenue; individual revenue-share ratios undisclosed)",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Individual revenue-share ratios and settlement rules are undisclosed; expert review must be passed to scale, with an unknown bar; reliance on a single platform for distribution; building RL tasks and evaluation benchmarks requires professional skills, unlike ordinary data labeling.",
+   "firstStep": "Register a Perit Marketplace account today, browse the existing 29 dataset listings and task templates, and assess how your skills and data assets match.",
+   "matchScore": 55,
+   "matchReason": "Experience with AI tools/automation pipelines and model calling can be reused for data cleaning and task building, but deep skills in RL task design and benchmark building are missing, and there is no ready-made high-value proprietary dataset.",
+   "categoryId": 35,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "Hunted.space (Product Hunt data)",
+    "grade": "B",
+    "url": "https://www.hunted.space/dashboard/perit-marketplace"
+   }
+  },
+  {
+   "id": 93,
+   "boardId": 99,
+   "title": "Reddit Marketing Agency: Winning Clients for Software Companies Under Intent Posts",
+   "what": "Search Reddit for posts from people looking for solutions, reply manually or automatically and plant the client's product; also sell a playbook subscription or build automation tools (such as Bazzly) for agencies and merchants to use themselves.",
+   "moneyLogic": "Enterprise clients pay a monthly fee ($5k–10k/month per client) for precision acquisition services; agencies and individuals pay a monthly tool or playbook subscription ($299/month or SaaS pricing) to cut labor costs.",
+   "incomeEvidence": "Sabyr's Reddit Agency: TrustMRR shows $38,000 MRR, charging $5,000–10,000 per client per month; Bazzly, a similar tool, surpassed $25,000 MRR in November 2026 according to its founder (the year's goal was only $1,000).",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "The Reddit community is extremely anti-marketing — bans and shadowbans are a high risk; dependence on platform rule changes; native-level English copywriting and community-culture understanding are high bars; the service model is hard to standardize and scale, while the tool model requires constant work against anti-scraping and content moderation.",
+   "firstStep": "Register a Reddit account, lurk in 2–3 target niche subreddits for a while, manually record high-intent question patterns and community taboos, and assess whether your existing AI workflow can replicate the reply quality.",
+   "matchScore": 55,
+   "matchReason": "Experience with AI automation pipelines and content production can be reused for reply generation and intent mining; but deep Reddit operations experience and English community-culture grounding are missing, the pure service model has low reuse value, and the tooling direction fits the technical assets better.",
+   "categoryId": 24,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "ebizfacts",
+    "grade": "B",
+    "url": "https://ebizfacts.com/sabyr-nurgaliyev-reddit-agency-5k-month-per-client/"
+   }
+  },
+  {
+   "id": 94,
+   "boardId": 105,
+   "title": "SupaScribe: Growth Embeds for Substack Writers",
+   "what": "Build and maintain a set of signup forms, popups and landing pages embeddable in Substack to help writers lift subscription conversions.",
+   "moneyLogic": "Substack writers pay about $20/month for the tool because it directly lifts their paid subscription conversions.",
+   "incomeEvidence": "TrustMRR, synced 2026-11-15: MRR of $2,412, 159 subscribers, $3,101 revenue in the last 30 days; the page estimates a target of 150 writers × $20 = $3,000/month.",
+   "cost": "Monthly tool costs of $30–122 (including X Premium at $30, Cloudflare Workers, Cursor, Vercel, Supabase, Canva, Stripe, etc.); launching requires your own domain and development environment.",
+   "timeCost": "3–6 hours a week after launch; time invested during the build phase is not disclosed in the source.",
+   "risks": "1) High technical bar: full-stack development, self-hosting, Stripe integration, and Substack platform rule changes are all risks; 2) single-platform dependence: if Substack blocks embeds or ships a native feature, the tool dies; 3) acquisition channels unverified: Agent Picklist is only a use-case showcase, not a proven distribution channel; 4) maintenance costs rise with user count.",
+   "firstStep": "Register a Substack developer account today, study its embedding/integration docs, and build a minimal viable Cloudflare Workers + Supabase prototype to verify form embedding works.",
+   "matchScore": 45,
+   "matchReason": "Experience with AI automation, mini-game development and some engineering ability, but no SaaS full-stack development, Stripe subscription billing, overseas indie-dev distribution experience — and content-site assets are hard to reuse in the Substack writer-tools niche.",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "Agent Picklist",
+    "grade": "A",
+    "url": "https://agentpicklist.com/use-cases/sell-substack-writers-sign-up-embeds-popups-and-landing-pages-that-grow-their-ne/"
+   }
+  },
+  {
+   "id": 95,
+   "boardId": 98,
+   "title": "Mono: Multi-Model AI Aggregation Subscription (Solo-Operated, ~$10.9K MRR)",
+   "what": "One subscription for access to multiple leading AI models (OpenAI, Claude, Gemini, Perplexity, etc.), with auto-routing, cross-model memory, research tools, and a projects/skills/plugins system.",
+   "moneyLogic": "Users pay monthly subscriptions across three tiers ($20/$34/$96) for one-stop access to multiple models, avoiding multi-platform switching and fragmented memory; the founder bears the underlying model API costs and earns the subscription markup.",
+   "incomeEvidence": "TrustMRR direct Stripe verification (2026-11-14): MRR of $10,900 (the page also shows $10,700 in daily snapshots), about 390–400 subscribers, $88,700 cumulative revenue; $12,634 cash in the last 30 days, down 30.2% month over month; history: $510 revenue in 2025-12, $15,600 peak in 2026-09, $11,300 in 2026-10. Competitor Kolbo.AI has about $41,000 MRR.",
+   "cost": "Startup costs not disclosed in the source.",
+   "timeCost": "Specific time input not disclosed in the source; the founder operates it alone.",
+   "risks": "Single-person single-point-of-failure risk; model API costs fluctuate with usage, so margins are uncertain; cash flow down 30.2% month over month in the last 30 days suggests slowing growth or churn; dependence on third-party model providers' policies and prices; competitor Kolbo.AI is about 4x larger; no moat (a pure aggregation layer is easily replaced by the big model providers' native features).",
+   "firstStep": "Build a minimal prototype locally: use Cloudflare Workers/Vercel + the OpenRouter API to run 'single entry, multi-model calls + basic memory', complete one full request chain, and estimate the cost per request.",
+   "matchScore": 45,
+   "matchReason": "Familiarity with AI tools and automation pipelines plus paid/free model content production experience allows reuse of model selection and prompt engineering skills; but SaaS product development, payment/subscription systems, multi-model routing architecture and server operations are missing core technical stacks, and the solo full-stack, operations-heavy model differs greatly from running content sites or mini-games.",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/mono/"
+   }
+  },
+  {
+   "id": 96,
+   "boardId": 97,
+   "title": "Vid.AI: AI Script-to-Video SaaS ($51K MRR, For Sale)",
+   "what": "Automatically turns a user's idea or script into a complete video with voiceover, visuals and editing, aimed at content creators and YouTubers.",
+   "moneyLogic": "Subscription SaaS — creators and YouTubers pay to save video production time, with three pricing tiers at $39/$99/$200 per month.",
+   "incomeEvidence": "TrustMRR (direct Stripe connection), verified 2026-11-13: MRR of $51,500, 750 subscribers, $1.67 million cumulative revenue; historical peak of about $90,000/month in 2026-01 and about $52,000/month in 2026-08.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Revenue has fallen over 40% from its peak and growth has stalled; the founder has listed it for sale and may stop iterating; acquisition relies heavily on Meta ads and influencers — a single-channel risk; the team is tiny (2–5 people) with tech debt and maintenance risks; no funding and actively seeking an exit, so long-term commitment to operations is doubtful.",
+   "firstStep": "Register a free/trial Vid.AI account, test the full script-to-finished-video flow, evaluate generation quality and customization, and note video template ideas that could be reused on your own content sites.",
+   "matchScore": 45,
+   "matchReason": "Familiarity with AI tools and automation pipelines plus content-site operations experience can be reused for video templates and distribution, but the core is SaaS product development rather than content production, and full-stack development plus overseas payments/compliance experience are missing — a half-familiar niche.",
+   "categoryId": 2,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/vid-ai/"
+   }
+  },
+  {
+   "id": 97,
+   "boardId": 108,
+   "title": "Zero Contact: Breakup Recovery App",
+   "what": "Offers three features — no-contact check-ins, an emotion journal and simulated venting chats — to help users get through the breakup withdrawal period.",
+   "moneyLogic": "Users pay weekly/yearly subscriptions; the core willingness to pay comes from emotional need and self-discipline tools.",
+   "incomeEvidence": "Revenue of $12,093 in 2026-10, $13,996 in 2026-09, $1,965 in 2026-04, and the first order in 2026-03 (source: a GetAppNiche Threads post, claiming verification via TrustMRR/RevenueCat, as of 2026-11-03)",
+   "cost": "Startup costs not disclosed in the source.",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Single-channel dependence on TikTok/Instagram — algorithm swings are a risk; revenue figures come from a single post's retelling and are not independently audited; emotion tools have naturally short retention and a capped LTV; privacy compliance and app-store review uncertainty.",
+   "firstStep": "Download Zero Contact and 1 similar no-contact app today, record their features, pricing and subscription prompts, and compare retention design across emotion tools.",
+   "matchScore": 25,
+   "matchReason": "Your assets are Chinese content sites, a mini-game portal and AI content pipelines — iOS/Android native development, subscription SaaS operations and overseas social ad buying experience are all missing, so reuse is low.",
+   "categoryId": 4,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "GetAppNiche (Threads)",
+    "grade": "C",
+    "url": "https://www.threads.com/@getappniche/post/DfXnxL0mLuh"
+   }
+  },
+  {
+   "id": 98,
+   "boardId": 106,
+   "title": "Xianyu Dropshipping: Buy Low from Suppliers, Sell on the Platform for the Spread",
+   "what": "Pick products from low-cost upstream suppliers, list them as product cards on Xianyu to capture traffic, and have the supplier ship each order after a buyer pays, earning the price spread.",
+   "moneyLogic": "The buyer pays on Xianyu, the seller places the order upstream for shipment, and the price difference minus shipping and platform service fees is the net profit; the per-order spread × conversion rate must cover losses from returns to stay profitable.",
+   "incomeEvidence": "Reference income of ¥1,000–2,000 per store per month (a reference range derived from public courses and sample estimates, not an income promise)",
+   "cost": "¥500–1,500 (the source gives no breakdown).",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Returns: inaccurate listings are always returned, with shipping and wear-and-tear borne by the seller; account bans: banned words or off-platform traffic diversion can get the account banned; if the per-order spread × conversion rate cannot cover return losses, the model loses money.",
+   "firstStep": "Search target product keywords in the Xianyu app, record the titles, images, prices, descriptions and sales volumes of the top 20 competitors, and build a product-selection benchmark table.",
+   "matchScore": 25,
+   "matchReason": "Strong in content sites, mini-game development and AI content production, but lacking Xianyu e-commerce operations, upstream supply-chain connections and physical-goods after-sales experience — the core skill tree does not overlap at all.",
+   "categoryId": 21,
+   "issueDate": "2026-11-18",
+   "featured": false,
+   "source": {
+    "name": "lpttt Project Breakdown Library",
+    "grade": "C",
+    "url": "https://www.lpttt.com/projects/xianyu-wuhuoyuan-zhang"
+   }
   }
  ],
  "warnings": [
@@ -2247,6 +2584,42 @@
    "source": {
     "name": "Medium/Avigheia smith",
     "url": "https://medium.com/@avigheia_63777/the-digital-product-everyone-needs-made-me-2-800-month-f37bbf7bce7a"
+   }
+  },
+  {
+   "id": 19,
+   "boardId": 25,
+   "title": "AI Livestream E-Commerce '0 Experience' Course Scam: ¥8,179 in Chained Fees, Then Blocked",
+   "reason": "A Ms. Chen from Zhoushan saw ads for AI livestream e-commerce courses claiming no need to show your face, no editing, an AI bot selling for you, and a five-figure monthly income with 0 experience required. She paid ¥8,179 in total: ¥499 for a one-year course, ¥2,680 for an upgrade promising 1,000 new followers, and another ¥5,000 demanded before the promise would be honored; after 10 days her follower count was still 15, and when she contacted support she found her account banned and the course inaccessible. She has reported it to the police. A classic chain of upfront fees, upgrade fees and then being blocked.",
+   "categoryId": 11,
+   "issueDate": "2026-11-18",
+   "source": {
+    "name": "Xiaobai AI Yilutong (summarizing Zhoushan Online)",
+    "url": "https://ai.shenpal.com/news/zhoushan-ai-business-lie"
+   }
+  },
+  {
+   "id": 20,
+   "boardId": 24,
+   "title": "Bazzly's Boost Upvoting Violates Reddit Rules",
+   "reason": "Bazzly's Boost Mode automatically upvotes replies that mention a client's product to push their ranking, which violates Reddit Rule 2's ban on content manipulation. Using such tools for Reddit agency work or lead generation exposes accounts and posts to bans and removal, and client accounts can be penalized too; no matter how good the revenue figures look, this shortcut cannot be copied — the compliant approach is to write genuinely useful replies only.",
+   "categoryId": 24,
+   "issueDate": "2026-11-18",
+   "source": {
+    "name": "Threads/@bhshekhaliya",
+    "url": "https://www.threads.com/@bhshekhaliya/post/De3vaXYEWhc"
+   }
+  },
+  {
+   "id": 21,
+   "boardId": 23,
+   "title": "Luxury Consignment Platforms Like Feiyu: Unpaid-Seller Lawsuit Opens, Payouts Can Drag Past 60 Days",
+   "reason": "Feiyu's case over unpaid seller funds opened in court in 2026, involving hundreds of consignment sellers and tens of millions of yuan in payments; the core dispute is the payout cycle and the platform's cash flow. Consignment commission is 22%–25% excluding warehousing and return shipping, normal payouts take about 45 days, and review delays or returns can stretch them past 60 days; unpopular items can sit unsold for six months while warehousing fees keep accruing. There is also 'arrival price-cutting', where buyers haggle down the price after receiving the item — a related case was ruled on by the Beijing Fengtai Court in March 2026.",
+   "categoryId": 19,
+   "issueDate": "2026-11-18",
+   "source": {
+    "name": "Sina News",
+    "url": "https://k.sina.com.cn/article_7879996066_1d5af32a206802mzwu.html"
    }
   }
  ]
