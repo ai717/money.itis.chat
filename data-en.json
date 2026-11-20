@@ -1,7 +1,7 @@
 {
  "site": "Money Project Library",
  "subject": "Real money-making projects, deconstructed: how they make money, income evidence, costs and first steps",
- "exportedAt": "2026-11-18T10:45:37+08:00",
+ "exportedAt": "2026-11-20T10:43:10+08:00",
  "source": "Structured getState export from the Muse space gao-qian-xiang-mu",
  "categories": [
   {
@@ -208,6 +208,13 @@
    "date": "2026-11-18",
    "projectCount": 15,
    "warningCount": 4,
+   "status": "done"
+  },
+  {
+   "id": 8,
+   "date": "2026-11-20",
+   "projectCount": 16,
+   "warningCount": 3,
    "status": "done"
   }
  ],
@@ -2053,7 +2060,7 @@
    "matchReason": "The existing AI content production pipeline can be reused to generate digital products in bulk; the gaps are Etsy platform operations experience, English keyword research and cross-border payment compliance.",
    "categoryId": 3,
    "issueDate": "2026-11-18",
-   "featured": true,
+   "featured": false,
    "source": {
     "name": "Changenaire",
     "grade": "B",
@@ -2367,6 +2374,358 @@
     "grade": "C",
     "url": "https://www.lpttt.com/projects/xianyu-wuhuoyuan-zhang"
    }
+  },
+  {
+   "id": 99,
+   "boardId": 118,
+   "title": "Paid Developer Newsletter (Substack)",
+   "what": "Publish a newsletter on Substack aimed at developers — tech, careers and tools — building a free audience first, then opening a paid subscription tier.",
+   "moneyLogic": "Readers pay a monthly subscription (e.g. $15/month) for in-depth technical insight, career advice or curated resources; the platform takes 10% plus payment fees, leaving the author about 87%.",
+   "incomeEvidence": "Developer Marc's own account: after 8 months writing free, he opened a paid tier and had 67 paying subscribers × $15/month = $1,005/month gross (before platform fees) after 6 weeks; the article's $500–$3,000/month range over 12–18 months is the author's estimate, not verified income.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Producing one quality newsletter issue a week takes 4–8 hours",
+   "risks": "Long free period (8 months in the case study) with no income; conversion only 5–10%, so a large free readership is needed; strong winner-take-all dynamics — the long tail easily stalls at $1,000–$1,500/month; constant pressure to produce high-quality content (4–8 hours/week); fixed platform cut, so thin margins if scale stays low.",
+   "firstStep": "Pick a niche (e.g. practical AI engineering, indie-dev monetization, technical interviews), launch on Substack with a fixed weekly cadence, and write 8–12 free issues first to build a seed audience.",
+   "matchScore": 78,
+   "matchReason": "Reuses your Chinese content-site writing experience and AI automation pipeline for topic selection, polishing and layout, plus paid models to assist in-depth content production; only English writing and cold-starting a developer audience are missing.",
+   "categoryId": 15,
+   "issueDate": "2026-11-20",
+   "featured": true,
+   "source": {
+    "name": "Jake's Insights",
+    "grade": "C",
+    "url": "https://jakeinsight.com/side-income/2026-04-13-run-a-paid-newsletter-for-developers-on-substack-i/"
+   }
+  },
+  {
+   "id": 100,
+   "boardId": 121,
+   "title": "Directify: AI-Generated Vertical Directory Sites — Sell Merchant Listings for the Spread",
+   "what": "Users describe a vertical niche and the AI auto-generates a complete directory website (categories, listings, pages, SEO), with custom domains, data import, lead collection and payment integration.",
+   "moneyLogic": "Site owners charge local merchants (featured listings, top placements, ads, memberships, lead services); Directify takes no cut, only charging owners a Pro/Growth/Agency subscription.",
+   "incomeEvidence": "Founder @venelinkochev said on 2026-09-13: officially reported annual recurring revenue of $50,000, relayed second-hand by SoloEZ, with no payment verification.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) Revenue figure is the founder's own claim, with no third-party audit; 2) hinges on whether the owner can actually recruit paying merchants — directory cold start is hard and retention low; 3) crowded competition (WordPress plugins, no-code directory builders, similar SaaS); 4) SEO rule changes could cliff-drop traffic; 5) launching in China requires sorting compliance, payments, domain registration and related issues.",
+   "firstStep": "Sign up for Directify's free plan, build 1 demo site with a niche keyword like 'local wedding venues / lawyers / renovation', run the full generate-to-publish flow, and assess Chinese SEO and merchant recruitment feasibility.",
+   "matchScore": 70,
+   "matchReason": "Your AI tool chain and content-production pipeline can be reused to batch-build test sites quickly, but you lack offline merchant outreach resources and experience running a Chinese directory site.",
+   "categoryId": 2,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "SoloEZ Weekly Issue 164 (relaying the founder's X post)",
+    "grade": "C",
+    "url": "https://www.soloez.com/weekly/soloez-164"
+   }
+  },
+  {
+   "id": 101,
+   "boardId": 119,
+   "title": "Substack and beehiiv Podcast Dynamic Ad Insertion — a New Monetization Channel",
+   "what": "Publish a podcast on Substack or beehiiv, enable dynamic ad insertion, and monetize through host-read mid-rolls, pre-rolls, post-rolls or programmatic ads.",
+   "moneyLogic": "Advertisers pay per CPM for podcast ad slots; platforms share ad revenue with creators (beehiiv says it keeps creators most of the gross; Substack's split is undisclosed). Ads are inserted in real time when listeners download or stream, and the same old episode can be resold with different ads.",
+   "incomeEvidence": "Article's CPM-based estimate (not actual receipts): an episode averaging 5,000 downloads, 4 episodes a month with 1 host-read mid-roll each, about $500–$800/month; programmatic at the same volume about $240/month. Substack says podcast subscriptions on its platform total over $200 million in annual revenue.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) Substack monetization only formally starts in 2027, currently early access only; 2) Substack revenue split undisclosed; 3) programmatic rates far below host-read mid-rolls; 4) requires steady podcast output and download growth; 5) Chinese podcast ad CPMs may be far below the US reference values.",
+   "firstStep": "Register a beehiiv account today, enable the podcast feature and upload 1 pilot episode to test the dynamic ad insertion dashboard.",
+   "matchScore": 70,
+   "matchReason": "Your content-site topic planning and AI automation pipeline can be reused to produce podcast scripts and editing, but you lack podcast recording/distribution experience and an English-native audience.",
+   "categoryId": 14,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "SoloBiz",
+    "grade": "B",
+    "url": "https://solobiz.cc/stories/substack-beehiiv-podcast-ads/"
+   }
+  },
+  {
+   "id": 102,
+   "boardId": 114,
+   "title": "Podsqueeze: AI Repurposing Subscription Tool for Podcasters",
+   "what": "Upload podcast audio and the AI auto-generates transcripts, show notes, timestamps, titles, newsletter copy, social posts and short-video clips, charged monthly to podcasters.",
+   "moneyLogic": "Podcasters and production teams pay a monthly subscription to save manual editing and copywriting time.",
+   "incomeEvidence": "Founder said on the Smart Bear Live podcast in 2026-08 that monthly revenue is about €16,000 (about $17,000), flat for about two years; self-reported, unverified by third parties, possibly outdated.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Revenue flat for two years with no growth; podcast platforms and editing software already bundle AI show-note features; many similar tools drive price wars; founder revenue figure is a single self-report with no third-party audit.",
+   "firstStep": "This week, research the pricing and feature matrix of 3 mainstream podcast AI tools (e.g. Descript, Castmagic, Podium) and produce a competitor comparison table.",
+   "matchScore": 65,
+   "matchReason": "You have AI automation pipeline and content production experience and could reuse the tech stack to build a similar tool or plug into an existing content site, but you lack podcast-vertical operations experience and overseas payment channels.",
+   "categoryId": 2,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "PrintCashWithAI (relaying the Smart Bear Live podcast)",
+    "grade": "C",
+    "url": "https://www.printcashwithai.com/stacks/ai-show-notes-and-clips-for-podcasters-podsqueeze/"
+   }
+  },
+  {
+   "id": 103,
+   "boardId": 109,
+   "title": "Kolbo.AI: Subscription Credit Pool Aggregating 100+ AI Models",
+   "what": "Aggregates 100+ mainstream generative AI models (text, image, video, audio, music) into one subscription and credit pool, with a desktop app, Visual DNA and professional video-editing plugins, aimed at creators and agencies.",
+   "moneyLogic": "Tiered subscriptions (Lite $27/month, Standard $45/month, Professional $89/month, up to $1,000/month) + one-time credit packs ($15–$220); users pay for convenient multi-model access, unified billing and plugin workflows.",
+   "incomeEvidence": "TrustMRR-verified MRR of $48,000 (2026-11-19, 740 subscriptions); revenue $91,800 in October 2026, $59,500 in September, $36,100 in August; $110,000 in the last 30 days (including annual plans and one-time credit packs).",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Core cost is third-party model API calls; gross margin undisclosed, so profit is exposed to upstream model pricing swings; maintaining API adapters and stability for 100+ models is heavy operational complexity; plugin ecosystem (Premiere/After Effects/DaVinci) must keep up with host software updates; competitors include OpenRouter, Poe and other aggregators, and the plugin + Visual DNA moat is still unproven.",
+   "firstStep": "Research the API access, billing models and plugin ecosystems of existing aggregators such as OpenRouter, Poe and Fal.ai, list Kolbo's differentiating features, and evaluate building vs. white-labeling, including cost and timeline.",
+   "matchScore": 65,
+   "matchReason": "You know AI tools and automation pipelines and use paid/free models for content production, so you have a real feel for model capabilities and API costs — but you lack the full engineering experience to build a multi-model aggregation gateway, billing system, desktop app and professional plugins.",
+   "categoryId": 2,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/kolbo-ai/"
+   }
+  },
+  {
+   "id": 104,
+   "boardId": 122,
+   "title": "ReelFarm: AI Short-Video Generation SaaS",
+   "what": "A SaaS service that auto-generates short videos with AI; users pay by the number of videos they can generate.",
+   "moneyLogic": "Subscription / pay-per-use billing; content creators, marketing teams and others who need short videos in bulk pay, with the core value being lower production barriers and time cost.",
+   "incomeEvidence": "Operator's own account: one year after launch, MRR $35,200, 1,000+ paying users, cumulative views of user-generated videos over 250 million (collected by Small Start on 2026-11-19)",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) Only the operator's one-sided account, no third-party audit or platform data; 2) no disclosed pricing, churn, LTV or other key operating metrics, so sustainability is hard to judge; 3) the AI video generation race is fiercely competitive (Runway, Pika, Sora and other giants), with a thin technical moat; 4) reliance on a single acquisition channel is risky, and acquisition cost is undisclosed.",
+   "firstStep": "Register for ReelFarm or a similar competitor (e.g. OpusClip, Vizard) free tier today, test the generation flow and output quality, and record core features and pricing as a competitor research baseline.",
+   "matchScore": 55,
+   "matchReason": "Your AI tool chain and automation pipeline experience is reusable, but you lack SaaS product development, overseas user acquisition, billing system building and other full skills — a build from 0 of engineering and commercialization capability.",
+   "categoryId": 2,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "Small Start (relaying the operator's disclosure)",
+    "grade": "C",
+    "url": "https://small-start.com/en/topics/indie-dev/"
+   }
+  },
+  {
+   "id": 105,
+   "boardId": 120,
+   "title": "Eggless Recipes, an Egg-Free Recipe Blog, Exits for $150,000",
+   "what": "Run a vertical food content site focused on egg-free recipes, get organic traffic via SEO, and monetize — method undisclosed, profit margin 65%.",
+   "moneyLogic": "Content-site monetization; the specific model is undisclosed in the source (commonly ad networks, affiliate commissions, digital products or sponsorships), and why the buyer paid is undisclosed.",
+   "incomeEvidence": "Sale price $153,460 (September 2025), monthly profit $10,199, profit margin 65% (Flippa listing data)",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) Single source (FounderSold aggregating a Flippa listing), no buyer-side confirmation; 2) traffic sources and monetization details undisclosed, hard to replicate; 3) a 65% margin is extremely high — watch for one-off gains or accounting differences; 4) English vertical sites differ greatly from Chinese content sites in operating environment.",
+   "firstStep": "Check the blog's listing snapshot on Flippa and FounderSold, reverse-check the domain's historical traffic and keyword structure with Ahrefs or SimilarWeb, then judge whether a similar vertical site is worth imitating.",
+   "matchScore": 55,
+   "matchReason": "You have Chinese content-site operations experience and AI content production ability, and can reuse site-cluster building and SEO thinking — but language, vertical and monetization ecosystems differ greatly and require fresh topic selection and site building.",
+   "categoryId": 8,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "FounderSold",
+    "grade": "C",
+    "url": "https://www.foundersold.com/exits/eggless-recipes-food-blog"
+   }
+  },
+  {
+   "id": 106,
+   "boardId": 116,
+   "title": "Taking AI Workbench Orders on Xiaohongshu Without Writing Code",
+   "what": "Handle front-end lead generation, requirements gathering and sales, while a technical partner delivers custom AI agents, workflows and workbench services.",
+   "moneyLogic": "Business owners pay for custom AI workbenches/systems solving specific business problems (herbal medicine management, dental export collaboration, personal finance), priced from thousands to tens of thousands of yuan per order.",
+   "incomeEvidence": "Author's own account: by 2026-10-22, about ¥10,000 in deposits and over ¥15,000 in full payments received, totaling about ¥25,000; including a ¥2,800 herbal medicine system, ¥8,900 cumulative for a dental export workbench, and a ¥1,600 personal finance workbench. Not verified by third parties.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) Tiny sample (5 orders), revenue highly volatile; 2) core delivery depends on a technical partner, with key-person risk; 3) lead generation depends on a single platform's (Xiaohongshu) algorithm; 4) a non-technical founder has weak control over delivery quality; 5) low-price lead magnet (¥9.9) conversion undisclosed, possibly unsustainable.",
+   "firstStep": "This week, post 3 Xiaohongshu posts on 'business pain point + AI workflow solution' case studies, with a ¥9.9 resource-pack hook at the end, to test inquiry volume and intent.",
+   "matchScore": 55,
+   "matchReason": "Your Xiaohongshu content production and AI automation pipeline can be reused for lead-gen material, but core delivery needs a technical partner and your current assets lack custom development delivery capability.",
+   "categoryId": 1,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "Shahaowan Side-Hustle Network (reposting A Long's review)",
+    "grade": "C",
+    "url": "https://shahw.cn/21452qicong99ziliaodao8900dingzhibuhuikaifadewotongguoxiao/"
+   }
+  },
+  {
+   "id": 107,
+   "boardId": 123,
+   "title": "Scalerrs, an AI Search Ranking Tool: Productizing an Agency's Internal Tool as SaaS",
+   "what": "Queries mainstream AI assistants on a schedule with the buyer's prompts, tracks brand mentions and citation sources, and outputs content fixes to help brands get cited by AI, charged as a monthly subscription.",
+   "moneyLogic": "B2B SaaS subscription; brands/SEO agencies pay because they need exposure and referral traffic in AI answer results.",
+   "incomeEvidence": "Founder with_jules_ said on the Indie Hackers product page that monthly revenue is $170,000 (checked 2026-10-29), claiming bootstrapped to $2 million ARR in two years (about $166,667/month); all operator self-reports, not verified by Stripe or third parties",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "AI answer results are noisy and fast-changing, making ROI hard to prove to buyers; startup cost and time to first order undisclosed; single self-reported data source, no third-party verification; must keep adapting to multi-model API changes.",
+   "firstStep": "Research how mainstream AI assistants (ChatGPT, Claude, Perplexity, etc.) can be queried via API/crawling and their anti-scraping measures, to verify the technical feasibility of 'scheduled prompt queries + brand mention tracking'.",
+   "matchScore": 45,
+   "matchReason": "You know AI tools and automation pipelines and can reuse them, but you lack SEO/GEO domain experience, B2B sales channels and agency client resources — product and lead generation would be built from zero.",
+   "categoryId": 2,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "PrintCashWithAI (relaying the Indie Hackers product page)",
+    "grade": "C",
+    "url": "https://www.printcashwithai.com/stacks/ai-search-ranking-software-scalerrs/"
+   }
+  },
+  {
+   "id": 108,
+   "boardId": 115,
+   "title": "Transformer.gg: A Paid-Posting Matchmaking Market on X (Creators Keep 80%)",
+   "what": "A two-sided market where brands (or their AI agents) order paid posts from X creators via dashboard/MCP/CLI/API; creators publish in their native voice with disclosure, the platform verifies and settles, taking a 20% cut.",
+   "moneyLogic": "Brands pay for exposure/conversions; the platform takes 20% of each transaction, creators get 80%.",
+   "incomeEvidence": "",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) Depends on X platform rules and the Paid partnership feature staying stable; 2) two-sided cold start is hard — brand budgets and quality creators must be won at the same time; 3) no public transaction data, real volume unknown; 4) AI agents auto-ordering may raise compliance and spam risks; 5) competitors include X's official ad revenue share and third-party influencer platforms.",
+   "firstStep": "Register for Transformer.gg's free tool, test its scoring and valuation logic with your own or similar accounts, and assess whether it can be reused for monetizing existing content sites.",
+   "matchScore": 45,
+   "matchReason": "You have content-site operations and AI automation experience, but lack an X/Twitter creator network and overseas brand resources; platform attributes differ greatly, so reusability is medium-low.",
+   "categoryId": 34,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "Transformer.gg Official Blog",
+    "grade": "C",
+    "url": "https://transformer.gg/blog/product-hunt-launch"
+   }
+  },
+  {
+   "id": 109,
+   "boardId": 112,
+   "title": "TypingMind: A Bring-Your-Own-Key ChatGPT Frontend, Later B2B Subscriptions",
+   "what": "A better ChatGPT API chat interface where users bring their own OpenAI key and data is stored locally; later added cloud sync and team subscriptions.",
+   "moneyLogic": "Personal one-time purchase/subscription + B2B Team per-seat subscriptions; users pay for a better experience, team collaboration and data privacy.",
+   "incomeEvidence": "Founder's own account (not verified by third parties): $22,000 in 7 days after launching in 2023-03; $1,000,000 rolling 12-month revenue in 2024-11; $130,000–$160,000 monthly average in 2025-10 (B2B share >50%); $210,000+ in a single month in 2025-12; $137,000/month in the X bio as of 2026-11-18 (period unspecified, and no dated updates since 2026-01-01).",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) All revenue figures are the founder's one-sided claims, with no payment platform / TrustMRR or other third-party verification; 2) no dated updates after 2026, so the real current state is in doubt; 3) acquisition depends heavily on the founder's personal X influence (76,000 followers), paid ads have extremely low ROI ($600 for only 2 conversions), and there is no replicable acquisition channel; 4) thin product moat — the core is just a UI wrapper that OpenAI or competitors can replicate at any time.",
+   "firstStep": "Build a minimal ChatGPT frontend prototype locally with Next.js + Vercel AI SDK (bring-your-own-key, local storage), run through the core interaction, then assess whether to continue.",
+   "matchScore": 45,
+   "matchReason": "You know AI tools and automation pipelines and use models for content production, which can be reused for product promotion and documentation — but you lack SaaS product development, B2B sales and operations experience, and your existing assets (content sites, mini-games) have weak synergy with this model.",
+   "categoryId": 2,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "C",
+    "url": "https://theaireceipts.com/case-studies/typingmind/"
+   }
+  },
+  {
+   "id": 110,
+   "boardId": 110,
+   "title": "AI Toolbox: Multi-Platform AI Chat Enhancement Chrome Extension (Lifetime Plans Dominate)",
+   "what": "Build and maintain a Chrome extension that adds unified folder management, full-text search, prompt library, export and other productivity features to the ChatGPT/Claude/Gemini/Grok chat interfaces, charged per platform (monthly/yearly/lifetime).",
+   "moneyLogic": "Users pay for better retrievability and reuse of multi-platform chat history; pricing: single platform $9.99/month, $59/year, $99 lifetime; four-platform bundle lifetime $200. Actual revenue is dominated by one-time lifetime purchases, MRR share is low.",
+   "incomeEvidence": "TrustMRR-verified on 2026-11-19: $24,600 revenue in the last 30 days, MRR $1,214, 140 active subscriptions; $23,300 in October 2026 alone; $140,000 cumulative revenue.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source (founder claims about 5 hours/week, unverified)",
+   "risks": "1) Heavy platform dependence: any DOM change or native folder/search/export feature from ChatGPT/Claude/Gemini/Grok breaks it; 2) single channel: Chrome Web Store review and distribution monopoly; 3) fragile revenue structure: lifetime plans dominate, so MRR is low, repeat purchase weak, valuation discounted; 4) maintenance burden: four platforms in parallel, Manifest V3 migration and browser kernel updates all need ongoing work.",
+   "firstStep": "Build a minimal Chrome extension skeleton locally (Manifest V3 + content script injection), insert a fixed button into the ChatGPT web UI and print the DOM, to run through injection and selector flow.",
+   "matchScore": 45,
+   "matchReason": "You know AI tools and automation pipelines and have content-site operations experience that can be reused for SEO/content traffic — but you lack the full skill set of Chrome extension development, Manifest V3, multi-platform DOM adaptation and Web Store operations, which would need building from zero or outsourcing.",
+   "categoryId": 2,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/ai-toolbox/"
+   }
+  },
+  {
+   "id": 111,
+   "boardId": 117,
+   "title": "Selling Second-Hand on Xianyu Hands-Free: A Self-Built AI Agent for Chats and Price Changes",
+   "what": "Use browser automation + AI to run the full second-hand sales flow on Xianyu (no official API) — message replies, bargaining and price changes — with humans only handling photos, listings and shipping.",
+   "moneyLogic": "Profit comes from second-hand price spreads: buyers pay, the platform takes commission and the rest settles. The core lever is 7×24-hour second-level response raising conversion and catching late-night orders.",
+   "incomeEvidence": "27 orders closed in 15 days, about 50% growth vs. a manually-watched month; average response ≤40 seconds; zero missed messages overnight. Total revenue undisclosed in the source.",
+   "cost": "Not disclosed in the source (requires your own Xianyu account, a server/local scripting environment, and a Claude Code or similar coding-assistant subscription)",
+   "timeCost": "Not disclosed in the source (setup requires development and debugging; once stable, the author barely watches it)",
+   "risks": "1) Web automation is a grey area — high-frequency calls will very likely trigger throttling or even account bans; 2) bulk-listing identical items, boosting exposure and malicious undercutting are banned and will get accounts closed; 3) agents can't photograph, write copy or judge item value — high-ticket/non-standard items still need human cover; 4) test with a spare account; the main account is at very high risk.",
+   "firstStep": "Register a spare Xianyu account, manually list a few low-ticket idle items and run the full 'list → chat → reprice → close → ship' flow to learn the platform's risk lines before considering automation.",
+   "matchScore": 35,
+   "matchReason": "You know AI automation pipelines and browser scripting and can reuse the tech stack — but Xianyu second-hand operations (sourcing, pricing, shipping, after-sales) has no direct reuse with your content sites and mini-games; it's an entirely new business line.",
+   "categoryId": 19,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "Mingli Notes (reposting the AI Side Hustle Notes WeChat account)",
+    "grade": "C",
+    "url": "https://www.minglibiji.com/posts/ai-agent-bang-wo-mai-xian-yu-shi-ce-15-tian.html"
+   }
+  },
+  {
+   "id": 112,
+   "boardId": 113,
+   "title": "AI-Driven Brand Protection: Scanning and Taking Down Counterfeit Links",
+   "what": "Use AI agents to scan the whole web for counterfeit links, have human analysts filter and confirm, then have an execution team pressure platforms/payment/domain/hosting providers to take down infringing stores.",
+   "moneyLogic": "Brands pay monthly ($1,500–$5,000/month, average about $3,000) for brand asset protection, reduced revenue loss and channel order.",
+   "incomeEvidence": "Founder's own account: monthly revenue $600,000, serving 180+ brands, team of 50+ (BigGo article 2026-11-18, noted as unaudited)",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) Heavily dependent on the founder's personal brand and sales ability; 18 acquisition channels, but early growth relied on X followers for cold start; 2) execution must interface with Shopify/Amazon/payment/domain/hosting takedown flows, with high compliance and legal risk requiring professional counsel; 3) a 50-person team and New York office mean high fixed costs, with churn/margin/CAC undisclosed and cash-flow pressure risk; 4) the balance between AI scan accuracy and human review efficiency directly affects delivery quality; 5) pure B2B high-ticket model with long sales cycles makes early cash flow very hard.",
+   "firstStep": "Research existing brand monitoring / anti-scraping / takedown automation toolchains on GitHub and in open-source communities, and build a minimal scanning demo to run the single 'discover–confirm–takedown' chain.",
+   "matchScore": 35,
+   "matchReason": "You have AI tools and automation pipeline experience reusable on the scanning side, but lack brand-protection vertical knowledge, B2B enterprise sales experience, legal/compliance execution ability and team management — a big stretch into a new vertical.",
+   "categoryId": 25,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "BigGo Finance (relaying the Starter Story podcast)",
+    "grade": "C",
+    "url": "https://finance.biggo.com/news/eae8687447b32e55"
+   }
+  },
+  {
+   "id": 113,
+   "boardId": 111,
+   "title": "Liinks: An Indie-Built Linktree Alternative SaaS",
+   "what": "A personal homepage link-aggregation tool: users put all their social links, works and contact info on one page, aimed at creators, artists and others who need to consolidate multi-platform entry points.",
+   "moneyLogic": "Subscription SaaS: Starter $5/month, Pro $12/month. Creators/artists pay to consolidate multi-platform traffic entry points and present a professional image; removing the free tier improved paid conversion by cutting junk users.",
+   "incomeEvidence": "TrustMRR sync on 2026-11-11: MRR $31,654, 5,534 subscriptions, cumulative revenue $1,801,190, $375,495 in the last 12 months, $31,295 in the last 30 days; peak $37,130 in July 2026, $32,555 in October. Founder said in 2024-10: about 5,300 paying customers, about $25,000/month, gross margin 80–90%.",
+   "cost": "About $550 to start (Stripe Atlas LLC registration $500 + initial hosting about $50/month); total ongoing operating cost undisclosed in the source.",
+   "timeCost": "Not disclosed in the source",
+   "risks": "1) Single-operator single-point-of-failure risk; 2) depends on a niche Linktree and giants haven't monopolized — easily copied by big-platform features; 3) acquisition concentrated in Product Hunt, paid ads and badge-driven referrals, no moat; 4) removing the free tier may limit top-of-funnel growth; 5) figures from different periods use different bases — note the timing when citing.",
+   "firstStep": "Build a minimal Link-in-Bio prototype locally with React+Node+MongoDB (single editable link-list page), deploy to Vercel/Railway free tier, run through the core flow, then assess further investment.",
+   "matchScore": 35,
+   "matchReason": "You have content-site and AI automation pipeline experience, but Liinks is a typical SaaS tool build and operation requiring React/Node full-stack and paid acquisition ability — existing assets are hard to reuse directly.",
+   "categoryId": 4,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "Untold Startups",
+    "grade": "A",
+    "url": "https://untoldstartups.com/stories/liinks-charlie-clark-link-in-bio-1-8m-revenue"
+   }
+  },
+  {
+   "id": 114,
+   "boardId": 124,
+   "title": "Xianyu Dropshipping (Low-Ticket Physical Goods, Price Spread)",
+   "what": "List non-standard goods on Xianyu — storage boxes, baby-product dupes, student stationery, pet items, kitchen gadgets — and when an order comes in, buy from Pinduoduo or 1688 with the buyer's address for direct shipping, earning the retail spread.",
+   "moneyLogic": "Buyers pay on Xianyu; sellers buy cheaper from upstream suppliers and dropship, keeping the spread; traffic relies on Xianyu's free search and recommendations, with no ad cost.",
+   "incomeEvidence": "Author's own account: monthly income ¥1,500–¥3,000, but the per-item figures (3–5 orders/day, ¥5–¥15 profit per order) imply a range that doesn't match — the source's own figures are inconsistent; also cites a mother of two with 200+ orders/month netting about ¥2,500, all self-reported and unverified.",
+   "cost": "Not disclosed in the source (the article says Xianyu has no shop-opening fee and free traffic, but doesn't mention hidden costs such as product-selection tools, sample testing, packaging and copywriting)",
+   "timeCost": "About 20–40 minutes a day (product selection, listing, refreshing, replies)",
+   "risks": "1) Infringement risk: never sell branded or counterfeit goods; 2) platform crackdowns: virtual goods, phone-credit top-ups, concert ticket scalping and other violating categories easily get accounts banned; 3) after-sales depends on upstream shipping speed and quality, with uncontrollable bad-review rates; 4) wrong product picks cause inventory pile-up (no-stock model still requires prepaying suppliers) or long stretches with no orders.",
+   "firstStep": "Search Xianyu for keywords like 'storage boxes', 'baby-product dupes' and 'kitchen gadgets', filter 5 candidate products with 50+ 'want' counts in the last 7 days and Pinduoduo/1688 unit prices under ¥10, then record purchase prices and competitor Xianyu prices to estimate spreads.",
+   "matchScore": 25,
+   "matchReason": "You are good at content sites, mini-game development and AI content production, but this project is pure e-commerce operations + supply-chain coordination, with almost no skill or asset reuse — only AI-assisted product selection and copy can be slightly reused.",
+   "categoryId": 21,
+   "issueDate": "2026-11-20",
+   "featured": false,
+   "source": {
+    "name": "Huihong Network",
+    "grade": "C",
+    "url": "https://www.viy88.com/view/3328.html"
+   }
   }
  ],
  "warnings": [
@@ -2620,6 +2979,30 @@
    "source": {
     "name": "Sina News",
     "url": "https://k.sina.com.cn/article_7879996066_1d5af32a206802mzwu.html"
+   }
+  },
+  {
+   "id": 22,
+   "boardId": 27,
+   "title": "Wuhan Man Loses Over ¥500,000 to an AI Training Course Scam, Nearly Hands Over ¥620,000 in Cash",
+   "reason": "Mr. Chen from Wuhan signed up for an AI tech training course online; the scammers used a 'refundable' pretext to get him to click a strange link, download an app and join cashback-for-orders tasks, defrauding him of over ¥500,000 first; police arrived as he was about to hand ¥620,000 in cash to a courier collecting money in person. The chain is 'refund + fake orders + in-person cash handover' — any AI training / order-taking ad that asks you to pay first, click strange links or hand over cash in person should be stopped immediately and reported to police.",
+   "categoryId": 1,
+   "issueDate": "2026-11-20",
+   "source": {
+    "name": "Xiaobai AI Yilutong (relaying a Wuhan police report)",
+    "url": "https://ai.shenpal.com/news/wuhan-ai-training-scam-62wan"
+   }
+  },
+  {
+   "id": 23,
+   "boardId": 26,
+   "title": "Xiaohongshu AI Courseware Sales Page Claims a Single Store Earns ¥171,000 a Month",
+   "reason": "Mei Yihong's course sales page claims her directly-run store sold 5,573 orders in a single month with ¥171,000 revenue, and ¥19,000 on the best single day — but the page itself is selling that course (priced ¥8.8), the figures have no third-party verification and no store backend screenshots; two stores run the same way show wildly different revenue (¥171,000 vs ¥40,000) yet the gap is blamed only on product selection. The courseware track itself is workable, but this page's numbers can only be read as course-selling advertising, not project income evidence.",
+   "categoryId": 3,
+   "issueDate": "2026-11-20",
+   "source": {
+    "name": "Mei Yihong",
+    "url": "https://www.myhzy.cn/13456.html"
    }
   }
  ]
