@@ -1,7 +1,7 @@
 {
  "site": "Money Project Library",
  "subject": "Real money-making projects, deconstructed: how they make money, income evidence, costs and first steps",
- "exportedAt": "2026-11-20T10:43:10+08:00",
+ "exportedAt": "2026-11-22T10:43:02+08:00",
  "source": "Structured getState export from the Muse space gao-qian-xiang-mu",
  "categories": [
   {
@@ -214,6 +214,13 @@
    "id": 8,
    "date": "2026-11-20",
    "projectCount": 16,
+   "warningCount": 3,
+   "status": "done"
+  },
+  {
+   "id": 9,
+   "date": "2026-11-22",
+   "projectCount": 13,
    "warningCount": 3,
    "status": "done"
   }
@@ -2390,7 +2397,7 @@
    "matchReason": "Reuses your Chinese content-site writing experience and AI automation pipeline for topic selection, polishing and layout, plus paid models to assist in-depth content production; only English writing and cold-starting a developer audience are missing.",
    "categoryId": 15,
    "issueDate": "2026-11-20",
-   "featured": true,
+   "featured": false,
    "source": {
     "name": "Jake's Insights",
     "grade": "C",
@@ -2726,6 +2733,292 @@
     "grade": "C",
     "url": "https://www.viy88.com/view/3328.html"
    }
+  },
+  {
+   "id": 115,
+   "boardId": 137,
+   "title": "Excel Exercises: Learn Spreadsheet Skills Through Hands-On Practice",
+   "what": "Teaches Excel and spreadsheet skills through interactive hands-on exercises; the first few lessons are free, then a paywall subscription kicks in. The founder split lifetime value by monthly vs annual payers and then doubled the monthly price.",
+   "moneyLogic": "Teaches spreadsheet skills through hands-on practice; a few free lessons, then a paywall. Individual learners, universities and businesses pay a monthly or annual subscription.",
+   "incomeEvidence": "The founder claims monthly revenue of $30,000–$35,000, from a Starter Story interview, unaudited; Transcribe.so transcribed and verified it in November 2026 with timestamps.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Revenue is the founder's own claim, unaudited; early growth relies heavily on SEO, so an algorithm change hits traffic hard; free tutorial competitors are everywhere; doubling the monthly price could drive subscribers away if it backfires; university and enterprise sales cycles are long.",
+   "firstStep": "Today, use AI to generate 50 graded Excel practice exercises and put up a minimal static page on your existing content site to test clicks and willingness to pay.",
+   "matchScore": 70,
+   "matchReason": "You can reuse Chinese content-site operations and an AI automation pipeline to generate practice exercises in bulk, but lack experience with interactive teaching products and university/enterprise sales.",
+   "categoryId": 15,
+   "issueDate": "2026-11-22",
+   "featured": true,
+   "source": {
+    "name": "Transcribe.so",
+    "grade": "B",
+    "url": "https://transcribe.so/blog/customer-calls-pricing-saas-founders"
+   }
+  },
+  {
+   "id": 116,
+   "boardId": 134,
+   "title": "America Grows: A Faceless Gardening-Nostalgia Channel Made with AI",
+   "what": "Runs a calm, faceless gardening-nostalgia YouTube channel with AI-written scripts and voiceovers plus human editing and thumbnails, earning from ad revenue sharing.",
+   "moneyLogic": "Earns from YouTube ad revenue sharing; advertisers pay to reach the older viewers who watch on TV — 52.7% of views come from TV.",
+   "incomeEvidence": "The creator claims over $40,000 in ad revenue in the first six months: about $600 in August, $9,949 in September, $15,575 in October, and just under $8,000 in November; the ninth video alone earned $1,600. Figures come from the creator's own video of 13 April 2026, with no third-party verification.",
+   "cost": "About $40–$60 per video (roughly $40 for editing, $10–$15 for the thumbnail), plus several hundred dollars a month in AI subscriptions.",
+   "timeCost": "Not disclosed in the source; the creator recommends 5–10 hours a week for at least three months.",
+   "risks": "Revenue is the creator's own claim, and the creator sells one-on-one coaching on this exact model — a conflict of interest; the creator admits the results are above average; since July 2025 YouTube has treated repetitive or mass-produced AI content as non-monetizable; November revenue was only about half of October's, so it swings a lot.",
+   "firstStep": "Today, use AI to come up with 10 gardening-nostalgia video ideas and generate 1 pilot script, then fact-check every fact and date in it.",
+   "matchScore": 70,
+   "matchReason": "You can reuse content-site topic selection and AI automation pipeline experience, but lack long-form YouTube operations and English-audience experience — and the creator sells coaching on the model.",
+   "categoryId": 13,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "AI Paid Me",
+    "grade": "C",
+    "url": "https://aipaidme.com/stories/ai-faceless-youtube-nostalgia-channel-america-grows-razvan-paraschiv/"
+   }
+  },
+  {
+   "id": 117,
+   "boardId": 129,
+   "title": "ColorCraft: A Subscription Tool That Turns One Sentence into a KDP Coloring Book",
+   "what": "Describe an idea in one sentence and it generates coloring books, storybooks, comics and puzzle books, exporting KDP-compliant PDFs including covers. The founder built it with Cursor vibe coding.",
+   "moneyLogic": "Subscription-based, $9–$119/month; KDP self-publishers pay to avoid stitching together four to seven tools to make one book.",
+   "incomeEvidence": "Verified by TrustMRR via Stripe on 10 November 2026: $2,181 revenue in the last 30 days, $1,972 MRR, 107 subscribers, $7,159 cumulative revenue.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Amazon requires disclosure of AI-generated content, with delisting for violations; it took about 18 months to reach roughly $2,000/month — a very slow climb; 40% of registered users have never entered a prompt, so the conversion funnel leaks badly; the founder is a veteran software professional, so replicating this is harder than it looks.",
+   "firstStep": "Today, use Cursor plus an image API to get a minimal flow working: enter one sentence, generate 4 coloring pages and export a one-page PDF, to verify the cost per book.",
+   "matchScore": 70,
+   "matchReason": "You can reuse content-site SEO, AI automation pipeline and model-calling experience, but lack experience with the English KDP market and Amazon's rules.",
+   "categoryId": 3,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "AI Paid Me",
+    "grade": "A",
+    "url": "https://aipaidme.com/stories/colorcraft-ai-coloring-book-maker-kdp-john-kirby-1972-mrr/"
+   }
+  },
+  {
+   "id": 118,
+   "boardId": 136,
+   "title": "A County-Town Mom Uses AI Writing to Take Local Business Gigs",
+   "what": "Uses AI for first drafts, then hand-edits more than a third of it and adds concrete figures, writing Xiaohongshu and WeChat Official Account copy for local lifestyle businesses — 5 regular clients in six months.",
+   "moneyLogic": "Provides AI-assisted copywriting for local chili-sauce shops, hulatang soup stalls, children's clothing stores and similar businesses, charging ¥80 per article including three rounds of revisions; merchants pay because they lack professional marketing staff.",
+   "incomeEvidence": "The author claims 5 regular clients in six months, bringing in just over ¥2,000 a month; but the breakdown is ¥600 a month for 8 articles for a local lifestyle account, ¥400 a month for 4 articles for a chili-sauce shop owner, and three or four hundred yuan combined for the other three one-off orders — roughly ¥1,300–1,400 in total, so the source's own figures don't add up.",
+   "cost": "Not disclosed in the source; the author once spent just over ¥300 on a viral-title generator and refunded it after two weeks.",
+   "timeCost": "No specific hours disclosed; the author says she edits after picking up her child in the afternoon and finishes before 9 p.m.",
+   "risks": "Clients are highly concentrated, with the top two accounting for most of the itemized income; low unit prices and hand-editing over a third of each draft mean trading time for money that is hard to scale; submitting an AI first draft unedited gets it sent back; platforms may throttle purely AI-generated content; the income figures are self-reported and the breakdown doesn't match the total.",
+   "firstStep": "Today, put together 20 prompt templates for local lifestyle businesses and list the must-ask questions for a 20-minute merchant interview.",
+   "matchScore": 65,
+   "matchReason": "You can reuse AI content production and automation pipeline experience, but lack local offline client-acquisition channels, and low unit prices are hard to scale.",
+   "categoryId": 1,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "11236 Life Encyclopedia",
+    "grade": "C",
+    "url": "https://www.11236.cn/ai-tools/20261112/20418.html"
+   }
+  },
+  {
+   "id": 119,
+   "boardId": 135,
+   "title": "A Firefighter Mom Runs an Etsy PNG Digital Design Shop with AI",
+   "what": "Sells AI-generated PNG digital designs and printables on Etsy; buyers download them for T-shirts, mugs, stickers and crafts, and bestselling designs are turned into print-on-demand T-shirts.",
+   "moneyLogic": "Sells PNG digital design files on Etsy for buyers to use on T-shirts, mugs, stickers and other crafts; bestselling designs become print-on-demand T-shirts, with buyers paying for the designs and the finished products.",
+   "incomeEvidence": "The seller claims about 2,000 orders in January 2026 and over 15,000 in September, with around 750 listed products; the podcast host said on 5 October 2026 that revenue over the last three months was $14,000, during the off-season. All self-reported, with no backend screenshots to verify.",
+   "cost": "Not disclosed in the source; requires a Kittl commercial subscription and Etsy listing fees — the free version is for personal use only.",
+   "timeCost": "Not disclosed in the source; the author says she works in spare moments — school runs, gaps between shifts and the like.",
+   "risks": "Revenue is self-reported with no backend screenshots; the podcast host also sells trend-report memberships and a coaching group — a conflict of interest; the host calls the seller a top 1% Etsy seller, which is not representative; every image needs manual retouching, so this is not passive income; using brand, character or sports logos risks infringement.",
+   "firstStep": "Today, use the free version of EverBee to dig up keywords for 3 niche Etsy categories, generate 10 design concepts with ChatGPT, and trial-list 5 PNGs to test demand.",
+   "matchScore": 65,
+   "matchReason": "You can reuse AI image generation and automation pipeline experience for batch design, but lack Etsy product selection and cross-border payment experience, and this is a one-person manual-retouching operation.",
+   "categoryId": 18,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "AI Paid Me",
+    "grade": "C",
+    "url": "https://aipaidme.com/stories/etsy-png-shop-firefighter-shannon-davis-14000-three-months/"
+   }
+  },
+  {
+   "id": 120,
+   "boardId": 127,
+   "title": "MagicSlides: An AI Tool That Turns Prompts into PPTs",
+   "what": "Turns prompts, documents, URLs or YouTube videos into slide decks automatically. Founded in India in January 2023, bootstrapped.",
+   "moneyLogic": "Subscription SaaS: Essential $8/month, Pro $16/month, Premium $29/month; users pay to save the time of making slides.",
+   "incomeEvidence": "Verified by TrustMRR on 21 November 2026: $9,500 MRR, 730 subscribers, $734,000 cumulative revenue, $169,000 revenue in the last 12 months.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "The founder's claims of about 2.3 million users, about 80% profit margins and zero employees are all unverified; MRR has been slipping slightly since October 2026; acquisition relies on YouTube and SEO; the business is listed for sale at $700,000; competitors include Gamma, Tome, Canva and many others.",
+   "firstStep": "Today, try MagicSlides, Gamma and Canva AI on the same topic, compare the results, and publish a Chinese review on your content site.",
+   "matchScore": 65,
+   "matchReason": "You can reuse content-site SEO and YouTube distribution experience to drive review traffic, but building a similar tool yourself would require adding PPT rendering to your stack.",
+   "categoryId": 2,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/magicslides/"
+   }
+  },
+  {
+   "id": 121,
+   "boardId": 132,
+   "title": "Bulk Mockup: A Tool for Generating Mockup Images in Bulk",
+   "what": "Batch-replaces Photoshop smart-object layers so print-on-demand, Etsy and Shopify sellers can generate hundreds of mockup images in minutes. Launched in 2019; now has a web version and a Shopify app.",
+   "moneyLogic": "Subscription-based, $15/month or $77/year; print-on-demand, Etsy and Shopify sellers pay to generate hundreds of mockup images in a few minutes.",
+   "incomeEvidence": "The founder claims about $150,000 in annual revenue; the Indie Hackers page lists monthly revenue above $13,000.",
+   "cost": "Not disclosed in the source; the founder says the first version cost almost nothing, built by teaching himself JavaScript and writing scripts.",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Heavily dependent on the Photoshop ecosystem and plugin-platform policies; acquisition relies solely on YouTube search traffic — a fragile single channel; revenue is highly seasonal, peaking in September–November and dipping in summer; the founder is non-technical, so there was early technical debt.",
+   "firstStep": "Today, use Python plus psd-tools to get a minimal loop working — batch-replace smart objects and export the images — to verify the technical feasibility.",
+   "matchScore": 60,
+   "matchReason": "You can reuse automation pipeline experience to move into bulk mockup generation, but lack Photoshop plugin-ecosystem and print-on-demand niche knowledge.",
+   "categoryId": 4,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "Indie Hackers",
+    "grade": "B",
+    "url": "https://www.indiehackers.com/post/tech/turning-a-freelance-gig-into-a-150k-yr-product-tDdZGZyiyNTztPfI2wkY"
+   }
+  },
+  {
+   "id": 122,
+   "boardId": 130,
+   "title": "GainFrame: An AI Fitness App That Estimates Body Fat from a Photo",
+   "what": "Snap one gym progress photo to estimate body-fat percentage, a physique score and scores for 12 muscle groups, with an AI coach for Q&A. Launched on the App Store in March 2026.",
+   "moneyLogic": "In-app subscriptions on iPhone; fitness users pay for quantified physique analysis and AI coach Q&A.",
+   "incomeEvidence": "Verified by TrustMRR via RevenueCat on 16 November 2026: $2,460 MRR, 481 subscribers, $2,409 revenue in the last 30 days, $20,833 cumulative revenue; MRR was $944 in July 2026.",
+   "cost": "Not disclosed in the source; the author spent $5,674 on ads over three months, with Gemini inference costing about $260/month.",
+   "timeCost": "The founder says about 2 hours a day.",
+   "risks": "Customer acquisition via ads costs about $114 while a single paying user is worth about $18 — ads are completely unsustainable; acquisition relies on TikTok comic carousels and free-calculator SEO; the author has listed the app for sale and spends only about 2 hours a day on it; body-fat estimates are health claims and must be clearly labeled as not medical advice.",
+   "firstStep": "Today, use Claude Code to build a minimal demo page: upload a gym photo, call an image model to return a body-fat estimate and muscle-group scores, and get a single inference working end to end.",
+   "matchScore": 60,
+   "matchReason": "You can reuse AI coding-assistant and content-site SEO experience, but lack iOS launch and fitness-niche experience, and health claims are compliance-sensitive.",
+   "categoryId": 4,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "AI Paid Me",
+    "grade": "A",
+    "url": "https://aipaidme.com/stories/gainframe-ai-body-fat-app-tiktok-comics-michael-rode-2460-mrr/"
+   }
+  },
+  {
+   "id": 123,
+   "boardId": 125,
+   "title": "CreativeClaw: An MCP Service for Calling Multiple Models Inside AI Assistants",
+   "what": "A remote MCP server that plugs into Claude, ChatGPT, Codex and other AI assistants, letting you call top image, video, audio and 3D models — Nano Banana, Seedance, Kling, FLUX, ElevenLabs, HeyGen — with a single sentence. Supports automatic model selection, multi-version comparison and brand kits.",
+   "moneyLogic": "Sells credits, not seats: $10 buys 1,000 credits that never expire; creators pay to call top image, video and audio models directly inside Claude and ChatGPT.",
+   "incomeEvidence": "Verified by TrustMRR on 21 November 2026: $14,900 MRR; $112,268 revenue in the last 30 days; $111,000 in October 2026, $92,900 in September, $5,300 in August; about $291,000 cumulative revenue.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "It resells third-party models, with model costs and margins undisclosed, so gross margin is uncertain; distribution depends heavily on the Claude and ChatGPT plugin directories, so a policy change hits hard; the source doesn't explain why September revenue jumped 18x, so sustainability is doubtful; a one-person company.",
+   "firstStep": "Today, sign up for CreativeClaw and claim 100 free credits, run one real image and video generation inside Claude, and note the model selection and output quality.",
+   "matchScore": 60,
+   "matchReason": "You can reuse model-calling and prompt-engineering experience, but lack MCP service development and multi-model cost-accounting experience.",
+   "categoryId": 2,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/creativeclaw/"
+   }
+  },
+  {
+   "id": 124,
+   "boardId": 131,
+   "title": "Underpriced AI: Photograph Secondhand Goods and Price Them Automatically",
+   "what": "Photograph a secondhand item and the AI identifies it, shows what similar items actually sold for on eBay, and drafts the listing copy. The founder built it to help his wife sell old belongings.",
+   "moneyLogic": "Subscription-based, from $5/month, with the first scan free; secondhand sellers pay to shrink manual pricing from 15–20 minutes per item to about 15 seconds.",
+   "incomeEvidence": "Verified by Indie Hackers via Stripe on 9 November 2026: $5,200 monthly revenue; $5,212 revenue in the last 30 days; $28,031 revenue from January to September 2026; MRR was $589 in April.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "The cost per scan was once miscalculated as $0.05 when it was actually $0.52, leaving razor-thin margins; the free tier was once exploited by multi-account users farming it; it depends on eBay sold-listing data, with anti-scraping and policy-change risks; another secondhand service shares the same name, creating brand confusion.",
+   "firstStep": "Today, find 10 secondhand items each on Xianyu and eBay, manually check their sold prices, and verify whether photo recognition plus pricing really saves time.",
+   "matchScore": 55,
+   "matchReason": "You can reuse AI toolchain and automation pipeline experience, but lack secondhand e-commerce data and SEO content operations experience.",
+   "categoryId": 19,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "AI Paid Me",
+    "grade": "A",
+    "url": "https://aipaidme.com/stories/underpriced-ai-reseller-pricing-app-frank-kratzer-5k-month/"
+   }
+  },
+  {
+   "id": 125,
+   "boardId": 128,
+   "title": "Promptwise: A Paid Creator Community Selling AI Generation Tools",
+   "what": "Sells generative AI video, image and audio tools to a paid creator community via subscriptions and pay-as-you-go top-ups. Claims to be the world's largest paid AI creator community; founded in December 2025.",
+   "moneyLogic": "Generative AI video, image and audio tools are charged by subscription and pay-as-you-go top-ups, $9–$350; paid creator-community members pay for tool access and community resources.",
+   "incomeEvidence": "Verified by TrustMRR on 21 November 2026: $67,700 MRR, 2,000 subscribers, $96,800 revenue in the last 30 days, $349,000 cumulative revenue; MRR was $64,900 in October 2026.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "The generation tools themselves are a commodity — the moat is the community, not the tech; the main acquisition channel is the Slack community, a single channel outside its control; the team is 11–25 people, so fixed costs run higher than a solo project; the founder's costs and profits are undisclosed.",
+   "firstStep": "Today, sign up for Promptwise and try its core features, map its community selling points against its tool features, and assess whether a Chinese creator community could reuse the model.",
+   "matchScore": 55,
+   "matchReason": "You can reuse familiarity with AI tools and automation pipeline experience, but lack paid-community cold start and overseas community operations experience.",
+   "categoryId": 16,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/promptwise/"
+   }
+  },
+  {
+   "id": 126,
+   "boardId": 133,
+   "title": "Focusmate: A Virtual Study-Room Community for Working Together Online",
+   "what": "Users book a time slot, then video-call an accountability partner, state their goals, work silently side by side, and check each other at the end. Over 13 million sessions held so far.",
+   "moneyLogic": "Subscription-based, $12/month or $96/year, with 3 free sessions a week; users pay for external accountability, beating procrastination and staying focused.",
+   "incomeEvidence": "The Indie Hackers page lists monthly revenue above $83,000; the founder claims seven-figure annual revenue (self-reported, unaudited).",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "The revenue figures are the founder's own claims, unverified by any third party; two-sided matching needs enough scale to work, making cold start extremely hard; acquisition relies on word of mouth and guerrilla community marketing; global video-call infrastructure and compliance costs rise with scale.",
+   "firstStep": "Today, sign up for Focusmate and go through one full booking-and-call flow, noting the key steps: matching, reminders and the end-of-session check.",
+   "matchScore": 50,
+   "matchReason": "You can reuse development and content operations experience to build a community, but real-time video matching and scheduling are a whole new skill set.",
+   "categoryId": 16,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "Indie Hackers",
+    "grade": "B",
+    "url": "https://www.indiehackers.com/post/tech/hitting-a-7-figure-arr-by-building-a-community-into-his-product-6LeFoYyWrOyqlw9aLqUf"
+   }
+  },
+  {
+   "id": 127,
+   "boardId": 126,
+   "title": "Stencil AI: An AI Tracing Tool Built for Tattoo Artists",
+   "what": "Tattoo artists upload a client's reference photo and get a printable tattoo stencil in 30–60 seconds, in three styles — Outline, Standard, Hatching — editable and printable at true size for transfer. Available on iOS, Android and the web.",
+   "moneyLogic": "Subscription-based: Hobby $13.99/month, Pro $29.99/month, Studio from $69/month, with no free tier; tattoo artists pay to save about 1 hour of manual tracing per design.",
+   "incomeEvidence": "Verified by TrustMRR on 21 November 2026: $48,800 MRR, 1,800 subscribers, $493,000 cumulative revenue; revenue was $62,900 in October 2026 and $62,500 in July, flat since then.",
+   "cost": "Not disclosed in the source",
+   "timeCost": "Not disclosed in the source",
+   "risks": "Monthly revenue has stalled at $60,000–$64,000 since July 2026, with growth topping out; the company's claim of over 5,000 paying tattoo artists is unverified; competitors include Ghostline, Procreate workflows and free conversion tools; the niche market has an obvious ceiling.",
+   "firstStep": "Today, list a similar repetitive tracing step in another craft trade — tattooing, nail art, embroidery — and interview 1 practitioner to confirm they would pay to save that time.",
+   "matchScore": 50,
+   "matchReason": "You can reuse AI toolchain experience, but lack tattoo-industry knowledge and native mobile development experience, and the niche has a limited ceiling.",
+   "categoryId": 2,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/stencil-ai/"
+   }
   }
  ],
  "warnings": [
@@ -3003,6 +3296,42 @@
    "source": {
     "name": "Mei Yihong",
     "url": "https://www.myhzy.cn/13456.html"
+   }
+  },
+  {
+   "id": 24,
+   "boardId": 31,
+   "title": "Xianyu Virtual Study Materials Claiming Five-Figure Monthly Income: Only Douyin Videos as Proof",
+   "reason": "The three success stories cite only Douyin short-video links — no store backend, no verifiable seller; the article's three income scenarios are explicitly based on assumptions (views and conversion rates are both assumed), with the middle scenario at ¥12,000–¥36,000 a month and the optimistic one at ¥75,000–¥187,500, all estimates rather than measured results. Virtual study materials are a viable business, but this article's figures — 3,000 copies a month, ¥30,000 a month and the like — should be read as short-video marketing.",
+   "categoryId": 3,
+   "issueDate": "2026-11-22",
+   "source": {
+    "name": "Juxiang Bookstore",
+    "url": "https://www.zjiay.com/read/JXW0143/CHJXW0143_13"
+   }
+  },
+  {
+   "id": 25,
+   "boardId": 30,
+   "title": "An Office Worker Earns ¥80,000 in Three Months from an AI Side Hustle: The Article's Own Numbers Contradict Each Other",
+   "reason": "The article's own figures contradict each other: the intro says the tutorial sells at ¥9.9 each with nearly 20,000 copies sold (about ¥198,000), while the body says nearly 2,000 copies in three months (about ¥19,800) — neither matches the ¥80,000 total income over three months claimed at the top; and it claims to have verified the figures yet shows no proof, screenshots or store name. AI drama-video gigs and tutorials are viable in themselves, but this article's figures can't be treated as income evidence.",
+   "categoryId": 1,
+   "issueDate": "2026-11-22",
+   "source": {
+    "name": "Dashu Cross-Border",
+    "url": "https://www.10100.com/article/157695782"
+   }
+  },
+  {
+   "id": 26,
+   "boardId": 29,
+   "title": "Renting Out AI Memberships and Selling Access by the Session: A Grey-Market Business with ¥300,000 Monthly Turnover",
+   "reason": "After vendors moved to paid plans across the board, a grey market of account rentals and per-use reselling sprang up: mass registration to farm official subsidies, wholesale memberships resold at retail, and relay stations quietly swapping in cheaper model versions, so buyers pay top-tier prices for bottom-tier models. Kimi has tightened anti-resale controls and wrongly flagged legitimate users; accounts can be banned at any time, and buyers must hand their data to third-party relay stations — a major privacy risk. The claimed ¥300,000 monthly turnover is one shop owner's own figure, and competition is said to be fierce, with unit prices driven down to a couple of yuan.",
+   "categoryId": 2,
+   "issueDate": "2026-11-22",
+   "source": {
+    "name": "Marsbit",
+    "url": "https://news.marsbit.co/20261106174512569129.html"
    }
   }
  ]

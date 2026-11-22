@@ -1,7 +1,7 @@
 {
  "site": "搞钱项目库",
  "subject": "真实搞钱项目拆解：赚钱逻辑、收入证据、成本、风险与第一步",
- "exportedAt": "2026-11-20T10:43:10+08:00",
+ "exportedAt": "2026-11-22T10:43:02+08:00",
  "source": "Muse 空间 gao-qian-xiang-mu 的 getState 结构化导出",
  "categories": [
   {
@@ -214,6 +214,13 @@
    "id": 8,
    "date": "2026-11-20",
    "projectCount": 16,
+   "warningCount": 3,
+   "status": "done"
+  },
+  {
+   "id": 9,
+   "date": "2026-11-22",
+   "projectCount": 13,
    "warningCount": 3,
    "status": "done"
   }
@@ -2390,7 +2397,7 @@
    "matchReason": "复用中文内容站写作经验、AI自动化流水线做选题/润色/排版、付费模型辅助深度内容生产，仅缺英文写作与开发者受众冷启动。",
    "categoryId": 15,
    "issueDate": "2026-11-20",
-   "featured": true,
+   "featured": false,
    "source": {
     "name": "Jake's Insights",
     "grade": "C",
@@ -2726,6 +2733,292 @@
     "grade": "C",
     "url": "https://www.viy88.com/view/3328.html"
    }
+  },
+  {
+   "id": 115,
+   "boardId": 137,
+   "title": "Excel Exercises：动手练习教电子表格技能",
+   "what": "通过交互式动手练习教授Excel与电子表格技能，前几课免费、之后设付费墙订阅，创始人按月付与年付拆分终身价值后将月费翻倍。",
+   "moneyLogic": "通过动手练习教电子表格技能，少量免费课后设付费墙，个人学习者、高校与企业按月或按年订阅付费。",
+   "incomeEvidence": "创始人自述月收入3万-3.5万美元，数字来自Starter Story访谈，未经审计，Transcribe.so 2026年11月转录核对并附时间戳。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "收入为创始人单方自述，未经审计；早期高度依赖SEO，算法一变流量即受冲击；免费教程竞品极多；月费翻倍的定价动作若引发反弹会流失订阅者；高校与企业销售周期长。",
+   "firstStep": "今天用AI生成50道分级Excel练习题，搭一个极简静态页挂在现有内容站测试点击与付费意向。",
+   "matchScore": 70,
+   "matchReason": "可复用中文内容站运营与AI自动化流水线批量生成练习题，但缺交互式教学产品与高校、企业销售经验。",
+   "categoryId": 15,
+   "issueDate": "2026-11-22",
+   "featured": true,
+   "source": {
+    "name": "Transcribe.so",
+    "grade": "B",
+    "url": "https://transcribe.so/blog/customer-calls-pricing-saas-founders"
+   }
+  },
+  {
+   "id": 116,
+   "boardId": 134,
+   "title": "America Grows：AI制作无脸园艺怀旧频道",
+   "what": "用AI写脚本与配音、人类剪辑与做封面，运营无人出镜的平静园艺怀旧类YouTube频道，靠广告分成赚钱。",
+   "moneyLogic": "靠YouTube广告分成赚钱；广告主为触达爱看电视端的中老年观众而付费，52.7%观看来自电视端。",
+   "incomeEvidence": "作者自述前六个月广告收入超40000美元：8月约600美元、9月9949美元、10月15575美元、11月略低于8000美元；第九条视频单条赚1600美元。数字来自作者2026年4月13日自述视频，无第三方核查。",
+   "cost": "单条视频40-60美元（剪辑约40美元、封面10-15美元），另有每月数百美元AI订阅。",
+   "timeCost": "原文未披露；作者建议每周5-10小时、至少坚持三个月",
+   "risks": "收入为作者自述且作者卖该模式的一对一教练，存在利益关联；作者自认结果高于平均水平；YouTube自2025年7月起将重复或批量生产的AI内容列为不可变现；11月收入仅为10月约一半，波动大。",
+   "firstStep": "今天用AI写出10个园艺怀旧选题并生成1条试播脚本，核对其中每个事实与年代。",
+   "matchScore": 70,
+   "matchReason": "可复用内容站选题与AI自动化流水线经验，但缺YouTube长视频运营与英文受众经验，且作者本人卖教练课。",
+   "categoryId": 13,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "AI Paid Me",
+    "grade": "C",
+    "url": "https://aipaidme.com/stories/ai-faceless-youtube-nostalgia-channel-america-grows-razvan-paraschiv/"
+   }
+  },
+  {
+   "id": 117,
+   "boardId": 129,
+   "title": "ColorCraft：一句话生成KDP涂色书的订阅工具",
+   "what": "一句话描述创意即可生成涂色书、故事书、漫画与拼图书，导出符合亚马逊KDP要求的PDF含封面，创始人用Cursor vibe coding搭建。",
+   "moneyLogic": "订阅制，9-119美元/月；KDP自出版者为省去拼凑四到七个工具做一本书的时间而付费。",
+   "incomeEvidence": "TrustMRR 2026-11-10经Stripe核实：近30天收入2181美元、MRR 1972美元、107订阅、累计收入7159美元。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "亚马逊要求披露AI生成内容，违规可下架；约18个月才做到约2000美元/月，爬坡极慢；40%注册用户从未输入过提示词，转化漏斗很漏；创始人是资深软件从业者，复刻门槛高于看起来。",
+   "firstStep": "今天用Cursor加图片API跑通一个最小流程：输入一句话，生成4张涂色页并导出一页PDF，验证单本成本。",
+   "matchScore": 70,
+   "matchReason": "可复用内容站SEO、AI自动化流水线与模型调用经验，但缺英文KDP市场与亚马逊规则经验。",
+   "categoryId": 3,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "AI Paid Me",
+    "grade": "A",
+    "url": "https://aipaidme.com/stories/colorcraft-ai-coloring-book-maker-kdp-john-kirby-1972-mrr/"
+   }
+  },
+  {
+   "id": 118,
+   "boardId": 136,
+   "title": "县城宝妈用AI写作接本地生活单",
+   "what": "用AI写初稿、人工手改三成以上并植入具体数字，为本地生活类商家写小红书与公众号文案，半年攒下5个固定客户。",
+   "moneyLogic": "为本地辣酱店、胡辣汤店、童装店等商家提供AI辅助文案服务，按篇收费80元包改三版，商家为缺专业运营人力而付费。",
+   "incomeEvidence": "作者自述：半年攒5个固定客户，每月进账2000出头；但分项为本地生活号每月600元写8篇、辣酱老板每月400元写4篇、其余三个散单共三四百元，合计约1300-1400元，原文口径不一致。",
+   "cost": "原文未披露；作者曾花300多元买爆款标题生成器，用两周后退掉。",
+   "timeCost": "原文未披露具体时长；作者称下午接娃后改稿、晚上9点前收工",
+   "risks": "客户高度集中，前两大客户占分项收入大头；单价低、靠手工改稿三成以上，时间换钱难放大；AI初稿不改直接交会被客户退回；平台对纯AI内容有限流风险；收入数字为单方自述且分项与总额对不上。",
+   "firstStep": "今天整理20条本地生活类提示词模板，列出向商家访谈必问的20分钟问题清单。",
+   "matchScore": 65,
+   "matchReason": "可复用AI内容生产与自动化流水线经验，但缺本地线下获客渠道，且单价低难规模化。",
+   "categoryId": 1,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "11236生活百科",
+    "grade": "C",
+    "url": "https://www.11236.cn/ai-tools/20261112/20418.html"
+   }
+  },
+  {
+   "id": 119,
+   "boardId": 135,
+   "title": "消防员妈妈用AI做Etsy PNG数字设计店",
+   "what": "在Etsy卖AI生成的PNG数字设计与打印品，买家下载后用于T恤、马克杯、贴纸与手工艺品，畅销设计再做按需打印T恤。",
+   "moneyLogic": "在Etsy卖PNG数字设计文件，买家下载后用于T恤、马克杯、贴纸等手工艺品；畅销设计再做按需打印T恤，买家为设计与成品付费。",
+   "incomeEvidence": "作者自述：2026年1月约2000单，9月突破15000单，约750个上架商品；播客主持2026年10月5日称近三个月收入14000美元，正值淡季。均为自述，无后台截图核查。",
+   "cost": "原文未披露；需Kittl商用版订阅与Etsy上架费，免费版仅限个人使用。",
+   "timeCost": "原文未披露；作者称利用接送孩子、值班间隙等碎片时间工作",
+   "risks": "收入为单方自述，无后台截图核查；播客主持同时卖趋势报告会员与教练群，存在利益关联；作者被主持称为Etsy前1%卖家，不具代表性；每张图都需手工修图，并非被动收入；用品牌、角色或体育标志有侵权风险。",
+   "firstStep": "今天用EverBee免费版挖掘3个Etsy细分品类关键词，用ChatGPT生成10组设计概念并试做5款PNG上架测款。",
+   "matchScore": 65,
+   "matchReason": "可复用AI生图与自动化流水线经验做批量设计，但缺Etsy选品与跨境收款经验，且为单人手工修图模式。",
+   "categoryId": 18,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "AI Paid Me",
+    "grade": "C",
+    "url": "https://aipaidme.com/stories/etsy-png-shop-firefighter-shannon-davis-14000-three-months/"
+   }
+  },
+  {
+   "id": 120,
+   "boardId": 127,
+   "title": "MagicSlides：AI提示词转PPT工具",
+   "what": "输入提示词、文档、网址或YouTube视频，自动生成演示文稿，2023年1月印度创立，自筹资金。",
+   "moneyLogic": "订阅制SaaS，Essential 8美元/月、Pro 16美元/月、Premium 29美元/月；用户为节省做PPT时间而付费。",
+   "incomeEvidence": "TrustMRR 2026-11-21核实MRR 9500美元，730订阅，累计收入734000美元，近12个月收入169000美元。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "创始人自述约230万用户、约80%利润率、零员工均未核实；MRR自2026年10月持续小幅下滑；获客依赖YouTube与SEO；已挂牌出售要价70万美元；Gamma、Tome、Canva等竞品众多。",
+   "firstStep": "今天试用MagicSlides、Gamma与Canva AI各生成同一主题PPT，对比效果并写一篇中文评测发到内容站。",
+   "matchScore": 65,
+   "matchReason": "可复用内容站SEO与YouTube分发经验做评测导流，但自建同类工具需补PPT渲染技术栈。",
+   "categoryId": 2,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/magicslides/"
+   }
+  },
+  {
+   "id": 121,
+   "boardId": 132,
+   "title": "Bulk Mockup：批量生成样机图的工具",
+   "what": "批量替换Photoshop智能对象图层，让印花按需与Etsy、Shopify卖家几分钟生成几百张样机图，2019年上线，现已有网页版与Shopify应用。",
+   "moneyLogic": "订阅制，15美元/月或77美元/年；印花按需与Etsy、Shopify卖家为几分钟批量生成几百张样机图而付费。",
+   "incomeEvidence": "创始人自述约15万美元年收入；Indie Hackers页面标注月收入超13000美元。",
+   "cost": "原文未披露；创始人自述首版几乎零成本，靠自学JavaScript写脚本起步。",
+   "timeCost": "原文未披露",
+   "risks": "强依赖Photoshop生态与插件平台政策；获客只靠YouTube搜索流量，单渠道脆弱；收入季节性强，9-11月旺季、夏季回落；创始人非技术出身，早期有技术债。",
+   "firstStep": "今天用Python加psd-tools跑通批量替换智能对象并导出图片的最小闭环，验证技术可行性。",
+   "matchScore": 60,
+   "matchReason": "可复用自动化流水线经验切入样机批量生成，但缺Photoshop插件生态与印花按需垂类知识。",
+   "categoryId": 4,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "Indie Hackers",
+    "grade": "B",
+    "url": "https://www.indiehackers.com/post/tech/turning-a-freelance-gig-into-a-150k-yr-product-tDdZGZyiyNTztPfI2wkY"
+   }
+  },
+  {
+   "id": 122,
+   "boardId": 130,
+   "title": "GainFrame：照片估体脂的AI健身应用",
+   "what": "拍一张健身进度照即可估算体脂率、体型评分与12个肌群评分，配AI教练答疑，2026年3月上线App Store。",
+   "moneyLogic": "iPhone应用内订阅制；健身人群为量化体态分析与AI教练答疑付费。",
+   "incomeEvidence": "TrustMRR 2026-11-16经RevenueCat核实：MRR 2460美元，481订阅，近30天收入2409美元，累计收入20833美元；2026年7月MRR 944美元。",
+   "cost": "原文未披露；作者曾花5674美元投广告3个月，Gemini推理成本约260美元/月。",
+   "timeCost": "创始人自述每天约2小时",
+   "risks": "广告获客成本约114美元而单个付费用户价值约18美元，广告完全不可持续；获客依赖TikTok漫画轮播与免费计算器SEO；作者本人已将应用挂牌出售，日投入仅约2小时；体脂估算属健康类宣称，须明确标注非医疗建议。",
+   "firstStep": "今天用Claude Code搭一个最简演示页：上传一张健身照，调用图片模型返回体脂估算与肌群评分，跑通单次推理。",
+   "matchScore": 60,
+   "matchReason": "可复用AI编码助手与内容站SEO经验，但缺iOS上架与健身垂类经验，且健康类宣称合规敏感。",
+   "categoryId": 4,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "AI Paid Me",
+    "grade": "A",
+    "url": "https://aipaidme.com/stories/gainframe-ai-body-fat-app-tiktok-comics-michael-rode-2460-mrr/"
+   }
+  },
+  {
+   "id": 123,
+   "boardId": 125,
+   "title": "CreativeClaw：在AI助手里调用多模型的MCP服务",
+   "what": "远程MCP服务器，接进Claude、ChatGPT、Codex等AI助手，用一句话调用Nano Banana、Seedance、Kling、FLUX、ElevenLabs、HeyGen等顶级图片、视频、音频与3D模型，支持自动选模型、多版本对比与品牌套件。",
+   "moneyLogic": "卖点数不卖座位，10美元买1000点数永不过期；创作者为在Claude、ChatGPT里直接调用顶级图片、视频、音频模型而付费。",
+   "incomeEvidence": "TrustMRR 2026-11-21核实MRR 14900美元；近30天收入112268美元；2026年10月111000美元、9月92900美元、8月5300美元；累计收入约291000美元。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "转售第三方模型，模型成本与利润率未披露，毛利不确定；分发高度依赖Claude与ChatGPT插件目录，平台政策一变即受冲击；9月收入暴涨18倍的原因原文未说明，持续性存疑；一人公司。",
+   "firstStep": "今天注册CreativeClaw领100免费点数，在Claude里实测一次图片与视频生成，记录模型选择与出图质量。",
+   "matchScore": 60,
+   "matchReason": "可复用模型调用与提示词工程经验，但缺MCP服务开发与多模型成本核算经验。",
+   "categoryId": 2,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/creativeclaw/"
+   }
+  },
+  {
+   "id": 124,
+   "boardId": 131,
+   "title": "Underpriced AI：拍照识别二手货并自动定价",
+   "what": "拍一张二手物品照片，AI识别物品并展示eBay上同类物品实际成交价，再起草上架文案，创始人为帮妻子卖旧货而做。",
+   "moneyLogic": "订阅制，5美元/月起，首次扫描免费；二手卖家为把每件15-20分钟的手动定价压缩到约15秒而付费。",
+   "incomeEvidence": "Indie Hackers 2026-11-9经Stripe核实月收入5200美元；近30天收入5212美元，2026年1-9月收入28031美元；4月时MRR 589美元。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "单次扫描成本曾误算为0.05美元、实际0.52美元，毛利极薄；免费档曾被多账号薅羊毛；依赖eBay已售数据，反爬与政策变动风险；与另一家同名二手服务重名，有品牌混淆风险。",
+   "firstStep": "今天在闲鱼与eBay各找10件二手商品，手动查已售成交价，验证拍照识别加定价流程是否真能省时。",
+   "matchScore": 55,
+   "matchReason": "可复用AI工具链与自动化流水线经验，但缺二手电商垂类数据与SEO内容运营经验。",
+   "categoryId": 19,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "AI Paid Me",
+    "grade": "A",
+    "url": "https://aipaidme.com/stories/underpriced-ai-reseller-pricing-app-frank-kratzer-5k-month/"
+   }
+  },
+  {
+   "id": 125,
+   "boardId": 128,
+   "title": "Promptwise：付费创作者社群卖AI生成工具",
+   "what": "生成式AI视频、图片、音频工具通过订阅与按量充值卖给付费创作者社群，自称全球最大付费AI创作者社群，2025年12月创立。",
+   "moneyLogic": "生成式AI视频、图片、音频工具按订阅与按量充值收费，9-350美元；付费创作者社群成员为工具使用权与社群资源付费。",
+   "incomeEvidence": "TrustMRR 2026-11-21核实MRR 67700美元，2000订阅，近30天收入96800美元，累计收入349000美元；2026年10月MRR 64900美元。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "生成工具本身是商品化能力，护城河在社群而不在技术；获客主渠道为Slack社群，单一且不可控；团队11-25人，固定成本高于一人项目；创始人成本与利润均未披露。",
+   "firstStep": "今天注册Promptwise体验核心功能，列出其社群卖点与工具功能的对应关系，评估中文创作者社群是否可复用。",
+   "matchScore": 55,
+   "matchReason": "可复用AI工具熟悉度与自动化流水线经验，但缺付费社群冷启动与海外社群运营经验。",
+   "categoryId": 16,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/promptwise/"
+   }
+  },
+  {
+   "id": 126,
+   "boardId": 133,
+   "title": "Focusmate：虚拟自习室线上共工社区",
+   "what": "用户预约时段后与 accountability partner 视频连线，各自报目标、静音并排工作、结束时互相检查，已举办超1300万场次。",
+   "moneyLogic": "订阅制，12美元/月或96美元/年，每周3次免费；用户为外部监督、缓解拖延、提升专注力而付费。",
+   "incomeEvidence": "Indie Hackers页面标注月收入超83000美元；创始人称年收入七位数（自述，未经审计）。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "收入数字为创始人自述，未经第三方核实；双边匹配需足够规模才能跑通，冷启动极难；获客依赖口碑与社群游击营销；全球视频连线基建与合规成本随规模上升。",
+   "firstStep": "今天注册Focusmate体验一次完整预约与连线流程，记录匹配、提醒与结束检查等关键环节。",
+   "matchScore": 50,
+   "matchReason": "可复用开发与内容运营经验搭建社群，但实时视频匹配与调度属全新技能树。",
+   "categoryId": 16,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "Indie Hackers",
+    "grade": "B",
+    "url": "https://www.indiehackers.com/post/tech/hitting-a-7-figure-arr-by-building-a-community-into-his-product-6LeFoYyWrOyqlw9aLqUf"
+   }
+  },
+  {
+   "id": 127,
+   "boardId": 126,
+   "title": "Stencil AI：纹身师专用AI描图工具",
+   "what": "纹身师上传客户参考照片，30-60秒生成Outline、Standard、Hatching三种风格的可打印纹身描图，可修图并按真实尺寸打印转印，覆盖iOS、安卓与网页端。",
+   "moneyLogic": "订阅制，Hobby 13.99美元/月、Pro 29.99美元/月、Studio 69美元/月起，无免费档；纹身师为省去约1小时手工描图时间而付费。",
+   "incomeEvidence": "TrustMRR 2026-11-21核实MRR 48800美元，1800订阅，累计收入493000美元；2026年10月收入62900美元，7月62500美元后持平。",
+   "cost": "原文未披露",
+   "timeCost": "原文未披露",
+   "risks": "2026年7月以来月收入停滞在6万-6.4万美元，增长见顶；公司自称5000多名付费纹身师未核实；竞品有Ghostline、Procreate流程与免费转换工具；细分市场天花板明显。",
+   "firstStep": "今天列出纹身、美甲、刺绣等手艺行业里一个类似的重复性描图环节，访谈1名从业者确认是否愿为省时付费。",
+   "matchScore": 50,
+   "matchReason": "可复用AI工具链经验，但缺纹身行业知识与移动端原生开发经验，垂类天花板有限。",
+   "categoryId": 2,
+   "issueDate": "2026-11-22",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/stencil-ai/"
+   }
   }
  ],
  "warnings": [
@@ -3003,6 +3296,42 @@
    "source": {
     "name": "梅一洪",
     "url": "https://www.myhzy.cn/13456.html"
+   }
+  },
+  {
+   "id": 24,
+   "boardId": 31,
+   "title": "闲鱼虚拟资料月入上万：只有抖音视频为证",
+   "reason": "三个成功案例只引用抖音短视频链接，无店铺后台、无可核查卖家；文中三档收入测算明确基于假设（曝光量、转化率均为假设值），中性档月入12000-36000元、乐观档75000-187500元均为推算而非实测。虚拟资料本身可做，但此文的月销3000份、月入3万元等数字只能当短视频宣传看。",
+   "categoryId": 3,
+   "issueDate": "2026-11-22",
+   "source": {
+    "name": "菊香书屋",
+    "url": "https://www.zjiay.com/read/JXW0143/CHJXW0143_13"
+   }
+  },
+  {
+   "id": 25,
+   "boardId": 30,
+   "title": "行政靠AI副业三个月赚8万：同文数字自相矛盾",
+   "reason": "同文数字自相矛盾：导语称教程单价9.9元、销量近两万份（约19.8万元），正文又称三个月累计近2000份（约1.98万元），两者与文首三个月赚8万元的总收入均对不上；且称经核实却无任何凭证、截图或店铺名。AI漫剧接单与教程本身可做，但此文的数字不能当收入证据。",
+   "categoryId": 1,
+   "issueDate": "2026-11-22",
+   "source": {
+    "name": "大数跨境",
+    "url": "https://www.10100.com/article/157695782"
+   }
+  },
+  {
+   "id": 26,
+   "boardId": 29,
+   "title": "AI会员租号与按次拆卖：月流水30万的灰产",
+   "reason": "厂商集体收费后催生租号与按次拆卖灰产：批量注册薅官方补贴、批发会员转零售，更有中转站偷换模型版本，买家花顶配的钱用到最低配；Kimi已为打击倒卖升级风控并误伤正常用户，账号随时可被封，买家还要把资料传到第三方中转站，隐私风险大。所谓月流水30万是一家店家的自述，且称竞争已极激烈、单价被打到两三块钱。",
+   "categoryId": 2,
+   "issueDate": "2026-11-22",
+   "source": {
+    "name": "Marsbit",
+    "url": "https://news.marsbit.co/20261106174512569129.html"
    }
   }
  ]
