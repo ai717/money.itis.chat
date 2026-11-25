@@ -1,7 +1,7 @@
 window.FALLBACK_DATA_EN = {
   "site": "Money Project Library",
   "subject": "Real money-making projects, deconstructed: how they make money, income evidence, costs and first steps",
-  "exportedAt": "2026-11-22T10:43:02+08:00",
+  "exportedAt": "2026-11-25T10:48:45+08:00",
   "source": "Structured getState export from the Muse space gao-qian-xiang-mu",
   "categories": [
     {
@@ -222,6 +222,13 @@ window.FALLBACK_DATA_EN = {
       "date": "2026-11-22",
       "projectCount": 13,
       "warningCount": 3,
+      "status": "done"
+    },
+    {
+      "id": 10,
+      "date": "2026-11-25",
+      "projectCount": 14,
+      "warningCount": 2,
       "status": "done"
     }
   ],
@@ -2749,7 +2756,7 @@ window.FALLBACK_DATA_EN = {
       "matchReason": "You can reuse Chinese content-site operations and an AI automation pipeline to generate practice exercises in bulk, but lack experience with interactive teaching products and university/enterprise sales.",
       "categoryId": 15,
       "issueDate": "2026-11-22",
-      "featured": true,
+      "featured": false,
       "source": {
         "name": "Transcribe.so",
         "grade": "B",
@@ -3018,6 +3025,314 @@ window.FALLBACK_DATA_EN = {
         "name": "The AI Receipts",
         "grade": "A",
         "url": "https://theaireceipts.com/case-studies/stencil-ai/"
+      }
+    },
+    {
+      "id": 128,
+      "boardId": 153,
+      "title": "AI Search Optimization (AEO) Agency Services",
+      "what": "Help client websites get cited by Google AI Overviews, ChatGPT and other AI search tools, providing monthly AEO strategy, content optimization and technical implementation services.",
+      "moneyLogic": "Enterprise clients pay a monthly service fee, as AI search traffic becomes a new customer-acquisition channel and clients pay to win cited exposure in AI answers.",
+      "incomeEvidence": "PrintCashWithAI, citing TrustMRR verified via Stripe: an AEO-agency business model with MRR of $167,833; on the same page, a Reddit + AI-recommendation agency at $34,750 MRR and a Reddit GEO agency at about $27,999 MRR.",
+      "cost": "About ¥0–5,000 (includes n8n self-hosted server costs, pay-as-you-go model API fees, free tiers of Airtable or Google Sheets, and Stripe fees)",
+      "timeCost": "20–30 hours per week (including client communication, strategy execution, automation pipeline maintenance and report delivery)",
+      "risks": "AI search algorithms change fast and citation rules can shift at any time; high client churn; early on you need proven cases to win clients; model API costs fluctuate with volume; Reddit and other channels carry account-ban and policy risks.",
+      "firstStep": "Deploy an n8n + Airtable AEO monitoring pipeline on your own content site to track how target keywords are cited in AI Overviews and ChatGPT, and produce a first analysis report as a portfolio piece.",
+      "matchScore": 88,
+      "matchReason": "The user owns a Chinese content site that can serve as their own case study, has experience building n8n automation pipelines, and knows the AI toolchain well, making it easy to reuse existing technical assets to enter AEO services.",
+      "categoryId": 24,
+      "issueDate": "2026-11-25",
+      "featured": true,
+      "source": {
+        "name": "PrintCashWithAI",
+        "grade": "A",
+        "url": "https://www.printcashwithai.com/guides/ai-automation-agency-stack/"
+      }
+    },
+    {
+      "id": 129,
+      "boardId": 160,
+      "title": "AI-Powered Freelancing (Writing / Design / Editing / Development)",
+      "what": "Use AI tools to speed up existing skills (writing, design, video editing, development) and take orders on Upwork, Fiverr, LinkedIn and other platforms.",
+      "moneyLogic": "Clients pay for delivered results: businesses and content teams need copy, design drafts, short videos and code features; AI compresses the hours required, raising output per hour and thus hourly rates or project prices.",
+      "incomeEvidence": "Emergent guide range: $1,000–15,000 per month; citing Reddit users: automation services at $5,000–10,000 per month, B2B long-form articles at $500–2,000 each, AI consulting at $200–500 per hour.",
+      "cost": "About ¥0–500 (includes mainstream AI tool subscriptions and a reserve for platform commissions)",
+      "timeCost": "10–30 hours per week, depending on order volume and delivery complexity",
+      "risks": "Fierce competition and low-price undercutting on platforms; fluctuating AI output quality can lead to refunds; account-ban risks; exchange-rate and withdrawal-fee losses; income stops the moment you stop working, with no asset accumulation.",
+      "firstStep": "Register on Upwork or Fiverr today, list 1–2 low-priced trial gigs ($50–100) in AI-assisted development, automation scripts or technical writing, and complete the full order-to-delivery loop.",
+      "matchScore": 85,
+      "matchReason": "The user has development experience and AI automation pipeline skills that transfer directly to high-priced development and automation gigs, and content-site experience that opens the copywriting and SEO tracks.",
+      "categoryId": 1,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "Emergent",
+        "grade": "B",
+        "url": "https://emergent.sh/learn/how-to-make-money-with-ai"
+      }
+    },
+    {
+      "id": 130,
+      "boardId": 155,
+      "title": "GEO Site: Mass-Producing AI-Search Q&A Pages to Monetize via Affiliates and Ads",
+      "what": "Target the way users ask questions in AI search tools like ChatGPT, mass-produce Q&A-style pages so AI retrieval cites and recommends them, and accumulate long-tail traffic.",
+      "moneyLogic": "Affiliate commissions (users click and buy), advertorials (brands pay for placements) and paid consulting (high-intent leads convert), paid for by advertisers and platforms.",
+      "incomeEvidence": "Blogger Yuwen's own account (compiled by Glanote, explicitly not independently audited): over ¥500,000 in X-related income over the past year, with a single-month peak of about ¥200,000; his GEO site grew from a few hundred yuan a day to ¥1,000–2,000 a day.",
+      "cost": "About ¥500–2,000 (domain, server, content-generation API quota, basic SEO tool subscriptions)",
+      "timeCost": "10–15 hours per week in the early stage (topic mining, generation, publishing, monitoring); 3–5 hours per week for maintenance once stable",
+      "risks": "AI search algorithm changes can crash indexing and citations; homogenized content risks being judged low-quality or spam; affiliate commission rates may be cut or advertorials may dry up; reliance on a single distribution platform; mass generation needs human review or it damages the site's reputation.",
+      "firstStep": "Use your existing automation pipeline to run the minimal loop — keywords to titles to Q&A pages to publishing to index submission — launch 50 pages first and observe indexing and clicks for 2 weeks.",
+      "matchScore": 85,
+      "matchReason": "The user already has a Chinese content site and an AI automation pipeline, so the full chain of topic mining, mass generation, publishing and monitoring can be reused directly at very low marginal cost.",
+      "categoryId": 6,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "Glanote",
+        "grade": "C",
+        "url": "http://glanote.com/fed3bf"
+      }
+    },
+    {
+      "id": 131,
+      "boardId": 162,
+      "title": "Vertical-Industry AI Agent Subscription Products",
+      "what": "Build AI Agents for specific vertical industries that handle single repetitive tasks for businesses — invoice checking, lead follow-up, data extraction — and charge a monthly or annual subscription.",
+      "moneyLogic": "Businesses pay subscriptions to save labor costs and improve accuracy; B2B pricing is usually higher than B2C, with sticky customers and low churn.",
+      "incomeEvidence": "BigIdeasDB, citing TrustMRR data (verified 2026-11-17): among 140+ revenue-generating Agent products, median monthly revenue is $207; B2B median is $302; 24.0% reach $1,000/month and 6.2% reach $10,000/month; 59.1% report no revenue; pay-per-call sellers report only a few dollars per month.",
+      "cost": "About ¥30,000–100,000 (includes domain research, prompt and workflow engineering, light front-end and back-end development, testing and deployment, and acquiring the first seed customers; excludes usage-based LLM API fees)",
+      "timeCost": "20–30 hours per week during launch (part-time viable); 5–10 hours per week for maintenance after launch",
+      "risks": "A single task can easily be replaced by a platform-level feature or a general-purpose Agent; if the vertical knowledge moat is shallow, competitors can undercut quickly; enterprise procurement cycles are long and require compliance and security reviews; 59.1% of similar products earn no revenue, and the typical outcome is nobody paying.",
+      "firstStep": "Pick 3 niche tracks from the BigIdeasDB list (e.g. cross-border e-commerce invoice checking, real-estate agent lead follow-up, medical bill data extraction) and use your existing automation pipeline to build one minimal working demo for each.",
+      "matchScore": 78,
+      "matchReason": "The user has AI automation pipeline experience and a Chinese content site as a distribution channel, so vertical demos can be produced fast and customers acquired cheaply; the gap is enterprise sales and compliant delivery experience.",
+      "categoryId": 2,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "BigIdeasDB",
+        "grade": "A",
+        "url": "https://bigideasdb.com/how-to-make-money-with-ai-agents"
+      }
+    },
+    {
+      "id": 132,
+      "boardId": 154,
+      "title": "WeChat Mini-Program Traffic-Monetization Ad Revenue Pipeline",
+      "what": "One person develops and maintains 8 WeChat mini-programs, plugs in traffic-monetization ad slots, and earns revenue share from users viewing and clicking ads.",
+      "moneyLogic": "WeChat advertisers place ads, mini-programs display them, and WeChat settles a revenue share with developers when users view or click the ads.",
+      "incomeEvidence": "Sina Finance 2026-11-09 side-hustle report, cross-checked against public retrospectives and the author's own account: 8 mini-programs totaling ¥1,032 in a single day; with about 1,000 daily active users across 7 products, ad income was just over ¥60 a day; the author estimates that to reach ¥100 a day, if one product earns ¥10 a day, 6 more are needed, or 60+ more if one product earns ¥1 a day.",
+      "cost": "About ¥0–500 (includes WeChat mini-program verification at ¥300/year, domain and server at about ¥200/year, and AI-assisted development tool subscriptions)",
+      "timeCost": "2–4 hours a day in the early stage to build the pipeline and launch products; about 5–8 hours per week for maintenance once stable",
+      "risks": "Revenue per product is highly unstable and depends heavily on hit probability; WeChat traffic-monetization policies and revenue-share ratios can change at any time; mini-program review and takedown risks for violations; new products must keep coming to sustain the portfolio, and gameplay homogenization makes competition fierce.",
+      "firstStep": "Complete verification with your existing WeChat mini-program entity, build one minimal tool-type mini-program with traffic monetization enabled, and run the full loop from development to payment collection.",
+      "matchScore": 78,
+      "matchReason": "The user has DOIN casual-game portal development experience and AI automation pipeline skills, so the tech stack can be reused to mass-produce mini-programs quickly, but WeChat ecosystem operations and traffic acquisition experience must be built from scratch.",
+      "categoryId": 4,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "Sina Finance / AI8899",
+        "grade": "B",
+        "url": "http://ai8899.cn/tutorials/11545"
+      }
+    },
+    {
+      "id": 133,
+      "boardId": 152,
+      "title": "Apiframe: A Unified Billing Platform Aggregating Multimodal AI Generation APIs",
+      "what": "Aggregate multiple AI image, video and music generation models behind one API and one bill, and sell API call quotas to developers in credit packages.",
+      "moneyLogic": "Developers pay monthly for credit packages (from $39/month) to call the aggregated multimodal generation APIs, and the platform earns the spread between wholesale model prices and retail prices.",
+      "incomeEvidence": "TrustMRR verified via Stripe (synced 2026-11-04): MRR of $30,100, 740 subscribers, $40,200 in revenue over the past 30 days, $551,000 cumulative, $44,100 in October 2026 alone, with a founder-claimed profit margin of 67%.",
+      "cost": "About ¥5,000–30,000 (API gateway and billing-system development, cloud servers, prepaid model API quota; the source does not disclose specific costs)",
+      "timeCost": "30–40 hours per week during launch (model integration, billing system, documentation); 10–15 hours per week once stable (new model onboarding, customer support, operations)",
+      "risks": "Upstream model vendors selling direct or cutting prices squeezes margins; multi-model unified billing is technically complex, and inaccurate metering easily causes disputes; the aggregation layer itself has no moat — a big vendor launching something similar would displace it; dependence on a few large model vendors means weak bargaining power.",
+      "firstStep": "Register developer accounts with 3–5 mainstream models (e.g. Midjourney, Runway, Suno, ElevenLabs) today, work through each one's API calls and billing documentation, and produce a comparison table of multi-model API integration costs and limits.",
+      "matchScore": 78,
+      "matchReason": "The user knows AI tools and automation pipelines, which transfer to model integration and billing automation; the Chinese content site can serve as an SEO acquisition channel, and DOIN casual-game portal development skills can support building the API gateway.",
+      "categoryId": 2,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "The AI Receipts",
+        "grade": "A",
+        "url": "https://theaireceipts.com/blog/how-much-do-ai-developer-tools-make/"
+      }
+    },
+    {
+      "id": 134,
+      "boardId": 161,
+      "title": "White Glove Content: Faceless-Video Production Subscription Service",
+      "what": "Produce faceless videos for clients' YouTube, TikTok, Instagram Reels and Facebook accounts, delivered on a monthly subscription.",
+      "moneyLogic": "Clients pay monthly for faceless video production services to grow followers and monetize on social media; the provider earns production fees and subscription revenue.",
+      "incomeEvidence": "AI Side Hustles case library, citing TrustMRR payment data (2026-11-02, marked independently verified): MRR of $62,817, $65,439 in revenue over the past 30 days, $308,499 cumulative, 515 active subscribers, founded 2026-04-17.",
+      "cost": "About ¥3,000–10,000 (video editing and AI generation tool subscriptions, stock libraries; the source does not disclose costs)",
+      "timeCost": "20–30 hours per week handling client orders, video production and communication",
+      "risks": "High client churn; video quality standards are subjective and hard to control; platform algorithm changes affect client ROI; low barriers mean competitors can easily copy the service; revenue is not profit — AI model, labor and material costs are not disclosed.",
+      "firstStep": "Register and test 3 mainstream AI video generation tools (e.g. HeyGen, Synthesia, InVideo) today and compare faceless video quality and cost.",
+      "matchScore": 75,
+      "matchReason": "The user has AI tool and automation pipeline experience that transfers to standardizing video production, but lacks video production experience and overseas client acquisition channels.",
+      "categoryId": 10,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "AI Side Hustles",
+        "grade": "A",
+        "url": "https://aisidehustles.lumexforge.com/category/faceless-youtube"
+      }
+    },
+    {
+      "id": 135,
+      "boardId": 159,
+      "title": "Multi-Channel Product-Seeding Brand Orders (Xiaohongshu Official Brand-Order System)",
+      "what": "Take brand promotion graphic orders through official brand-order systems on Xiaohongshu and other platforms, at benchmark prices, covering accounts at different follower tiers as well as mass seeding by ordinary users.",
+      "moneyLogic": "Brands pay promotion fees at the platform's published benchmark prices, the platform takes about 10%, and creators earn the margin between content production and traffic.",
+      "incomeEvidence": "The site's compiled 2026 market rates and quoted examples (described as publicly verifiable closed-deal data, not independently verified): Xiaohongshu graphic posts at ¥200–600 each for 10,000–30,000 followers, ¥600–2,500 each for 30,000–100,000 followers, and ¥2,500–8,000 each above 100,000 followers; mass seeding by ordinary users at ¥50–200 each; example: a beauty account with 123,000 followers charges ¥4,200 per custom graphic post.",
+      "cost": "About ¥0–5,000 (includes account warm-up costs, sample costs and possible tool subscriptions); no fixed threshold",
+      "timeCost": "10–20 hours per week (product selection, communication, creation, publishing, data review)",
+      "risks": "Platform rule changes can reduce brand orders; account weight fluctuations affect quoted prices; mass seeding pays little per post and needs volume; the platform's commission rate may change; quality content must be produced continuously to stay active; inflated data gets verified by brands and damages order credibility.",
+      "firstStep": "Register with the Xiaohongshu Creator Center and enable brand-order features today, and research the rate cards and product-selection logic of 3–5 peer accounts in the same niche.",
+      "matchScore": 75,
+      "matchReason": "The user has a Chinese content site and an AI automation pipeline, so content production can be reused to mass-produce seeding graphics quickly, but Xiaohongshu account matrices and brand-order operations must be built from zero.",
+      "categoryId": 34,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "cdjzdb.cn (Jiuzhun IT News)",
+        "grade": "C",
+        "url": "https://www.cdjzdb.cn/show-70285.html"
+      }
+    },
+    {
+      "id": 136,
+      "boardId": 157,
+      "title": "Substack Paid Newsletter Monetization",
+      "what": "Publish free content on Substack to build a readership, then enable paid subscriptions charged monthly or annually, with optional courses, ebooks, sponsorships and paid communities layered on top.",
+      "moneyLogic": "Readers pay subscriptions (monthly or annual) for quality in-depth content, with creators keeping about 84% of subscription fees; additional monetization comes from paid courses, ebooks, brand sponsorships and paid communities.",
+      "incomeEvidence": "Earnly's 2026 data compilation: a typical earning creator makes about $16,000 a year, with a median of about $4,000; nearly half of paid authors earn under $500 a year; a creator charging $10 a month actually receives about $8.40; earning $1,000 a month takes about 120 paying subscribers, with a free-to-paid conversion rate of about 5%–10%.",
+      "cost": "Near-zero cost to start (free Substack site); only a domain at about ¥50–100 a year (optional) plus time; no inventory and no technical development cost",
+      "timeCost": "5–10 hours per week (writing, editing, operations, reader interaction); 6–12 months of sustained effort is needed early on to build a reader base",
+      "risks": "Readers are reluctant to pay and churn is high, with free-to-paid conversion of only 5%–10%; the platform takes 10% plus payment fees; sustained content output is demanding; median income is only $4,000 a year and nearly half of authors earn under $500 a year; Chinese audience payment habits and overseas withdrawal compliance remain to be solved.",
+      "firstStep": "Register a Substack account today, migrate 3–5 high-engagement articles from your Chinese content site as seed content, and set up a free subscription form to start collecting emails.",
+      "matchScore": 75,
+      "matchReason": "The user already has a Chinese content site and an AI automated writing pipeline, so content production transfers directly, but Chinese audience payment habits and overseas platform withdrawal compliance need solving.",
+      "categoryId": 12,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "Earnly",
+        "grade": "B",
+        "url": "https://earnly.ai/blog/how-much-do-substack-writers-make"
+      }
+    },
+    {
+      "id": 137,
+      "boardId": 156,
+      "title": "ShipFast: A Next.js Boilerplate Sold to Indie Developers",
+      "what": "Provide indie developers with a Next.js starter template including login, payments, email and other modules, to speed up launching SaaS and AI web apps.",
+      "moneyLogic": "One-time sales of code licenses to indie developers and founders, who pay to save weeks of infrastructure setup time.",
+      "incomeEvidence": "AI Side Hustles case library (marked independently verified): $96,593 in revenue over the past 12 months; $1,146 in revenue over the past 30 days as of 2026-11-09, with MRR of $0.",
+      "cost": "About ¥0–5,000 (development time is the main cost, plus domain, server and payment integration)",
+      "timeCost": "2–4 weeks of focused development initially; about 5–10 hours per week for maintenance afterwards",
+      "risks": "Fierce market competition with many free and open-source alternatives; one-time purchase model means unstable revenue, and MRR of 0 shows no recurring purchases; Next.js version updates must be tracked continuously; boilerplate revenue does not mean the buyer's SaaS will succeed.",
+      "firstStep": "Research the ShipFast competitors' feature lists and pricing today, list the minimal viable feature set, and set up an initial Next.js + Stripe + Auth.js repository.",
+      "matchScore": 75,
+      "matchReason": "The user has development experience and an AI automation pipeline, so the tech stack can be reused to build the boilerplate, but the Chinese content site and casual-game portal audiences overlap only limitedly with the indie-developer tools track.",
+      "categoryId": 4,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "AI Side Hustles",
+        "grade": "A",
+        "url": "https://aisidehustles.lumexforge.com/category/digital-products"
+      }
+    },
+    {
+      "id": 138,
+      "boardId": 158,
+      "title": "AI Pipeline Mass-Producing 6-Hour Sleep-Aid History Documentaries",
+      "what": "Write scripts with Claude, voice them with ElevenLabs, generate visuals with AI image tools, and stitch them together with a self-built TubeGen pipeline to run multiple faceless channels publishing extra-long sleep-aid history documentaries.",
+      "moneyLogic": "YouTube AdSense revenue share: viewers watch extra-long videos for sleep aid or background audio, and views convert into ad revenue.",
+      "incomeEvidence": "Compiled by AI Video Bootcamp, citing Fortune's December 2025 verification with AdSense screenshots: monthly revenue of $40,000–60,000; monthly costs of about $6,700 (team $6,500, AI tools $200); about $60 to produce one 6-hour video.",
+      "cost": "About ¥1,500 per month to start solo (AI tool subscriptions); about $6,700 per month at the scale described in the source (including team salaries of about $6,500)",
+      "timeCost": "About 2 hours a day for the individual, with a full-time team running operations",
+      "risks": "Hard for newcomers to replicate (the creator has been on YouTube since age 10, with years of experience built up); self-built pipeline engineering skills are required; dependence on a single platform's algorithm; growing competition in the sleep-aid niche; high team costs make solo starts difficult; YouTube may demonetize mass-produced low-quality content.",
+      "firstStep": "Build a minimal prototype today: write a 30-minute sleep-aid history script with Claude, generate audio with ElevenLabs, batch-generate visuals with AI image tools, stitch a finished piece and upload it for testing.",
+      "matchScore": 70,
+      "matchReason": "The user has AI automation pipeline experience and development skills, so the TubeGen approach can be replicated with a self-built tool, but lacks YouTube long-video operations experience and faces a high team-cost threshold.",
+      "categoryId": 13,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "AI Video Bootcamp",
+        "grade": "B",
+        "url": "https://aivideobootcamp.com/blog/making-10k-month-ai-video/"
+      }
+    },
+    {
+      "id": 139,
+      "boardId": 163,
+      "title": "Audn.AI: Automated AI White-Hat Penetration Testing",
+      "what": "An autonomous AI white-hat hacker that continuously penetration-tests clients' AI Agents and apps around the clock using prompt injection, data exfiltration, social engineering and other techniques, after which a blue-team Agent scores, patches and re-tests.",
+      "moneyLogic": "Teams shipping AI products and security teams pay a $999/month unlimited-testing subscription for security compliance and pre-launch risk removal.",
+      "incomeEvidence": "TrustMRR verified via Stripe (2026-11-24): MRR of $42,400, 110 subscribers; $53,400 in October 2026, $20,200 in September, $14,800 in August, $1,400 in July; $51,700 over the past 30 days; $139,000 cumulative.",
+      "cost": "About ¥10,000–50,000 (red-team and blue-team Agent development, testing ranges, cloud resources; the source does not disclose costs; team of 2–5 people, VC-backed)",
+      "timeCost": "Full-time development initially; 10–20 hours per week for maintenance after launch",
+      "risks": "Revenue is concentrated in a few large one-off payments, so slow months swing sharply; the product sells trust and real offensive-defensive capability — a generic AI wrapper will not pass security review; the list price is $999/month but actual average revenue per account is about $390, mostly discounted subscriptions; growth history is only 3 months and retention is still unproven.",
+      "firstStep": "Build a minimal demo today: use your existing AI pipeline to run one prompt-injection detection chain end to end and produce a presentable test report sample.",
+      "matchScore": 65,
+      "matchReason": "The user has AI automation pipeline skills that transfer to promoting and operating a security tool through content, but lacks deep security research background and enterprise sales channels.",
+      "categoryId": 2,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "The AI Receipts",
+        "grade": "A",
+        "url": "https://theaireceipts.com/case-studies/audn-ai/"
+      }
+    },
+    {
+      "id": 140,
+      "boardId": 164,
+      "title": "SocialCrawl: 69-Platform Social Data API, Billed per Call",
+      "what": "One API key gives access to structured public data from 69 social platforms, sold to AI Agent teams and developers in pay-per-call credit packages, with an MCP server and Agent skills also provided.",
+      "moneyLogic": "Developers and AI Agent teams buy credit packages by call volume (not subscriptions), paying because they need large-scale structured social data for research, monitoring and inference.",
+      "incomeEvidence": "TrustMRR verified via Stripe (2026-11-24): $51,500 in revenue over the past 30 days, $47,000 in October 2026, $23,400 in September, $26,200 in August, $156,000 cumulative; MRR of only about $1,100 because almost all revenue is top-up packages; the founder claims a profit margin of about 70%, unverified.",
+      "cost": "About ¥10,000–30,000 (multi-platform crawler development, anti-scraping maintenance, API gateway and billing system, MCP server deployment; the source does not disclose costs)",
+      "timeCost": "The founder operates full-time, 40–50 hours per week (including crawler maintenance, customer support and new platform onboarding)",
+      "risks": "Scraping public platform data carries platform terms-of-service and legal risks; anti-scraping measures across 69 platforms change constantly and need continuous maintenance; large competitors such as Apify and Bright Data are already in the market; pay-per-call top-up revenue is volatile — September was lower than August; the founder's previous 4 AI products all failed.",
+      "firstStep": "Research the subset of data sources among the 69 platforms that can be obtained compliantly today, and build a minimal crawler + API gateway prototype to verify single-platform data pull stability.",
+      "matchScore": 62,
+      "matchReason": "Automation pipeline experience partially transfers, but maintaining anti-scraping across 69 platforms is heavy operations work, and synergy with the existing content site and casual-game assets is weak.",
+      "categoryId": 2,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "The AI Receipts",
+        "grade": "A",
+        "url": "https://theaireceipts.com/case-studies/socialcrawl/"
+      }
+    },
+    {
+      "id": 141,
+      "boardId": 165,
+      "title": "Etsy Website Template and Preset Digital Download Shop",
+      "what": "Sell Shopify, Wix and Squarespace website templates and Lightroom preset packs as digital downloads on Etsy, charging once with no inventory and no shipping.",
+      "moneyLogic": "Small businesses pay for ready-made website templates or preset packs to solve design and technical barriers in building sites; website templates sell for $60–160 each and preset packs for $14, monetized through template volume and long-tail traffic.",
+      "incomeEvidence": "Microns listing (2026-11-20, sold): 89 templates, 5,815 customers; about $297,000 in cumulative revenue; about £15,500 (about $20,800) over the past 12 months; opened in 2022, with only 3 new products in 2026 and sales declining year after year.",
+      "cost": "About ¥0–5,000 (domain and branding, template-making tools such as Figma, Etsy listing fee of $0.20 per item, initial promotion)",
+      "timeCost": "15–20 hours per week in the ramp-up phase (making templates, optimizing SEO, customer service); 5–8 hours per week once mature",
+      "risks": "Etsy shop accounts cannot be transferred, so buyers must cold-start a new shop; platform algorithm and fee-policy risks; template categories are heavily homogenized and AI generation tools lower the barrier; the shop's sales have declined year after year, with only 3 new products in 2026.",
+      "firstStep": "Use AI + Figma today to run the minimal loop — a Shopify landing-page template to exported HTML/Liquid to packaged file — and verify how long a single product takes to make.",
+      "matchScore": 55,
+      "matchReason": "The user has development and AI automation skills to mass-produce templates and run an SEO pipeline, but lacks Etsy operations experience, accounts cannot be inherited so the start is from zero, and the niche has entered a declining-stock phase.",
+      "categoryId": 3,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "Microns",
+        "grade": "B",
+        "url": "https://www.microns.io/startup-listings/digital-template-etsy-business"
       }
     }
   ],
@@ -3332,6 +3647,30 @@ window.FALLBACK_DATA_EN = {
       "source": {
         "name": "Marsbit",
         "url": "https://news.marsbit.co/20261106174512569129.html"
+      }
+    },
+    {
+      "id": 27,
+      "boardId": 35,
+      "title": "Faceless AI YouTube Channels Claiming $30,000 a Month",
+      "reason": "SideHustleBusted checked 257 faceless channels created from October 2025 to April 2026 on 2026-10-26: median monthly income was $0, 79% had not reached the YouTube Partner Program threshold, and 0 reached even half of the claimed income; a typical channel gets about 1,291 views per video. Top cases are real, but new channels have an extremely low chance of replicating them.",
+      "categoryId": 13,
+      "issueDate": "2026-11-25",
+      "source": {
+        "name": "SideHustleBusted",
+        "url": "https://sidehustlebusted.com/checks/faceless-youtube-30000-per-month"
+      }
+    },
+    {
+      "id": 28,
+      "boardId": 36,
+      "title": "AI Ghostwriting and 'AI Guru' Get-Rich-Quick Claims",
+      "reason": "Sina Finance verified on 2026-11-09: the top 5% of AI ghostwriters earn ¥5,000–15,000 a month, 80% earn under ¥500, and half quit within three months; skipping cash-flow products to sell courses and communities directly is the much-criticized 'AI guru' path. Don't trust get-rich-quick claims backed only by income screenshots, with no real cases or sources.",
+      "categoryId": 15,
+      "issueDate": "2026-11-25",
+      "source": {
+        "name": "Sina Finance / AI8899",
+        "url": "http://ai8899.cn/tutorials/11545"
       }
     }
   ]

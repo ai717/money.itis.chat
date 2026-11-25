@@ -1,7 +1,7 @@
 window.FALLBACK_DATA = {
   "site": "搞钱项目库",
   "subject": "真实搞钱项目拆解：赚钱逻辑、收入证据、成本、风险与第一步",
-  "exportedAt": "2026-11-22T10:43:02+08:00",
+  "exportedAt": "2026-11-25T10:48:45+08:00",
   "source": "Muse 空间 gao-qian-xiang-mu 的 getState 结构化导出",
   "categories": [
     {
@@ -222,6 +222,13 @@ window.FALLBACK_DATA = {
       "date": "2026-11-22",
       "projectCount": 13,
       "warningCount": 3,
+      "status": "done"
+    },
+    {
+      "id": 10,
+      "date": "2026-11-25",
+      "projectCount": 14,
+      "warningCount": 2,
       "status": "done"
     }
   ],
@@ -2749,7 +2756,7 @@ window.FALLBACK_DATA = {
       "matchReason": "可复用中文内容站运营与AI自动化流水线批量生成练习题，但缺交互式教学产品与高校、企业销售经验。",
       "categoryId": 15,
       "issueDate": "2026-11-22",
-      "featured": true,
+      "featured": false,
       "source": {
         "name": "Transcribe.so",
         "grade": "B",
@@ -3018,6 +3025,314 @@ window.FALLBACK_DATA = {
         "name": "The AI Receipts",
         "grade": "A",
         "url": "https://theaireceipts.com/case-studies/stencil-ai/"
+      }
+    },
+    {
+      "id": 128,
+      "boardId": 153,
+      "title": "AI搜索优化（AEO）代运营机构",
+      "what": "帮助客户网站内容被Google AI Overviews、ChatGPT等AI搜索引用，提供AEO策略制定、内容优化、技术实施等月度代运营服务。",
+      "moneyLogic": "企业客户按月支付服务费，因AI搜索流量成为新获客渠道，客户为抢占AI引用曝光位而付费。",
+      "incomeEvidence": "PrintCashWithAI引TrustMRR经Stripe核实：AEO机构形态MRR 167833美元；同页Reddit加AI推荐机构MRR 34750美元、Reddit GEO机构约27999美元",
+      "cost": "约0-5000元（含n8n自托管服务器费用、模型API按量调用费、Airtable或Google Sheets免费档、Stripe手续费）",
+      "timeCost": "每周20-30小时（含客户沟通、策略执行、自动化流水线维护、报告交付）",
+      "risks": "AI搜索算法变动快，引用规则随时变；客户流失率高；早期需自证案例才能获客；模型API成本随量波动；Reddit等渠道有封号与规则风险",
+      "firstStep": "在自有内容站部署一套n8n加Airtable的AEO监测流水线，抓取目标关键词在AI Overviews与ChatGPT中的引用情况，产出首份分析报告做作品集",
+      "matchScore": 88,
+      "matchReason": "用户拥有中文内容站可作自有案例、具备n8n等自动化流水线开发经验、熟悉AI工具链，极易复用现有技术资产切入AEO服务",
+      "categoryId": 24,
+      "issueDate": "2026-11-25",
+      "featured": true,
+      "source": {
+        "name": "PrintCashWithAI",
+        "grade": "A",
+        "url": "https://www.printcashwithai.com/guides/ai-automation-agency-stack/"
+      }
+    },
+    {
+      "id": 129,
+      "boardId": 160,
+      "title": "AI加持自由职业接单（文案/设计/剪辑/开发）",
+      "what": "利用AI工具加速已有技能（文案、设计、视频剪辑、开发等），在Upwork、Fiverr、LinkedIn等平台接单交付。",
+      "moneyLogic": "客户为交付成果付费：企业主与内容团队需文案、设计稿、短视频、代码功能；AI把人工耗时压缩，单位时间产出提升，从而提高时薪或项目单价。",
+      "incomeEvidence": "Emergent指南区间：月入1000-15000美元；引述Reddit用户自述：自动化服务月入5000-10000美元、B2B长文单价500-2000美元/篇、AI咨询时薪200-500美元",
+      "cost": "约0-500元（含主流AI工具订阅与平台佣金预留）",
+      "timeCost": "每周10-30小时，视接单量与交付复杂度而定",
+      "risks": "平台竞争激烈、低价卷单；AI生成质量波动导致退单；账号封号风险；汇率与提现手续费损耗；停手即停收，无资产沉淀",
+      "firstStep": "今天注册Upwork或Fiverr账号，挂载1-2个AI辅助开发、自动化脚本、技术文案的低价测试单（50-100美元），跑通从接单到交付全流程",
+      "matchScore": 85,
+      "matchReason": "用户具备开发经验与AI自动化流水线能力，可直接复用技术栈做高单价开发与自动化交付单，且内容站经验可切入文案与SEO赛道",
+      "categoryId": 1,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "Emergent",
+        "grade": "B",
+        "url": "https://emergent.sh/learn/how-to-make-money-with-ai"
+      }
+    },
+    {
+      "id": 130,
+      "boardId": 155,
+      "title": "GEO站点：批量生成AI搜索问答页靠联盟与商单变现",
+      "what": "针对用户在ChatGPT等AI搜索中的提问习惯，批量生成问答型页面，让AI检索引用并推荐，沉淀长尾流量。",
+      "moneyLogic": "联盟返佣（用户点击购买）、商单广告（品牌方付费植入）、付费咨询（高意向线索转化），由广告主与平台付费。",
+      "incomeEvidence": "博主余温自述（Glanote整理，明确未经独立审计）：近一年X相关收入超50万元，单月最高约20万元；其GEO站点从日入几百元提升至日入1000-2000元",
+      "cost": "约500-2000元（域名、服务器、内容生成API额度、基础SEO工具订阅）",
+      "timeCost": "前期每周10-15小时（选题、生成、发布、监控），稳定后每周3-5小时维护更新",
+      "risks": "AI搜索算法变动导致收录与引用骤降；内容同质化易被判定为低质或垃圾站；联盟佣金率下调或商单不稳定；依赖单一平台分发风险高；批量生成需人工把关，否则损害站点信誉",
+      "firstStep": "用现有自动化流水线跑通“关键词到标题到问答页到发布到索引提交”最小闭环，先上线50条页面观测2周收录与点击",
+      "matchScore": 85,
+      "matchReason": "用户已有中文内容站与AI自动化流水线，可直接复用选题挖掘、批量生成、发布监控全链路，边际成本极低",
+      "categoryId": 6,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "Glanote",
+        "grade": "C",
+        "url": "http://glanote.com/fed3bf"
+      }
+    },
+    {
+      "id": 131,
+      "boardId": 162,
+      "title": "垂直行业AI Agent订阅产品",
+      "what": "针对特定垂直行业开发AI Agent，替企业处理发票核对、线索跟进、数据提取等单一重复任务，按月或按年订阅收费。",
+      "moneyLogic": "企业为节省人力成本、提升准确率付费订阅；B2B定价通常高于B2C，客户粘性强、流失率低。",
+      "incomeEvidence": "BigIdeasDB引TrustMRR数据（2026-11-17核实）：140多个有收入的Agent产品中位数月入207美元；B2B中位数302美元；24.0%达1000美元/月，6.2%达10000美元/月；59.1%标注无收入；按调用计费者自述仅几美元/月",
+      "cost": "约3-10万元（含领域调研、提示词与工作流工程、少量前后端开发、测试部署、首批种子客户获取；不含随量计费的大模型API调用费）",
+      "timeCost": "启动期每周20-30小时（兼职可做），上线后每周5-10小时维护迭代",
+      "risks": "单一任务易被平台级功能或通用Agent替代；垂直知识壁垒若不深，竞品低价跟进快；企业采购周期长、需合规安全审核；59.1%的同类产品无收入，典型结果是无人付费",
+      "firstStep": "在BigIdeasDB列表中挑选3个细分赛道（如跨境电商发票核对、房产中介线索跟进、医疗账单数据提取），用现有自动化流水线各跑通一个最小可用闭环Demo",
+      "matchScore": 78,
+      "matchReason": "用户拥有AI自动化流水线经验与中文内容站分发渠道，可快速产出垂直Demo并低成本获客；缺口在企业级销售与合规交付经验",
+      "categoryId": 2,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "BigIdeasDB",
+        "grade": "A",
+        "url": "https://bigideasdb.com/how-to-make-money-with-ai-agents"
+      }
+    },
+    {
+      "id": 132,
+      "boardId": 154,
+      "title": "微信小程序流量主广告分成流水线",
+      "what": "一人开发维护8个微信小程序，接入流量主广告位，依靠用户浏览与点击广告获取分成收入。",
+      "moneyLogic": "微信广告主投放广告，小程序展示广告，用户看或点广告后微信按分成规则结算给开发者。",
+      "incomeEvidence": "新浪财经2026-11-09副业观察核对公开复盘与作者自述：8个小程序单日合计1032元；7个产品日活约1000时广告日入60多元；作者测算想日入100元，若单品日入10元还需6个，若单品日入1元则需再做60多个",
+      "cost": "约0-500元（含微信小程序认证300元/年、域名服务器约200元/年、AI辅助开发工具订阅费）",
+      "timeCost": "前期每天2-4小时搭建流水线与上架，稳定后每周约5-8小时维护迭代",
+      "risks": "单品收入极不稳定，大量依赖爆款概率；微信流量主政策与分成比例随时调整；小程序审核与违规下架风险；需持续产出新品维持矩阵规模，玩法同质化竞争激烈",
+      "firstStep": "复用微信小程序主体完成认证，搭建一个最简工具类小程序接入流量主，跑通从开发到收款全流程",
+      "matchScore": 78,
+      "matchReason": "用户已有DOIN小游戏门户开发经验与AI自动化流水线能力，可复用技术栈快速量产小程序，但需补齐微信生态运营与流量获取经验",
+      "categoryId": 4,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "新浪财经/AI8899",
+        "grade": "B",
+        "url": "http://ai8899.cn/tutorials/11545"
+      }
+    },
+    {
+      "id": 133,
+      "boardId": 152,
+      "title": "Apiframe：聚合多模态AI生成API的统一计费平台",
+      "what": "将多个AI图片、视频、音乐生成模型聚合在一个API接口和一张账单下，按积分套餐向开发者出售调用额度。",
+      "moneyLogic": "开发者按月付费购买积分包（39美元/月起），用于调用聚合后的多模态生成API，平台赚取模型厂商批发价与零售价的差价。",
+      "incomeEvidence": "TrustMRR经Stripe核实（2026-11-04同步）：MRR 30100美元，740个订阅，近30天收入40200美元，历史累计551000美元，2026年10月单月44100美元，创始人自述利润率67%",
+      "cost": "约5000-30000元（API网关与计费系统开发、云服务器、模型API预付额度；原文未披露具体成本）",
+      "timeCost": "启动期每周30-40小时（模型对接、计费系统、文档）；稳定期每周10-15小时（新模型接入、客户支持、运营）",
+      "risks": "上游模型厂商直销或降价挤压毛利；多模型统一计费技术复杂度高，计量不准易引发纠纷；聚合层本身无护城河，大厂推出类似服务即被替代；依赖少数大模型供应商，议价能力弱",
+      "firstStep": "今天注册3-5个主流模型（如Midjourney、Runway、Suno、ElevenLabs）的开发者账号，跑通各自API调用与计费文档，产出《多模型API对接成本与限额对比表》",
+      "matchScore": 78,
+      "matchReason": "用户熟悉AI工具与自动化流水线，可复用于模型适配与计费自动化；中文内容站可作SEO获客渠道，DOIN小游戏门户的开发能力可支撑API网关建设",
+      "categoryId": 2,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "The AI Receipts",
+        "grade": "A",
+        "url": "https://theaireceipts.com/blog/how-much-do-ai-developer-tools-make/"
+      }
+    },
+    {
+      "id": 134,
+      "boardId": 161,
+      "title": "White Glove Content：无露脸视频代做订阅服务",
+      "what": "为客户生产用于YouTube、TikTok、Instagram Reels、Facebook的无露脸视频，按月订阅交付。",
+      "moneyLogic": "客户按月付费购买无露脸视频制作服务，用于社交媒体涨粉与变现，服务方赚取制作费与订阅费。",
+      "incomeEvidence": "AI Side Hustles案例库引TrustMRR支付数据（2026-11-02，标注独立核实）：MRR 62817美元，近30天收入65439美元，累计308499美元，515个活跃订阅，2026年4月17日创立",
+      "cost": "约3000-10000元（视频编辑与AI生成工具订阅、素材库；原文未披露成本）",
+      "timeCost": "每周投入20-30小时处理客户订单、视频制作与沟通",
+      "risks": "客户流失率高；视频质量标准主观难把控；平台算法变动影响客户ROI；竞争者门槛低易模仿；收入不是利润，AI模型、人力与素材成本未披露",
+      "firstStep": "今天注册并测试3款主流AI视频生成工具（如HeyGen、Synthesia、InVideo），对比无露脸视频生成质量与成本",
+      "matchScore": 75,
+      "matchReason": "用户已有AI工具与自动化流水线经验可复用于视频生产标准化，但缺乏视频制作领域经验与海外客户获取渠道",
+      "categoryId": 10,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "AI Side Hustles",
+        "grade": "A",
+        "url": "https://aisidehustles.lumexforge.com/category/faceless-youtube"
+      }
+    },
+    {
+      "id": 135,
+      "boardId": 159,
+      "title": "全渠道种草商单接单（小红书等平台官方商单系统）",
+      "what": "在小红书等平台官方商单系统按基准价接品牌推广图文订单，覆盖不同粉丝层级账号及素人铺量。",
+      "moneyLogic": "品牌方按平台公开基准价支付推广费，平台抽成约10%，创作者赚取内容制作与流量差价。",
+      "incomeEvidence": "该站整理的2026年市场行情与报价示例（自述为公开可查成交数据，未独立核实）：小红书1-3万粉图文200-600元/篇，3-10万粉图文600-2500元/篇，10万粉以上图文2500-8000元/篇；素人铺量50-200元/篇；示例：12.3万粉美妆账号定制图文4200元/篇",
+      "cost": "约0-5000元（含账号养号成本、样品成本、可能的工具订阅），无固定门槛",
+      "timeCost": "每周投入10-20小时（选品、沟通、创作、发布、数据复盘）",
+      "risks": "平台规则变动导致商单减少；账号权重波动影响报价；素人铺量单价低需靠量；平台抽成比例可能调整；需持续产出优质内容维持账号活跃度；虚报数据会被品牌方核实并影响商单信用",
+      "firstStep": "今天注册小红书创作者中心并开通商单功能，同步调研3-5个同领域对标账号的报价单与选品逻辑",
+      "matchScore": 75,
+      "matchReason": "用户拥有中文内容站与AI自动化流水线，可复用内容生产能力快速批量产出种草图文，但缺小红书账号矩阵与商单运营经验需从零建立",
+      "categoryId": 34,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "cdjzdb.cn（九准IT资讯）",
+        "grade": "C",
+        "url": "https://www.cdjzdb.cn/show-70285.html"
+      }
+    },
+    {
+      "id": 136,
+      "boardId": 157,
+      "title": "Substack付费通讯变现",
+      "what": "在Substack发布免费内容积累读者，开通付费订阅收取月费或年费，可叠加课程、电子书、赞助与付费社群等多元变现。",
+      "moneyLogic": "读者为优质深度内容付费订阅（月费或年费），创作者实得约84%订阅费；另可通过付费课程、电子书、品牌赞助、付费社群二次变现。",
+      "incomeEvidence": "Earnly 2026年数据整理：典型有收入创作者年入约16000美元，中位数约4000美元；近半数付费作者年入不足500美元；10美元月费创作者实得约8.40美元；月入1000美元约需120个付费订户，免费转付费率约5%-10%",
+      "cost": "近零成本启动（Substack免费建站），仅需域名约50-100元/年（可选）与时间投入；无库存、无技术开发成本",
+      "timeCost": "每周5-10小时（写作、编辑、运营、读者互动），早期需持续6-12个月建立读者基数",
+      "risks": "读者付费意愿低、流失率高，免费转付费率仅5%-10%；平台抽成10%加支付手续费；内容持续产出压力大；中位数收入仅4000美元/年，近半数作者年入500美元以下；中文受众付费习惯与海外提现合规待解决",
+      "firstStep": "今天注册Substack账号，迁移3-5篇中文内容站高互动文章作为种子内容，设置免费订阅表单开始收集邮箱",
+      "matchScore": 75,
+      "matchReason": "用户已有中文内容站与AI自动化写作流水线，可直接复用内容生产能力，但需解决中文受众付费习惯与海外平台提现合规问题",
+      "categoryId": 12,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "Earnly",
+        "grade": "B",
+        "url": "https://earnly.ai/blog/how-much-do-substack-writers-make"
+      }
+    },
+    {
+      "id": 137,
+      "boardId": 156,
+      "title": "ShipFast：卖给独立开发者的Next.js脚手架",
+      "what": "为独立开发者提供含登录、支付、邮件等模块的Next.js启动模板，加速SaaS与AI网页应用上线。",
+      "moneyLogic": "一次性销售代码许可给独立开发者与创业者，买家为节省数周搭建基础设施时间付费。",
+      "incomeEvidence": "AI Side Hustles案例库（标注独立核实）：过去12个月收入96593美元；2026-11-09查看时近30天收入1146美元，MRR为0美元",
+      "cost": "约0-5000元（开发时间为主，域名、服务器与支付接入）",
+      "timeCost": "初期集中开发2-4周，后续维护每周约5-10小时",
+      "risks": "市场竞争激烈，免费与开源替代品多；单次买断制导致收入不稳定，MRR为0显示缺乏持续复购；需持续跟进Next.js版本更新维护；脚手架收入不等于买家SaaS能成功",
+      "firstStep": "今天调研ShipFast竞品功能清单与定价，列出最小可行功能集并搭建Next.js加Stripe加Auth.js初始仓库",
+      "matchScore": 75,
+      "matchReason": "用户具备开发经验与AI自动化流水线，可复用技术栈构建脚手架，但中文内容站与小游戏门户受众与独立开发者工具赛道重叠度有限",
+      "categoryId": 4,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "AI Side Hustles",
+        "grade": "A",
+        "url": "https://aisidehustles.lumexforge.com/category/digital-products"
+      }
+    },
+    {
+      "id": 138,
+      "boardId": 158,
+      "title": "AI流水线批量产6小时助眠历史纪录片",
+      "what": "用Claude写稿、ElevenLabs配音、AI生成画面，自研TubeGen流水线拼接，跑多个无露脸频道发超长助眠历史纪录片。",
+      "moneyLogic": "YouTube AdSense广告分成，观众为助眠或背景音观看超长视频，播放量换广告收益。",
+      "incomeEvidence": "AI Video Bootcamp整理，称Fortune于2025年12月以AdSense截图核实：月收入4万至6万美元；月成本约6700美元（团队6500美元、AI工具200美元）；单条6小时视频制作成本约60美元",
+      "cost": "单人起步约1500元/月（AI工具订阅）；按原文规模约6700美元/月（含团队工资约6500美元）",
+      "timeCost": "本人每天约2小时，团队全职运营",
+      "risks": "新手复制难度大（作者10岁起做YouTube，沉淀多年）；需自研流水线工程能力；依赖单一平台算法；助眠赛道竞争加剧；团队成本高，独自起步难；YouTube对批量低质内容有去货币化风险",
+      "firstStep": "今天搭建最小原型：用Claude写一条30分钟助眠历史脚本，ElevenLabs出音频，AI图片工具批量生成画面，拼接成品上传测试",
+      "matchScore": 70,
+      "matchReason": "用户有AI自动化流水线经验与开发能力，可复用TubeGen思路自建工具，但缺YouTube长视频运营经验且团队成本门槛高",
+      "categoryId": 13,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "AI Video Bootcamp",
+        "grade": "B",
+        "url": "https://aivideobootcamp.com/blog/making-10k-month-ai-video/"
+      }
+    },
+    {
+      "id": 139,
+      "boardId": 163,
+      "title": "Audn.AI：AI白帽黑客自动化渗透测试",
+      "what": "自主AI白帽黑客，24小时持续渗透测试客户的AI Agent与应用，用提示注入、数据外泄、社工攻击等手段，再由蓝队Agent打分修补并复测。",
+      "moneyLogic": "面向正在发布AI产品的团队与安全团队，订阅制999美元/月不限量测试，客户为安全合规与上线前排雷买单。",
+      "incomeEvidence": "TrustMRR经Stripe核实（2026-11-24）：MRR 42400美元，110个订阅；2026年10月53400美元，9月20200美元，8月14800美元，7月1400美元；近30天51700美元；累计139000美元",
+      "cost": "约1-5万元（红队与蓝队Agent开发、测试靶场、云资源；原文未披露成本，团队2-5人、VC支持）",
+      "timeCost": "初期全职开发，上线后每周约10-20小时维护与迭代",
+      "risks": "收入集中在少数大额一次性付款，淡月波动大；卖的是信任与攻防实战能力，通用AI套壳过不了安全评审；定价999美元/月但实际户均约390美元，多为折扣订阅；增长仅3个月历史，尚待验证留存",
+      "firstStep": "今天搭建一个最小化Demo：用现有AI流水线跑通一条提示注入检测链路，产出一份可展示的测试报告样本",
+      "matchScore": 65,
+      "matchReason": "用户具备AI自动化流水线能力，可复用做安全工具的推广与内容运营，但缺乏深度安全研究背景与企业级销售渠道",
+      "categoryId": 2,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "The AI Receipts",
+        "grade": "A",
+        "url": "https://theaireceipts.com/case-studies/audn-ai/"
+      }
+    },
+    {
+      "id": 140,
+      "boardId": 164,
+      "title": "SocialCrawl：69平台社交数据API，按调用计费",
+      "what": "一个API密钥即可调用69个社交平台的公开结构化数据，面向AI Agent与开发者，按调用次数售卖积分包，另提供MCP服务器与Agent技能。",
+      "moneyLogic": "开发者与AI Agent团队按调用量购买积分包（非订阅制），因需大规模结构化社交数据做研究、监测与推理而付费。",
+      "incomeEvidence": "TrustMRR经Stripe核实（2026-11-24）：近30天收入51500美元，2026年10月47000美元，9月23400美元，8月26200美元，累计156000美元；MRR仅约1100美元，因几乎全是充值包；创始人自述利润率约70%未经核实",
+      "cost": "约1-3万元（多平台爬虫开发、反爬维护、API网关与计费系统、MCP服务器部署；原文未披露成本）",
+      "timeCost": "创始人全职运营，每周约40-50小时（含爬虫维护、客户支持、新平台接入）",
+      "risks": "抓取公开平台数据有平台服务条款与法律风险；69个平台反爬策略常变，需持续运维；Apify、Bright Data等大对手已在场；按量充值收入波动大，9月低于8月；创始人此前4个AI产品均失败",
+      "firstStep": "今天调研69个平台中可合规获取的数据源子集，搭建最小可行爬虫加API网关原型，验证单平台数据拉取稳定性",
+      "matchScore": 62,
+      "matchReason": "自动化流水线经验可部分复用，但69平台反爬运维是重运营活，与现有内容站、小游戏资产协同弱",
+      "categoryId": 2,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "The AI Receipts",
+        "grade": "A",
+        "url": "https://theaireceipts.com/case-studies/socialcrawl/"
+      }
+    },
+    {
+      "id": 141,
+      "boardId": 165,
+      "title": "Etsy网站模板与预设包数字下载店",
+      "what": "在Etsy销售Shopify、Wix、Squarespace网站模板与Lightroom预设包等数字下载商品，一次性收费、无库存无发货。",
+      "moneyLogic": "小商家付费购买现成网站模板或预设包，解决建站与调色的设计和技术门槛；网站模板单价60-160美元，预设包14美元，靠模板量与长尾流量变现。",
+      "incomeEvidence": "Microns挂牌信息（2026-11-20，已售出）：89个模板，5815个客户；累计收入约297000美元；近12个月约15500英镑（约20800美元）；2022年开店，2026年仅上3个新品，销量连年下滑",
+      "cost": "约0-5000元（域名与品牌、模板制作工具如Figma、Etsy刊登费0.20美元/条、初期推广费）",
+      "timeCost": "上手期每周15-20小时（做模板、优化SEO、客服），成熟后每周5-8小时",
+      "risks": "Etsy店铺账号不可转让，买家须从新店冷启动；平台算法与费率政策风险；模板品类同质化严重，AI生成工具拉低门槛；该店销量已连年下滑，2026年仅上3个新品",
+      "firstStep": "今天用AI加Figma跑通一套Shopify落地页模板到导出HTML/Liquid再打包的最小闭环，验证单品制作耗时",
+      "matchScore": 55,
+      "matchReason": "用户有开发与AI自动化能力可批量产模板、做SEO流水线，但缺Etsy平台运营经验且账号不可继承需从零起步，该细分赛道已进入存量衰退期",
+      "categoryId": 3,
+      "issueDate": "2026-11-25",
+      "featured": false,
+      "source": {
+        "name": "Microns",
+        "grade": "B",
+        "url": "https://www.microns.io/startup-listings/digital-template-etsy-business"
       }
     }
   ],
@@ -3332,6 +3647,30 @@ window.FALLBACK_DATA = {
       "source": {
         "name": "Marsbit",
         "url": "https://news.marsbit.co/20261106174512569129.html"
+      }
+    },
+    {
+      "id": 27,
+      "boardId": 35,
+      "title": "无露脸AI YouTube频道宣称月入3万美元",
+      "reason": "SideHustleBusted于2026-10-26核查257个2025年10月至2026年4月新建的无露脸频道：中位月收入为0美元，79%未达到YouTube合作伙伴计划门槛，0个达到宣称收入的一半；典型频道每条视频约1291次播放。头部案例真实存在，但新号复制成功率极低。",
+      "categoryId": 13,
+      "issueDate": "2026-11-25",
+      "source": {
+        "name": "SideHustleBusted",
+        "url": "https://sidehustlebusted.com/checks/faceless-youtube-30000-per-month"
+      }
+    },
+    {
+      "id": 28,
+      "boardId": 36,
+      "title": "AI代写与“AI导师”暴富宣传",
+      "reason": "新浪财经2026-11-09核对：AI代写头部5%月入5000-15000元，80%不到500元，一半人干不满三个月就走；跳过现金流产品直接卖课卖社群，是被骂的“AI导师”路径。只有收益截图、没有真实案例与原文的暴富宣传不要信。",
+      "categoryId": 15,
+      "issueDate": "2026-11-25",
+      "source": {
+        "name": "新浪财经/AI8899",
+        "url": "http://ai8899.cn/tutorials/11545"
       }
     }
   ]
