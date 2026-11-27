@@ -1,7 +1,7 @@
 {
  "site": "搞钱项目库",
  "subject": "真实搞钱项目拆解：赚钱逻辑、收入证据、成本、风险与第一步",
- "exportedAt": "2026-11-25T10:48:45+08:00",
+ "exportedAt": "2026-11-27T10:44:48+08:00",
  "source": "Muse 空间 gao-qian-xiang-mu 的 getState 结构化导出",
  "categories": [
   {
@@ -229,6 +229,13 @@
    "date": "2026-11-25",
    "projectCount": 14,
    "warningCount": 2,
+   "status": "done"
+  },
+  {
+   "id": 11,
+   "date": "2026-11-27",
+   "projectCount": 13,
+   "warningCount": 3,
    "status": "done"
   }
  ],
@@ -3042,7 +3049,7 @@
    "matchReason": "用户拥有中文内容站可作自有案例、具备n8n等自动化流水线开发经验、熟悉AI工具链，极易复用现有技术资产切入AEO服务",
    "categoryId": 24,
    "issueDate": "2026-11-25",
-   "featured": true,
+   "featured": false,
    "source": {
     "name": "PrintCashWithAI",
     "grade": "A",
@@ -3333,6 +3340,292 @@
     "name": "Microns",
     "grade": "B",
     "url": "https://www.microns.io/startup-listings/digital-template-etsy-business"
+   }
+  },
+  {
+   "id": 142,
+   "boardId": 168,
+   "title": "3x3老虎机自走棋Roguelike游戏《Slotbound》",
+   "what": "开发一款融合3x3老虎机召唤、自走棋与Roguelike的防御类小游戏，上架Steam买断制销售。",
+   "moneyLogic": "玩家一次性购买（定价约9.99美元/12000韩元），无内购无广告，Steam抽成30%后开发者拿净收入。",
+   "incomeEvidence": "作者分享Steam数据：上线48小时毛收入4.7亿韩元（约35.3-35.6万美元）；首周销量超20万份、毛收入133.24万美元（约18亿韩元）；首周峰值同时在线32700+（SteamDB）；以上为毛收入，未扣Steam30%分成与税。",
+   "cost": "每月约 30000 韩元（约 160 元人民币）的两个 AI 编程工具订阅加素材包加 Steam 注册费；开发期生活费靠服役积蓄与变卖家当，无外部融资。",
+   "timeCost": "约1年全职投入，每天除睡觉外全在开发；上线后10天内发布10+补丁，需持续运维。",
+   "risks": "极端爆款不可复制（Demo期营销无效突然爆火）；上线10天内出现中国山寨抄袭；AI生成素材版权与玩家信任争议；技术债集中爆发（Intel特定CPU崩溃、Windows拦截、排行榜作弊）；单人全栈压力大、断绝社交。",
+   "firstStep": "今天先用 LÖVE2D + Lua 跑通 3x3 老虎机召唤-战斗循环的最小原型，验证核心玩法是否成立。",
+   "matchScore": 88,
+   "matchReason": "可复用DOIN小游戏门户分发经验、小游戏开发底座、AI自动化流水线与付费/免费模型生产能力。",
+   "categoryId": 5,
+   "issueDate": "2026-11-27",
+   "featured": true,
+   "source": {
+    "name": "Inven Global（专访报道，源头为开发者 X 发帖与 Steam 数据）",
+    "grade": "B",
+    "url": "https://www.invenglobal.com/articles/29038/slotbound-sells-200000-copies-created-solo-by-first-time-developer"
+   }
+  },
+  {
+   "id": 143,
+   "boardId": 169,
+   "title": "autoclip 开源长转短视频工具接单/自用流水线",
+   "what": "粘贴链接或上传本地长视频，自动生成最多 10 条带字幕、封面、标题、文案与标签的短视频及 ZIP 发布包；剪切渲染本地完成，支持抖音/小红书/TikTok/Reels/Shorts/B站/YouTube 画幅与时长规则；提供桌面端、Docker、CLI 与 MCP 服务器。",
+   "moneyLogic": "靠接单服务变现：帮播客、课程、访谈类客户把长视频批量切成短视频包收费，或自建账号矩阵跑剪辑流水线获取流量变现。",
+   "incomeEvidence": "",
+   "cost": "软件免费开源；首次本地安装下载约 220MB；文本模型成本实测约 0.09 元（1h43m 英文）、约 0.20 元（2h52m 中文）；云端转写另计约 0.1 元/小时音频（私密素材需走本地 Whisper）。",
+   "timeCost": "实测同一台 Apple Silicon Mac：1h43m 素材约 7.5 分钟出 10 条；2h52m 素材约 29.5 分钟出 10 条。日常接单按单量排期，自建矩阵则需持续投入选题与发布时间。",
+   "risks": "剪别人视频再发布涉及版权与平台规则（README 演示用第三方访谈亦声明仅作演示）；云端转写会上传音频，私密素材须走本地 Whisper；成本表仅为单机 3 次实测、不可作基准；桌面端仅支持 Apple Silicon Mac 与 Windows x64；无收入证据，属工具加服务机会而非已验证案例。",
+   "firstStep": "今天克隆 github.com/zhouxiaoka/autoclip，按 README 在本地（Apple Silicon Mac 或 Windows x64）跑通一条 10 分钟内的测试视频，确认全链路耗时与成本。",
+   "matchScore": 85,
+   "matchReason": "可直接复用 AI 工具与自动化流水线经验，结合现有内容站选题能力快速跑通接单或自用矩阵。",
+   "categoryId": 10,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "explainx.ai（按 GitHub README 逐项核对的介绍，作者声明未亲自运行）",
+    "grade": "C",
+    "url": "https://explainx.ai/blog/autoclip-open-source-ai-video-clipper-long-video-to-shorts-local-github-trending-2026"
+   }
+  },
+  {
+   "id": 144,
+   "boardId": 178,
+   "title": "垂直领域周更播客（CPM赞助+会员订阅+联盟+数字产品组合变现）",
+   "what": "做一档垂直细分领域的周更播客，通过口播赞助（CPM计价）、听众付费会员（Patreon/Apple订阅）、联盟佣金、数字产品/付费社群组合变现；头部主播常把播客作为高客单价产品（咨询、课程、工作坊）的获客引擎。",
+   "moneyLogic": "广告主按千次下载付费（CPM 18-35美元/60秒中插）；听众为深度内容/社群付费订阅；推荐工具/课程赚联盟佣金；自有数字产品/付费社群/工作坊高客单价转化。",
+   "incomeEvidence": "行业基准与模型测算（非具名真实账本）：60秒口播中插 CPM 18-35美元；周更播客月收入分层：<1000下载/期 0-150美元，1000-5000下载/期 200-1200美元，1万-5万下载/期 2500-15000美元。模型算例 Show A（2500下载/期，2中插$25 CPM+60名$6/月Patreon+联盟）≈1040美元/月；Show B（2万下载/期，3广告位+400名$10/月社群+工作坊）>11500美元/月。数据源：Pod Studio 2026-11-06 指南，引用 AdvertiseCast、IAB/PwC、Patreon 数据。",
+   "cost": "原文未披露具体数字，仅称设备与托管成本低。",
+   "timeCost": "每周制作一期，原文未给具体小时数。",
+   "risks": "文中算例为模型推算非真实账本，不可作案例证据；小体量播客广告收入极低（2000下载/期两条广告约800美元/月），变现拐点在1万下载/期以上或B2B高客单价转化；冷启动期长，需持续周更积累听众；赞助依赖下载量核实与广告主预算；中文播客广告市场 CPM 与海外差异大，需本地化验证。",
+   "firstStep": "今天：选定一个与现有内容站/小游戏用户重合度高的垂直细分题材（如‘AI工具实测周报’或‘独立开发变现案例库’），录制一期 15-20 分钟试播（手机+免费剪辑软件即可），发布到小宇宙/苹果播客并同步到内容站与私域测试反馈。",
+   "matchScore": 75,
+   "matchReason": "可复用中文内容站选题/素材库、AI工具自动化生产流水线（脚本、切片、字幕、推文）、小游戏门户现有流量导听众，但缺音频剪辑/口播表达经验与中文播客广告销售渠道。",
+   "categoryId": 14,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "Pod Studio（2026-11-06 发布的播客收入指南，引用 AdvertiseCast、IAB/PwC、Patreon 数据）",
+    "grade": "C",
+    "url": "https://podstudiotools.com/guides/how-much-do-podcasts-make"
+   }
+  },
+  {
+   "id": 145,
+   "boardId": 172,
+   "title": "小红书卖考试模拟试卷电子版（豆包生成+网盘自动发货）",
+   "what": "用豆包按大纲生成模拟题、截图做封面与商品图，在小红书个人店挂百度网盘链接（30天有效期、自动发货），发笔记关联商品引流",
+   "moneyLogic": "备考人群（国央企招聘、银行招聘、教资、消防工程师、税务师等）为获取练习题付费，单份 5-9 元低价冲量，靠笔记量与选题命中率出单",
+   "incomeEvidence": "",
+   "cost": "约 0 元启动（豆包免费生成 + 百度网盘免费存储），边际成本可忽略，仅需实名认证才能收款",
+   "timeCost": "每天持续上新品、发笔记（上限 5 篇/天），停更即停单；熟练后单品从生成到上架十几分钟",
+   "risks": "侵权风险最大：须用提示词严禁 AI 调用/改写真题与机构题，标题简介禁出现“真题”，封面不扒他人图；公检法、执法类、军队文职等敏感考试资料直接不给上架；AI 痕迹重会被限流，需人工改写去 AI 味；低价冲量模式，收入完全取决于笔记数量与选题命中率",
+   "firstStep": "今天注册小红书账号并完成实名认证，开通“小店”商品发布功能",
+   "matchScore": 75,
+   "matchReason": "复用 AI 生成与自动化流水线能力，但小红书电商运营、选品与合规把控为新技能树",
+   "categoryId": 3,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "网创项目网·离谱思维，发布 2026-11-14",
+    "grade": "C",
+    "url": "https://www.lipsw.com/wcxmdq/26503.html"
+   }
+  },
+  {
+   "id": 146,
+   "boardId": 167,
+   "title": "AI SEO 助手 SaaS：关键词聚类+30天内容日历+一键发布",
+   "what": "整合关键词研究与主题聚类、自动生成30天内容日历、覆盖研究到生成到发布全流程、接入 GSC 与 WordPress/Shopify 一键发布、AI 建议 JSON-LD 结构化数据、提供 SEO 任务看板，用户每天只需花 5 分钟审日历、批稿、发布。",
+   "moneyLogic": "SaaS 订阅收费（原帖未写具体定价），面向需要规模化产出 SEO 内容的站长与内容团队。",
+   "incomeEvidence": "作者自述上月 MRR 约 600 美元；X 首发获 30000+ 曝光、80+ 注册；已签约 2 家企业客户（均为 Hacker News 原帖单方自述，未经第三方支付核验）。",
+   "cost": "原文未披露具体成本；两人联合创始人从零自举开发。",
+   "timeCost": "原文未披露具体时长；作者称每周快速发新功能。",
+   "risks": "MRR 规模极小且仅单方自述；SEO 工具赛道拥挤，Ahrefs/Semrush 等巨头持续推出 AI 新品；新用户在上手环节流失（作者自认）；业务强依赖 Google 排名算法与 AI 搜索引用规则变化。",
+   "firstStep": "今天先用现有 AI 流水线跑通“关键词→聚类→日历→生成→WordPress 发布”最小闭环，产出 5 篇测试文章并验收收录情况。",
+   "matchScore": 75,
+   "matchReason": "可复用中文内容站的选题与发布经验、AI 自动化流水线与模型调用能力、WordPress/Shopify 对接经验；缺口在英文 SEO 数据源接入与海外推广运营。",
+   "categoryId": 6,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "Hacker News（Show HN 原帖，作者自述）",
+    "grade": "C",
+    "url": "https://news.ycombinator.com/item?id=45356956"
+   }
+  },
+  {
+   "id": 147,
+   "boardId": 177,
+   "title": "Starter Story 模式：创业案例库+通讯+长视频访谈的内容站",
+   "what": "采访创业者并公开真实收入数据，建立案例库网站（4500+篇）、邮件通讯（27.5万订阅）、YouTube长视频访谈（80万+订阅、月150-200万观看）三位一体的内容矩阵",
+   "moneyLogic": "约75%收入来自自有产品：付费会员（1万+付费会员）、课程、付费社群；其余为赞助与联盟营销",
+   "incomeEvidence": "创始人自述被收购时月收入约9.17万美元、年收入约110万美元；Adweek报道年收入为七位数；第三方梳理称2023年8月年收入曾达150万美元（不同年份口径，不宜并列）",
+   "cost": "启动成本原文未披露；早期为副业每天约2小时，2018年9月月收入1737.84美元时创始人辞职全职",
+   "timeCost": "早期副业每天约2小时；全职后创始人+2名全职共3人小团队运营，持续产出访谈与案例",
+   "risks": "收购价未披露不可作退出预期；收入为创始人自述无第三方审计；极度依赖创始人个人品牌与长视频访谈产能，3人团队复制门槛在持续产出与信任积累；搜索流量下滑、平台获客成本上升为行业大背景",
+   "firstStep": "今天整理 50 个细分领域创业公开案例（收入、渠道、关键动作），搭一个公开案例库雏形并同步到现有通讯渠道测试读者反馈。",
+   "matchScore": 70,
+   "matchReason": "已有中文内容站运营经验与AI内容生产流水线可复用案例库与通讯模式，但缺长视频访谈产能与创始人个人IP积累",
+   "categoryId": 7,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "Adweek（2026-02-23 一线媒体报道）",
+    "grade": "B",
+    "url": "https://www.adweek.com/media/hubspot-media-acquires-starter-story-youtube/"
+   }
+  },
+  {
+   "id": 148,
+   "boardId": 170,
+   "title": "多平台内容同步分发工具（开源+托管订阅）",
+   "what": "前全栈工程师独自开发的多平台内容同步分发工具，代码开源、社区贡献教程与平台适配，提供托管订阅替用户屏蔽部署、升级、平台审核等运维麻烦。",
+   "moneyLogic": "用户为托管版付费：$29/月（5渠道、400条、AI副驾）与$39/月（10渠道、不限条数），自部署版永久免费。付费动机是避开安装、升级、各平台开发者审核等繁琐运维。",
+   "incomeEvidence": "第三方账单快照/追踪（非官方披露）：2026年Q1加CLI后月收入从1.7万$涨至4.5万$；2026年3月2.1万$、4月4.5万$、7月14.5万$（文中一段）；另一段称2026年7月账单快照显示5000+活跃付费订阅、单月17.08万$；2026年9月单月订阅收入22.3-22.5万$（约160万人民币）。原文两段7月数字口径不一致。",
+   "cost": "原文未给具体数字；主要为服务器托管与长期运维人力（一人承担客服、升级、追平台审核）。",
+   "timeCost": "原文未给每日小时数；一人长期接客服、盯升级、追平台审核，属重运维。",
+   "risks": "免费版永久存在，用户随时可自部署流失，定价权弱；流量全靠社区口碑，无可买流量入口；每接入新平台需重走开发者审核，平台改接口即需重做；代码公开可被抄袭做更低价托管；同类开源项目极少能达5000付费用户，幸存者偏差明显。",
+   "firstStep": "今天先在 GitHub 搜同类开源分发工具（关键词：content distribution、multi-platform publisher），阅读其平台适配代码与审核流程文档，评估接入成本。",
+   "matchScore": 65,
+   "matchReason": "可复用中文内容站做分发渠道、AI自动化流水线做副驾功能，但需补平台开发者审核流程、多平台API适配等陌生技能树。",
+   "categoryId": 2,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "掘金·OPC 案例拆解（第 58 篇），发布 2026-11-08",
+    "grade": "C",
+    "url": "https://article.juejin.cn/post/7705621037035110400"
+   }
+  },
+  {
+   "id": 149,
+   "boardId": 175,
+   "title": "AI经济日历工具订阅变现并出售案例",
+   "what": "把宏观经济数据转成交易信号卖订阅，运营约一年后经Flippa出售网站资产",
+   "moneyLogic": "订阅费（约905名付费用户，人均约16美元/月）+ 出售网站资产一次性收入",
+   "incomeEvidence": "售价23万美元；最近一个月收入15082美元、净利润13909美元；过去12个月收入15.3万美元、净利润10万美元；ARR约19.2万美元；平均月流失率28%（订阅平均寿命约3.6个月）",
+   "cost": "启动成本原文未披露具体数字",
+   "timeCost": "卖家自述每周只需5-10小时维护",
+   "risks": "28%月流失率导致需持续获客、交易信号需求随行情波动、用户见不到效果即退订、AI搜索冲击下流量稳定性存疑、Flippa H1 2026内容站成交量跌39%买家追问严",
+   "firstStep": "调研宏观经济数据源API（如FRED、TradingView）与信号生成逻辑，跑通最小可行性原型",
+   "matchScore": 60,
+   "matchReason": "有内容运营与AI自动化经验可复用，但缺SaaS技术栈(Next.js/Supabase/Stripe)与金融信号域知识",
+   "categoryId": 8,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "Small Start（2026-11-22 发布的成交案例分析，基于 Flippa 成交报告）",
+    "grade": "B",
+    "url": "https://small-start.com/en/cases/global-ai-economic-calendar-saas-230k-exit/"
+   }
+  },
+  {
+   "id": 150,
+   "boardId": 174,
+   "title": "AI 辅助微信私域代运营（社群内容、朋友圈文案、转化话术、自动回复）",
+   "what": "用 ChatGPT、Claude、Hermes Agent 为品牌提供微信私域代运营服务，含社群内容规划、朋友圈文案、转化话术库、自动回复搭建及全月托管。",
+   "moneyLogic": "品牌方按月或按项目付费购买私域运营服务，因自身缺人、缺内容、群互动低（日互动率<1%），需外包提升互动与复购。",
+   "incomeEvidence": "教程页单方自述：成熟阶段月收入约 1.2-2 万元人民币；其测算口径为 15-20 客户 × 840 元/月 ≈ 1.26-1.68 万元/月，两者上限略有出入，以逐项测算为准。案例：淘宝母婴店 5 个 200 人群，1 个月互动率 0.5%→12%、月复购 8%→23%、月销 5 万→12 万元。无独立核实。",
+   "cost": "约 30-50 美元/月（约 220-360 元），含 AI 模型调用费、自动化工具订阅等基础成本。",
+   "timeCost": "AI 将内容生产从 1 小时/天压缩至 10 分钟/天；成熟阶段服务 8-15 个品牌，需投入更多客户沟通与运营时间。",
+   "risks": "收入数字未经独立核实，属单方教程口径；企业微信对拉群、群发、加人有限制，自动化代运营易触封号；效果高度依赖客户原有私域基数，死群盘活无保证，续费靠实绩；低价文案服务竞争激烈，易陷入比价。",
+   "firstStep": "今天先写一份社群内容规划的标准化 SOP（含提示词模板），用自有内容站发一篇私域死群自测清单，测试真实需求。",
+   "matchScore": 55,
+   "matchReason": "复用 AI 内容生产与自动化流水线经验，但缺微信私域生态实操经验、客户获取渠道（小红书/抖音/Upwork）需从零建立。",
+   "categoryId": 24,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "AI8899 教程页，转述 DuckDB Lab，发布 2026-09-11",
+    "grade": "C",
+    "url": "https://ai8899.cn/tutorials/11053"
+   }
+  },
+  {
+   "id": 151,
+   "boardId": 173,
+   "title": "地域化 eSIM 独立应用矩阵（RedSim 等）",
+   "what": "针对欧洲、日本、英国等高意图关键词发布单一地区的 eSIM App，承接 App Store 自然搜索流量；产品 RedSim 覆盖 200+ 国家，主打低价、易装、全天候客服、消费返 25% 与邀请返佣，全程 AI 辅助、零团队运营。",
+   "moneyLogic": "用户在 App Store 搜索「Europe eSIM」「Japan eSIM」等词直接下单购买流量包，开发者从 eSIM 上游货源商赚取差价；另通过返佣机制刺激复购与裂变。",
+   "incomeEvidence": "4 个月后以 27000 美元在 TrustMRR 完成出售（退出价，非月收入）；96% 收入源于 App Store 自然搜索流量。数字来自开发者自述/交易平台信息，经《独立开发变现周刊》第 164 期转述。",
+   "cost": "原文未给具体金额；主要成本为应用开发与上架、eSIM 货源对接（AI 辅助开发、零人力成本）。",
+   "timeCost": "原文未给每日小时数；周期 2026 年 6 月上线至约 10 月出售，共约 4 个月。",
+   "risks": "单一渠道依赖度极高（App Store 自然搜索 96%），算法或关键词排名变动即断流；eSIM 属成熟红海品类，价格战与合规（各国电信监管、退款纠纷）压力大；退出价不等于利润，未披露获客与货源成本；细分词位易被后来者快速复制挤占。",
+   "firstStep": "今天先注册 Apple Developer 账号，并调研 3 家 eSIM 上游聚合商的分销/白标政策，对比起订量与 API 对接文档。",
+   "matchScore": 55,
+   "matchReason": "拥有 AI 工具链与自动化流水线经验可复用开发效率，且有小游戏上架经验懂商店规则，但缺 eSIM 供应链与电信合规知识、缺 App Store SEO 实战经验。",
+   "categoryId": 4,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "独立开发变现周刊（第 164 期），转载 ezindie.com，发布 2026-11-05",
+    "grade": "C",
+    "url": "https://unsafe.sh/go-452946.html"
+   }
+  },
+  {
+   "id": 152,
+   "boardId": 166,
+   "title": "Reddit 代运营让品牌被 AI 推荐",
+   "what": "为品牌做 Reddit 策略、发帖与互动，目标是让 ChatGPT 等 AI 助手和谷歌在回答中推荐该品牌。",
+   "moneyLogic": "向品牌收代运营订阅费，客单价约 4100 美元/月，卖点是效果保证——让 ChatGPT 推荐品牌否则不收费。",
+   "incomeEvidence": "TrustMRR 支付核验（2026-11-26）：MRR 33100 美元，8 个订阅；近 30 天收入 69300 美元；累计收入 672000 美元；MRR 波动极大（10-14 为 47800，11-12 跌至 30400，11-25 回升 42900，11-26 再跌至 33100）。",
+   "cost": "原文未披露具体成本；收款走 Stripe，2025 年 2 月创立于美国。",
+   "timeCost": "原文未披露具体时间投入。",
+   "risks": "客户高度集中（仅 6-8 个），丢单即收入断崖；Reddit 社区规则是主要运营风险，营销味发帖易被删号/封禁；包上推荐的保证难以稳定兑现，依赖 ChatGPT 引用机制变化；无创始人成本与利润数据。",
+   "firstStep": "今天注册一个 Reddit 账号，深度潜伏 3 个目标细分领域的热门子版块，记录高赞帖子结构与社区禁忌。",
+   "matchScore": 55,
+   "matchReason": "可复用 AI 自动化流水线与内容生产能力，但缺乏 Reddit 社区运营经验与英文品牌服务渠道。",
+   "categoryId": 24,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "The AI Receipts（收入源：TrustMRR，支付通道 API 核验）",
+    "grade": "A",
+    "url": "https://theaireceipts.com/case-studies/reddit-agency/"
+   }
+  },
+  {
+   "id": 153,
+   "boardId": 176,
+   "title": "WooCommerce 女性健身电子书包独立站（作者自述5个月入约5.7万美元）",
+   "what": "搭建 WooCommerce 独立站销售 39 美元女性健身 4 合 1 电子书包（训练指南、饮食手册、代谢蓝图、习惯追踪），数字产品自动交付，主靠 Google Ads 引流成交",
+   "moneyLogic": "买家支付 39 美元购买电子书包，无库存物流成本，毛利约 83%，核心成本是 Google Ads 广告费",
+   "incomeEvidence": "作者自述并称经 Flippa 核验：2026 年 5 月 1326 美元、6 月 6279 美元、7 月 11349 美元、8 月 16341 美元、9 月 21489 美元，5 个月合计收入 56784 美元、净利润 44504 美元（约 83% 毛利），月均访客 1K-5K",
+   "cost": "原文未披露建站成本；挂牌价 2.5 万美元（含域名、源码、全部数字产品版权、约 1538-1700 名邮件订阅者、30 天售后支持；Google Ads 账户不含在内）。",
+   "timeCost": "原文未给具体小时数；数字产品交付自动化，核心投入在广告优化与素材更新。",
+   "risks": "店龄仅 5 个月无长期历史；收入几乎 100% 依赖 Google Ads，停投即断流且广告账户不随店转让、接手需自建投放能力；女性健身电子书赛道高度同质化、内容无护城河；邮件订阅者质量未验证；挂牌信息为卖家单方自述、经 SideProjectors 转载、未直接见 Flippa 原始页面",
+   "firstStep": "先用 AI 工具（如 ChatGPT/Claude）按 4 合 1 结构生成一份女性健身电子书草稿，评估内容生产难度与差异化空间",
+   "matchScore": 45,
+   "matchReason": "可复用 AI 工具生产电子书内容与自动化流水线，但缺 Google Ads 实操经验且核心护城河是广告投放能力而非内容生产",
+   "categoryId": 18,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "SideProjectors（2026-11-24 发布，转载 Flippa 挂牌信息）",
+    "grade": "C",
+    "url": "https://www.sideprojectors.com/project/113309/sofiafit-ebook-selling-ecomerce-store"
+   }
+  },
+  {
+   "id": 154,
+   "boardId": 171,
+   "title": "用 AI 免费建单页网站 + 冷邮件获客，卖月费托管维护服务",
+   "what": "用 Claude 免费版生成定制单页网站，录 2 分钟 Loom 视频发冷邮件给本地屋顶承包商等小商户，客户同意上线即签 199 美元/月的网站托管与日常维护协议。",
+   "moneyLogic": "小商户付月费 199 美元，换取网站上线、托管、日常维护（含内容微改、SSL、备份等），无需一次性付几千美元建站费。",
+   "incomeEvidence": "作者自述：累计签约 23 家、流失 4 家、现存 19 家；上月追加销售后月流水 4400 美元 MRR（19 家 × 199 美元/月，含追加销售）。",
+   "cost": "约 0 元启动成本（Claude 免费版、Loom 免费版、冷邮件工具免费额度），主要成本是发 2000+ 封冷邮件的时间与邮箱工具订阅费。",
+   "timeCost": "原文未给每日小时数；前期需持续发冷邮件（数月累计 2000-2500 封），后期需承担 19 家存量客户的日常维护工时。",
+   "risks": "冷邮件成交率仅约 1%，需海量发信且易触反垃圾邮件规则；已有 4 家流失，单客维护工时失控会吃掉利润；须把域名 DNS 与托管环境锁定在自己云端账户防客户中途迁移毁约；通用 AI 单页工具正被垂直 CRM 以 70 美元/月内嵌绞杀，纯套壳无护城河。",
+   "firstStep": "今天注册 Claude 免费版与 Loom 免费版，用提示词生成一个屋顶承包商单页落地页原型，录 2 分钟演示视频。",
+   "matchScore": 45,
+   "matchReason": "复用 AI 工具与自动化流水线经验可加速建站与邮件脚本，但冷邮件获客、本地商户服务、网站运维属全新技能树，内容站与小游戏资产难直接复用。",
+   "categoryId": 23,
+   "issueDate": "2026-11-27",
+   "featured": false,
+   "source": {
+    "name": "AISIDE WEEKLY 第 33 期（2026-11-09—11-15），转述 Reddit 案例 @lazarbetterrun",
+    "grade": "C",
+    "url": "https://aiside.day/zh/weekly/week-2026-11-09"
    }
   }
  ],
@@ -3671,6 +3964,42 @@
    "source": {
     "name": "新浪财经/AI8899",
     "url": "http://ai8899.cn/tutorials/11545"
+   }
+  },
+  {
+   "id": 29,
+   "boardId": 40,
+   "title": "通用 AI 电话前台 1000 美元/月高价推销被 80% 美发沙龙拒绝",
+   "reason": "以 1000 美元/月向近 1000 家美发沙龙推销通用 AI 电话前台，遭 80% 店主拒绝；通用 AI 单点工具正被垂直 CRM 以约 70 美元/月内嵌绞杀，高价套壳无护城河。",
+   "categoryId": 36,
+   "issueDate": "2026-11-27",
+   "source": {
+    "name": "AISIDE WEEKLY",
+    "url": "https://aiside.day/zh/weekly/week-2026-11-09"
+   }
+  },
+  {
+   "id": 30,
+   "boardId": 39,
+   "title": "AI 修图/AI 代写虚假派单与培训贷",
+   "reason": "以 0 元入学、保底派单月入过万为诱饵，实为让学员在第三方分期平台签按月扣款的电子合同，课程售价 3980-9800 元；派单群多为过审率不到 1% 的假单或极低价单，退学要付 20%-30% 违约金加已开通课时费。",
+   "categoryId": 22,
+   "issueDate": "2026-11-27",
+   "source": {
+    "name": "灵活就业网",
+    "url": "http://www.hr12345.cn/article/ai-dispatch-and-training-loan-scam"
+   }
+  },
+  {
+   "id": 31,
+   "boardId": 38,
+   "title": "AI 商城躺赚加盟/代理费骗局",
+   "reason": "承诺固定收益、保本、佣金 30%、每天自动出单，要求先交大额加盟费、代理费、流量包，之后再追加开店费、认证费、服务费；主要奖励来自拉人头发展代理而非真实商品销售；只展示收益截图，无法说明商品来源、发货与售后。",
+   "categoryId": 17,
+   "issueDate": "2026-11-27",
+   "source": {
+    "name": "有赞",
+    "url": "https://www.youzan.com/cms/article/79105.html"
    }
   }
  ]
