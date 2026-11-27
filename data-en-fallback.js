@@ -1,7 +1,7 @@
 window.FALLBACK_DATA_EN = {
   "site": "Money Project Library",
   "subject": "Real money-making projects, deconstructed: how they make money, income evidence, costs and first steps",
-  "exportedAt": "2026-11-25T10:48:45+08:00",
+  "exportedAt": "2026-11-27T10:44:48+08:00",
   "source": "Structured getState export from the Muse space gao-qian-xiang-mu",
   "categories": [
     {
@@ -229,6 +229,13 @@ window.FALLBACK_DATA_EN = {
       "date": "2026-11-25",
       "projectCount": 14,
       "warningCount": 2,
+      "status": "done"
+    },
+    {
+      "id": 11,
+      "date": "2026-11-27",
+      "projectCount": 13,
+      "warningCount": 3,
       "status": "done"
     }
   ],
@@ -3042,7 +3049,7 @@ window.FALLBACK_DATA_EN = {
       "matchReason": "The user owns a Chinese content site that can serve as their own case study, has experience building n8n automation pipelines, and knows the AI toolchain well, making it easy to reuse existing technical assets to enter AEO services.",
       "categoryId": 24,
       "issueDate": "2026-11-25",
-      "featured": true,
+      "featured": false,
       "source": {
         "name": "PrintCashWithAI",
         "grade": "A",
@@ -3333,6 +3340,292 @@ window.FALLBACK_DATA_EN = {
         "name": "Microns",
         "grade": "B",
         "url": "https://www.microns.io/startup-listings/digital-template-etsy-business"
+      }
+    },
+    {
+      "id": 142,
+      "boardId": 168,
+      "title": "3x3 Slot-Machine Auto-Battler Roguelike \"Slotbound\"",
+      "what": "Build a defensive mini-game blending 3x3 slot-machine summoning, auto-battler and Roguelike elements, and sell it on Steam as a buy-to-play title.",
+      "moneyLogic": "Players pay once (about $9.99 / 12,000 KRW); no in-app purchases, no ads. After Steam's 30% cut, the developer keeps the net revenue.",
+      "incomeEvidence": "Developer-shared Steam figures: gross revenue of 470 million KRW (about $353,000–$356,000) in the first 48 hours; over 200,000 copies sold in week one, gross revenue $1,332,400 (about 1.8 billion KRW); week-one peak concurrent players 32,700+ (SteamDB). All gross revenue, before Steam's 30% cut and taxes.",
+      "cost": "About 30,000 KRW per month (about ¥160) for two AI coding-tool subscriptions plus asset packs and the Steam registration fee; living expenses during development came from military-service savings and selling personal belongings, with no outside funding.",
+      "timeCost": "About 1 year of full-time work, developing every waking hour; 10+ patches released within 10 days of launch, with ongoing maintenance needed.",
+      "risks": "Extreme breakout success is not replicable (marketing during the demo period did nothing, then it suddenly went viral); Chinese copycats appeared within 10 days of launch; AI-generated assets raise copyright and player-trust concerns; technical debt erupted all at once (crashes on specific Intel CPUs, Windows blocks, leaderboard cheating); solo full-stack pressure and social isolation.",
+      "firstStep": "Today, use LÖVE2D + Lua to build a minimal prototype of the 3x3 slot-machine summoning-combat loop and verify whether the core gameplay works.",
+      "matchScore": 88,
+      "matchReason": "Can reuse DOIN mini-game portal distribution experience, the mini-game development base, AI automation pipelines, and paid/free model production capacity.",
+      "categoryId": 5,
+      "issueDate": "2026-11-27",
+      "featured": true,
+      "source": {
+        "name": "Inven Global (interview report; original source: developer's X posts and Steam data)",
+        "grade": "B",
+        "url": "https://www.invenglobal.com/articles/29038/slotbound-sells-200000-copies-created-solo-by-first-time-developer"
+      }
+    },
+    {
+      "id": 143,
+      "boardId": 169,
+      "title": "autoclip: Open-Source Long-to-Short Video Clipper for Client Work / Self-Use Pipeline",
+      "what": "Paste a link or upload a local long video and automatically generate up to 10 short videos with subtitles, covers, titles, copy and tags, plus a ZIP publishing pack; cutting and rendering run locally, with support for Douyin/Xiaohongshu/TikTok/Reels/Shorts/Bilibili/YouTube aspect ratios and duration rules; desktop app, Docker, CLI and MCP server available.",
+      "moneyLogic": "Monetize through client services: batch-cut long videos (podcasts, courses, interviews) into short-video packs for clients, or run a self-owned account matrix on a clipping pipeline to earn traffic revenue.",
+      "incomeEvidence": "",
+      "cost": "Software is free and open source; first local install downloads about 220MB; text-model cost measured at about ¥0.09 (1h43m English) and about ¥0.20 (2h52m Chinese); cloud transcription costs about ¥0.1 per hour of audio extra (private material should use local Whisper).",
+      "timeCost": "Measured on the same Apple Silicon Mac: 1h43m of footage took about 7.5 minutes to produce 10 clips; 2h52m of footage took about 29.5 minutes for 10 clips. Client work is scheduled by order volume; a self-run matrix needs ongoing investment in topic selection and publishing time.",
+      "risks": "Clipping other people's videos and reposting them involves copyright and platform rules (the README demo uses third-party interviews and states it is for demonstration only); cloud transcription uploads audio, so private material must use local Whisper; the cost table is only 3 runs on a single machine and cannot serve as a benchmark; the desktop app only supports Apple Silicon Mac and Windows x64; no income evidence — this is a tool-plus-service opportunity, not a verified case.",
+      "firstStep": "Today, clone github.com/zhouxiaoka/autoclip and follow the README to run one test video under 10 minutes locally (Apple Silicon Mac or Windows x64), confirming end-to-end time and cost.",
+      "matchScore": 85,
+      "matchReason": "Can directly reuse AI tooling and automation pipeline experience, combined with existing content-site topic-picking ability, to quickly run client work or a self-use matrix.",
+      "categoryId": 10,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "explainx.ai (introduction checked item by item against the GitHub README; the author states they have not run it personally)",
+        "grade": "C",
+        "url": "https://explainx.ai/blog/autoclip-open-source-ai-video-clipper-long-video-to-shorts-local-github-trending-2026"
+      }
+    },
+    {
+      "id": 144,
+      "boardId": 178,
+      "title": "Vertical-Niche Weekly Podcast (CPM Sponsorships + Memberships + Affiliates + Digital Products)",
+      "what": "Run a weekly podcast in a vertical niche, monetizing through spoken sponsorships (CPM-priced), listener paid memberships (Patreon/Apple subscriptions), affiliate commissions, and digital products/paid communities; top hosts often use the podcast as a customer-acquisition engine for high-ticket products (consulting, courses, workshops).",
+      "moneyLogic": "Advertisers pay per thousand downloads (CPM $18–$35 per 60-second mid-roll); listeners pay for in-depth content/community subscriptions; recommending tools/courses earns affiliate commissions; owned digital products/paid communities/workshops convert at high ticket prices.",
+      "incomeEvidence": "Industry benchmarks and model estimates (not a named real ledger): 60-second spoken mid-roll CPM $18–$35; monthly revenue tiers for a weekly podcast: under 1,000 downloads/episode $0–$150, 1,000–5,000 downloads/episode $200–$1,200, 10,000–50,000 downloads/episode $2,500–$15,000. Model examples: Show A (2,500 downloads/episode, 2 mid-rolls at $25 CPM + 60 members at $6/month on Patreon + affiliates) ≈ $1,040/month; Show B (20,000 downloads/episode, 3 ad slots + 400 community members at $10/month + workshops) > $11,500/month. Source: Pod Studio guide dated 2026-11-06, citing AdvertiseCast, IAB/PwC and Patreon data.",
+      "cost": "No specific figures disclosed in the source; only that equipment and hosting costs are low.",
+      "timeCost": "One episode per week; the source gives no specific hour count.",
+      "risks": "The figures in the article are model estimates, not a real ledger, and cannot serve as case evidence; small podcasts earn very little from ads (about $800/month for 2,000 downloads/episode with two ads), with the monetization inflection point above 10,000 downloads/episode or via B2B high-ticket conversion; the cold-start period is long and requires sustained weekly publishing to build an audience; sponsorships depend on verified download numbers and advertiser budgets; Chinese podcast ad-market CPMs differ greatly from overseas ones and need local verification.",
+      "firstStep": "Today: pick a vertical niche topic that overlaps strongly with existing content-site/mini-game users (e.g. \"AI tool hands-on weekly\" or \"indie-dev monetization case library\"), record a 15–20 minute pilot episode (phone + free editing software is enough), publish it to Xiaoyuzhou/Apple Podcasts, and sync it to the content site and private channels to test feedback.",
+      "matchScore": 75,
+      "matchReason": "Can reuse Chinese content-site topic/material libraries, AI-tool automated production pipelines (scripts, clips, subtitles, tweets) and mini-game portal traffic to drive listeners, but lacks audio-editing/spoken-delivery experience and Chinese podcast ad-sales channels.",
+      "categoryId": 14,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "Pod Studio (podcast income guide published 2026-11-06, citing AdvertiseCast, IAB/PwC and Patreon data)",
+        "grade": "C",
+        "url": "https://podstudiotools.com/guides/how-much-do-podcasts-make"
+      }
+    },
+    {
+      "id": 145,
+      "boardId": 172,
+      "title": "Selling Exam Mock-Test Papers on Xiaohongshu (Doubao-Generated + Cloud-Drive Auto Delivery)",
+      "what": "Use Doubao to generate mock test papers from exam syllabi, screenshot them for covers and product images, list them in a Xiaohongshu personal store with a Baidu Netdisk link (30-day validity, auto delivery), and drive traffic with notes linked to the products.",
+      "moneyLogic": "Exam-prep audiences (state-owned-enterprise recruitment, bank recruitment, teacher certification, fire-engineer exams, tax-accountant exams, etc.) pay for practice questions; single papers sell for ¥5–¥9, low-price volume play, with sales depending on note volume and topic hit rate.",
+      "incomeEvidence": "",
+      "cost": "About ¥0 to start (free Doubao generation + free Baidu Netdisk storage); negligible marginal cost; only real-name verification is needed to receive payments.",
+      "timeCost": "Keep listing new products and posting notes every day (up to 5 posts/day); sales stop when posting stops; once skilled, a single product takes a dozen minutes from generation to listing.",
+      "risks": "Copyright risk is the biggest: prompts must forbid the AI from calling up or adapting real exam questions or institutional papers, titles/introductions must not contain \"real exam questions\", covers must not reuse others' images; sensitive exam materials (public security, law enforcement, military civilian posts) must not be listed at all; heavy AI traces get throttled, so manual rewriting is needed to remove the AI feel; low-price volume model means income depends entirely on note volume and topic hit rate.",
+      "firstStep": "Today, register a Xiaohongshu account and complete real-name verification, then enable product publishing in the \"store\" feature.",
+      "matchScore": 75,
+      "matchReason": "Reuses AI generation and automation pipeline ability, but Xiaohongshu e-commerce operations, product selection and compliance are a new skill tree.",
+      "categoryId": 3,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "Lipsw.com (Wangchuang Xiangmu Wang · Lipu Siwei), published 2026-11-14",
+        "grade": "C",
+        "url": "https://www.lipsw.com/wcxmdq/26503.html"
+      }
+    },
+    {
+      "id": 146,
+      "boardId": 167,
+      "title": "AI SEO Assistant SaaS: Keyword Clustering + 30-Day Content Calendar + One-Click Publishing",
+      "what": "Combine keyword research and topic clustering, auto-generate a 30-day content calendar, cover the full flow from research to generation to publishing, connect to GSC and WordPress/Shopify for one-click publishing, use AI to suggest JSON-LD structured data, and provide an SEO task board — users only need 5 minutes a day to review the calendar, approve drafts and publish.",
+      "moneyLogic": "SaaS subscription fees (the original post gives no specific pricing), aimed at site owners and content teams that need to produce SEO content at scale.",
+      "incomeEvidence": "Author's own account: MRR of about $600 last month; the X launch post got 30,000+ impressions and 80+ sign-ups; 2 enterprise clients signed (all from the Hacker News original post, single-party claims, not verified against third-party payment records).",
+      "cost": "No specific costs disclosed in the source; two co-founders bootstrapping from zero.",
+      "timeCost": "No specific time commitment disclosed in the source; the author says new features ship weekly.",
+      "risks": "MRR is tiny and only self-reported; the SEO-tool race is crowded, with Ahrefs/Semrush and other giants shipping AI features continuously; new users drop off during onboarding (the author admits this); the business depends heavily on Google ranking algorithms and AI-search citation rules.",
+      "firstStep": "Today, use the existing AI pipeline to run a minimal \"keyword → clustering → calendar → generation → WordPress publishing\" loop, produce 5 test articles and check indexing.",
+      "matchScore": 75,
+      "matchReason": "Can reuse Chinese content-site topic-picking and publishing experience, AI automation pipelines and model-calling ability, and WordPress/Shopify integration experience; gaps are English SEO data-source access and overseas promotion operations.",
+      "categoryId": 6,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "Hacker News (Show HN original post, author's own account)",
+        "grade": "C",
+        "url": "https://news.ycombinator.com/item?id=45356956"
+      }
+    },
+    {
+      "id": 147,
+      "boardId": 177,
+      "title": "The Starter Story Model: Startup Case Library + Newsletter + Long-Form Video Interviews",
+      "what": "Interview founders and publish real revenue figures, building a three-part content matrix: a case-library website (4,500+ articles), an email newsletter (275,000 subscribers), and long-form YouTube interviews (800,000+ subscribers, 1.5–2 million monthly views).",
+      "moneyLogic": "About 75% of revenue comes from owned products: paid memberships (10,000+ paying members), courses and paid communities; the rest comes from sponsorships and affiliate marketing.",
+      "incomeEvidence": "Founder's own account: about $91,700 in monthly revenue and about $1,100,000 in annual revenue at acquisition; Adweek reported annual revenue in seven figures; a third-party roundup says annual revenue once reached $1,500,000 in August 2023 (different years, so the figures should not be placed side by side).",
+      "cost": "No specific startup costs disclosed in the source; it began as a side project at about 2 hours a day, and the founder quit to go full-time in September 2018 when monthly revenue reached $1,737.84.",
+      "timeCost": "About 2 hours a day as an early side project; after going full-time, a 3-person team (the founder + 2 full-timers) kept producing interviews and cases.",
+      "risks": "The acquisition price was not disclosed and cannot be used as an exit expectation; revenue figures are the founder's own account with no third-party audit; the model depends heavily on the founder's personal brand and long-form interview output, and a 3-person team faces a high bar in sustained output and trust-building; falling search traffic and rising platform acquisition costs are the industry backdrop.",
+      "firstStep": "Today, collect 50 public startup cases in niche verticals (revenue, channels, key moves), build a draft public case library, and sync it to existing newsletter channels to test reader feedback.",
+      "matchScore": 70,
+      "matchReason": "Already has Chinese content-site operating experience and an AI content-production pipeline that can be reused for the case library and newsletter model, but lacks long-form video interview capacity and founder personal-IP accumulation.",
+      "categoryId": 7,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "Adweek (front-line media report, 2026-02-23)",
+        "grade": "B",
+        "url": "https://www.adweek.com/media/hubspot-media-acquires-starter-story-youtube/"
+      }
+    },
+    {
+      "id": 148,
+      "boardId": 170,
+      "title": "Multi-Platform Content Sync and Distribution Tool (Open Source + Hosted Subscription)",
+      "what": "A multi-platform content sync and distribution tool built solo by a former full-stack engineer: code open-sourced, with the community contributing tutorials and platform adapters, and a hosted subscription that shields users from deployment, upgrades and platform-review chores.",
+      "moneyLogic": "Users pay for the hosted version: $29/month (5 channels, 400 posts, AI copilot) and $39/month (10 channels, unlimited posts); the self-hosted version is free forever. The paying motive is avoiding the tedious operations of installation, upgrades and each platform's developer review.",
+      "incomeEvidence": "Third-party billing snapshots/tracking (not official disclosure): monthly revenue rose from $17,000 to $45,000 in Q1 2026 after the CLI launch; March 2026 $21,000, April $45,000, July $145,000 (one passage); another passage says the July 2026 billing snapshot showed 5,000+ active paid subscribers and $170,800 in a single month; September 2026 single-month subscription revenue was $223,000–$225,000 (about ¥1,600,000). The two July figures use inconsistent definitions.",
+      "cost": "No specific figures given in the source; the main costs are server hosting and long-term maintenance labour (one person handling support, upgrades and platform reviews).",
+      "timeCost": "No daily hour count given in the source; one person handles support, upgrades and platform reviews long-term — heavy operations.",
+      "risks": "The free version exists forever, so users can self-host and churn at any time, weakening pricing power; traffic relies entirely on community word of mouth, with no buyable traffic source; each new platform requires another developer review, and platform API changes force rework; the open code can be copied into a cheaper hosted rival; very few open-source projects of this kind ever reach 5,000 paying users — survivorship bias is obvious.",
+      "firstStep": "Today, search GitHub for similar open-source distribution tools (keywords: content distribution, multi-platform publisher), read their platform-adapter code and review-process docs, and assess integration cost.",
+      "matchScore": 65,
+      "matchReason": "Can reuse Chinese content sites as distribution channels and AI automation pipelines for copilot features, but needs to add unfamiliar skills: platform developer review flows and multi-platform API adaptation.",
+      "categoryId": 2,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "Juejin · OPC case teardown (No. 58), published 2026-11-08",
+        "grade": "C",
+        "url": "https://article.juejin.cn/post/7705621037035110400"
+      }
+    },
+    {
+      "id": 149,
+      "boardId": 175,
+      "title": "AI Economic-Calendar Tool: Subscription Monetization and Website Sale Case",
+      "what": "Turn macroeconomic data into trading signals sold by subscription, then sell the website asset on Flippa after about a year of operation.",
+      "moneyLogic": "Subscription fees (about 905 paying users, averaging about $16/month) + one-off income from selling the website asset.",
+      "incomeEvidence": "Sale price $230,000; last month's revenue $15,082, net profit $13,909; last 12 months' revenue $153,000, net profit $100,000; ARR about $192,000; average monthly churn 28% (average subscription lifetime about 3.6 months).",
+      "cost": "No specific startup costs disclosed in the source.",
+      "timeCost": "The seller says only 5–10 hours a week of maintenance is needed.",
+      "risks": "28% monthly churn forces constant acquisition; demand for trading signals moves with market conditions; users cancel when they see no results; traffic stability is uncertain under AI-search disruption; Flippa H1 2026 content-site deal volume fell 39% and buyers ask tougher questions.",
+      "firstStep": "Research macro-economic data APIs (e.g. FRED, TradingView) and signal-generation logic, and build a minimum viable prototype.",
+      "matchScore": 60,
+      "matchReason": "Has content operations and AI automation experience to reuse, but lacks the SaaS stack (Next.js/Supabase/Stripe) and financial-signal domain knowledge.",
+      "categoryId": 8,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "Small Start (closed-deal case analysis published 2026-11-22, based on the Flippa sales report)",
+        "grade": "B",
+        "url": "https://small-start.com/en/cases/global-ai-economic-calendar-saas-230k-exit/"
+      }
+    },
+    {
+      "id": 150,
+      "boardId": 174,
+      "title": "AI-Assisted WeChat Private-Domain Agency (Community Content, Moments Copy, Conversion Scripts, Auto-Replies)",
+      "what": "Use ChatGPT, Claude and Hermes Agent to provide WeChat private-domain agency services for brands, covering community content planning, Moments copy, conversion script libraries, auto-reply setup and full-month hosting.",
+      "moneyLogic": "Brands pay monthly or per project for private-domain operations because they lack staff and content, and their groups have low engagement (daily engagement under 1%), so they outsource to lift engagement and repeat purchases.",
+      "incomeEvidence": "Single-party claims on a tutorial page: about ¥12,000–¥20,000/month at maturity; its own estimate is 15–20 clients × ¥840/month ≈ ¥12,600–¥16,800/month, with the two upper bounds slightly off — use the itemized estimate. Case: a Taobao baby-products store with 5 groups of 200 people raised engagement from 0.5% to 12% and monthly repeat purchases from 8% to 23% in 1 month, with monthly sales from ¥50,000 to ¥120,000. Not independently verified.",
+      "cost": "About $30–$50/month (about ¥220–¥360), covering AI model call fees, automation-tool subscriptions and other basic costs.",
+      "timeCost": "AI cuts content production from 1 hour/day to 10 minutes/day; at maturity, serving 8–15 brands takes more client-communication and operations time.",
+      "risks": "Revenue figures are unverified single-party tutorial claims; WeChat Work limits group invites, mass messaging and adding contacts, so automated agency work risks account bans; results depend heavily on the client's existing private-domain base, with no guarantee of reviving dead groups, and renewals depend on proven results; low-price copywriting services face fierce competition and easy price wars.",
+      "firstStep": "Today, write a standardized SOP for community content planning (with prompt templates), publish a self-test checklist for reviving dead private-domain groups on an owned content site, and test real demand.",
+      "matchScore": 55,
+      "matchReason": "Reuses AI content-production and automation pipeline experience, but lacks hands-on WeChat private-domain experience, and client-acquisition channels (Xiaohongshu/Douyin/Upwork) must be built from zero.",
+      "categoryId": 24,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "AI8899 tutorial page, retelling DuckDB Lab, published 2026-09-11",
+        "grade": "C",
+        "url": "https://ai8899.cn/tutorials/11053"
+      }
+    },
+    {
+      "id": 151,
+      "boardId": 173,
+      "title": "Regional eSIM Standalone App Matrix (RedSim and Others)",
+      "what": "Publish single-region eSIM apps for high-intent keywords such as Europe, Japan and the UK, capturing App Store organic search traffic; the RedSim product covers 200+ countries, leading with low prices, easy setup, round-the-clock support, 25% cashback on spending and referral rewards — built entirely with AI assistance and zero team operations.",
+      "moneyLogic": "Users searching App Store terms like \"Europe eSIM\" or \"Japan eSIM\" buy data packs directly, and the developer earns the spread from eSIM upstream suppliers; a cashback mechanism also drives repeat purchases and referrals.",
+      "incomeEvidence": "Sold for $27,000 on TrustMRR after 4 months (exit price, not monthly revenue); 96% of revenue came from App Store organic search traffic. Figures from the developer's own account / marketplace listing, retold by Indie Dev Monetization Weekly Issue 164.",
+      "cost": "No specific amounts given in the source; the main costs are app development and listing, plus eSIM supply integration (AI-assisted development, zero labour cost).",
+      "timeCost": "No daily hour count given in the source; launched June 2026 and sold around October, about 4 months in total.",
+      "risks": "Extremely dependent on a single channel (96% App Store organic search) — an algorithm or keyword-ranking change cuts off traffic; eSIM is a mature red-ocean category with price wars and compliance pressure (telecom regulation in each country, refund disputes); the exit price is not profit, and acquisition and supply costs were not disclosed; niche keyword positions can be quickly copied and squeezed by later entrants.",
+      "firstStep": "Today, register an Apple Developer account and research 3 eSIM upstream aggregators' distribution/white-label policies, comparing minimum orders and API integration docs.",
+      "matchScore": 55,
+      "matchReason": "Has AI tooling and automation pipeline experience to reuse for development efficiency, and mini-game listing experience for store rules, but lacks eSIM supply-chain and telecom-compliance knowledge and App Store SEO practice.",
+      "categoryId": 4,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "Indie Dev Monetization Weekly (Issue 164), reposting ezindie.com, published 2026-11-05",
+        "grade": "C",
+        "url": "https://unsafe.sh/go-452946.html"
+      }
+    },
+    {
+      "id": 152,
+      "boardId": 166,
+      "title": "Reddit Agency That Gets Brands Recommended by AI",
+      "what": "Run Reddit strategy, posting and engagement for brands, aiming to get AI assistants like ChatGPT and Google to recommend the brand in their answers.",
+      "moneyLogic": "Charge brands an agency subscription of about $4,100/month; the selling point is a results guarantee — get ChatGPT to recommend the brand or pay nothing.",
+      "incomeEvidence": "TrustMRR payment verification (2026-11-26): MRR $33,100 across 8 subscriptions; $69,300 revenue in the last 30 days; $672,000 cumulative revenue; MRR is extremely volatile (10-14: $47,800; 11-12: down to $30,400; 11-25: back up to $42,900; 11-26: down again to $33,100).",
+      "cost": "No specific costs disclosed in the source; payments run through Stripe; founded in the US in February 2025.",
+      "timeCost": "No specific time commitment disclosed in the source.",
+      "risks": "Clients are highly concentrated (only 6–8), so losing one order means a revenue cliff; Reddit community rules are the main operating risk — marketing-flavoured posts get deleted and accounts banned; the guaranteed-recommendation promise is hard to deliver consistently and depends on how ChatGPT's citation mechanism changes; no founder cost or profit data.",
+      "firstStep": "Today, register a Reddit account, lurk in 3 hot subreddits in the target niches, and record high-upvote post structures and community taboos.",
+      "matchScore": 55,
+      "matchReason": "Can reuse AI automation pipeline and content-production ability, but lacks Reddit community-operations experience and English-language brand-service channels.",
+      "categoryId": 24,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "The AI Receipts (income source: TrustMRR, verified via payment-channel API)",
+        "grade": "A",
+        "url": "https://theaireceipts.com/case-studies/reddit-agency/"
+      }
+    },
+    {
+      "id": 153,
+      "boardId": 176,
+      "title": "WooCommerce Women's Fitness eBook Bundle Store (Author Claims About $57,000 in 5 Months)",
+      "what": "Build a WooCommerce store selling a $39 women's fitness 4-in-1 eBook bundle (training guide, nutrition manual, metabolism blueprint, habit tracker), with automated digital delivery and Google Ads as the main traffic source.",
+      "moneyLogic": "Buyers pay $39 for the eBook bundle, with no inventory or logistics costs and about 83% gross margin; the core cost is Google Ads spend.",
+      "incomeEvidence": "Author's own account, claimed Flippa-verified: May 2026 $1,326, June $6,279, July $11,349, August $16,341, September $21,489; $56,784 total revenue and $44,504 net profit over 5 months (about 83% gross margin); 1K–5K average monthly visitors.",
+      "cost": "No specific store-building costs disclosed in the source; list price $25,000 (including domain, source code, all digital-product rights, about 1,538–1,700 email subscribers and 30 days of after-sales support; the Google Ads account is not included).",
+      "timeCost": "No specific hour count given in the source; digital delivery is automated, with core effort going to ad optimization and creative updates.",
+      "risks": "Only 5 months of store history, no long-term track record; revenue depends almost 100% on Google Ads — stop spending and traffic dies, and the ad account does not transfer with the store, so a buyer must build ad capability from scratch; the women's fitness eBook niche is highly commoditized with no content moat; email-subscriber quality is unverified; the listing is the seller's single-party account, reposted by SideProjectors, with the original Flippa page not seen directly.",
+      "firstStep": "First, use an AI tool (e.g. ChatGPT/Claude) to draft a women's fitness eBook following the 4-in-1 structure, and assess content-production difficulty and differentiation.",
+      "matchScore": 45,
+      "matchReason": "Can reuse AI tooling to produce eBook content and automation pipelines, but lacks hands-on Google Ads experience, and the core moat is ad-buying ability rather than content production.",
+      "categoryId": 18,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "SideProjectors (published 2026-11-24, reposting a Flippa listing)",
+        "grade": "C",
+        "url": "https://www.sideprojectors.com/project/113309/sofiafit-ebook-selling-ecomerce-store"
+      }
+    },
+    {
+      "id": 154,
+      "boardId": 171,
+      "title": "Free AI One-Page Websites + Cold-Email Outreach, Selling Monthly Hosting and Maintenance",
+      "what": "Use the free Claude tier to generate custom one-page websites, record a 2-minute Loom demo video, and cold-email it to local small businesses such as roofing contractors; once the client agrees to go live, sign a $199/month website hosting and maintenance agreement.",
+      "moneyLogic": "Small businesses pay $199/month for the site going live, hosting and day-to-day maintenance (minor content changes, SSL, backups, etc.), instead of paying thousands of dollars upfront for a build.",
+      "incomeEvidence": "Author's own account: 23 clients signed in total, 4 churned, 19 active; last month's revenue after upsells was $4,400 MRR (19 clients × $199/month, including upsells).",
+      "cost": "About ¥0 to start (free Claude tier, free Loom tier, free tiers of cold-email tools); the main costs are the time to send 2,000+ cold emails and email-tool subscriptions.",
+      "timeCost": "No daily hour count given in the source; the early phase needs sustained cold emailing (2,000–2,500 emails over several months), and later phases carry day-to-day maintenance for 19 active clients.",
+      "risks": "Cold-email conversion is only about 1%, requiring huge send volumes and risking anti-spam rules; 4 clients have already churned, and per-client maintenance hours can eat profits if uncontrolled; domains, DNS and hosting must be locked into the operator's own cloud account to stop clients migrating away mid-contract and breaking the deal; generic AI one-page tools are being squeezed by vertical CRMs embedding the same at under $70/month, leaving a pure wrapper with no moat.",
+      "firstStep": "Today, register the free Claude tier and free Loom tier, use prompts to generate a one-page landing-page prototype for a roofing contractor, and record a 2-minute demo video.",
+      "matchScore": 45,
+      "matchReason": "Reuses AI tooling and automation pipeline experience to speed up site building and email scripts, but cold-email acquisition, local-business service and site operations are entirely new skill trees, and content-site and mini-game assets are hard to reuse directly.",
+      "categoryId": 23,
+      "issueDate": "2026-11-27",
+      "featured": false,
+      "source": {
+        "name": "AISIDE WEEKLY Issue 33 (2026-11-09–11-15), retelling Reddit case @lazarbetterrun",
+        "grade": "C",
+        "url": "https://aiside.day/zh/weekly/week-2026-11-09"
       }
     }
   ],
@@ -3671,6 +3964,42 @@ window.FALLBACK_DATA_EN = {
       "source": {
         "name": "Sina Finance / AI8899",
         "url": "http://ai8899.cn/tutorials/11545"
+      }
+    },
+    {
+      "id": 29,
+      "boardId": 40,
+      "title": "Generic AI Phone Receptionist Sold at $1,000/Month, Rejected by 80% of Hair Salons",
+      "reason": "A generic AI phone receptionist was pitched at $1,000/month to nearly 1,000 hair salons and rejected by 80% of owners; generic single-point AI tools are being absorbed by vertical CRMs at about $70/month, leaving high-priced wrappers with no moat.",
+      "categoryId": 36,
+      "issueDate": "2026-11-27",
+      "source": {
+        "name": "AISIDE WEEKLY",
+        "url": "https://aiside.day/zh/weekly/week-2026-11-09"
+      }
+    },
+    {
+      "id": 30,
+      "boardId": 39,
+      "title": "Fake AI Photo-Editing / AI Writing Job Dispatch and Training Loans",
+      "reason": "Lured by \"¥0 enrollment\" and \"guaranteed dispatched jobs earning over ¥10,000/month\", students were actually made to sign monthly-deduction e-contracts on third-party installment platforms; courses cost ¥3,980–¥9,800; dispatch groups mostly contain fake or extremely low-paid orders with under 1% approval rates, and dropping out costs a 20%–30% penalty plus fees for lessons already unlocked.",
+      "categoryId": 22,
+      "issueDate": "2026-11-27",
+      "source": {
+        "name": "Linghuo Jiuye Wang (Flexible Employment Network)",
+        "url": "http://www.hr12345.cn/article/ai-dispatch-and-training-loan-scam"
+      }
+    },
+    {
+      "id": 31,
+      "boardId": 38,
+      "title": "AI Mall \"Lie-Back-and-Earn\" Franchise / Agency-Fee Scam",
+      "reason": "Promises of fixed returns, capital protection, 30% commissions and automatic daily orders, requiring large upfront franchise fees, agency fees and traffic packs, followed by more store-opening, certification and service fees; rewards come mainly from recruiting new agents rather than real product sales; only earnings screenshots are shown, with no explanation of product sourcing, shipping or after-sales.",
+      "categoryId": 17,
+      "issueDate": "2026-11-27",
+      "source": {
+        "name": "Youzan",
+        "url": "https://www.youzan.com/cms/article/79105.html"
       }
     }
   ]
